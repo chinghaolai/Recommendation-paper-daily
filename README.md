@@ -10,7 +10,6 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
-| 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
 | 2026-04-20 | **Multi-LLM Token Filtering and Routing for Sequential Recommendation** | Wuhan Chen, Min Gao, Xin Xia, Zongwei Wang, Wentao Li, Shane Culpepper | [Link](http://arxiv.org/abs/2604.18200) | Not Available |
 | 2026-04-20 | **Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations** | Yunjia Xi, Menghui Zhu, Jianghao Lin, Bo Chen, Ruiming Tang, Yong Yu, Weinan Zhang | [Link](http://arxiv.org/abs/2604.18146) | Not Available |
 | 2026-04-20 | **FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion** | Lei Guo, Ting Yang, Hui Liu, Xu Yu, Xiaohui Han, Xinhua Wang | [Link](http://arxiv.org/abs/2604.17681) | Not Available |
