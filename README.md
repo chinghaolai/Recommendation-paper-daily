@@ -1,4 +1,4 @@
-## Updated on 2026-04-16
+## Updated on 2026-04-21
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,31 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-20 | **Multi-LLM Token Filtering and Routing for Sequential Recommendation** | Wuhan Chen, Min Gao, Xin Xia, Zongwei Wang, Wentao Li, Shane Culpepper | [Link](http://arxiv.org/abs/2604.18200) | Not Available |
+| 2026-04-20 | **Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations** | Yunjia Xi, Menghui Zhu, Jianghao Lin, Bo Chen, Ruiming Tang, Yong Yu, Weinan Zhang | [Link](http://arxiv.org/abs/2604.18146) | Not Available |
+| 2026-04-20 | **FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion** | Lei Guo, Ting Yang, Hui Liu, Xu Yu, Xiaohui Han, Xinhua Wang | [Link](http://arxiv.org/abs/2604.17681) | Not Available |
+| 2026-04-20 | **MasterSet: A Large-Scale Benchmark for Must-Cite Citation Recommendation in the AI/ML Literature** | Md Toyaha Rahman Ratul, Zhiqian Chen, Kaiqun Fu, Taoran Ji, Lei Zhang | [Link](http://arxiv.org/abs/2604.17680) | Not Available |
+| 2026-04-19 | **Transparent and Controllable Recommendation Filtering via Multimodal Multi-Agent Collaboration** | Chi Zhang, Zhipeng Xu, Jiahao Liu, Dongsheng Li, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu | [Link](http://arxiv.org/abs/2604.17459) | Not Available |
+| 2026-04-19 | **Neuro-Symbolic Resolution of Recommendation Conflicts in Multimorbidity Clinical Guidelines** | Shiyao Xie, Jian Du | [Link](http://arxiv.org/abs/2604.17340) | Not Available |
+| 2026-04-19 | **Signal or Noise in Multi-Agent LLM-based Stock Recommendations?** | George Fatouros, Kostas Metaxas | [Link](http://arxiv.org/abs/2604.17327) | Not Available |
+| 2026-04-19 | **From Language to Action: Enhancing LLM Task Efficiency with Task-Aware MCP Server Recommendation** | Shiyu He, Zhiman Chen, Yuqi Zhao, Neng Zhang, Ran Mo, Yutao Ma | [Link](http://arxiv.org/abs/2604.17234) | Not Available |
+| 2026-04-18 | **Beyond Serendipity: From Exposing the Unknown to Fostering Engagement through Peer Recommendation** | Sosui Moribe, Taketoshi Ushiama | [Link](http://arxiv.org/abs/2604.16818) | Not Available |
+| 2026-03-27 | **Large language models for post-publication research evaluation: Evidence from expert recommendations and citation indicators** | Mengjia Wu, Yi Zhang, Robin Haunschild, Lutz Bornmann | [Link](http://arxiv.org/abs/2604.16387) | Not Available |
+| 2026-03-25 | **LLMAR: A Tuning-Free Recommendation Framework for Sparse and Text-Rich Industrial Domains** | Ryogo Hishikawa, Ichiro Kataoka, Shinya Yuda | [Link](http://arxiv.org/abs/2604.16379) | Not Available |
+| 2026-04-17 | **Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation** | Xibo Li, Liang Zhang | [Link](http://arxiv.org/abs/2604.16121) | Not Available |
+| 2026-04-17 | **Polarization by Default: Auditing Recommendation Bias in LLM-Based Content Curation** | Nicolò Pagan, Christopher Barrie, Chris Andrew Bail, Petter Törnberg | [Link](http://arxiv.org/abs/2604.15937) | Not Available |
+| 2026-04-17 | **On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note** | Yusheng Huang, Shuang Yang, Zhaojie Liu, Han Li | [Link](http://arxiv.org/abs/2604.15739) | Not Available |
+| 2026-04-16 | **SAGER: Self-Evolving User Policy Skills for Recommendation Agent** | Zhen Tao, Riwei Lai, Chenyun Yu, Weixin Chen, Li Chen, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Qingqiang Sun | [Link](http://arxiv.org/abs/2604.14972) | Not Available |
+| 2026-04-16 | **GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation** | Yanyan Zou, Junbo Qi, Lunsong Huang, Yu Li, Kewei Xu, Jiabao Gao, Binglei Zhao, Xuanhua Yang, Sulong Xu, Shengjie Li | [Link](http://arxiv.org/abs/2604.14878) | Not Available |
+| 2026-04-16 | **Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Jianheng Tang, Wei Wang, Xiping Hu, Edith C. H. Ngai | [Link](http://arxiv.org/abs/2604.14839) | Not Available |
+| 2026-04-16 | **Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation** | Lei Guo, Hongyun Yang, Pengjie Ren, Tong Chen, Hui Liu, Zhumin Chen | [Link](http://arxiv.org/abs/2604.14833) | Not Available |
+| 2026-04-16 | **Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations** | Pooriya Jamie, Amir Ghasemian, Homa Hosseinmardi | [Link](http://arxiv.org/abs/2604.14832) | Not Available |
+| 2026-04-16 | **Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion** | Xiangrui Xiong, Hang Liang, Baiyang Chen, Zifei Pan, Yanli Lee | [Link](http://arxiv.org/abs/2604.14613) | Not Available |
+| 2026-04-16 | **Category-based and Popularity-guided Video Game Recommendation: A Balance-oriented Framework** | Xiping Li, Jianghong Ma, Kangzhe Liu, Shanshan Feng, Haijun Zhang, Yutong Wang | [Link](http://arxiv.org/abs/2604.14598) | Not Available |
+| 2026-04-16 | **CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations** | Xiping Li, Aier Yang, Jianghong Ma, Kangzhe Liu, Shanshan Feng, Haijun Zhang, Yi Zhao | [Link](http://arxiv.org/abs/2604.14586) | Not Available |
+| 2026-04-16 | **Behavior-Aware Dual-Channel Preference Learning for Heterogeneous Sequential Recommendation** | Jing Xiao, Dongqi Wu, Liwei Pan, Yawen Luo, Weike Pan, Zhong Ming | [Link](http://arxiv.org/abs/2604.14581) | Not Available |
+| 2026-04-16 | **NewsTorch: A PyTorch-based Toolkit for Learner-oriented News Recommendation** | Rongyao Wang, Veronica Liesaputra, Zhiyi Huang | [Link](http://arxiv.org/abs/2604.14510) | Not Available |
+| 2026-04-14 | **TRACE: A Conversational Framework for Sustainable Tourism Recommendation with Agentic Counterfactual Explanations** | Ashmi Banerjee, Adithi Satish, Wolfgang Wörndl, Yashar Deldjoo | [Link](http://arxiv.org/abs/2604.14223) | Not Available |
 | 2026-04-15 | **ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation** | Xiaofan Zhou, Kyumin Lee | [Link](http://arxiv.org/abs/2604.14114) | Not Available |
 | 2026-04-15 | **Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model** | Shiteng Cao, Xiaochong Lan, Yuwei Du, Jie Feng, Yinxing Liu, Xinlei Shi, Yong Li | [Link](http://arxiv.org/abs/2604.14051) | Not Available |
 | 2026-04-15 | **DUET: Joint Exploration of User Item Profiles in Recommendation System** | Yue Chen, Yifei Sun, Lu Wang, Fangkai Yang, Pu Zhao, Minjie Hong, Yifei Dong, Minghua He, Nan Hu, Jianjin Zhang, Zhiwei Dai, Yuefeng Zhan, Weihao Han, Hao Sun, Qingwei Lin, Weiwei Deng, Feng Sun, Qi Zhang, Saravan Rajmohan, Dongmei Zhang | [Link](http://arxiv.org/abs/2604.13801) | Not Available |
@@ -59,7 +84,7 @@
 | 2026-04-04 | **MMP-Refer: Multimodal Path Retrieval-augmented LLMs For Explainable Recommendation** | Xiangchen Pan, Wei Wei | [Link](http://arxiv.org/abs/2604.03666) | Not Available |
 | 2026-04-04 | **Joint Behavior-guided and Modality-coherence Conditional Graph Diffusion Denoising for Multi Modal Recommendation** | Xiangchen Pan, Wei Wei | [Link](http://arxiv.org/abs/2604.03654) | Not Available |
 | 2026-04-03 | **User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation** | Jing Du, Zesheng Ye, Congbo Ma, Feng Liu, Flora. D. Salim | [Link](http://arxiv.org/abs/2604.03014) | Not Available |
-| 2026-04-03 | **Bilateral Intent-Enhanced Sequential Recommendation with Embedding Perturbation-Based Contrastive Learning** | Shanfan Zhang, Yongyi Lin, Yuan Rao | [Link](http://arxiv.org/abs/2604.02833) | Not Available |
+| 2026-04-03 | **BIPCL: Bilateral Intent-Enhanced Sequential Recommendation via Embedding Perturbation Contrastive Learning** | Shanfan Zhang, Yongyi Lin, Yuan Rao | [Link](http://arxiv.org/abs/2604.02833) | Not Available |
 | 2026-04-03 | **MBGR: Multi-Business Prediction for Generative Recommendation at Meituan** | Changhao Li, Junwei Yin, Zhilin Zeng, Senjie Kou, Shuli Wang, Wenshuai Chen, Yinhua Zhu, Haitao Wang, Xingxing Wang | [Link](http://arxiv.org/abs/2604.02684) | Not Available |
 | 2026-04-02 | **Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation** | Daiwei Chen, Zhoutong Fu, Chengming Jiang, Haichao Zhang, Ran Zhou, Tan Wang, Chunnan Yao, Guoyao Li, Rui Cai, Yihan Cao, Ruijie Jiang, Fedor Borisyuk, Jianqiang Shen, Jingwei Wu, Ramya Korlakai Vinayak | [Link](http://arxiv.org/abs/2604.02324) | Not Available |
 | 2026-04-02 | **Towards Position-Robust Talent Recommendation via Large Language Models** | Silin Du, Hongyan Liu | [Link](http://arxiv.org/abs/2604.02200) | Not Available |
