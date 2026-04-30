@@ -1,4 +1,4 @@
-## Updated on 2026-04-28
+## Updated on 2026-04-30
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,18 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-29 | **Factorized Latent Reasoning for LLM-based Recommendation** | Tianqi Gao, Chengkai Huang, Zihan Wang, Cao Liu, Ke Zeng, Lina Yao | [Link](http://arxiv.org/abs/2604.26760) | Not Available |
+| 2026-04-29 | **When Model Editing Meets Service Evolution: A Knowledge-Update Perspective for Service Recommendation** | Guodong Fan, Cuiyun Gao, Chun Yong Chong, Lu Zhang, Jing Li, Jinglin Zhang, Shizhan Chen | [Link](http://arxiv.org/abs/2604.26686) | Not Available |
+| 2026-04-29 | **Recommendations for Efficient and Responsible LLM Adoption within Industrial Software Development** | Krishna Ronanki, Beatriz Cabrero-Daniel, Tomas Herda, Stefan Sitkovich, Jennifer Horkoff, Christian Berger | [Link](http://arxiv.org/abs/2604.26590) | Not Available |
+| 2026-04-29 | **CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation** | Yibiao Wei, Jie Zou, Pengfei Zhang, Xiao Ao, Weikang Guo, Zeyu Ma, Yang Yang | [Link](http://arxiv.org/abs/2604.26427) | Not Available |
+| 2026-04-29 | **Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations** | Peter Müllner, Dominik Kowald, Markus Schedl, Elisabeth Lex | [Link](http://arxiv.org/abs/2604.26390) | Not Available |
+| 2026-04-29 | **TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation** | Wei Yang, Rui Zhong, Zihan Lin, Xiaodan Wang, Cheng Chen, Huan Ren, Yao Hu | [Link](http://arxiv.org/abs/2604.26247) | Not Available |
+| 2026-04-28 | **Action-Aware Generative Sequence Modeling for Short Video Recommendation** | Wenhao Li, Zihan Lin, Zhengxiao Guo, Jie Zhou, Shukai Liu, Yongqi Liu, Chuan Luo, Chaoyi Ma, Ruiming Tang, Han Li | [Link](http://arxiv.org/abs/2604.25834) | Not Available |
+| 2026-04-28 | **Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation** | Yu Liu, Jiangxia Cao | [Link](http://arxiv.org/abs/2604.25787) | Not Available |
+| 2026-04-28 | **Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users** | Xiaodong Li, Jiawei Sheng, Jiangxia Cao, Xinghua Zhang, Wenyuan Zhang, Yong Sun, Shirui Pan, Zhihong Tian, Tingwen Liu | [Link](http://arxiv.org/abs/2604.25732) | Not Available |
+| 2026-04-28 | **An Investigation of Linguistic Biases in LLM-Based Recommendations** | Nitin Venkateswaran, Jason Ang, Deep Adhikari, Tarun Krishna Dasari | [Link](http://arxiv.org/abs/2604.25456) | Not Available |
+| 2026-04-28 | **RecFlash: Fast Recommendation System on In-Storage Computing with Frequency-Based Data Mapping** | Jangho Baik, Sunghyun Kim, Gisan Ji, Wonbo Shim, Sungju Ryu | [Link](http://arxiv.org/abs/2604.25338) | Not Available |
+| 2026-04-27 | **Versioned Late Materialization for Ultra-Long Sequence Training in Recommendation Systems at Scale** | Liang Guo, Ge Song, Litao Deng, Jianhui Sun, Chufeng Hu, Lu Zhang, Zhen Ma, Shouwei Chen, Weiran Liu, Sarang Masti Sreeshylan, Xiaoxuan Meng | [Link](http://arxiv.org/abs/2604.24806) | Not Available |
 | 2026-04-27 | **SpotVista: Availability-Aware Recommendation System for Reliable and Cost-Efficient Multi-Node Spot Instances** | Taeyoon Kim, Kyumin Kim, Kyunghwan Kim, Hayoung Kim, Seungwoo Jeong, Moohyun Song, Kyungyong Lee | [Link](http://arxiv.org/abs/2604.24548) | Not Available |
 | 2026-04-27 | **Modeling Behavioral Intensity and Transitions for Generative Recommendation** | Wenxuan Yang, Xiaoyang Xu, Hanyu Zhang, Zhexuan Xu, Wanqiang Xiong, Zhaoqun Chen | [Link](http://arxiv.org/abs/2604.24472) | Not Available |
 | 2026-04-27 | **How Personal Characteristics Shape User Exploration of Diverse Movie Recommendations with a LLM-Based Multi-Agent System** | Yufan Zhou, Yirui Huang, Zhao Wang, Yucheng Jin | [Link](http://arxiv.org/abs/2604.24405) | Not Available |

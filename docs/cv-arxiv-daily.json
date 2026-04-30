@@ -13633,7 +13633,7 @@
             "title": "How Personal Characteristics Shape User Exploration of Diverse Movie Recommendations with a LLM-Based Multi-Agent System",
             "authors": "Yufan Zhou, Yirui Huang, Zhao Wang, Yucheng Jin",
             "first_author": "Yufan Zhou",
-            "url": "http://arxiv.org/abs/2604.24405v1",
+            "url": "http://arxiv.org/abs/2604.24405v2",
             "pdf_url": "http://arxiv.org/abs/2604.24405",
             "publish_date": "2026-04-27",
             "abstract": "Diversity is an important evaluation criterion for recommender systems beyond accuracy, yet users differ in their willingness to engage with novel and diverse content. In this work, we investigate how a Large Language Model (LLM)-based multi-agent system supports users' exploration of diverse recommendations, and how individual characteristics shape user experiences. We conducted a between-subjects user study (N = 100) comparing a single-agent system (baseline) with a multi-agent system for movie recommendations. We measured Perceived Accuracy, diversity, novelty, and overall rating, and examined the influence of personal characteristics, including personality traits, demographics, GenAI recommendation experience, and GenAI skepticism. Results show that the multi-agent system significantly increases Perceived Novelty and Shannon Diversity. Conscientiousness is positively associated with Perceived Accuracy and diversity, whereas extraversion is negatively associated with Perceived Diversity. Prior experience with GenAI-based recommendations is positively associated with Shannon Diversity, while skepticism toward GenAI is negatively associated with it. We also observe significant interaction effects between system design and user characteristics. These findings highlight the importance of personality-aware conversational recommender systems and caution against one-size-fits-all multi-agent designs.",
@@ -13704,6 +13704,138 @@
             "publish_date": "2026-04-24",
             "abstract": "Generic group-based RL assumes that sampled rollout groups are already usable learning signals. We show that this assumption breaks down in sparse-hit generative recommendation, where many sampled groups never become learnable at all. We propose ReCast, a repair-then-contrast learning-signal framework that first restores minimal learnability for all-zero groups and then replaces full-group reward normalization with a boundary-focused contrastive update on the strongest positive and the hardest negative. ReCast leaves the outer RL framework unchanged, modifies only within-group signal construction, and partially decouples rollout search width from actor-side update width. Across multiple generative recommendation tasks, ReCast consistently outperforms OpenOneRec-RL, achieving up to 36.6% relative improvement in Pass@1. Its matched-budget advantage is substantially larger: ReCast reaches the baseline's target performance with only 4.1% of the rollout budget, and this advantage widens with model scale. The same design also yields direct system-level gains, reducing actor-side update time by 16.60x, lowering peak allocated memory by 16.5%, and improving actor MFU by 14.2%. Mechanism analysis shows that ReCast mitigates the persistent all-zero / single-hit regime, restores learnability when natural positives are scarce, and converts otherwise wasted rollout budget into more stable policy updates. These results suggest that, for generative recommendation, the decisive RL problem is not only how to assign rewards, but how to construct learnable optimization events from sparse, structured supervision.",
             "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2604.26760": {
+            "title": "Factorized Latent Reasoning for LLM-based Recommendation",
+            "authors": "Tianqi Gao, Chengkai Huang, Zihan Wang, Cao Liu, Ke Zeng, Lina Yao",
+            "first_author": "Tianqi Gao",
+            "url": "http://arxiv.org/abs/2604.26760v1",
+            "pdf_url": "http://arxiv.org/abs/2604.26760",
+            "publish_date": "2026-04-29",
+            "abstract": "Large language models (LLMs) have recently been adopted for recommendation by framing user preference modeling as a language generation problem. However, existing latent reasoning approaches typically represent user intent with a single latent vector, which struggles to capture the inherently multi-faceted nature of user preferences. We propose Factorized Latent Reasoning (FLR), a novel framework for LLM-based sequential recommendation that decomposes latent reasoning into multiple disentangled preference factors. FLR introduces a lightweight multi-factor attention module that iteratively refines a latent thought representation, where each factor attends to distinct aspects of the user's interaction history. To encourage diversity and specialization, we design orthogonality, attention diversity, and sparsity regularization objectives, and dynamically aggregate factor contributions for the final prediction. We further integrate FLR with an efficient reinforcement learning strategy based on group-relative policy optimization, enabling stable alignment directly in the latent reasoning space. Experiments on multiple benchmarks show that FLR consistently outperforms strong baselines while improving robustness and interpretability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.26686": {
+            "title": "When Model Editing Meets Service Evolution: A Knowledge-Update Perspective for Service Recommendation",
+            "authors": "Guodong Fan, Cuiyun Gao, Chun Yong Chong, Lu Zhang, Jing Li, Jinglin Zhang, Shizhan Chen",
+            "first_author": "Guodong Fan",
+            "url": "http://arxiv.org/abs/2604.26686v1",
+            "pdf_url": "http://arxiv.org/abs/2604.26686",
+            "publish_date": "2026-04-29",
+            "abstract": "The rapid evolution of software services poses substantial challenges to the design and implementation of effective recommendation systems. Traditional service recommendation approaches often rely on static representations and historical usage data, which are insufficient for adapting to the dynamic and evolving nature of service ecosystems. Recently, large language models (LLMs) have shown strong potential to overcome these limitations by leveraging rich contextual understanding. However, their practical use faces two major challenges: outdated service facts and invalid or redundant services. To address these issues, we propose EVOREC, an evolution-aware framework for service recommendation that leverages model editing in a locate-then-edit paradigm to incorporate updated service facts without costly retraining efficiently. This allows the model to remain aligned with evolving service ecosystems. To address invalid service issues, we introduce a Finite Automata (FA)-based constrained decoding mechanism with deduplication, which enforces structural and semantic validity while eliminating repeated services. Experiments on real-world service datasets demonstrate that our framework consistently outperforms existing baselines, e.g., achieving an average relative improvement of 25.9% in Recall@5. Moreover, under evolving service scenarios, our approach outperforms model fine-tuning approaches by 22.3%, demonstrating strong adaptability to service evolution and providing a practical solution for service recommendation in dynamic ecosystems",
+            "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2604.26590": {
+            "title": "Recommendations for Efficient and Responsible LLM Adoption within Industrial Software Development",
+            "authors": "Krishna Ronanki, Beatriz Cabrero-Daniel, Tomas Herda, Stefan Sitkovich, Jennifer Horkoff, Christian Berger",
+            "first_author": "Krishna Ronanki",
+            "url": "http://arxiv.org/abs/2604.26590v1",
+            "pdf_url": "http://arxiv.org/abs/2604.26590",
+            "publish_date": "2026-04-29",
+            "abstract": "Context: Large language models (LLMs) are observed to have a significant positive impact on various software engineering (SE) activities. With improved accessibility, the adoption of powerful LLMs in industry has surged recently. However, there is a lack of actionable best practices for the efficient and responsible adoption of LLMs within industrial software settings. Objectives: We developed seven actionable recommendations to address this research gap. Methods: We conducted a multi-case study with three organisations that use LLMs within their SE activities and synthesised seven recommendations through qualitative thematic analysis. We conducted a complementary online survey with software practitioners from various industries to evaluate the perceived relevance of our recommendations. Results: Our results and recommendations focus on (i) users' preference to use LLMs as AI assistants, (ii) the importance of relevant stakeholders' satisfaction in the LLM-output evaluation, (iii) scoping the applicability of LLMs within SE tasks, (iv) the effect of LLMs on SE workflows, (v) the necessity and directions for developing human oversight mechanisms, and (vi) the necessary skills for practitioners for leveraging LLMs within SE. The online survey indicates a high level of agreement from the participants regarding the perceived relevance of the recommendations. Conclusion: We outline future research directions, including mapping the seven recommendations to the principles of the EU AI Act (AIA) in order to examine how they relate to the current regulatory compliance frameworks.",
+            "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2604.26427": {
+            "title": "CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation",
+            "authors": "Yibiao Wei, Jie Zou, Pengfei Zhang, Xiao Ao, Weikang Guo, Zeyu Ma, Yang Yang",
+            "first_author": "Yibiao Wei",
+            "url": "http://arxiv.org/abs/2604.26427v1",
+            "pdf_url": "http://arxiv.org/abs/2604.26427",
+            "publish_date": "2026-04-29",
+            "abstract": "Generative recommendation frameworks typically represent items as discrete Semantic IDs (SIDs). While existing studies have sought to enhance SID construction by incorporating multimodal content, collaborative signals, or more advanced quantization techniques, learning high-quality SIDs still faces two key challenges: (1) The two-stage generative recommendation paradigm (SID construction and autoregressive generation) provides insufficient supervision for heterogeneous fusion, which hinders learning high-quality SIDs, and (2) non-uniform embeddings lead to codeword imbalance and generation bias. To address these challenges, we propose a novel generative recommendation framework, called CARD. CARD introduces a visual semantic unit that unifies textual, visual, and collaborative signals into a structured visual representation prior to encoding, enabling holistic semantic modeling and effectively alleviating the semantic gap, thereby reducing the reliance on supervision signals during SID learning. Furthermore, to deal with the highly non-uniform distribution of item semantic embeddings in recommendation scenarios, we develop a non-uniform quantization framework (NU-RQ-VAE), which incorporates a learnable and invertible non-uniform transformation into the quantization process to map skewed semantic distributions into a more balanced latent space, thereby significantly improving codebook utilization and quantization accuracy. Experiments on multiple datasets show that CARD consistently outperforms baseline methods under various settings; meanwhile, the proposed non-uniform transformation module is plug-and-play and remains robust across different quantization schemes. Code is available at https://github.com/HAI-UESTC/CARD.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.26390": {
+            "title": "Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations",
+            "authors": "Peter M\u00fcllner, Dominik Kowald, Markus Schedl, Elisabeth Lex",
+            "first_author": "Peter M\u00fcllner",
+            "url": "http://arxiv.org/abs/2604.26390v1",
+            "pdf_url": "http://arxiv.org/abs/2604.26390",
+            "publish_date": "2026-04-29",
+            "abstract": "Balancing differential privacy (DP) with recommendation accuracy is a key challenge in privacy-preserving recommender systems, since DP-noise degrades accuracy. We address this trade-off at both the data and model levels. At the data level, we apply DP only to the most stereotypical user data likely to reveal sensitive attributes, such as gender or age, to reduce unnecessary perturbation; we refer to this as targeted DP. At the model level, we use meta-learning to improve robustness to remaining DP-noise. This achieves a better trade-off between accuracy and privacy than standard approaches: Meta-learning improves accuracy and targeted DP leads to lower empirical privacy risk compared to uniformly applied DP and full DP baselines. Overall, our findings show that selectively applying DP at the data level together with meta-learning at the model level can effectively balance recommendation accuracy and user privacy.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.26247": {
+            "title": "TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation",
+            "authors": "Wei Yang, Rui Zhong, Zihan Lin, Xiaodan Wang, Cheng Chen, Huan Ren, Yao Hu",
+            "first_author": "Wei Yang",
+            "url": "http://arxiv.org/abs/2604.26247v1",
+            "pdf_url": "http://arxiv.org/abs/2604.26247",
+            "publish_date": "2026-04-29",
+            "abstract": "Multimodal recommendation improves user modeling by integrating collaborative signals with heterogeneous item content. In real applications, user interests evolve over time and exhibit nonstationary dynamics, where different preference factors change at different rates. This challenge is amplified in multimodal settings because visual and textual cues can dominate decisions under different temporal regimes. Despite strong progress, most multimodal recommenders still rely on static interaction graphs or coarse temporal heuristics, which limits their ability to model continuous preference evolution with fine-grained temporal adaptation. To address these limitations, we propose TimeMM, a time-conditioned spectral filtering framework for dynamic multimodal recommendation. TimeMM instantiates Time-as-Operator by mapping interaction recency to a family of parametric temporal kernels that reweight edges on the user--item graph, producing component-specific representations without explicit eigendecomposition. To capture non-stationary interests, we introduce Adaptive Spectral Filtering that mixes the operator bank according to temporal context, yielding prediction-specific effective spectral responses. To account for modality-specific temporal sensitivity, we further propose Spectral-Aware Modality Routing that calibrates visual and textual contributions conditioned on the same temporal context. Finally, a ranking-space Spectral Diversity Regularization encourages complementary expert behaviors and prevents filter-bank collapse. Extensive experiments on real-world benchmarks demonstrate that TimeMM consistently outperforms state-of-the-art multimodal recommenders while maintaining linear-time scalability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.25834": {
+            "title": "Action-Aware Generative Sequence Modeling for Short Video Recommendation",
+            "authors": "Wenhao Li, Zihan Lin, Zhengxiao Guo, Jie Zhou, Shukai Liu, Yongqi Liu, Chuan Luo, Chaoyi Ma, Ruiming Tang, Han Li",
+            "first_author": "Wenhao Li",
+            "url": "http://arxiv.org/abs/2604.25834v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25834",
+            "publish_date": "2026-04-28",
+            "abstract": "With the rapid development of the Internet, users have increasingly higher expectations for the recommendation accuracy of online content consumption platforms. However, short videos often contain diverse segments, and users may not hold the same attitude toward all of them. Traditional binary-classification recommendation models, which treat a video as a single holistic entity, face limitations in accurately capturing such nuanced preferences. Considering that user consumption is a temporal process, this paper demonstrates that the timing of user actions can represent diverse intentions through statistical analysis and examination of action patterns. Based on this insight, we propose a novel modeling paradigm: Action-Aware Generative Sequence Network (A2Gen), which refines user actions along the temporal dimension and chains them into sequences for unified processing and prediction. First, we introduce the Context-aware Attention Module (CAM) to model action sequences enriched with item-specific contextual features. Building upon this, we develop the Hierarchical Sequence Encoder (HSE) to learn temporal action patterns from users' historical actions. Finally, through leveraging CAM, we design a module for action sequence generation: the Action-seq Autoregressive Generator (AAG). Extensive offline experiments on the Kuaishou's dataset and the Tmall public dataset demonstrate the superiority of our proposed model. Furthermore, through large-scale online A/B testing deployed on Kuaishou's platform, our model achieves significant improvements over baseline methods in multi-task prediction by leveraging sequential information. Specifically, it yields increases of 0.34% in user watch time, 8.1% in interaction rate, and 0.162% in overall user retention (LifeTime-7), leading to successful deployment across all traffic, serving over 400 million users every day.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2604.25787": {
+            "title": "Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation",
+            "authors": "Yu Liu, Jiangxia Cao",
+            "first_author": "Yu Liu",
+            "url": "http://arxiv.org/abs/2604.25787v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25787",
+            "publish_date": "2026-04-28",
+            "abstract": "Generative recommender systems have recently emerged as a promising paradigm by formulating next-item prediction as an auto-regressive semantic IDs generation, such as OneRec series works. However, with the next-item-agnostic prediction paradigm, its could beam out some next potential items via Semantic IDs but hard to estimate which items are better from them, e.g., select the top-10 from beam-256 items, leading to a gap between generation and ranking performance. To fulfill this gap, we propose RecoChain, a unified generative retrieval and ranking framework that integrates candidate generation and ranking within a single Transformer backbone. Specifically, in inference, the model first generates candidate items via hierarchical semantic ID prediction, then performs the SIM-based ranking process to estimate the click possibility of corresponding item candidate continuously. Extensive experiments on large-scale real-world datasets demonstrate that our approach effectively bridges the gap between generative retrieval and ranking, achieving improved Top-K recommendation performance while maintaining strong generative capability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.25732": {
+            "title": "Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users",
+            "authors": "Xiaodong Li, Jiawei Sheng, Jiangxia Cao, Xinghua Zhang, Wenyuan Zhang, Yong Sun, Shirui Pan, Zhihong Tian, Tingwen Liu",
+            "first_author": "Xiaodong Li",
+            "url": "http://arxiv.org/abs/2604.25732v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25732",
+            "publish_date": "2026-04-28",
+            "abstract": "Cross-domain recommendation (CDR) has demonstrated to be an effective solution for alleviating the user cold-start issue. By leveraging rich user-item interactions available in a richly informative source domain, CDR could improve the recommendation performance for cold-start users in the target domain. Previous CDR approaches mostly adhere the Embedding and Mapping (EMCDR) paradigm, which learns a user-shared mapping function to transfer users' preference from the source domain to the target domain, neglecting users' personalized preference. Recent CDR approaches further leverage the meta-learning paradigm, considering the CDR task for each user independently and learning user-specific mapping functions for each user. However, they mostly learn representations for each user individually, which ignores the common preference between different users, neglecting valuable information for CDR. In addition, all these approaches usually summarize the user's preference into an overall representation, which can hardly capture the user's multi-interest preference. To this end, we propose a personalized multi-interest modeling framework for CDR to cold-start users, termed as NF-NPCDR. Specifically, we propose a personalized preference encoder that enhances the neural process (NP) with the normalizing flow (NF) to convert the Gaussian (unimodal) distribution to a multimodal distribution, providing a novel way to capture the user's personalized multi-interest preference. Then, we propose a common preference encoder with a preference pool to capture the common preference between different users. Furthermore, we introduce a stochastic adaptive decoder to incorporate both the personalized and common preference for cold-start users, adaptively modulating both preference for better recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.25456": {
+            "title": "An Investigation of Linguistic Biases in LLM-Based Recommendations",
+            "authors": "Nitin Venkateswaran, Jason Ang, Deep Adhikari, Tarun Krishna Dasari",
+            "first_author": "Nitin Venkateswaran",
+            "url": "http://arxiv.org/abs/2604.25456v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25456",
+            "publish_date": "2026-04-28",
+            "abstract": "We investigate linguistic biases in LLM-based restaurant and product recommendations given prompts varying across Southern American English (AE), Indian English (IE), and Code-Switched Hindi-English dialects, using the Yelp Open dataset (Yelp Inc., 2023) and Walmart product reviews dataset (PromptCloud,2020). We add lists of restaurant and product names balanced by cuisine type and product category to the prompts given to the LLM, and we zero-shot prompt the LLMs in a cold-start setting to select the top-20 restaurant and product recommendations from these lists for each of the dialect-varied prompts. We prompt LLMs using different list samples across 20 seeds for better generalization, and aggregate per cuisine-type and per category response counts for each seed, question/prompt, and LLM model. We run mixed-effects regression models for each model family and topic (restaurant/product) with the aggregate response counts as the dependent, and conduct likelihood ratio tests for the fixed effects with post-hoc pairwise testing of estimated marginal means differences, to investigate group-level differences in recommendation counts by model size and dialect type. Results show that dialect plays a role in the type of restaurant selected across the models tested with the mistral-small-3.1 model and both the llama-3.1 family models tested showing more sensitivity to Indian English and Code-Switched prompts. In terms of product recommendations, the llama-3.1-70B-model is particularly sensitive to Code-Switched prompts in four out of seven categories, and more beauty and home category recommendations are seen when using the Indian English and Code-Switched prompts for larger and smaller models, respectively. No broad trends are seen in the model-size based differences, with differing recommendations based on model sizes conditioned by the type of dialect.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2604.25338": {
+            "title": "RecFlash: Fast Recommendation System on In-Storage Computing with Frequency-Based Data Mapping",
+            "authors": "Jangho Baik, Sunghyun Kim, Gisan Ji, Wonbo Shim, Sungju Ryu",
+            "first_author": "Jangho Baik",
+            "url": "http://arxiv.org/abs/2604.25338v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25338",
+            "publish_date": "2026-04-28",
+            "abstract": "Recommendation system has gained a large popularity for a variety of personalized suggestion tasks, but the ever-increasing number of user data makes real-time processing of recommendation systems difficult. NAND flash memory-based in-storage computing scheme can be one of favorable candidates among the various acceleration approaches because the flash memory typically has a larger memory capacity than the other memory types, so it can efficiently handle a large amount of user data for the recommendation inference services. However, different from other neural network applications where data is sequentially fetched from memory, the recommendation system shows the irregular random memory access pattern. Hence, most of the data loaded from the NAND flash array to the page buffer are not used, so a large portion of the internal bandwidth is underutilized, which degrades the performance on the inference acceleration of the recommendation tasks. In this paper, we propose RecFlash, a fast recommendation inference accelerator utilizing a data remapping algorithm with NAND flash-based in-storage computing (ISC). The experimental results show that our proposed method improves the latency and energy consumption by up to 81% and 91.9%, respectively, over the existing NAND flash-based ISC architecture.",
+            "primary_category": "cs.AR",
+            "code_url": "null"
+        },
+        "2604.24806": {
+            "title": "Versioned Late Materialization for Ultra-Long Sequence Training in Recommendation Systems at Scale",
+            "authors": "Liang Guo, Ge Song, Litao Deng, Jianhui Sun, Chufeng Hu, Lu Zhang, Zhen Ma, Shouwei Chen, Weiran Liu, Sarang Masti Sreeshylan, Xiaoxuan Meng",
+            "first_author": "Liang Guo",
+            "url": "http://arxiv.org/abs/2604.24806v1",
+            "pdf_url": "http://arxiv.org/abs/2604.24806",
+            "publish_date": "2026-04-27",
+            "abstract": "Modern Deep Learning Recommendation Models (DLRMs) follow scaling laws with sequence length, driving the frontier toward ultra-long User Interaction History (UIH). However, the industry-standard \"Fat Row\" paradigm, which pre-materializes these sequences into every training example, creates a storage and I/O wall where data infrastructure usage exceeds GPU training capacity due to data redundancy that is amplified in multi-tenant environments where models with vastly different sequence length requirements share a union dataset. We present a \\emph{versioned late materialization} paradigm that eliminates this redundancy by storing UIH once in a normalized, immutable tier and reconstructing sequences just-in-time during training via lightweight versioned pointers. The system ensures Online-to-Offline (O2O) consistency through a bifurcated protocol that prevents future leakage across both streaming and batch training, while a read-optimized immutable storage layer provides multi-dimensional projection pushdown for heterogeneous model tenants. Disaggregated data preprocessing with pipelined I/O prefetching and data-affinity optimizations masks the latency of training-time sequence reconstruction, keeping training throughput compute-bound by GPUs. Deployed on production DLRMs, the system reduces training data infrastructure resource usage while enabling aggressive sequence length scaling that delivers significant model quality gains, serving as the foundational data infrastructure for modern recommendation model architectures, including HSTU and ULTRA-HSTU.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
