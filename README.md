@@ -1,4 +1,4 @@
-## Updated on 2026-05-14
+## Updated on 2026-05-19
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,21 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-18 | **The QuaST Decision Tree: Achieving Automation With Data-Based Recommendations** | Benedikt Poggel, Lena Tokuhiro, Georg Kruse, Jeanette Miriam Lorenz | [Link](http://arxiv.org/abs/2605.18539) | Not Available |
+| 2026-05-18 | **SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution** | Hongyi Liu, Haoyan Yang, Tao Jiang, Bo Tang, Feiyu Xiong, Zhiyu Li | [Link](http://arxiv.org/abs/2605.18401) | Not Available |
+| 2026-05-18 | **Modality-Aware Identity Construction and Counterfactual Structure Learning for ID-Free Multimodal Recommendation** | Hongjian Ma, Wenxin Huang, Yan Zhang, Zhifei Li, Zheng Wang | [Link](http://arxiv.org/abs/2605.18044) | Not Available |
+| 2026-05-18 | **Uncertainty-Calibrated Recommendations for Low-Active Users** | Bob Junyi Zou, Sai Li, Tianyun Sun, Wentao Guo, Qinglei Wang | [Link](http://arxiv.org/abs/2605.17788) | Not Available |
+| 2026-05-18 | **Learning Variable-Length Tokenization for Generative Recommendation** | Minhao Wang, Bowen Wu, Wei Zhang | [Link](http://arxiv.org/abs/2605.17779) | Not Available |
+| 2026-05-17 | **SAPO: Step-Aligned Policy Optimization for Reasoning-Based Generative Recommendation** | Zaiyi Zheng, Guanghui Min, Yaochen Zhu, Liang Wu, Liangjie Hong, Chen Chen, Jundong Li | [Link](http://arxiv.org/abs/2605.17648) | Not Available |
+| 2026-05-17 | **Text-Guided Visual Representation Learning for Robust Multimodal E-Commerce Recommendation** | Yufei Guo, Jing Ma, Tianlu Zhang, Shijie Yang, Yanlong Zang, Weijie Ding, Pinghua Gong, Jungong Han | [Link](http://arxiv.org/abs/2605.17366) | Not Available |
+| 2026-05-17 | **Dual-Diffusional Generative Fashion Recommendation** | Mingzhe Yu, Lei Wu, Qianru Sun, Yunshan Ma | [Link](http://arxiv.org/abs/2605.17357) | Not Available |
+| 2026-05-17 | **RAGR: Review-Augmented Generative Recommendation** | Yingyi Zhang, Junyi Li, Yejing Wang, Wenlin Zhang, Xiaowei Qian, Sheng Zhang, Yue Feng, Yichao Wang, Yong Liu, Xiangyu Zhao, Xianneng Li | [Link](http://arxiv.org/abs/2605.17267) | Not Available |
+| 2026-05-16 | **UniER: A Unified Benchmark for Item-level and Path-level Exercise Recommendation** | Xinghe Cheng, Guiyong Zhuang, Yusheng Xie, Jiapu Wang, Yixin Liu, Quanlong Guan, Liangda Fang, Shirui Pan | [Link](http://arxiv.org/abs/2605.16750) | Not Available |
+| 2026-05-15 | **Contexting as Recommendation: Evolutionary Collaborative Filtering for Context Engineering** | Jiachen Zhu, Zhuoying Ou, Congmin Zheng, Yuxiang Chen, Zeyu Zheng, Rong Shan, Lingyu Yang, Lionel Z. Wang, Weiwen Liu, Yong Yu, Weinan Zhang, Jianghao Lin | [Link](http://arxiv.org/abs/2605.15721) | Not Available |
+| 2026-05-14 | **Fortress: A Case Study in Stabilizing Search Recommendations via Temporal Data Augmentation and Feature Pruning** | Milind Pandurang Jagre, Jia Huang, Dayvid V. R. Oliveira, Zhinan Cheng, Babak Seyed Aghazadeh, Puja Das, Chris Alvino, Jinda Han, Kailash Thiyagarajan | [Link](http://arxiv.org/abs/2605.15299) | Not Available |
+| 2026-05-11 | **An LLM-RAG Approach for Healthy Eating Index-Informed Personalized Food Recommendations** | Yibin Wang, Yanjie Yang, Grace Melo Guerrero, Rodolfo M. Nayga, Azlan Zahid | [Link](http://arxiv.org/abs/2605.15213) | Not Available |
+| 2026-05-14 | **RxEval: A Prescription-Level Benchmark for Evaluating LLM Medication Recommendation** | Shuhao Chen, Weisen Jiang, Changmiao Wang, Xiaoqing Wu, Xuanren Shi, Yu Zhang, James T. Kwok | [Link](http://arxiv.org/abs/2605.14543) | Not Available |
+| 2026-05-14 | **Asymmetric Generative Recommendation via Multi-Expert Projection and Multi-Faceted Hierarchical Quantization** | Bin Huang, Xin Wang, Junwei Pan, Yongqi Zhou, Yifeng Zhou, Zhixiang Feng, Shudong Huang, Haijie Gu, Wenwu Zhu | [Link](http://arxiv.org/abs/2605.14512) | Not Available |
 | 2026-05-13 | **Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models** | Xinye Wanyan, Chenglong Ma, Danula Hettiachchi, Ziqi Xu, Jeffrey Chan | [Link](http://arxiv.org/abs/2605.13497) | Not Available |
 | 2026-05-13 | **TurboGR: An Accelerated Training System for Large-Scale Generative Recommendation** | Huichao Chai, Zhixin Wu, Xuemiao Li, Shiqing Fan, Hengfeng Wang, Maojun Peng, Lu Xu, Yaoyuan Wang, Yibo Jin, Wei Guo, Yongxiang Feng | [Link](http://arxiv.org/abs/2605.13433) | Not Available |
 | 2026-05-12 | **Just Ask for a Table: A Thirty-Token User Prompt Defeats Sponsored Recommendations in Twelve LLMs** | Andreas Maier, Jeta Sopa, Gozde Gul Sahin, Paula Perez-Toro, Siming Bayer | [Link](http://arxiv.org/abs/2605.12772) | Not Available |
