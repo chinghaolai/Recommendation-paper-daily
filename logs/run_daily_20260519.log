@@ -1,0 +1,95 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260519182638
+Username: E104TW\howard.lai
+RunAs User: E104TW\howard.lai
+Configuration Name: 
+Machine: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File run_daily.ps1
+Process ID: 30100
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 05/19/2026 18:26:38 ===
+--- Running daily_arxiv.py ---
+>
+ERROR: Python script failed with exit code 1
+**********************
+Windows PowerShell transcript end
+End time: 20260519182638
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260519182723
+Username: E104TW\howard.lai
+RunAs User: E104TW\howard.lai
+Configuration Name: 
+Machine: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File run_daily.ps1
+Process ID: 32176
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 05/19/2026 18:27:23 ===
+--- Running daily_arxiv.py ---
+
+✢ Coalescing… (1m 52s · ↓ 5.1k tokens)
+  ⎿  Tip: Use /btw to ask a quick side question without interrupting Claude's current work
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+>
+--- Git: staging changes ---
+>
+>
+--- Git: committing ---
+>
+--- Git: pushing ---
+
+● Update(daily_arxiv.py)
+  ⎿  Added 2 lines, removed 1 line
+      62      - Now stores paper data in a structured dictionary instead of a pipe-delimited string.
+      63      """
+      64      papers = {}
+      65 +    client = arxiv.Client()
+      66      search = arxiv.Search(
+      67          query=query,
+      68          max_results=max_results,
+      69          sort_by=arxiv.SortCriterion.SubmittedDate
+      70      )
+      71
+      71 -    for result in search.results():
+      72 +    for result in client.results(search):
+      73          # REFACTORED: More efficient and case-insensitive filtering
+      74          title_lower = result.title.lower()
+      75          if "recommendation" not in title_lower:
+
+● PowerShell(Set-Location D:\researchs\recsys-paper; powershell -ExecutionPolicy Bypass -File run_daily.ps1)
+  ⎿  git commit --amend --reset-author
+      4 files changed, 368 insertions(+), 8 deletions(-)
+     --- Git: pushing ---
+     ~252 lines (21s · timeout 5m) 24KB
+     (ctrl+b to run in background)
+
+✻ Coalescing… (1m 56s · ↓ 5.1k tokens)
+  ⎿  Tip: Use /btw to ask a quick side question without interrupting Claude's current work
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+>
+Push successful.
+=== Done: 05/19/2026 18:27:44 ===
+**********************
+Windows PowerShell transcript end
+End time: 20260519182744
+**********************
