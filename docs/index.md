@@ -2,12 +2,22 @@
 layout: default
 ---
 
-## Updated on 2026-06-02
+## Updated on 2026-06-03
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | N/A |
+| 2026-06-02 | **BAHSD: Bridging the Long-tail Gap via Adaptive Distillation in Black-box Sequential Recommendation** | Xi Zhou, Famin Wu, Mingming Li, Hongyue Zhang, Jiao Dai, Jizhong Han, Tao Guo | [Link](https://arxiv.org/abs/2606.03091) | N/A |
+| 2026-06-01 | **Dynamic Spectral Denoising with Global-Context Attention for Multi-Behavior Recommendation** | Miaomiao Cai, Yunshan Ma, Fangqi Zhu, Junfeng Fang, Zhijie Zhang, Zhiyong Cheng, Xiang Wang, See-Kiong Ng | [Link](https://arxiv.org/abs/2606.02417) | N/A |
+| 2026-06-01 | **Rank-Constrained Deep Matrix Completion for Group Recommendation** | Mubaraka Sani Ibrahim, Lehel Csató, Isah Charles Saidu | [Link](https://arxiv.org/abs/2606.01948) | N/A |
+| 2026-06-01 | **Decoupled Residual Quantization for Robust Semantic IDs in Recommendation** | Xuesi Wang, Junjie Wang, Ziliang Wang, Weijie Bian, Guanxing Zhang | [Link](https://arxiv.org/abs/2606.01844) | N/A |
+| 2026-06-01 | **Breaking the Information Silo: Semantic Personas for Cross-Domain Recommendation** | Jonathan Mayo, Moshe Unger, Konstantin Bauman | [Link](https://arxiv.org/abs/2606.01783) | N/A |
+| 2026-06-01 | **Time-Aware Diffusion based on Preference Disentanglement for Generative Recommendation** | Bangguo Zhu, Peng Huo, Yuanbo Zhao, Zhicheng Du, Jun Yin, Senzhang Wang | [Link](https://arxiv.org/abs/2606.01670) | N/A |
+| 2026-05-31 | **Implicit Geographic Inference in LLM Medical Triage: Language-Driven Disparities in Emergency Recommendations** | Qi Han Wong | [Link](https://arxiv.org/abs/2606.01204) | N/A |
+| 2026-05-30 | **Trustworthy Recommendation in the Era of Large Language Models: Opportunities and Challenges** | Bohao Wang, Yu Cui, Zhenxiang Xu, Jujia Zhao, Chenxiao Fan, Jizhi Zhang, Weiqin Yang, Shengjia Zhang, Sirui Chen, Yang Zhang, Xiaoyan Zhao, Wenjie Wang, Chongming Gao, Fuli Feng, Xiangnan He, Jiawei Chen | [Link](https://arxiv.org/abs/2606.00540) | N/A |
+| 2026-05-29 | **Synthetic Data from Cross-Domain Events for Large-Scale Recommendation Systems** | Xiangyu Wang, Yawen He, Shivendra Pratap Singh, Han Huang, Mengtong Hu, Sharath Ciddu, Yi-Hsuan Hsieh, Erik Groving, Yi Ding, Jieming Di, Tony Wang, Min Yun, Xiaoyu Chen, Ling Leng, Rob Malkin | [Link](https://arxiv.org/abs/2606.00282) | N/A |
+| 2026-05-28 | **Multimodal Music Recommendation System using LLMs** | Srikar Prabhas Kandagatla, Sreehitha R. Narayana, Chandana Magapu, Swetha Mohan, Shamanth Kuthpadi, Hongjie Chen, Ryan A. Rossi, Franck Dernoncourt, Nesreen Ahmed | [Link](https://arxiv.org/abs/2606.00125) | N/A |
 | 2026-05-29 | **FOSTER: First-order Dataset Distillation for Text-based Sequential Recommendation** | Hung Vinh Tran, Tong Chen, Xinyi Gao, Junliang Yu, Julien Monteil, Hongzhi Yin | [Link](https://arxiv.org/abs/2605.30772) | N/A |
 | 2026-05-28 | **Persona Conditioning of Brand Recommendations in Retrieval-Augmented Commercial Chat: A Prominence-Stratified Cross-Provider Audit** | Will Jack, Noah Lehman, Keller Maloney, Sarah Xu | [Link](https://arxiv.org/abs/2605.30207) | N/A |
 | 2026-05-28 | **Rec-Distill: An Industrial Distillation Pipeline for Large-Scale Recommendation Models** | Haoran Ding, Wenlin Zhao, Yuchen Jiang, Juren Li, Jie Zhu, Xinchun Li, Yishujie Zhao, Yi Zhang, Ao Qiao, Jianhui Dong, Cheng Chen, Ziyan Gong, Deping Xie, Peng Xu, Zikai Wang, Yuwei Wang, Huizhi Yang, Zhe Chen, Yuchao Zheng | [Link](https://arxiv.org/abs/2605.29755) | N/A |
@@ -145,7 +155,7 @@ layout: default
 | 2026-04-24 | **ReCast: Recasting Learning Signals for Reinforcement Learning in Generative Recommendation** | Peiyan Zhang, Hanmo Liu, Chengxuan Tong, Yuxia Wu, Wei Guo, Yong Liu | [Link](https://arxiv.org/abs/2604.22169) | N/A |
 | 2026-04-23 | **WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation** | Peilin Liu, Zhiquan Ji, Gang Yan | [Link](https://arxiv.org/abs/2604.21305) | N/A |
 | 2026-04-23 | **On Reasoning Behind Next Occupation Recommendation** | Shan Dong, Palakorn Achananuparp, Hieu Hien Mai, Lei Wang, Yao Lu, Ee-Peng Lim | [Link](https://arxiv.org/abs/2604.21204) | N/A |
-| 2026-03-03 | **Deep Interest Mining with Cross-Modal Alignment for SemanticID Generation in Generative Recommendation** | Yangchen Zeng, Jinze Wang | [Link](https://arxiv.org/abs/2604.20861) | N/A |
+| 2026-03-03 | **Deep Interest Mining for Intent-Enriched Semantic IDs in Multimodal Generative Recommendation** | Yangchen Zeng, Jinze Wang | [Link](https://arxiv.org/abs/2604.20861) | N/A |
 | 2026-03-01 | **Mixture of Sequence: Theme-Aware Mixture-of-Experts for Long-Sequence Recommendation** | Xiao Lin, Zhicheng Tang, Weilin Cong, Mengyue Hang, Kai Wang, Yajuan Wang, Zhichen Zeng, Ting-Wei Li, Hyunsik Yoo, Zhining Liu, Xuying Ning, Ruizhong Qiu, Wen-yen Chen, Shuo Chang, Rong Jin, Huayu Li, Hanghang Tong | [Link](https://arxiv.org/abs/2604.20858) | N/A |
 | 2026-02-11 | **MATRAG: Multi-Agent Transparent Retrieval-Augmented Generation for Explainable Recommendations** | Sushant Mehta | [Link](https://arxiv.org/abs/2604.20848) | N/A |
 | 2026-02-10 | **Revisiting Content-Based Music Recommendation: Efficient Feature Aggregation from Large-Scale Music Models** | Yizhi Zhou, Jia-Qi Yang, De-Chuan Zhan, Da-Wei Zhou | [Link](https://arxiv.org/abs/2604.20847) | N/A |
@@ -375,6 +385,7 @@ layout: default
 | 2026-02-19 | **LiveGraph: Active-Structure Neural Re-ranking for Exercise Recommendation** | Rong Fu, Zijian Zhang, Haiyun Wei, Jiekai Wu, Kun Liu, Xianda Li, Haoyu Zhao, Yang Li, Yongtai Liu, Ziming Wang, Rui Lu, Simon Fong | [Link](https://arxiv.org/abs/2602.17036) | N/A |
 | 2026-02-19 | **Conv-FinRe: A Conversational and Longitudinal Benchmark for Utility-Grounded Financial Recommendation** | Yan Wang, Yi Han, Lingfei Qian, Yueru He, Xueqing Peng, Dongji Feng, Zhuohan Xie, Vincent Jim Zhang, Rosie Guo, Fengran Mo, Jimin Huang, Yankai Chen, Xue Liu, Jian-Yun Nie | [Link](https://arxiv.org/abs/2602.16990) | N/A |
 | 2026-02-19 | **Bending the Scaling Law Curve in Large-Scale Recommendation Systems** | Qin Ding, Kevin Course, Linjian Ma, Jianhui Sun, Ruochen Liu, Zhao Zhu, Chunxing Yin, Wei Li, Dai Li, Yu Shi, Xuan Cao, Ze Yang, Han Li, Xing Liu, Bi Xue, Hongwei Li, Rui Jian, Daisy Shi He, Jing Qian, Matt Ma, Qunshu Zhang, Rui Li | [Link](https://arxiv.org/abs/2602.16986) | N/A |
+| 2026-02-18 | **Why Thinking Hurts: Diagnosing and Rectifying Linguistic Inertia in Large Language Models for Recommendation** | Luankang Zhang, Yonghao Huang, Hang Lv, Xuyang Zhi, Mingjia Yin, Yuyang Ye, Wei Guo, Hao Wang, Enhong Chen | [Link](https://arxiv.org/abs/2602.16587) | N/A |
 | 2026-02-18 | **Rethinking ANN-based Retrieval: Multifaceted Learnable Index for Large-scale Recommendation System** | Jiang Zhang, Yubo Wang, Wei Chang, Lu Han, Xingying Cheng, Feng Zhang, Min Li, Songhao Jiang, Wei Zheng, Harry Tran, Zhen Wang, Lei Chen, Yueming Wang, Benyu Zhang, Xiangjun Fan, Bi Xue, Qifan Wang | [Link](https://arxiv.org/abs/2602.16124) | N/A |
 | 2026-02-17 | **FeDecider: An LLM-Based Framework for Federated Cross-Domain Recommendation** | Xinrui He, Ting-Wei Li, Tianxin Wei, Xuying Ning, Xinyu He, Wenxuan Bao, Hanghang Tong, Jingrui He | [Link](https://arxiv.org/abs/2602.16034) | N/A |
 | 2026-02-03 | **BamaER: A Behavior-Aware Memory-Augmented Model for Exercise Recommendation** | Qing Yang, Yuhao Jiang, Rui Wang, Jipeng Guo, Yejiang Wang, Xinghe Cheng, Zezheng Wu, Jiapu Wang, Jingwei Zhang | [Link](http://arxiv.org/abs/2602.15879) | N/A |
