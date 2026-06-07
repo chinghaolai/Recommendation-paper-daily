@@ -2,12 +2,20 @@
 layout: default
 ---
 
-## Updated on 2026-06-06
+## Updated on 2026-06-07
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | N/A |
+| 2026-06-04 | **Bridging the Semantic-Collaborative Gap: An Asymmetric Graph Architecture for Cold-Start Item Recommendation** | Anh Truong, John Trenkle, Yuanbo Chen, Honghong Zhao, Abdullah Alchihabi, Effy Fang, Michael Tamir | [Link](https://arxiv.org/abs/2606.06225) | N/A |
+| 2026-06-04 | **QueryAgent-R1: Bridging Query Generation and Product Retrieval for E-Commerce Query Recommendation** | Dike Sun, Zheng Zou, Jingtong Zang, Qi Sun, Huaipeng Zhaoand Tao Luo, Xiaoyi Zeng | [Link](https://arxiv.org/abs/2606.05671) | N/A |
+| 2026-06-04 | **ANCHOR: Agentic Noise Creation Framework for Human Simulation and Denoising Recommendation** | Xiangming Li, Hua Chu, Chengyu Feng, Jianan Li, Yangtao Zhou | [Link](https://arxiv.org/abs/2606.05621) | N/A |
+| 2026-06-04 | **PHKT:Personalized Dynamic Hypergraph-enhanced KAN-Transformer for Multi-behavior Sequential Recommendation** | Ruijie Du, Hao Chen, Xin Zhang, Dongjing Wang, Ze Zhang, Xudong Shen, Runze Wu, Dongjin Yu | [Link](https://arxiv.org/abs/2606.05537) | N/A |
+| 2026-06-03 | **Trading Engagement for Sustainability: Carbon-Aware Re-ranking for E-commerce Recommendations** | Noah Lund Syrdal, Anders Vestrum, Jorgen Bergh | [Link](https://arxiv.org/abs/2606.04550) | N/A |
+| 2026-06-03 | **SAILRec: Steering LLM Attention to Dual-Side Semantically Aligned Collaborative Embeddings for Recommendation** | Xi Wu, Jiale Wang, Zihan Wang, Yichen Gao, Xiaocui Yang, Shi Feng, Daling Wang, Yifei Zhang | [Link](https://arxiv.org/abs/2606.04514) | N/A |
+| 2026-06-02 | **Taiji: Pareto Optimal Policy Optimization with Semantics-IDs Trade-off for Industrial LLM-Enhanced Recommendation** | Yuecheng Li, Zeyu Song, Jing Yao, Chi Lu, Peng Jiang, Kun Gai | [Link](https://arxiv.org/abs/2606.03866) | N/A |
+| 2026-06-02 | **MARS: Multi-rate Aggregation of Recency Signals for Sequential Recommendation across Sparse and Dense Regimes** | Zhenyu Yu, Shuigeng Zhou | [Link](https://arxiv.org/abs/2606.03718) | N/A |
 | 2026-06-02 | **BAHSD: Bridging the Long-tail Gap via Adaptive Distillation in Black-box Sequential Recommendation** | Xi Zhou, Famin Wu, Mingming Li, Hongyue Zhang, Jiao Dai, Jizhong Han, Tao Guo | [Link](https://arxiv.org/abs/2606.03091) | N/A |
 | 2026-06-01 | **Dynamic Spectral Denoising with Global-Context Attention for Multi-Behavior Recommendation** | Miaomiao Cai, Yunshan Ma, Fangqi Zhu, Junfeng Fang, Zhijie Zhang, Zhiyong Cheng, Xiang Wang, See-Kiong Ng | [Link](https://arxiv.org/abs/2606.02417) | N/A |
 | 2026-06-01 | **Rank-Constrained Deep Matrix Completion for Group Recommendation** | Mubaraka Sani Ibrahim, Lehel Csató, Isah Charles Saidu | [Link](https://arxiv.org/abs/2606.01948) | N/A |
