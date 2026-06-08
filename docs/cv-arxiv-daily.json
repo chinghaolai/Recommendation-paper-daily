@@ -15388,6 +15388,28 @@
             "abstract": "Sequential recommenders weight historical interactions either through positional self-attention as in Transformers or through a single implicit decay schedule as in State-Space Models. Neither makes the multi-scale temporal structure of real user behaviour explicit. We propose MARS, an encoder-agnostic aggregation operator that consumes real timestamps and produces K summaries emphasising distinct recency scales, fused by a context-adaptive gate. MARS adds at most 6% parameters and runs in $\\mathcal{O}(LdK)$ time. MARS adapts to data density by automatically selecting between two encoder instantiations: MARS-T (Transformer) for sparse data and MARS-M (Mamba) for dense data, based on the average sequence length of the training set. On five public benchmarks against ten Transformer- and Mamba-based baselines under a unified RecBole protocol, MARS attains the best HR@10 on every benchmark, with mean relative gain +19.7% over the strongest content-only Transformer baseline on sparse data (reaching +36.2% on Games) and +3.2% HR@10 / +0.9% NDCG over SIGMA on dense ML-1M at 42% fewer MFLOPs, occupying the accuracy-efficiency Pareto frontier across the data-density spectrum. A backbone-only ablation isolates the marginal contribution of MARS at +4% to +19% HR@10 on sparse data and motivates the dual-instantiation design. The code is included in the supplementary material.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2606.06970": {
+            "title": "SSRLive: Live Streaming Recommendation with Dynamic Semantic ID",
+            "authors": "Teng Shi, Zhaoheng Li, Yuanhang Qu, Yi Liu, Lixiang Lai, Yuning Jiang",
+            "first_author": "Teng Shi",
+            "url": "https://arxiv.org/abs/2606.06970",
+            "pdf_url": "https://arxiv.org/abs/2606.06970",
+            "publish_date": "2026-06-05",
+            "abstract": "Live streaming has emerged as one of the fastest-growing forms of online media, enabling instant content broadcasting and real-time engagement between users and streamers. Despite the effectiveness of existing recommendation algorithms in this domain, they often suffer from limited utilization of computational resources, with low FLOPs that hinder further performance enhancement. Generative recommendation techniques, which have gained traction in various industrial tasks, offer a promising avenue for improving live streaming recommendations. However, directly applying generative methods to live streaming is non-trivial due to two major challenges: (1) static semantic IDs (SIDs) cannot reflect the rapidly changing nature of live room content; and (2) generative pipelines generally do not incorporate user--streamer interaction signals (e.g., likes, orders), which are critical for modeling user intent toward both the streamer and showcased products. To address these challenges, we introduce SSRLive: Dynamic Semantic ID-guided Streaming Recommendation for Live platforms. The proposed framework integrates a generative module and a discriminative module in a unified architecture. The generative component employs an encoder-decoder design to produce both static and dynamic SIDs, enabling timely representation of live room content while leveraging multimodal information. The discriminative component refines task-specific representations by combining SIDs with user features, augments them with user-streamer interaction data, and performs multi-task predictions. Online A/B tests in real-world deployment demonstrate tangible benefits: watch time (+3.38%), GMV (+0.72%), follower growth (+3.12%), and interaction volume (+2.92%). These improvements highlight the effectiveness and business value of SSRLive, which is now fully deployed, serving hundreds of millions of active users.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.06779": {
+            "title": "Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations",
+            "authors": "Nimesh Sinha, Raghav Saboo, Martin Wang, Sudeep Das",
+            "first_author": "Nimesh Sinha",
+            "url": "https://arxiv.org/abs/2606.06779",
+            "pdf_url": "https://arxiv.org/abs/2606.06779",
+            "publish_date": "2026-06-04",
+            "abstract": "In multi-vertical e-commerce platforms like DoorDash, relatively newer product verticals such as grocery and retail present a significant opportunity for personalization innovation. A key challenge lies in solving the \"cold start\" problem for users. This paper introduces a novel framework for enhancing recommendation quality by transferring knowledge from data-rich verticals (e.g., restaurants at DoorDash) to data-sparse ones. We leverage Large Language Models (LLMs) to perform generative inference, synthesizing sparse, high-dimensional features that encapsulate latent user affinities. Specifically, we employ a hierarchical Retrieval-Augmented Generation (RAG) pipeline to derive multi-level taxonomic features from user restaurant order histories and search queries. These generated features, encoding both long-term cross-vertical preferences and short-term intent, are integrated into a production Multi-Task Learning (MTL) ranking model. We demonstrate through extensive offline and online evaluation that this approach significantly improves personalization and engagement in emerging business verticals, effectively bridging the behavioral data gap.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

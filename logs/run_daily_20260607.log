@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260607100002
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 28364
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 06/07/2026 10:00:02 ===
+--- Running daily_arxiv.py ---
+ Mul
+[06/07/2026 10:00:07 INFO]   + [2026-02-14] Benchmark Leakage Trap: Can We Trust LLM-based Recommendation?
+[06/07/2026 10:00:07 INFO]   + [2026-02-14] Climber-Pilot: A Non-Myopic Generative Recommendation Model Towards Better I
+nstr
+[06/07/2026 10:00:07 INFO]   + [2026-02-14] Unleash the Potential of Long Semantic IDs for Generative Recommendation
+[06/07/2026 10:00:07 INFO]   + [2026-02-13] Awakening Dormant Users: Generative Recommendation with Counterfactual Funct
+iona
+[06/07/2026 10:00:07 INFO]   + [2026-02-13] RGAlign-Rec: Ranking-Guided Alignment for Latent Query Reasoning in Recommen
+dati
+[06/07/2026 10:00:07 INFO]   + [2026-02-13] Reasoning to Rank: An End-to-End Solution for Exploiting Large Language Mode
+ls f
+[06/07/2026 10:00:07 INFO]   + [2026-02-12] Latent Customer Segmentation and Value-Based Recommendation Leveraging a Two
+-Sta
+[06/07/2026 10:00:07 INFO]   + [2026-02-12] Towards Personalized Bangla Book Recommendation: A Large-Scale Multi-Entity
+Book
+[06/07/2026 10:00:07 INFO]   + [2026-02-12] ULTRA:Urdu Language Transformer-based Recommendation Architecture
+[06/07/2026 10:00:07 INFO]   + [2026-02-12] Hi-SAM: A Hierarchical Structure-Aware Multi-modal Framework for Large-Scale
+ Rec
+[06/07/2026 10:00:07 INFO]   + [2026-02-12] Uncertainty-aware Generative Recommendation
+[06/07/2026 10:00:07 INFO]   + [2026-02-12] EpicCBR: Item-Relation-Enhanced Dual-Scenario Contrastive Learning for Cold-
+Star
+[06/07/2026 10:00:10 INFO] Topic 'Recommendation': 399 papers found.
+[06/07/2026 10:00:10 INFO] === Fetch complete ===
+[06/07/2026 10:00:10 INFO] Markdown written: README.md
+[06/07/2026 10:00:10 INFO] Target 'readme' done.
+[06/07/2026 10:00:10 INFO] Markdown written: docs\index.md
+[06/07/2026 10:00:10 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 06/07/2026 10:00:14 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260607100014
+**********************

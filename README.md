@@ -11,6 +11,8 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | N/A |
+| 2026-06-05 | **SSRLive: Live Streaming Recommendation with Dynamic Semantic ID** | Teng Shi, Zhaoheng Li, Yuanhang Qu, Yi Liu, Lixiang Lai, Yuning Jiang | [Link](https://arxiv.org/abs/2606.06970) | N/A |
+| 2026-06-04 | **Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations** | Nimesh Sinha, Raghav Saboo, Martin Wang, Sudeep Das | [Link](https://arxiv.org/abs/2606.06779) | N/A |
 | 2026-06-04 | **Bridging the Semantic-Collaborative Gap: An Asymmetric Graph Architecture for Cold-Start Item Recommendation** | Anh Truong, John Trenkle, Yuanbo Chen, Honghong Zhao, Abdullah Alchihabi, Effy Fang, Michael Tamir | [Link](https://arxiv.org/abs/2606.06225) | N/A |
 | 2026-06-04 | **QueryAgent-R1: Bridging Query Generation and Product Retrieval for E-Commerce Query Recommendation** | Dike Sun, Zheng Zou, Jingtong Zang, Qi Sun, Huaipeng Zhaoand Tao Luo, Xiaoyi Zeng | [Link](https://arxiv.org/abs/2606.05671) | N/A |
 | 2026-06-04 | **ANCHOR: Agentic Noise Creation Framework for Human Simulation and Denoising Recommendation** | Xiangming Li, Hua Chu, Chengyu Feng, Jianan Li, Yangtao Zhou | [Link](https://arxiv.org/abs/2606.05621) | N/A |
