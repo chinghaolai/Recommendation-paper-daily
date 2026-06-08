@@ -33,8 +33,20 @@ def get_authors(author_els, first_author: bool = False) -> str:
     return names[0] if first_author else ", ".join(names)
 
 
-def sort_papers_by_id(papers: dict) -> dict:
-    return dict(sorted(papers.items(), reverse=True))
+def sort_papers_by_date(papers: dict) -> dict:
+    """Sort newest to oldest by publish date.
+
+    Sorting by the paper-id key is unreliable: legacy arXiv ids (e.g.
+    'physics/0512266') sort lexicographically above the modern 'YYMM.NNNNN'
+    ids, pushing an old paper to the top. Sort by publish date instead, with
+    the id as a tie-breaker.
+    """
+    def key(item):
+        paper_id, details = item
+        pub_date = details.get("publish_date", "") if isinstance(details, dict) else ""
+        return (pub_date, paper_id)
+
+    return dict(sorted(papers.items(), key=key, reverse=True))
 
 
 def load_config(config_file: Path) -> dict:
@@ -46,14 +58,18 @@ def load_config(config_file: Path) -> dict:
         config = yaml.safe_load(f)
 
     keyword_queries = {}
+    keyword_filters = {}
     for key, value in config.get("keywords", {}).items():
         parts = []
         for term in value["filters"]:
             # Search in title field; quote multi-word terms
             parts.append(f'ti:"{term}"' if " " in term else f"ti:{term}")
         keyword_queries[key] = " OR ".join(parts)
+        # Lower-cased terms used to confirm a hit in the title client-side
+        keyword_filters[key] = [term.lower() for term in value["filters"]]
 
     config["keyword_queries"] = keyword_queries
+    config["keyword_filters"] = keyword_filters
     logging.info(f"Config loaded — topics: {list(keyword_queries.keys())}")
     return config
 
@@ -96,8 +112,9 @@ def _fetch_batch(query: str, start: int, batch: int, max_retries: int = 5) -> li
     return []
 
 
-def get_daily_papers(topic: str, query: str, max_results: int) -> dict:
+def get_daily_papers(topic: str, query: str, max_results: int, filters: list = None) -> dict:
     """Fetches papers from the arXiv HTTP API (no external library required)."""
+    filters = filters or ["recommendation"]
     papers = {}
     start = 0
     batch_size = min(max_results, 500)  # arXiv recommends ≤ 500 per call
@@ -115,7 +132,8 @@ def get_daily_papers(topic: str, query: str, max_results: int) -> dict:
         for entry in entries:
             title = re.sub(r"\s+", " ", _text(entry, "atom:title"))
 
-            if "recommendation" not in title.lower():
+            title_lower = title.lower()
+            if not any(term in title_lower for term in filters):
                 continue
 
             entry_id = _text(entry, "atom:id")
@@ -214,7 +232,7 @@ def json_to_md(json_file: Path, md_file: Path, **kwargs):
             f.write("| Publish Date | Title | Authors | PDF | Code |\n")
             f.write("|:---|:---|:---|:---|:---|\n")
 
-            for paper_id, details in sort_papers_by_id(papers).items():
+            for paper_id, details in sort_papers_by_date(papers).items():
                 if not isinstance(details, dict):
                     logging.warning(f"Skipping old-format entry: {paper_id}")
                     continue
@@ -262,6 +280,7 @@ def main(**config):
             topic=topic,
             query=query,
             max_results=config.get("max_results", 200),
+            filters=config.get("keyword_filters", {}).get(topic),
         )
         if result.get(topic):
             data_collector.append(result)
