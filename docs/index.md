@@ -2,11 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026-06-10
+## Updated on 2026-06-11
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-10 | **DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation** | Kangning Zhang, Yingjie Qin, Weinan Zhang, Yong Yu, Jianghao Lin | [Link](https://arxiv.org/abs/2606.12245) | N/A |
+| 2026-06-10 | **LLM-Based User Personas for Recommendations at Scale** | Haoting Wang, Haokai Lu, Zheyun Feng, Jenny Huang, Yifat Amir, Gregory Hinkson, Ben Most, Zelong Zhao, Yixin Kelly Cui, Rein Zhang, Fabio Soldo, Yu Xia, Nihar Bhupalam, Minmin Chen, Konstantina Christakopoulou, Lichan Hong, Ed H. Chi | [Link](https://arxiv.org/abs/2606.12198) | N/A |
+| 2026-06-09 | **Generative Archetype-Grounded Item Representations for Sequential Recommendation** | Yifan Li, Jiahong Liu, Xinni Zhang, Hao Chen, Yankai Chen, Wenhao Yu, Jianting Chen, Irwin King | [Link](https://arxiv.org/abs/2606.11023) | N/A |
 | 2026-06-09 | **From Prompt to Purchase: How AI Brand Recommendations Move Consumers on the Open Web** | Michael Iannelli, Alan Ai | [Link](https://arxiv.org/abs/2606.10907) | N/A |
 | 2026-06-09 | **Atomic Intent Reasoning: Bringing LLM Semantics to Industrial Cross-Domain Recommendations** | Zhuohang Jiang, Yuxin Chen, Shijie Wang, Haohao Qu, Zhou Jindong, Wenqi Fan, Li Qing, Dongxu Liang, Jun Wang | [Link](https://arxiv.org/abs/2606.10357) | N/A |
 | 2026-06-08 | **$τ$-Rec: A Verifiable Benchmark for Agentic Recommender Systems** | Bharath Sivaram Narasimhan, Karthik R Narasimhan | [Link](https://arxiv.org/abs/2606.10156) | N/A |
