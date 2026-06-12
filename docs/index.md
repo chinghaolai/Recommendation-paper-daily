@@ -2,11 +2,13 @@
 layout: default
 ---
 
-## Updated on 2026-06-11
+## Updated on 2026-06-12
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-11 | **One Polluted Page Is Enough: Evaluating Web Content Pollution in Generative Recommenders** | Minghao Luo, Liang Chen | [Link](https://arxiv.org/abs/2606.13610) | N/A |
+| 2026-06-11 | **CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation** | Yujuan Ding, Junrong Liao, Yunshan Ma, Yi Bin, Wenqi Fan, Tat-Seng Chua, Qing Li | [Link](https://arxiv.org/abs/2606.13001) | N/A |
 | 2026-06-10 | **DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation** | Kangning Zhang, Yingjie Qin, Weinan Zhang, Yong Yu, Jianghao Lin | [Link](https://arxiv.org/abs/2606.12245) | N/A |
 | 2026-06-10 | **LLM-Based User Personas for Recommendations at Scale** | Haoting Wang, Haokai Lu, Zheyun Feng, Jenny Huang, Yifat Amir, Gregory Hinkson, Ben Most, Zelong Zhao, Yixin Kelly Cui, Rein Zhang, Fabio Soldo, Yu Xia, Nihar Bhupalam, Minmin Chen, Konstantina Christakopoulou, Lichan Hong, Ed H. Chi | [Link](https://arxiv.org/abs/2606.12198) | N/A |
 | 2026-06-09 | **Generative Archetype-Grounded Item Representations for Sequential Recommendation** | Yifan Li, Jiahong Liu, Xinni Zhang, Hao Chen, Yankai Chen, Wenhao Yu, Jianting Chen, Irwin King | [Link](https://arxiv.org/abs/2606.11023) | N/A |
@@ -200,7 +202,7 @@ layout: default
 | 2026-04-28 | **RecFlash: Fast Recommendation System on In-Storage Computing with Frequency-Based Data Mapping** | Jangho Baik, Sunghyun Kim, Gisan Ji, Wonbo Shim, Sungju Ryu | [Link](https://arxiv.org/abs/2604.25338) | N/A |
 | 2026-04-28 | **From Local Indices to Global Identifiers: Generative Reranking for Recommender Systems via Global Action Space** | Pengyue Jia, Xiaobei Wang, Yingyi Zhang, Shuchang Liu, Yupeng Hou, Hailan Yang, Xu Gao, Xiaopeng Li, Yejing Wang, Julian McAuley, Xiang Li, Lantao Hu, Yongqi Liu, Kaiqiao Zhan, Han Li, Kun Gai, Xiangyu Zhao | [Link](https://arxiv.org/abs/2604.25291) | N/A |
 | 2026-04-27 | **Offline Evaluation Measures of Fairness in Recommender Systems** | Theresia Veronika Rampisela | [Link](https://arxiv.org/abs/2604.25032) | N/A |
-| 2026-04-27 | **Versioned Late Materialization for Ultra-Long Sequence Training in Recommendation Systems at Scale** | Liang Guo, Ge Song, Litao Deng, Jianhui Sun, Chufeng Hu, Lu Zhang, Zhen Ma, Shouwei Chen, Weiran Liu, Sarang Masti Sreeshylan, Xiaoxuan Meng | [Link](https://arxiv.org/abs/2604.24806) | N/A |
+| 2026-04-27 | **Versioned Late Materialization for Ultra-Long Sequence Training in Recommendation Systems at Scale** | Liang Guo, Ge Song, Litao Deng, Jianhui Sun, Chufeng Hu, Lu Zhang, Zhen Ma, Shouwei Chen, Weiran Liu, Sarang Masti Sreeshylan, Xiaoxuan Meng, Yanzun Huang | [Link](https://arxiv.org/abs/2604.24806) | N/A |
 | 2026-04-27 | **SpotVista: Availability-Aware Recommendation System for Reliable and Cost-Efficient Multi-Node Spot Instances** | Taeyoon Kim, Kyumin Kim, Kyunghwan Kim, Hayoung Kim, Seungwoo Jeong, Moohyun Song, Kyungyong Lee | [Link](https://arxiv.org/abs/2604.24548) | N/A |
 | 2026-04-27 | **Modeling Behavioral Intensity and Transitions for Generative Recommendation** | Wenxuan Yang, Xiaoyang Xu, Hanyu Zhang, Zhexuan Xu, Wanqiang Xiong, Zhaoqun Chen | [Link](https://arxiv.org/abs/2604.24472) | N/A |
 | 2026-04-27 | **How Personal Characteristics Shape User Exploration of Diverse Movie Recommendations with a LLM-Based Multi-Agent System** | Yufan Zhou, Yirui Huang, Zhao Wang, Yucheng Jin | [Link](https://arxiv.org/abs/2604.24405) | N/A |
