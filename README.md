@@ -1,4 +1,4 @@
-## Updated on 2026-06-12
+## Updated on 2026-06-15
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,11 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-12 | **Verifiable User Simulation for Search and Recommendation Systems** | Chenglong Ma, Xinye Wanyan, Danula Hettiachchi, Ziqi Xu, Yongli Ren, Jeffrey Chan | [Link](https://arxiv.org/abs/2606.14474) | N/A |
+| 2026-06-12 | **ChronoID: Infusing Explicit Temporal Signals into Semantic IDs for Generative Recommendation** | Dongdong Nian, Dongqi Fu, Chenliang Xu, Yinglong Xia, Hong Li, Hong Yan, Jian Kang | [Link](https://arxiv.org/abs/2606.14260) | N/A |
+| 2026-06-12 | **Implicit Reasoning for Large Language Model-based Generative Recommendation** | Yinhan He, Liam Collins, Bhuvesh Kumar, Jundong Li, Neil Shah, Donald Loveland | [Link](https://arxiv.org/abs/2606.14142) | N/A |
+| 2026-06-12 | **When Recommendation Denoising Meets Popularity Bias: Understanding and Mitigating Their Interaction** | Guohang Zeng, Jie Lu, Guangquan Zhang | [Link](https://arxiv.org/abs/2606.14046) | N/A |
+| 2026-06-11 | **Mood-Aware Music Recommendation: Integrating User Affective Signals into Ranking Systems** | Terence Zeng, Abhishek K. Umrawal | [Link](https://arxiv.org/abs/2606.13858) | N/A |
 | 2026-06-11 | **One Polluted Page Is Enough: Evaluating Web Content Pollution in Generative Recommenders** | Minghao Luo, Liang Chen | [Link](https://arxiv.org/abs/2606.13610) | N/A |
 | 2026-06-11 | **CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation** | Yujuan Ding, Junrong Liao, Yunshan Ma, Yi Bin, Wenqi Fan, Tat-Seng Chua, Qing Li | [Link](https://arxiv.org/abs/2606.13001) | N/A |
 | 2026-06-10 | **DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation** | Kangning Zhang, Yingjie Qin, Weinan Zhang, Yong Yu, Jianghao Lin | [Link](https://arxiv.org/abs/2606.12245) | N/A |
