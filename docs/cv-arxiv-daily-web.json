@@ -14434,12 +14434,12 @@
         },
         "2605.18401": {
             "title": "SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution",
-            "authors": "Hongyi Liu, Haoyan Yang, Tao Jiang, Bo Tang, Feiyu Xiong, Zhiyu Li",
+            "authors": "Hongyi Liu, Haoyan Yang, Tao Jiang, Bo Tang, Feiyu Xiong, Yuyu Luo, Zhiyu Li",
             "first_author": "Hongyi Liu",
             "url": "https://arxiv.org/abs/2605.18401",
             "pdf_url": "https://arxiv.org/abs/2605.18401",
             "publish_date": "2026-05-18",
-            "abstract": "Long-horizon LLM agents leave traces that could become reusable experience, but raw trajectories are noisy and hard to govern. We treat Agent Skills as an experience schema that couples executable scripts, with non-executable guidance on procedures. Yet open skill ecosystems contain redundant, uneven, environment-sensitive artifacts, and indiscriminate updates can pollute future context. We present SkillsVote, a lifecycle-governance framework for Agent Skills from collection and recommendation to evolution. SkillsVote profiles a million-scale open-source corpus for environment requirements, quality, and verifiability, then synthesizes tasks for verifiable skills. Before execution, SkillsVote performs agentic library search over structured skill library to expose instructional skill context. After execution, it decomposes trajectories into skill-linked subtasks, attributes outcomes to skill use, agent exploration, environment, and result signals, and admits only successful reusable discoveries to evidence-gated updates. In our evaluation, offline evolution improves GPT-5.2 on Terminal-Bench 2.0 by up to 7.9 pp, while online evolution improves SWE-Bench Pro by up to 2.6 pp. Overall, governed external skill libraries can improve frozen agents without model updates when systems control exposure, credit, and preservation.",
+            "abstract": "Long-horizon LLM agents generate traces that could become reusable experience, but raw trajectories are noisy, local, and hard to govern. Agent Skills offer a structured artifact for combining procedural guidance, executable resources, and applicability boundaries. Yet open skill ecosystems contain redundant, uneven, environment-sensitive artifacts, and indiscriminate updates can pollute future context. We present SkillsVote, a lifecycle-governance framework for Agent Skills across collection, recommendation, attribution, and evolution. SkillsVote profiles a million-scale open source corpus for environment requirements, quality, and verifiability, and synthesizes tasks for verifiable skills. Before execution, it performs agentic library search over structured skill folders to expose instructional context. After execution, it decomposes trajectories into skill-linked subtasks, attributes outcomes to skill-guided execution, agent exploration, environment, and result signals, and admits only successful reusable discoveries to evidence-gated updates. Experiments on Terminal-Bench 2.0 and SWE-Bench Pro show that SkillsVote improves agent performance on challenging agentic coding benchmarks. The gains arise from two complementary pathways: online evolution over task streams at test time and offline transfer via frozen libraries built from either historical trajectories or curated open source skills.",
             "primary_category": "cs.CL",
             "code_url": "null"
         },
@@ -16160,13 +16160,13 @@
             "code_url": "null"
         },
         "2603.21613": {
-            "title": "AgenticRec: End-to-End Tool-Integrated Policy Optimization for Ranking-Oriented Recommender Agents",
+            "title": "AgenticRec: A Recommendation-Oriented Agentic Framework with Progressive Tool-Integrated Reasoning Optimization",
             "authors": "Tianyi Li, Zixuan Wang, Guidong Lei, Xiaodong Li, Hui Li",
             "first_author": "Tianyi Li",
             "url": "https://arxiv.org/abs/2603.21613",
             "pdf_url": "https://arxiv.org/abs/2603.21613",
             "publish_date": "2026-03-23",
-            "abstract": "Recommender agents built on Large Language Models offer a promising paradigm for recommendation. However, existing recommender agents typically suffer from a disconnect between intermediate reasoning and final ranking feedback, and are unable to capture fine-grained preferences. To address this, we present AgenticRec, a ranking-oriented agentic recommendation framework that optimizes the entire decision-making trajectory (including intermediate reasoning, tool invocation, and final ranking list generation) under sparse implicit feedback. Our approach makes three key contributions. First, we design a suite of recommendation-specific tools integrated into a ReAct loop to support evidence-grounded reasoning. Second, we propose theoretically unbiased List-Wise Group Relative Policy Optimization (list-wise GRPO) to maximize ranking utility, ensuring accurate credit assignment for complex tool-use trajectories. Third, we introduce Progressive Preference Refinement (PPR) to resolve fine-grained preference ambiguities. By mining hard negatives from ranking violations and applying bidirectional preference alignment, PPR minimizes the convex upper bound of pairwise ranking errors. Experiments on benchmarks confirm that AgenticRec significantly outperforms baselines, validating the necessity of unifying reasoning, tool use, and ranking optimization.",
+            "abstract": "Recommender agents built on Large Language Models offer a promising paradigm for personalized recommendation. However, existing agents typically suffer from a misalignment between their tool-integrated reasoning trajectories and recommendation feedback, limiting their ability to distinguish fine-grained user preferences. To address these challenges, we propose AgenticRec, an agentic recommendation framework that formulates recommendation as a tool-integrated reasoning process over a recommendation-oriented tool suite. Built upon this framework, we further develop a dedicated two-stage training paradigm tailored for recommender agents. In the first stage, we introduce Recommendation-Oriented Trajectory Activation, optimize the agentic recommendation ability under implicit feedback. In the second stage, Progressive Preference Refinement further refines the agent through bidirectional preference reasoning over self-bootstrapped hard pairs, progressively sharpening preference boundaries. Theoretical analysis and extensive experiments demonstrate the effectiveness of AgenticRec. Our code is available at https://anonymous.4open.science/r/AgenticRec-FB16.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -16850,6 +16850,72 @@
             "publish_date": "2026-06-11",
             "abstract": "Recommendation systems are essential in modern music streaming platforms due to the vast amount of available content. While collaborative filtering is widely used to suggest items based on the preferences of others with similar patterns, it performs poorly in domains where user-item interactions are sparse, such as music. Content-based filtering is an alternative approach that examines the qualities of the items themselves. Genre, instrumentation, and lyrics have been explored; however, relatively little attention has been given to emotion recognition. Since a user's emotional state strongly influences their music choice, incorporating mood signals offers a promising direction for personalization. In this work, we propose a mood-conditioned ranking framework that integrates user affective signals into the recommendation process via softmax-based sampling in the energy-valence space. We evaluate the approach via single-blind experiments in which participants compare recommendations from the proposed system against a baseline. The results indicate improved perceived recommendation quality, providing preliminary evidence for the effectiveness of incorporating mood-based inputs into music recommendations.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.15752": {
+            "title": "One Sequential Recommendation Model Pretrained from Synthetic Priors Predicts Multiple Datasets",
+            "authors": "Woosung Kang, Jiwon Jeong, Jonghyeok Shin, Jeongwhan Choi, Noseong Park",
+            "first_author": "Woosung Kang",
+            "url": "https://arxiv.org/abs/2606.15752",
+            "pdf_url": "https://arxiv.org/abs/2606.15752",
+            "publish_date": "2026-06-14",
+            "abstract": "Existing sequential recommendation models rely on dataset-specific training, where the learned parameters are fitted to the item catalog and the observed interaction distribution of the training data. This limits generalization to new domains, typically requiring retraining from scratch. In this work, we propose SRPFN, a Prior-data Fitted Network for sequential recommendation -- predicting the next item in a single forward pass without any gradient-based parameter updates in the target domain. SRPFN is pretrained offline on 25.6M sequences sampled from a synthetic prior that spans diverse item-to-item transition patterns, learning to produce posterior predictive next-item distributions. At inference time, SRPFN generates recommendations by conditioning on a support set of item-item transition examples from the target domain, adapting to domain-specific patterns without retraining. Extensive experiments on five benchmarks across 10 baselines show that SRPFN achieves the best or second-best performance across nearly all metrics and datasets, while being substantially more computationally efficient than trained baselines. These results establish that a single model pretrained on synthetic priors can generalize across diverse real-world domains, offering a framework for update-free sequential recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.15331": {
+            "title": "HoloRec: Holistic Encoding and Interleaved Reasoning for Generative Recommendation",
+            "authors": "Shuqi Zhao, Jingsong Su, Xiang Liu, Xingzhi Yao, Yiming Qiu, Huimu Wang, Liang Lin, Pengbo Mo, Mingming Li, Jiao Dai, Jizhong Han, Songlin Hu",
+            "first_author": "Shuqi Zhao",
+            "url": "https://arxiv.org/abs/2606.15331",
+            "pdf_url": "https://arxiv.org/abs/2606.15331",
+            "publish_date": "2026-06-13",
+            "abstract": "Generative recommendation models that formulate the task as sequence generation overcome the objective fragmentation problem of traditional cascade architectures, yet existing approaches still suffer from flat semantic representations lacking hierarchical structure for multi-step reasoning and an externally constructed chain-of-thought (CoT) that requires expensive annotations and remains disconnected from the generation objective. We propose HoloRec, an endogenous chain-of-thought recommendation mechanism that unifies representation, reasoning, and generation by constructing a hierarchical semantic encoding matrix via multi-granularity nested residual quantization optimized by a holistic reconstruction loss. HoloRec supports two inference modes: a non-thinking mode that uses lightweight multi-granularity supervised alignment for fast prediction, and a thinking mode that employs an interleaved reasoning scheme to generate CoT steps on the fly, directly embedding reasoning into the generation process without external data. Experiments on multiple public recommendation datasets demonstrate that HoloRec consistently outperforms baselines, with especially significant gains in sparse scenarios, and the thinking mode achieves better accuracy than the non-thinking mode with only modest inference overhead.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.15330": {
+            "title": "OneBar: An End-to-End Content-Grounded Generative Query Recommendation Framework for E-Commerce Video Feeds",
+            "authors": "Yao Tang, Ying Yang, Ben Chen, Yufei Ma, Zihan Liang, Chenyi Lei, Wenwu Ou, Jian Liu",
+            "first_author": "Yao Tang",
+            "url": "https://arxiv.org/abs/2606.15330",
+            "pdf_url": "https://arxiv.org/abs/2606.15330",
+            "publish_date": "2026-06-13",
+            "abstract": "Short-video platforms now expose clickable search entries beneath the video player, enabling users to easily express content-induced search intent. However, conventional query recommendation systems on short-video platforms suffer from latency constraints and objective misalignment, while recent generative approaches struggle with noisy content-side metadata and preference drift. To address these issues, we propose OneBar, an end-to-end generative framework for real-time query recommendation for E-Commerce video feeds. OneBar features three key innovations: (1) a collaborative-multimodal intent grounding module that fuses multimodal video understanding and behavior-derived collaborative anchors; (2) a Unified End-to-End architecture equipped with a prompt-compression mechanism for efficient online serving; and (3) a progressive preference learning strategy for efficient preference-internalization, which internalizes hierarchical behavior preferences into the generative policy, eliminating the need for a separately trained reward model. Compared with online base, OneBar increases Query Exposure by 16.91\\% and Query Click by 18.68\\%, while maintaining a slight Query CTR gain of 0.19\\%. The additional search traffic further contributes to 20.36\\% more guided orders and 21.67\\% higher GMV.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.15277": {
+            "title": "Guiding Federated Graph Recommendation with LLM-encoded knowledge",
+            "authors": "Thi Minh Chau Nguyen, Hien Trang Nguyen, Duc Anh Nguyen, Van Ho-Long, Thanh Trung Huynh, Zhao Ren",
+            "first_author": "Thi Minh Chau Nguyen",
+            "url": "https://arxiv.org/abs/2606.15277",
+            "pdf_url": "https://arxiv.org/abs/2606.15277",
+            "publish_date": "2026-06-13",
+            "abstract": "Graph-based recommender systems are highly effective at extracting collaborative signals from user--item interactions, and federated learning (FL) allows these models to be trained while preserving user privacy. However, aggregating graph representations across distributed, non-IID clients remains a challenge; structural embeddings learned locally often misalign, and naive averaging fails to capture meaningful cross-client relationships. Most existing federated graph methods rely exclusively on structural aggregation, neglecting the rich, global semantic context available in large language models (LLMs). In this paper, we propose a novel framework that uses LLM-encoded knowledge to guide federated graph recommendation. Specifically, clients learn structural representations from local graphs while simultaneously summarizing their typical interaction patterns into compact semantic vectors via a frozen LLM. The central server then uses these LLM-encoded semantic signals to discover related preference patterns across clients, guiding the selective aggregation of their structural representations. This enables semantically informed cross-client collaboration without exposing raw data. Extensive experiments on standard benchmarks show that guiding structural alignment with LLM-encoded knowledge consistently improves recommendation accuracy over existing federated graph baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.14817": {
+            "title": "Combining Retrieval-Augmented Text Generation with LLMs for Reading Content Recommendations",
+            "authors": "Sooyeon Kim, Piotr S. Maciąg",
+            "first_author": "Sooyeon Kim",
+            "url": "https://arxiv.org/abs/2606.14817",
+            "pdf_url": "https://arxiv.org/abs/2606.14817",
+            "publish_date": "2026-06-12",
+            "abstract": "This work presents the design, implementation, and evaluation of a system for generating personalized reading content using Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG). The proposed architecture consists of four modules: Input, RAG, Generation, and Judging and enables users to specify both a question and a target reading content complexity. RAG is employed to retrieve relevant information from the Internet, enriching and grounding the content produced by three modern LLMs: Meta LLaMA 4 Scout, LLaMA 3.1 8B Instant, and Google Gemma2 9B. Reading materials are generated using three prompting strategies (Chain-of-Thought, zero-shot, and few-shot), and the LLM-as-a-Judge module automatically evaluates answer quality and alignment with the desired readability level. Experimental results show that RAG consistently improves system performance across all models and prompting techniques, increasing relevance and particularly groundedness by up to 26-35 percentage points. Overall, the findings demonstrate that the RAG-augmented architecture effectively produces reading content tailored to user queries and desired textual complexity.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.14707": {
+            "title": "Green AI Carbon Optimizer: Carbon-Efficient Training Location Recommendation and Global AI Energy Demand Forecasting",
+            "authors": "Yuxin Chen, Hao Gao, Chujie Zou",
+            "first_author": "Yuxin Chen",
+            "url": "https://arxiv.org/abs/2606.14707",
+            "pdf_url": "https://arxiv.org/abs/2606.14707",
+            "publish_date": "2026-04-06",
+            "abstract": "AI training and deployment consume substantial electricity, but carbon outcomes remain weakly integrated into routine model development decisions. This paper presents Green AI Carbon Optimizer with two primary contributions: (i) a carbon aware cloud region recommendation method for training workloads, and (ii) a power law forecasting pipeline for global AI energy demand. For location recommendation, we combine regional grid carbon intensity, renewable share, and data center Power Usage Effectiveness (PUE) into a unified scoring model across 100+ regions from major cloud providers. For a reference workload (8*A100, 100h), estimated emissions in our sampled regions range from 7.74kg to 272.00kg CO2. Selecting the best region instead of the worst corresponds to a 97.2% reduction relative to the worst case. Ablation shows that ranking by renewable share alone can select regions with higher CO2 emissions than rankings that include grid carbon intensity. For forecasting, we fit a power law relation between parameter count and training energy using 26 anchor models. We combine this fit with scenario assumptions on model growth, hardware efficiency, and training frequency, and evaluate sensitivity to inference ratio and ecosystem scaling. Across scenarios, projected 2030 demand ranges from 7TWh to 1,436TWh under the stated assumptions, highlighting the importance of deployment choices, model scaling discipline, and transparent energy reporting.",
+            "primary_category": "cs.PF",
             "code_url": "null"
         }
     }
