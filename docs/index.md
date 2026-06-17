@@ -2,11 +2,22 @@
 layout: default
 ---
 
-## Updated on 2026-06-16
+## Updated on 2026-06-17
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-16 | **Do Generative Recommenders Deepen the Information Cocoon? A Closed-Loop Simulation with LLM-powered User Simulators** | Jiyuan Yang, Gengxin Sun, Mengqi Zhang, Lingjie Wang, Yuanzi Li, Hongxi Cui, Xin Xin, Pengjie Ren | [Link](https://arxiv.org/abs/2606.17707) | N/A |
+| 2026-06-16 | **Minimizing Total Biharmonic Distance in Large Graphs via Link Recommendation** | Xinna Zhou, Zhongzhi Zhang | [Link](https://arxiv.org/abs/2606.17703) | N/A |
+| 2026-06-16 | **Understanding LLMs in Title-Abstract Screening: From Disagreements to Recommendations** | Mika Mäntylä, Patricia Matsubara, Katia Romero Felizardo, Miikka Kuutila, Marco Gerosa, Savio de Sousa Sampaio, Tayana Conte, Igor Steinmacher | [Link](https://arxiv.org/abs/2606.17588) | N/A |
+| 2026-06-16 | **Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems** | Xi Chu, Yupeng Hou | [Link](https://arxiv.org/abs/2606.17443) | N/A |
+| 2026-06-16 | **Designing Recommendation Exposure and Favorite Lists: A Field Experiment in a Spot-Work Platform** | Kazuki Sekiya, Suguru Otani, Yuki Komatsu, Shunsuke Ozeki, Shunya Noda | [Link](https://arxiv.org/abs/2606.17397) | N/A |
+| 2026-06-15 | **On the Memorization Behavior of LLMs in Generative Recommendation: Observations, Implications, and Training Strategies** | Sunwoo Kim, Sunkyung Lee, Clark Mingxuan Ju, Donald Loveland, Bhuvesh Kumar, Kijung Shin, Neil Shah, Liam Collins | [Link](https://arxiv.org/abs/2606.17276) | N/A |
+| 2026-06-15 | **How Much Do Reviews Really Contribute? A Study on Text-Enriched Matrix Factorization for Recommendations** | Eduardo Ferreira da Silva, Mayki dos Santos Oliveira, Joel Machado Pires Denis Dantas Boaventura, Frederico Araújo Durão | [Link](https://arxiv.org/abs/2606.16973) | N/A |
+| 2026-06-15 | **OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation** | Jiakai Tang, Sunhao Dai, Kun Wang, Zhiluohan Guo, Yu Zhao, Cong Fu, Kangle Wu, Yabo Ni, Anxiang Zeng, Xu Chen, Jun Xu | [Link](https://arxiv.org/abs/2606.16838) | N/A |
+| 2026-06-15 | **Harmonizing Semantic and Collaborative in LLMs: Reasoning-based Embedding Generator for Sequential Recommendation** | Qidong Liu, Mingyao Huang, Moranxin Wang, Wenxuan Yang, Haiping Zhu | [Link](https://arxiv.org/abs/2606.16703) | N/A |
+| 2026-06-15 | **Leveraging Code-Mixed Product Metadata and User Feedback for Personalized Recommendation on Daraz Bangladesh** | KM Fahim A Bari, Muhammad Abdullah Adnan, Nafis Sadeq | [Link](https://arxiv.org/abs/2606.16387) | N/A |
+| 2026-06-15 | **Whose hotel does the AI recommend? An algorithm audit of reputation signals in LLM-assisted hotel selection** | Mirza Samad Ahmed Baig, Syeda Anshrah Gillani, Asher Ali | [Link](https://arxiv.org/abs/2606.16344) | N/A |
 | 2026-06-14 | **One Sequential Recommendation Model Pretrained from Synthetic Priors Predicts Multiple Datasets** | Woosung Kang, Jiwon Jeong, Jonghyeok Shin, Jeongwhan Choi, Noseong Park | [Link](https://arxiv.org/abs/2606.15752) | N/A |
 | 2026-06-13 | **HoloRec: Holistic Encoding and Interleaved Reasoning for Generative Recommendation** | Shuqi Zhao, Jingsong Su, Xiang Liu, Xingzhi Yao, Yiming Qiu, Huimu Wang, Liang Lin, Pengbo Mo, Mingming Li, Jiao Dai, Jizhong Han, Songlin Hu | [Link](https://arxiv.org/abs/2606.15331) | N/A |
 | 2026-06-13 | **OneBar: An End-to-End Content-Grounded Generative Query Recommendation Framework for E-Commerce Video Feeds** | Yao Tang, Ying Yang, Ben Chen, Yufei Ma, Zihan Liang, Chenyi Lei, Wenwu Ou, Jian Liu | [Link](https://arxiv.org/abs/2606.15330) | N/A |
@@ -393,7 +404,7 @@ layout: default
 | 2026-03-18 | **VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation** | Junyoung Kim, Woojoo Kim, Jaehyung Lim, Dongha Kim, Hwanjo Yu | [Link](https://arxiv.org/abs/2603.17450) | N/A |
 | 2026-03-18 | **Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)** | Zichen Tang, Zirui Zhang, Qian Wang, Zhenheng Tang, Bo Li, Xiaowen Chu | [Link](https://arxiv.org/abs/2603.17417) | N/A |
 | 2026-03-18 | **Public Profile Matters: A Scalable Integrated Approach to Recommend Citations in the Wild** | Karan Goyal, Dikshant Kukreja, Vikram Goyal, Mukesh Mohania | [Link](https://arxiv.org/abs/2603.17361) | N/A |
-| 2026-03-18 | **PACE-RAG: Patient-Aware Contextual and Evidence-based Policy RAG for Clinical Drug Recommendation** | Chaeyoung Huh, Hyunmin Hwang, Jung Hwan Shin, Jinse Park, Jong Chul Ye | [Link](https://arxiv.org/abs/2603.17356) | N/A |
+| 2026-03-18 | **PACE-RAG: Patient-Aware Contextual and Evidence-Constrained RAG for Clinical Drug Recommendation** | Chaeyoung Huh, Hyunmin Hwang, Jung Hwan Shin, Sungyang Jo, Jinse Park, Jong Chul Ye | [Link](https://arxiv.org/abs/2603.17356) | N/A |
 | 2026-03-18 | **Learning Evolving Preferences: A Federated Continual Framework for User-Centric Recommendation** | Chunxu Zhang, Zhiheng Xue, Guodong Long, Weipeng Zhang, Bo Yang | [Link](https://arxiv.org/abs/2603.17315) | N/A |
 | 2026-03-17 | **RaDAR: Relation-aware Diffusion-Asymmetric Graph Contrastive Learning for Recommendation** | Yixuan Huang, Jiawei Chen, Shengfan Zhang, Zongsheng Cao | [Link](https://arxiv.org/abs/2603.16800) | N/A |
 | 2026-03-17 | **ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation** | Moonsoo Park, Seulbeen Je, Donghyeon Park | [Link](https://arxiv.org/abs/2603.16236) | N/A |
