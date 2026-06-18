@@ -2,11 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026-06-17
+## Updated on 2026-06-18
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-17 | **SAERec: Constructing Fine-grained Interpretable Intents Priors via Sparse Autoencoders for Recommendation** | Jiangnan Xia, Xuansheng Wu, Yu Yang, Xin Wang, Ninghao Liu | [Link](https://arxiv.org/abs/2606.18897) | N/A |
+| 2026-06-17 | **Improving Medical Communication using Rubric-Guided Counterfactual Recommendations** | Adrian Cosma, Nicoleta-Nina Basoc, Andrei Niculae, Cosmin Dumitrache, Emilian Radoi | [Link](https://arxiv.org/abs/2606.18889) | N/A |
+| 2026-06-16 | **RankGraph-2: Lifecycle Co-Design for Billion-Node Graph Learning in Recommendation** | Renzhi Wu, Zikun Cui, Junjie Yang, Tai Guo, Hong Li, Xian Chen, Li Yu, Ke Pan, Sri Reddy, Mahesh Srinivasan, Nipun Mathur, Haomin Yu, Hong Yan | [Link](https://arxiv.org/abs/2606.18379) | N/A |
 | 2026-06-16 | **Do Generative Recommenders Deepen the Information Cocoon? A Closed-Loop Simulation with LLM-powered User Simulators** | Jiyuan Yang, Gengxin Sun, Mengqi Zhang, Lingjie Wang, Yuanzi Li, Hongxi Cui, Xin Xin, Pengjie Ren | [Link](https://arxiv.org/abs/2606.17707) | N/A |
 | 2026-06-16 | **Minimizing Total Biharmonic Distance in Large Graphs via Link Recommendation** | Xinna Zhou, Zhongzhi Zhang | [Link](https://arxiv.org/abs/2606.17703) | N/A |
 | 2026-06-16 | **Understanding LLMs in Title-Abstract Screening: From Disagreements to Recommendations** | Mika Mäntylä, Patricia Matsubara, Katia Romero Felizardo, Miikka Kuutila, Marco Gerosa, Savio de Sousa Sampaio, Tayana Conte, Igor Steinmacher | [Link](https://arxiv.org/abs/2606.17588) | N/A |
