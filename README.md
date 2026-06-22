@@ -1,4 +1,4 @@
-## Updated on 2026-06-18
+## Updated on 2026-06-22
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,9 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-18 | **Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation** | Ruizhong Qiu, Yinglong Xia, Dongqi Fu, Hanqing Zeng, Ren Chen, Xiangjun Fan, Hong Li, Hong Yan, Hanghang Tong | [Link](https://arxiv.org/abs/2606.20554) | N/A |
+| 2026-06-17 | **Denoising Implicit Feedback for Cold-start Recommendation** | Gaode Chen, Shicheng Wang, Shikun Li, Rui Huang, Xinghua Zhang, Yunze Luo, Shipeng Li, Shiming Ge, Ruina Sun, Yinjie Jiang, Jun Zhang | [Link](https://arxiv.org/abs/2606.19658) | N/A |
+| 2026-06-17 | **Token Factory: Efficiently Integrating Diverse Signals into Large Recommendation Models** | Xilun Chen, Shao-Chuan Wang, Baykal Cakici, Lukasz Heldt, Lichan Hong, Raghu Keshavan, Aniruddh Nath, Li Wei, Xinyang Xi | [Link](https://arxiv.org/abs/2606.19635) | N/A |
 | 2026-06-17 | **SAERec: Constructing Fine-grained Interpretable Intents Priors via Sparse Autoencoders for Recommendation** | Jiangnan Xia, Xuansheng Wu, Yu Yang, Xin Wang, Ninghao Liu | [Link](https://arxiv.org/abs/2606.18897) | N/A |
 | 2026-06-17 | **Improving Medical Communication using Rubric-Guided Counterfactual Recommendations** | Adrian Cosma, Nicoleta-Nina Basoc, Andrei Niculae, Cosmin Dumitrache, Emilian Radoi | [Link](https://arxiv.org/abs/2606.18889) | N/A |
 | 2026-06-16 | **RankGraph-2: Lifecycle Co-Design for Billion-Node Graph Learning in Recommendation** | Renzhi Wu, Zikun Cui, Junjie Yang, Tai Guo, Hong Li, Xian Chen, Li Yu, Ke Pan, Sri Reddy, Mahesh Srinivasan, Nipun Mathur, Haomin Yu, Hong Yan | [Link](https://arxiv.org/abs/2606.18379) | N/A |
