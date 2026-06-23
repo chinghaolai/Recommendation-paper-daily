@@ -2,11 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026-06-22
+## Updated on 2026-06-23
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-19 | **A Rank-One Popularity Component in Dot-Product Recommender Scores:Population Theory and Prior-Separation Evidence** | Yang Cheng | [Link](https://arxiv.org/abs/2606.21275) | N/A |
+| 2026-06-19 | **Change Impact Recommendation for JavaScript: Lessons from History and Runtime Analysis** | Sadjad Tavakoli, Saba Alimadadi | [Link](https://arxiv.org/abs/2606.21187) | N/A |
+| 2026-06-19 | **Coordinating Treatment Allocation and Recommendation** | Li Guo, Penghuan Yan | [Link](https://arxiv.org/abs/2606.21120) | N/A |
 | 2026-06-18 | **Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation** | Ruizhong Qiu, Yinglong Xia, Dongqi Fu, Hanqing Zeng, Ren Chen, Xiangjun Fan, Hong Li, Hong Yan, Hanghang Tong | [Link](https://arxiv.org/abs/2606.20554) | N/A |
 | 2026-06-17 | **Denoising Implicit Feedback for Cold-start Recommendation** | Gaode Chen, Shicheng Wang, Shikun Li, Rui Huang, Xinghua Zhang, Yunze Luo, Shipeng Li, Shiming Ge, Ruina Sun, Yinjie Jiang, Jun Zhang | [Link](https://arxiv.org/abs/2606.19658) | N/A |
 | 2026-06-17 | **Token Factory: Efficiently Integrating Diverse Signals into Large Recommendation Models** | Xilun Chen, Shao-Chuan Wang, Baykal Cakici, Lukasz Heldt, Lichan Hong, Raghu Keshavan, Aniruddh Nath, Li Wei, Xinyang Xi | [Link](https://arxiv.org/abs/2606.19635) | N/A |
