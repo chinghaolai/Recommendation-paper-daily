@@ -2,17 +2,26 @@
 layout: default
 ---
 
-## Updated on 2026-06-23
+## Updated on 2026-06-24
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-23 | **Breaking the Filter Bubble: A Semantic Pareto-DQN Framework for Multi-Objective Recommendation** | Cláudio Lúcio Do Val Lopes, Lucca Machado da Silva, André de Oliveira Brandão | [Link](https://arxiv.org/abs/2606.24042) | N/A |
+| 2026-06-22 | **URecJPQ: Memory-efficient Multimodal Recommendation Models through RecJPQ in Large-Scale Scenarios** | Giuseppe Spillo, Zixuan Yi, Aleksandr Petrov, Cataldo Musto, Craig Macdonald, Iadh Ounis | [Link](https://arxiv.org/abs/2606.23291) | N/A |
+| 2026-06-22 | **Who Owns the AI Recommendation? A Multi-Industry Empirical Map of Brand Category Ownership Across Large Language Models** | Dmitrij Żatuchin | [Link](https://arxiv.org/abs/2606.23057) | N/A |
+| 2026-06-22 | **LLM-as-a-Judge for Reliable and Explainable Offline Evaluation in Top-K Recommendation** | Yue Que, Junyi Zhou, Xiaokun Zhang, Haiming Jin, Qiao Xiang, Chen Ma | [Link](https://arxiv.org/abs/2606.22961) | N/A |
+| 2026-06-22 | **Trajectory-Based Recommender Systems as Control Systems** | Eriam Schaffter, Ahmed Bounekkar, Elsa Negre | [Link](https://arxiv.org/abs/2606.22957) | N/A |
+| 2026-06-22 | **Towards Fast Domain Adaptation and Fine-Grained User Simulation for Evaluating Conversational Recommender Systems** | Yuanzi Li, Quanyu Dai, Xueyang Feng, Zihang Tian, Junhao Wang, Xu Chen, Zhenhua Dong, Huifeng Guo | [Link](https://arxiv.org/abs/2606.22803) | N/A |
+| 2026-06-20 | **Resume Screening, Fast and Slow: (Biased) AI Recommendations' Influence on Human Decision Making** | Kyra Wilson, Mattea Sim, Anna-Maria Gueorguieva, Soham Chatterjee, Aylin Caliskan | [Link](https://arxiv.org/abs/2606.22213) | N/A |
+| 2026-06-20 | **The Pitfall of Scaling Up: Uncovering and Mitigating Popularity Bias Amplification in Scaling Transformer-based Recommenders** | Weiqin Yang, Yue Pan, Chongming Gao, Sheng Zhou, Xiang Wang, Can Wang, Jiawei Chen | [Link](https://arxiv.org/abs/2606.21911) | N/A |
+| 2026-06-20 | **AgroSense 2.0: Cross-Modal Transformer Fusion with Geospatial Raster Integration and Interpretable Multi-Task Learning for Precision Crop Recommendation** | Vishal Pandey, Rishav Tewari, Ruzina Haque Laskar | [Link](https://arxiv.org/abs/2606.21892) | N/A |
 | 2026-06-19 | **A Rank-One Popularity Component in Dot-Product Recommender Scores:Population Theory and Prior-Separation Evidence** | Yang Cheng | [Link](https://arxiv.org/abs/2606.21275) | N/A |
 | 2026-06-19 | **Change Impact Recommendation for JavaScript: Lessons from History and Runtime Analysis** | Sadjad Tavakoli, Saba Alimadadi | [Link](https://arxiv.org/abs/2606.21187) | N/A |
 | 2026-06-19 | **Coordinating Treatment Allocation and Recommendation** | Li Guo, Penghuan Yan | [Link](https://arxiv.org/abs/2606.21120) | N/A |
 | 2026-06-18 | **Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation** | Ruizhong Qiu, Yinglong Xia, Dongqi Fu, Hanqing Zeng, Ren Chen, Xiangjun Fan, Hong Li, Hong Yan, Hanghang Tong | [Link](https://arxiv.org/abs/2606.20554) | N/A |
 | 2026-06-17 | **Denoising Implicit Feedback for Cold-start Recommendation** | Gaode Chen, Shicheng Wang, Shikun Li, Rui Huang, Xinghua Zhang, Yunze Luo, Shipeng Li, Shiming Ge, Ruina Sun, Yinjie Jiang, Jun Zhang | [Link](https://arxiv.org/abs/2606.19658) | N/A |
-| 2026-06-17 | **Token Factory: Efficiently Integrating Diverse Signals into Large Recommendation Models** | Xilun Chen, Shao-Chuan Wang, Baykal Cakici, Lukasz Heldt, Lichan Hong, Raghu Keshavan, Aniruddh Nath, Li Wei, Xinyang Xi | [Link](https://arxiv.org/abs/2606.19635) | N/A |
+| 2026-06-17 | **Token Factory: Efficiently Integrating Diverse Signals into Large Recommendation Models** | Xilun Chen, Shao-Chuan Wang, Baykal Cakici, Lukasz Heldt, Lichan Hong, Raghu Keshavan, Aniruddh Nath, Li Wei, Xinyang Yi | [Link](https://arxiv.org/abs/2606.19635) | N/A |
 | 2026-06-17 | **SAERec: Constructing Fine-grained Interpretable Intents Priors via Sparse Autoencoders for Recommendation** | Jiangnan Xia, Xuansheng Wu, Yu Yang, Xin Wang, Ninghao Liu | [Link](https://arxiv.org/abs/2606.18897) | N/A |
 | 2026-06-17 | **Improving Medical Communication using Rubric-Guided Counterfactual Recommendations** | Adrian Cosma, Nicoleta-Nina Basoc, Andrei Niculae, Cosmin Dumitrache, Emilian Radoi | [Link](https://arxiv.org/abs/2606.18889) | N/A |
 | 2026-06-16 | **RankGraph-2: Lifecycle Co-Design for Billion-Node Graph Learning in Recommendation** | Renzhi Wu, Zikun Cui, Junjie Yang, Tai Guo, Hong Li, Xian Chen, Li Yu, Ke Pan, Sri Reddy, Mahesh Srinivasan, Nipun Mathur, Haomin Yu, Hong Yan | [Link](https://arxiv.org/abs/2606.18379) | N/A |

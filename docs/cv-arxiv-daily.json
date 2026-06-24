@@ -17096,7 +17096,7 @@
         },
         "2606.19635": {
             "title": "Token Factory: Efficiently Integrating Diverse Signals into Large Recommendation Models",
-            "authors": "Xilun Chen, Shao-Chuan Wang, Baykal Cakici, Lukasz Heldt, Lichan Hong, Raghu Keshavan, Aniruddh Nath, Li Wei, Xinyang Xi",
+            "authors": "Xilun Chen, Shao-Chuan Wang, Baykal Cakici, Lukasz Heldt, Lichan Hong, Raghu Keshavan, Aniruddh Nath, Li Wei, Xinyang Yi",
             "first_author": "Xilun Chen",
             "url": "https://arxiv.org/abs/2606.19635",
             "pdf_url": "https://arxiv.org/abs/2606.19635",
@@ -17136,6 +17136,105 @@
             "publish_date": "2026-06-19",
             "abstract": "We study a model in which a sender allocates limited treatment to agents with heterogeneous quality and later recommends selected agents to a receiver, seeking to maximize the number of agents accepted by the receiver. All agents value treatment, which improves agents' quality, but treatment must be allocated before the sender observes agents' initial quality; recommendation occurs only after quality is learned. A natural benchmark is to design the two instruments separately: allocate treatment randomly first, and then recommend agents from the top down afterward. Our main result shows that the sender can do strictly better by coordinating treatment allocation with recommendations. In the optimal joint mechanism, treatment is non-monotone in quality: an intermediate group has a lower treatment probability than both higher- and lower-quality agents, but is compensated with a guaranteed recommendation when treatment is realized. We provide an implementation through contracts that induce self-selection and discuss applications to education, industrial policy, and startup incubation. The takeaway is simple: coordinate treatment allocation and recommendation.",
             "primary_category": "econ.TH",
+            "code_url": "null"
+        },
+        "2606.24042": {
+            "title": "Breaking the Filter Bubble: A Semantic Pareto-DQN Framework for Multi-Objective Recommendation",
+            "authors": "Cláudio Lúcio Do Val Lopes, Lucca Machado da Silva, André de Oliveira Brandão",
+            "first_author": "Cláudio Lúcio Do Val Lopes",
+            "url": "https://arxiv.org/abs/2606.24042",
+            "pdf_url": "https://arxiv.org/abs/2606.24042",
+            "publish_date": "2026-06-23",
+            "abstract": "Recommender systems often induce filter bubbles and semantic homogenization by monolithically optimizing for immediate user engagement. Standard single-objective models, including traditional Deep Q-Networks, are ill-equipped to navigate the trade-offs between platform retention and critical societal values like information diversity and provider fairness. To address these limitations, we introduce a multi-objective reinforcement learning framework that formalizes recommendation as a semantic multi-objective Markov decision process. By integrating high-fidelity semantic embeddings with a Pareto-DQN agent, our architecture treats engagement, diversity, and fairness as distinct, non-aggregable reward signals, avoiding the pitfalls of static reward scalarization. Empirical evaluations on the MovieLens small dataset shows that our hypervolume based action selection disrupts the feedback loops responsible for semantic collapse. By sustaining high state-trajectory variance, the Pareto-DQN effectively maps the Pareto frontier, achieving gains in auxiliary societal objectives with only marginal impacts on engagement. This work provides a path toward intrinsically aligned, responsible recommender systems.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2606.23291": {
+            "title": "URecJPQ: Memory-efficient Multimodal Recommendation Models through RecJPQ in Large-Scale Scenarios",
+            "authors": "Giuseppe Spillo, Zixuan Yi, Aleksandr Petrov, Cataldo Musto, Craig Macdonald, Iadh Ounis",
+            "first_author": "Giuseppe Spillo",
+            "url": "https://arxiv.org/abs/2606.23291",
+            "pdf_url": "https://arxiv.org/abs/2606.23291",
+            "publish_date": "2026-06-22",
+            "abstract": "Training state-of-the-art recommendation models on large-scale industrial datasets can be a challenging task due to the high number of users and items which are typically represented through ID embeddings. Such embeddings typically require a large amount of memory resources, which are not always available. This problem is further exacerbated in multimodal recommendation, in which multimodal item features generally improve recommendation performance, but require more resources to encode. In this paper, we introduce URecJPQ, a Joint Product Quantization method specifically designed for large-scale and multimodal top-k recommendation tasks, in which the vast number of users and items, combined with the available modalities, further increases the memory demands for the computation. The core idea is to represent each user/item not as a fully learned, unique embedding, but rather as a concatenation of shared learned sub-embeddings, thereby significantly reducing the total number of trainable parameters. Our experiments on three widely-used datasets across different domains (movies, baby and sports products) show that URecJPQ can be effectively applied to multimodal recommendation settings. In large scale scenarios, we observe a substantial reduction in checkpoint sizes and the number of trainable parameters (ranging from 86% to 98%, and 98% to 99%, respectively), with only a marginal decrease in accuracy (8.5% on recall and 16% on NDCG, on average), and, in some cases, even performance improvements (up to 85%), as in the baby products domain. Our codebase is available at https://anonymous.4open.science/r/large_mmrecjpq-839B/README.md.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.23057": {
+            "title": "Who Owns the AI Recommendation? A Multi-Industry Empirical Map of Brand Category Ownership Across Large Language Models",
+            "authors": "Dmitrij Żatuchin",
+            "first_author": "Dmitrij Żatuchin",
+            "url": "https://arxiv.org/abs/2606.23057",
+            "pdf_url": "https://arxiv.org/abs/2606.23057",
+            "publish_date": "2026-06-22",
+            "abstract": "Large language models now mediate how buyers discover products and services, making the competitive structure of AI-generated recommendations a strategic concern for brands. A basic question has lacked large-scale empirical answers: in a given category, which brand does a model recommend, and how concentrated is that ownership? Across 3,750 responses spanning 50 brands, five industries, and 250 brand-free category queries on three models (GPT-5.2, Google Gemini 3 Flash, and Perplexity sonar-pro), each query repeated five times under a dice-roll stability protocol, we propose three exploratory metrics: the Category Ownership Index (COI), a brand's share of mentions within a category; the Competitive Vacuum Index (CVI), flagging categories with no single leader; and the Displacement Score (DS), quantifying asymmetric substitution between brand pairs. In this sample, recommendation concentration was moderate: the mean Gini coefficient was 0.28 (95% CI [0.16, 0.41]), below the 0.60 power-law threshold we set. Competitive vacuums were rare, appearing in 8.0% of queries, so the models named at least one sampled brand in most cases. Cross-model agreement on the top-recommended brand was 41.6%: a top position on one model did not reliably hold on another. Displacement was industry-dependent, from co-recommendation in consulting (0.4:1) to one-directional substitution up to 4.3:1, with an unweighted mean of 2.4:1 across the five industries. A BERTopic check placed only 4.2% of discovered topic clusters outside the original categories. Within the scope studied, these results sit in tension with a strong winner-takes-all narrative around AI recommendation, and the three metrics offer a candidate, reproducible procedure for competitive-intelligence analysis that future work can validate.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.22961": {
+            "title": "LLM-as-a-Judge for Reliable and Explainable Offline Evaluation in Top-K Recommendation",
+            "authors": "Yue Que, Junyi Zhou, Xiaokun Zhang, Haiming Jin, Qiao Xiang, Chen Ma",
+            "first_author": "Yue Que",
+            "url": "https://arxiv.org/abs/2606.22961",
+            "pdf_url": "https://arxiv.org/abs/2606.22961",
+            "publish_date": "2026-06-22",
+            "abstract": "Recommendation evaluation plays a crucial role in guiding the refinement and deployment of recommender systems. Most existing trials rely on offline evaluation using Top-K metrics computed over holdout user behaviors. However, we identify two fundamental limitations that undermine their ability to deliver reliable and explainable evaluations. Regarding reliability, offline evaluation treats observed user feedback as a proxy of true preferences and enforces rigid ID matching between the proxy and recommendation. In practice, feedback collections are inherently shaped by incomplete and biased item exposure, leading to distorted and unreliable assessments. Regarding explainability, Top-K metrics only establish numerical scores without offering meaningful insights to support them, thereby reinforcing the black-box nature of offline evaluation. In this paper, we propose a reliable and explainable LLM-as-a-Judge framework for offline recommendation evaluation. To enhance reliability, we introduce a semantic proxy from user textual behaviors to represent their true preferences. This proxy allows for more flexible matching between preferences and recommendations in the semantic space, rather than depending on the holdout feedback. To ensure explainability, the LLM Judge adopts a reasoning-then-scoring process to generate relevance judgments along with explicit rationale. Finally, we aggregate the individual scores into global Top-K metrics to quantify overall recommendation quality, and provide justification for each preference hit or miss. Extensive experiments demonstrate that the LLM Judge achieves solid reliability, explainability, and robustness in evaluation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.22957": {
+            "title": "Trajectory-Based Recommender Systems as Control Systems",
+            "authors": "Eriam Schaffter, Ahmed Bounekkar, Elsa Negre",
+            "first_author": "Eriam Schaffter",
+            "url": "https://arxiv.org/abs/2606.22957",
+            "pdf_url": "https://arxiv.org/abs/2606.22957",
+            "publish_date": "2026-06-22",
+            "abstract": "Recommender Systems (RS) are a key research domain and play an increasing role in our content-overwhelmed lives. In this paper, we explore Trajectory-Based Recommender Systems (TBRS), a subfield for which many related studies exist, yet still lacking a common framework. We argue that Control Theory provides an appropriate foundation for formalizing and solving TBRS problems. TBRS, sometimes named Long Term goal Recommender Systems, share core principles with classical RS, but at their core lies the concept of a trajectory, a defining element that makes these systems a singular category. To date, most RSs that include a notion of goal or long-term objective, when this goal is explicit, have not been recognized as having specific characteristics that make them worth regrouping under a dedicated field of research. We review related work, observe how they differ from already conceptualized RSs, and sketch the foundations of a possible theoretical framework based on control theory. Finally, we show how Educational Recommender Systems (ERS), intrinsically long-term and goal-driven, can be modeled within the proposed TBRS framework.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.22803": {
+            "title": "Towards Fast Domain Adaptation and Fine-Grained User Simulation for Evaluating Conversational Recommender Systems",
+            "authors": "Yuanzi Li, Quanyu Dai, Xueyang Feng, Zihang Tian, Junhao Wang, Xu Chen, Zhenhua Dong, Huifeng Guo",
+            "first_author": "Yuanzi Li",
+            "url": "https://arxiv.org/abs/2606.22803",
+            "pdf_url": "https://arxiv.org/abs/2606.22803",
+            "publish_date": "2026-06-22",
+            "abstract": "Conversational Recommender Systems (CRSs) enhance user experience through multi-turn interactions, yet evaluating their performance remains challenging. While Large Language Model (LLM) based user simulators are effective, they suffer from three key limitations: (1) Lack of Domain Adaptability: Reliance on fixed prompts and predefined action spaces hinders transfer to novel domains; (2) Limited User Modeling: Inability to accurately replicate subtle linguistic styles and dynamic preferences; (3) Insufficient Evaluation Validity: Existing simulators fail to adequately assess fundamental capabilities and system robustness. To overcome these, we propose AdaptSim, an Adaptive domain and automatic prompt tuning User Simulator. AdaptSim offers an efficient framework for evaluating CRSs by enabling realistic behavior modeling and diverse style generation. It leverages automatic prompt generation and an open action mechanism to reduce manual effort and improve cross-domain flexibility. For response generation, we employ controlled text generation with a \"think-then-respond\" strategy for fine-grained control over language style. For CRS evaluation, AdaptSim incorporates a novel Breadth-First Search (BFS)-based, turn-level pairwise comparison framework for comprehensive assessment. Extensive experiments across three domains and four LLMs demonstrate that AdaptSim generates realistic dialogues, enabling a highly effective and reliable evaluation of CRS capabilities and robustness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.22213": {
+            "title": "Resume Screening, Fast and Slow: (Biased) AI Recommendations' Influence on Human Decision Making",
+            "authors": "Kyra Wilson, Mattea Sim, Anna-Maria Gueorguieva, Soham Chatterjee, Aylin Caliskan",
+            "first_author": "Kyra Wilson",
+            "url": "https://arxiv.org/abs/2606.22213",
+            "pdf_url": "https://arxiv.org/abs/2606.22213",
+            "publish_date": "2026-06-20",
+            "abstract": "AI is increasingly being used collaboratively with people to make decisions in high-stakes domains, but this new paradigm is still not well-understood in many respects -- particularly regarding how AI that replicates human social biases influences people's decision making processes and how that can influence outcomes. In this study, we analyzed the time people spend viewing candidate resumes from an experiment investigating biased AI resume screening to evaluate decision-making fairness and cognitive processes underlying human-AI collaboration. We found that spending more time viewing resumes corresponds to candidates' selection chance increasing by 3-4% if they are not recommended, and people may spend up to 55.6% longer viewing resumes when no AI recommendations are given. Furthermore, people who completed an implicit association test (IAT) before resume screening were significantly more likely to evaluate candidates of different races for the same amount of time, and their IAT scores were also predictive of the time spent in human-AI collaboration. These results demonstrate how people's decision-making processes can be insufficient for overseeing AI in high-stakes domains.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2606.21911": {
+            "title": "The Pitfall of Scaling Up: Uncovering and Mitigating Popularity Bias Amplification in Scaling Transformer-based Recommenders",
+            "authors": "Weiqin Yang, Yue Pan, Chongming Gao, Sheng Zhou, Xiang Wang, Can Wang, Jiawei Chen",
+            "first_author": "Weiqin Yang",
+            "url": "https://arxiv.org/abs/2606.21911",
+            "pdf_url": "https://arxiv.org/abs/2606.21911",
+            "publish_date": "2026-06-20",
+            "abstract": "We identify a critical pitfall in scaling transformer-based sequential recommenders: while increasing model size improves recommendation accuracy, it simultaneously amplifies popularity bias. This bias drives systems to over-recommend popular items at the expense of niche ones, which not only undermines fairness but also degrades the broader ecosystem by reinforcing the Matthew effect and filter bubbles. Consequently, this bias amplification emerges as a fundamental obstacle to sustainable model scaling. Through comprehensive theoretical and empirical analyses, we uncover the root cause of this amplification. Our findings reveal that as model depth increases, the two core components of the transformer architecture, i.e., attention aggregation and feed-forward projections, synergistically induce severe spectral collapse in model predictions, which directly translates to the amplification of popularity bias. To address this challenge, we propose SPRINT (Scalable Popularity Regularization IN Transformers), which mitigates spectral collapse during scaling by constraining (i) the maximum column-sums of the attention score matrices and (ii) the spectral norms of the feed-forward parameters. Extensive experiments demonstrate that SPRINT significantly improves both accuracy and long-tail fairness. Crucially, it yields more favorable scaling behaviors when expanding model sizes from 0.05M to 0.34B parameters. The code is available at https://github.com/Tiny-Snow/GenRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.21892": {
+            "title": "AgroSense 2.0: Cross-Modal Transformer Fusion with Geospatial Raster Integration and Interpretable Multi-Task Learning for Precision Crop Recommendation",
+            "authors": "Vishal Pandey, Rishav Tewari, Ruzina Haque Laskar",
+            "first_author": "Vishal Pandey",
+            "url": "https://arxiv.org/abs/2606.21892",
+            "pdf_url": "https://arxiv.org/abs/2606.21892",
+            "publish_date": "2026-06-20",
+            "abstract": "Crop recommendation systems in precision agriculture have long suffered from a fundamental modality gap: visual soil characterization and chemical nutrient profiling are typically treated as independent inference problems, with fusion often reduced to late-stage feature concatenation. AgroSense~2.0 addresses this limitation through three architectural advances. First, we introduce continental-scale geospatial integration via a seven-band soil raster (\\texttt{india\\_soil\\_7bands.tif}) spanning India, encoding Nitrogen, pH, SOC, Clay, Sand, Silt, and Bulk Density as $32\\times32$ spatial patches, a modality entirely absent from prior work. Second, we replace naive feature concatenation with a cross-modal Transformer fusion module, where tabular nutrient features attend over image representations via multi-head attention, enabling richer inter-modal dependency modeling than shallow fusion. Third, we adopt a multi-task objective jointly optimizing soil classification and crop recommendation through a shared backbone, improving generalization via complementary cross-task signal. To enhance interpretability, we apply TreeSHAP to the tabular branch, revealing crop-conditioned nutrient sensitivity: humidity and rainfall emerge as the most influential features globally, while crop-specific profiles diverge meaningfully rainfall dominates rice, nitrogen and potassium dominate maize, and humidity and nitrogen dominate coffee. These explanations provide transparency into model decisions and surface both agronomically consistent patterns and dataset-specific divergences worth further study. Together, these contributions establish AgroSense~2.0 as a more principled, interpretable, and geospatially grounded framework for precision agriculture.",
+            "primary_category": "cs.LG",
             "code_url": "null"
         }
     }
