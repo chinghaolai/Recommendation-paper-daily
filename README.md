@@ -1,4 +1,4 @@
-## Updated on 2026-06-26
+## Updated on 2026-06-27
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,7 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-25 | **NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Industrial Recommender Systems** | Shaohua Liu, Liang Fang, Yilong Sun, Shudong Huang, Qingsong Luo, Xiaoyang Chen, Dongqiang Liu, Chuangang Ma, Zhenzhen Chai, Henghuan Wang, Shijie Quan, Changyuan Cui, Zhangbin Zhu, Peng Chen, Wei Xu, Lei Xiao, Haijie Gu, Jie Jiang | [Link](https://arxiv.org/abs/2606.27243) | N/A |
 | 2026-06-25 | **TRUST: Item-Calibrated Interval Evidence for Temporal Session-Based Recommendation** | Linjiang Guo, Nitin Bisht, Shiqing Wu, Yifan Yin, Guandong Xu | [Link](https://arxiv.org/abs/2606.27214) | N/A |
 | 2026-06-25 | **UniFormer: Efficient and Unified Model-Centric Scaling for Industrial Recommendation** | Bo Chen, Jinlong Jiao, Tijian Hu, Ruihao Zhang, Yanzhi Liu, Chenghou Jin, Qinglin Jia, Baixuan He, Hechang Pan, Yiwu Liu, Jian Liang, Chaoyi Ma, Ruiming Tang, Han Li, Kun Gai | [Link](https://arxiv.org/abs/2606.27058) | N/A |
 | 2026-06-25 | **AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender Systems** | Changxin Lao, Fei Pan, Guozhuang Ma, Han Li, Huihuang Lin, Jijun Shi, Kangzhi Zhao, Kun Gai, Mo Zhou, Qinqin Zhou, Quan Chen, Ruochen Yang, Shifu Bie, Shuang Yang, Shuo Yang, Wenhao Li, Wentao Xie, Xiao Lv, Xuming Wang, Yijun Wang, Yiming Chen, Yusheng Huang, Zhongyuan Wang, Zibo Zhao, Zijie Zhuang, Baoning Xia, Chao Liu, Chaoyi Ma, Chubo He, Dawei Cong, Feng Jiang, Gang Wang, Guilin Xia, Hanwen Xu, Jiahong Xie, Jiahui Qiao, Jian Liang, Jiangfan Yue, Jing Wang, Jinghan Yang, Jinghui Jia, Kan Qin, Lei Wang, Ming Li, Peilin Song, Pengbo Xu, Qiang Luo, Ruiming Tang, Shiyang Liu, Shuxian Jin, Tao Wang, Tao Zhang, Xiang Gao, Xianghan Li, Yingsong Luo, Yiwen Ning, Yongcheng Liu, Yuan Guo, Zhaojie Liu, Zhenkai Cui | [Link](https://arxiv.org/abs/2606.26859) | N/A |
