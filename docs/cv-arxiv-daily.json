@@ -11683,7 +11683,7 @@
             "code_url": "null"
         },
         "2603.02730": {
-            "title": "APAO: Adaptive Prefix-Aware Optimization for Generative Recommendation",
+            "title": "APAO: Bridging the Training-Inference Gap in Generative Recommendation via Adaptive Prefix-Aware Optimization",
             "authors": "Yuanqing Yu, Yifan Wang, Weizhi Ma, Zhiqiang Guo, Min Zhang",
             "first_author": "Yuanqing Yu",
             "url": "https://arxiv.org/abs/2603.02730",
@@ -17378,6 +17378,171 @@
             "publish_date": "2026-06-25",
             "abstract": "AI systems increasingly produce investment recommendations, yet the usual evaluations ask the wrong question. Realized return is noisy and easy to overfit, and agreement with a reference portfolio can reward advice that cannot be executed. We argue that an AI-generated recommendation should first be audited as an executable financial action, and only then judged on return. We make this concrete with a deterministic, replayable baseline and a protocol that scores any advisor on three properties a single number conflates: validity under portfolio and fee constraints, stability across repeated runs, and agreement with the baseline. These properties separate cleanly, and agreement is the most misleading in isolation: across a 120-scenario bank, the control that agrees most with the baseline (0.94) is admissible in only 0.58 of its runs, so agreement certifies an invalid action in 42% of them. On an adversarial set, two frontier models are admissible in barely half of their bare-prompt runs and fail on order arithmetic, not judgment; supplying the fee arithmetic deterministically lifts both to near-perfect validity. We make no alpha claim: the baseline is a transparent verifier whose guardrails follow from the fee schedule and whose decisions replay from frozen inputs, and every figure and table regenerates offline from the artifact.",
             "primary_category": "cs.LO",
+            "code_url": "null"
+        },
+        "2606.31661": {
+            "title": "Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequential Screening and Hierarchical Refinement",
+            "authors": "Sakshi Arya, Abdul-Nasah Soale, Hossein Moradi Rekabdarkolaee",
+            "first_author": "Sakshi Arya",
+            "url": "https://arxiv.org/abs/2606.31661",
+            "pdf_url": "https://arxiv.org/abs/2606.31661",
+            "publish_date": "2026-06-30",
+            "abstract": "Nitrogen fertilizer management plays a central role in balancing agricultural productivity and environmental sustainability, yet identifying optimal application strategies remains difficult because treatment responses vary substantially across locations and many fertilizer choices are statistically indistinguishable near the optimum. This paper develops a hierarchical refinement procedure, built on sequential screening, for fertilizer recommendation in multi-site experiments that explicitly accounts for spatial heterogeneity while prioritizing parsimonious, decision-oriented selection. Rather than targeting a single estimated best treatment, the proposed method first conducts sequential screening at a higher aggregation level to eliminate clearly inferior fertilizer choices and then refines recommendations locally among the surviving candidates. We study the asymptotic properties of the proposed estimators and show that it provides screening-safety guaranteed recommendations. The efficacy of the new approach is investigated through a multi-state, multi-year corn nitrogen trial. The results show that no single fertilizer regime is uniformly optimal within a state; instead, each state is associated with multiple recommended choices, and the most common recommendation typically covers only about one-third to one-half of decision units, underscoring substantial within-state heterogeneity. Representative site-level comparisons further demonstrate that the proposed method often yields lower total nitrogen recommendations than state-level or hindsight benchmarks while maintaining competitive agronomic performance.",
+            "primary_category": "stat.ME",
+            "code_url": "null"
+        },
+        "2606.31036": {
+            "title": "Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care",
+            "authors": "Shreyas Rajesh, Kartik Sharma, Tonmoy Monsoor, Mehmet Yigit Turali, Richard Idro, Juliana Kayaga, Robert Sebunya, Tracy Tushabe Namata, Jessica Nichole Pasqua, Vwani Roychowdhury, Rajarshi Mazumder",
+            "first_author": "Shreyas Rajesh",
+            "url": "https://arxiv.org/abs/2606.31036",
+            "pdf_url": "https://arxiv.org/abs/2606.31036",
+            "publish_date": "2026-06-30",
+            "abstract": "Specialist epilepsy expertise is scarce in resource-constrained settings, making LLM-based decision support attractive for frontline clinicians managing longitudinal treatment. Such systems must adapt to local prescribing practice and know when to defer. We study this problem in Ugandan pediatric epilepsy care, predicting anti-seizure medication regimens from longitudinal unstructured clinic notes. Standard prompting achieves non-trivial agreement with physician prescriptions, but neurologist review shows that many errors reflect distribution-miscalibrated prescribing defaults rather than failures to parse the local record. We introduce MANANA, a non-parametric prompt-learning framework that learns local prescribing guidance from a small patient-level training set. MANANA converts observed prescription errors into auditable prompt memories, instantiated in single-agent and multi-agent variants, and improves over classical ML models, direct LLM prompting, and prompt-optimization baselines across two independently collected Ugandan cohorts. We further propose Bayesian prompt averaging, which converts the learned prompt trajectory into prescription likelihoods and an uncertainty-based deferral signal. On the independently collected held-out cohort, this improves visit-level top-3 prescription accuracy by 4-8 percentage points over prompt-optimization baselines and enables selective prediction: the system can auto-handle the most confident half of cases at 95% precision, or the most confident quarter at 99% precision, while deferring lower-confidence cases for specialist review.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2606.29947": {
+            "title": "Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation",
+            "authors": "Zhe Dong, Fang Qin, Manish Shah, Yicheng Wang",
+            "first_author": "Zhe Dong",
+            "url": "https://arxiv.org/abs/2606.29947",
+            "pdf_url": "https://arxiv.org/abs/2606.29947",
+            "publish_date": "2026-06-29",
+            "abstract": "Large language models (LLMs) are increasingly used as rerankers in recommender systems, with the expectation that semantic understanding will help in cold-start and long-tail regimes. We test this assumption with a five-domain benchmark that explicitly separates reranking quality from retrieval coverage. In a positive-controlled regime where the gold item is guaranteed present, calibrated LLM rerankers fail to consistently outperform strong collaborative and content baselines under natural traffic, and within-family scaling from Qwen3-8B to Qwen3-32B narrows but does not close the gap on most domains. In a retrieval-realistic regime where the gold item is not injected, the bottleneck is more severe: standard single retrievers place the gold item in a 200-item pool only 4.6-22.9% of the time, largely because 32-91% of cold-start targets are brand-new items with no training interactions. We introduce LHF, a validation-trained learned hybrid fusion layer over a multi-retriever union pool, as a retrieval-side realizability baseline. LHF is the only combiner we test that beats every single retriever on all five domains and recovers 17-61% of oracle coverage headroom on content-rich domains, but only 5-7% on collaboratively strong domains. End-to-end experiments reveal the remaining mismatch: learned non-LLM ranking exploits the LHF pool, while prompt-level LLM reranking often degrades it. LLMs exhibit pockets of semantic cold-start advantage, especially in text-rich domains when the item is already present, but this advantage is largely unreachable in current retrieve-then-rerank pipelines. We release the benchmark protocol, splits, prompts, evaluation tooling, and archived reproducibility artifacts: data at https://doi.org/10.5281/zenodo.20991039 and code at https://doi.org/10.5281/zenodo.20993306.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.29946": {
+            "title": "POEM: Partial-Order Enhanced Real-Time Sequential Modeling for Recommendation",
+            "authors": "Linxiao Che, Yijia Sun, Siyuan Lou, Shanshan Huang, Qiang Luo, Ruiming Tang, Han Li, Kun Gai",
+            "first_author": "Linxiao Che",
+            "url": "https://arxiv.org/abs/2606.29946",
+            "pdf_url": "https://arxiv.org/abs/2606.29946",
+            "publish_date": "2026-06-29",
+            "abstract": "Real-time recommendation systems suffer from the dynamic drift of user interests and varying contextual conditions. Conventional sequential recommendation models only exploit static historical click sequences, which fail to capture instant preference changes and overlook structured signals hidden within the multi-stage ranking pipeline of industrial recommendation systems. To tackle these limitations, we propose POEM (Partial-Order Enhanced Modeling), a new real-time sequential modeling framework built upon intrinsic partial-order relations from the recommendation cascade. POEM takes real-time multi-task ranking scores (including predicted CTR and predicted watch duration) generated by upstream ranking modules as supervision to construct dynamic partial-order sequences, supporting fine-grained real-time interest modeling and consistent optimization between system ranking targets and user behavioral patterns. We summarize our core contributions as three aspects: (1) a partial-order guided sequence construction paradigm, which enriches vanilla chronological sequences via dynamic grouping and sampling conditioned on real-time ranking scores to reassess user interests per request; (2) a multi-objective score fusion module that unifies heterogeneous ranking signals into a compact quintuple representation with normalized rank-aware weighting; (3) a hierarchical sample learning strategy, which adopts system-favored high-ranked items and user positive feedback (e.g., long-duration watched videos) as positive instances, paired with graph-mined hard negatives and a margin-based pairwise loss for robust training. Fully deployed on Kuaishou online traffic, POEM achieves significant online gains: average per-user watch time lifts by 0.249% on the KS Single Page and 0.213% on the KS Lite Page.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.29762": {
+            "title": "Do Recommendation Algorithms Work When Users Are LLM Agents? A Case Study on Moltbook",
+            "authors": "Daming Li, Simeng Han, Jialu Zhang",
+            "first_author": "Daming Li",
+            "url": "https://arxiv.org/abs/2606.29762",
+            "pdf_url": "https://arxiv.org/abs/2606.29762",
+            "publish_date": "2026-06-29",
+            "abstract": "Large language model (LLM) agents are increasingly populating web platforms, raising a fundamental question for recommender systems: do algorithms designed for human users still work when users are LLM agents that may not have well-defined content consumption preferences? We study this question by formulating a forum recommendation problem on Moltbook, a large-scale social media platform exclusively for autonomous AI agents running on the OpenClaw framework. We evaluate eight recommendation methods spanning simple heuristic rules, matrix factorization, ItemKNN, graph-based, and sequential models on the task of predicting which forums an agent will engage with next. We find that simple popularity-based rules or item-side collaborative filtering leveraging the co-occurrence structure and a vote count feature outperform techniques that explicitly learn a user representation. The static agent persona descriptions, the closest analog to a preference profile, fail to add value in predicting engagement. This suggests that for AI agent users, recommendation may collapse from personalization to structural pattern matching. We show multiple lines of evidence that AI agents' content consumption behaviors differ from human users, providing a new angle for studying agent societies and designing robust recommendation algorithms as agents increasingly populate the web.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.29341": {
+            "title": "Monosemanticity in Recommender Systems",
+            "authors": "Yagel Alfasi, Eden Rzezak, Eadan Schechter",
+            "first_author": "Yagel Alfasi",
+            "url": "https://arxiv.org/abs/2606.29341",
+            "pdf_url": "https://arxiv.org/abs/2606.29341",
+            "publish_date": "2026-06-28",
+            "abstract": "Latent factor models such as matrix factorization are widely used in recommender systems, yet the learned embedding dimensions typically lack explicit semantic interpretation. This opacity limits transparency, explainability, and principled intervention in recommendation behavior. While sparse autoencoders (SAEs) have recently been used to extract monosemantic features from dense neural representations, standard SAEs suffer from scaling pathologies including feature splitting, feature absorption, and feature composition, which degrade interpretability as dictionary size increases. In this work, we investigate whether hierarchical sparse representations can reveal interpretable structure in collaborative filtering embeddings. We train a large-scale matrix factorization recommender system on the Amazon Fashion dataset and apply a Matryoshka Sparse Autoencoder (MSAE) to the learned embeddings. We analyze the resulting latent features through metadata alignment and LLM-generated labeling to assess semantic coherence and disentanglement. Finally, we show an intervention on a subset of gender associated latent neurons that emerged from the analysis. Our findings suggest that collaborative filtering embeddings contain recoverable hierarchical structure, and that Matryoshka training provides a principled mechanism for exposing interpretable latent factors in interaction-driven recommendation models.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.29064": {
+            "title": "Fairness Attacks on Recommender Systems",
+            "authors": "Yanan Wang, Yong Ge",
+            "first_author": "Yanan Wang",
+            "url": "https://arxiv.org/abs/2606.29064",
+            "pdf_url": "https://arxiv.org/abs/2606.29064",
+            "publish_date": "2026-06-27",
+            "abstract": "The unfairness of recommender systems has become a topic of concern due to its significant social and ethical implications. Although existing works have shown the effectiveness of attacks on the performance of recommender systems (e.g., promotion and demotion attack), the study of fairness attacks on recommender systems remains largely under-explored. To this end, we propose a novel structure-aware reinforcement learning-based fairness attack method designed to exacerbate the unfairness of target recommender systems. Specifically, we first employ a graph-based structure encoder to model the structural dependencies among the generated fake user-item interactions and the original user-item interactions. Then, we model the sequential dependency of the injected fake items using a recurrent neural network. Based on the learned structure-aware and sequence-aware representations of the fake user and item, the item selection policy attentively decides the next injected fake item. Since the target recommender system may employ fairness-aware training and leverage the user's sensitive attribute information, such as gender, we further designed a gender selection policy to decide the gender of the entire fake user profile. Both the item selection and gender selection policy are learned jointly in our proposed method. Finally, experimental results on four types of target recommendation models and two real-world datasets demonstrate the effectiveness of the proposed attack method in exacerbating the unfairness of recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.28533": {
+            "title": "CMSL: Constructive Multi-Sequence Learning for Recommendation Systems",
+            "authors": "Zikun Cui, Renzhi Wu, Junjie Yang, Li Sheng, Jijie Wei, Linfeng Liu, Tai Guo, Tao Jia, Xiaodong Wang, Hong Li, Li Yu, Sri Reddy, Hong Yan",
+            "first_author": "Zikun Cui",
+            "url": "https://arxiv.org/abs/2606.28533",
+            "pdf_url": "https://arxiv.org/abs/2606.28533",
+            "publish_date": "2026-06-26",
+            "abstract": "Sequence learning has emerged as the promising paradigm in recommendation systems, surpassing traditional Deep Learning Recommendation Models (DLRM) by capturing the temporal nuances of user behavior. However, current state-of-the-art architectures operate under a limiting analogy: they treat user history as a monolithic chronological sequence like a sentence in a Large Language Model (LLM). We observe a fundamental divergence between natural language and recommendation data: unlike the linear, logical flow of text, user history is inherently multi-faceted. A user's journey is a fragmented reflection of diverse interests, resulting in much weaker coherence between items than is found in LLM training data. This lack of structural unity leads to context pollution. In single-sequence modeling, unrelated behaviors compete for the same attention budget. This \"noisy\" signal dilutes the model's focus, effectively capping its ability to discern high-intent patterns from background activity. To address this, we propose Constructive Multi-Sequence Learning (CMSL), a paradigm shift from passive sequence ingestion to active \"context engineering\" that constructs multiple coherent sequences in latent space. CMSL leverages a learnable Sequence Construction Module to disentangle user history into \"pure\" thematic strands, followed by a linear attention mechanism to efficiently model these strands at scale. CMSL has been deployed across ranking and retrieval tasks and across four major surfaces at Meta.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.28467": {
+            "title": "An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations",
+            "authors": "Dihia Falouz, Aida Douaibia, Amine Bechar, Youssef Elmir, Abbes Amira, Adel Oulefki",
+            "first_author": "Dihia Falouz",
+            "url": "https://arxiv.org/abs/2606.28467",
+            "pdf_url": "https://arxiv.org/abs/2606.28467",
+            "publish_date": "2026-06-26",
+            "abstract": "Appliance-level energy monitoring in office buildings produces noisy alerts that non-expert facility managers struggle to use. This paper proposes an end-to-end agentic pipeline that combines deep time-series forecasting, variational anomaly detection, and LLM-based reasoning to generate prioritized, actionable maintenance recommendations. The system tracks seven office appliances using a hybrid Singular Spectrum Analysis (SSA) and Long Short-Term Memory (LSTM) forecasting model, and applies a per-appliance LSTM Variational Autoencoder (VAE) with attention to flag abnormal daily consumption episodes. A three-stage LangChain pipeline begins with a Context Agent that always retrieves three core RAG sources (model reliability, hourly baseline, and expert knowledge) and conditionally adds up to three more (forecast context, anomaly history, global baseline) based on event characteristics, capped at eight reasoning steps. A Diagnosis Agent converts the evidence into a structured JSON diagnosis, and a Report Agent renders a human-readable narrative. A reflective memory layer incorporates operator feedback. The dashboard shows real-time 30-minute forecasts, intraday consumption, the previous day anomaly report, and a feedback form. We evaluate the forecasting model, anomaly detector with appliance-specific thresholds, and LLM reasoning on a 16-scenario benchmark including sustained and transient spikes, unexpected shutdowns, and systemic events, comparing five LLM backends under static vs. dynamic retrieval. Dynamic retrieval matches full static retrieval across all backends while cutting average context from six to three-six sources per event. The best backend scores 90.4/100 with a 100% pass rate at a 70-point threshold, and a fully local 7B-parameter model passes all 16 scenarios.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2606.28369": {
+            "title": "Multimodal and Multiscale Spatial-Temporal Semantic Search and Recommendation with AI Foundation Models",
+            "authors": "Yuanyuan Tian, Wenwen Li, Xiao Chen, Michael Brook, Michael Brubaker, Anna Liljedahl, Chitta Baral",
+            "first_author": "Yuanyuan Tian",
+            "url": "https://arxiv.org/abs/2606.28369",
+            "pdf_url": "https://arxiv.org/abs/2606.28369",
+            "publish_date": "2026-06-15",
+            "abstract": "Semantic search and recommendation of similar documents, such as news and reports about unusual environmental events (e.g., a dead whale washed ashore in Alaska) that contain spatial and temporal information, is a critical task in Geographic Information Retrieval (GIR). This work presents a novel framework that leverages AI foundation models, including Large Language Models (LLMs) and Vision-Language Models (VLMs), to enable effective similarity search and ranking for such event documents. To support this goal, we introduce two new strategies: (1) CAMERA (Context-Aware Multimodal Event Retrieval Algorithm), which fuses textual and visual information to generate richer embeddings than those derived from text alone; and (2) ASTRA (Adaptive Spatial and Temporal Re-ranking Algorithm), which improves similarity ranking by incorporating scale-dependent spatiotemporal relevance alongside semantic similarity. Experimental results, using a dataset from the Local Environmental Observer Network, demonstrate that our VLM-enhanced methods outperform unimodal, LLM-based approaches in similarity ranking effectiveness. By automatically linking relevant event reports, the proposed framework helps both data curators and the general public gain deeper insights into environmental change and its localized impacts. These findings highlight the potential of AI foundation models to advance GIR through multifaceted, intelligent analysis that integrates key geographic concepts: space, time, scale, and semantics.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.28368": {
+            "title": "EvoRec: Self Evolving Agentic Recommender Systems",
+            "authors": "Lingyu Mu, Hao Deng, Haibo Xing, Jinxin Hu, Yu Zhang, Xiaoyi Zeng",
+            "first_author": "Lingyu Mu",
+            "url": "https://arxiv.org/abs/2606.28368",
+            "pdf_url": "https://arxiv.org/abs/2606.28368",
+            "publish_date": "2026-06-15",
+            "abstract": "Optimizing modern recommender systems still relies heavily on engineers iterating by hand, which is slow and bounded by individual expertise. LLM-based agents open a path toward automating this loop, yet two issues remain. First, the agent is used only as a code translator and accumulates no methodology across iterations. Second, the optimization space is confined to a predefined range and rarely introduces structurally new ideas. To address these problems, we propose EvoRec, a multi-agent framework that co-evolves the recommendation model and the optimization methodology driving it. Four collaborating agents carry out a dual-track loop: the Research Agent and Code Agent iterate the model each round, while the Skill Evolver periodically distills reusable methodology from a persistent Memory of past experiments. Experiments on two public benchmarks and one large-scale industrial dataset show that EvoRec improves offline metrics by up to 5.54% over the strongest baseline, and an online A/B test delivers a 1.85% revenue lift and a 1.02% CTR gain.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.28357": {
+            "title": "ReasonRec: A Reasoning-Augmented Multimodal Agent for Unified Recommendation",
+            "authors": "Yihua Zhang, Mingfu Liang, Jiyan Yang, Rong Jin, Wen-Yen Chen, Yiping Han, Huayu Li, Buyun Zhang, Liang Luo, Frank Shyu, Luke Simon, Sijia Liu, Tianlong Chen, Xi Liu",
+            "first_author": "Yihua Zhang",
+            "url": "https://arxiv.org/abs/2606.28357",
+            "pdf_url": "https://arxiv.org/abs/2606.28357",
+            "publish_date": "2026-06-08",
+            "abstract": "Recent advances in multimodal recommenders excel at feature fusion but remain opaque and inefficient decision-makers, lacking explicit reasoning and self-awareness of uncertainty. We introduce ReasonRec, a reasoning-augmented multimodal agent structured around a three-stage explicit reasoning pipeline. Specifically, we propose a reasoning-aware visual instruction tuning strategy that systematically transforms diverse recommendation tasks into unified CoT prompts, enabling the VLM to explicitly articulate intermediate decision steps. Additionally, our evidence-horizon curriculum progressively enhances the reasoning complexity to better handle cold-start and long-tail user scenarios, significantly boosting model generalization. Furthermore, the uncertainty-guided delegation mechanism empowers the agent to assess its own confidence, strategically allocating computational resources to optimize both recommendation accuracy and inference efficiency. Comprehensive experiments on four standard recommendation tasks across five real-world datasets demonstrate that ReasonRec achieves over 30% relative improvement in key ranking metrics compared to state-of-the-art multimodal recommenders. Crucially, ReasonRec substantially reduces inference latency by dynamically delegating up to 35% of queries to efficient sub-models without compromising accuracy. Extensive ablation studies further confirm that each proposed reasoning and planning mechanism individually contributes substantially to ReasonRec's overall effectiveness. Collectively, our results illustrate a clear pathway towards interpretable, adaptive, and efficient multimodal recommendation through explicit reasoning and agentic design.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.28356": {
+            "title": "SafeGEO: Understanding Generative Engine Optimization Risks in Recommendation Agents",
+            "authors": "Qianfeng Wen, Yifan Simon Liu, Xin Liu, Difan Jiao, Blair Yang, Junda Wu, Zhenwei Tang",
+            "first_author": "Qianfeng Wen",
+            "url": "https://arxiv.org/abs/2606.28356",
+            "pdf_url": "https://arxiv.org/abs/2606.28356",
+            "publish_date": "2026-06-08",
+            "abstract": "Generative Engine Optimization (GEO) lets content owners rewrite web content to increase their visibility in generative systems. In recommendation agents, this creates a risk that seller-controlled sources make flawed products appear better supported than they are. We study this risk by asking whether recommendation agents preserve utility-aligned decisions when seller-controlled sources are rewritten for GEO. To make this question measurable, we construct SafeGEO, an evaluation suite with 22 GEO attack variants across 600 recommendation cases. We empirically show that GEO attacks can promote flawed target products. On average, they increase the rate at which such flawed products enter the recommendation set by up to 83.2%. We further study whether agent-side design choices can mitigate this risk and show that simple defenses, including defensive prompting and structured evidence checks, reduce harmful target promotion by up to 39.2%. These gains are substantial but do not restore the no-GEO performance, showing that GEO remains a serious risk despite developer-side mitigation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.28355": {
+            "title": "DBpedia-Enriched Company Representation for B2B Lead Recommendation",
+            "authors": "Yuyan Qian, Claude Montacie, Milan Stankovic, Victoria Eyharabide",
+            "first_author": "Yuyan Qian",
+            "url": "https://arxiv.org/abs/2606.28355",
+            "pdf_url": "https://arxiv.org/abs/2606.28355",
+            "publish_date": "2026-06-08",
+            "abstract": "Selecting which companies to approach is a central challenge in business-to-business (B2B) sales, where decisions are often based on manual research and fragmented information sources. Modern B2B sales platforms centralize company records and use learned company embeddings to support tasks such as recommending and prioritizing potential clients. In this study, we investigate whether enriching these company embeddings with Semantic knowledge from DBpedia improves downstream interaction-prediction performance, within a pipeline that integrates structured company attributes and text embeddings deployed on a real B2B platform. We evaluate the learned embeddings on a downstream interaction prediction task using real user feedback data from the platform. Results show that DBpedia enrichment improves downstream performance, with gains observed on ranking and discrimination metrics.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.28340": {
+            "title": "Rethinking Fairness in LLM-Based Recommender Systems: A Survey",
+            "authors": "Song-Duo Ma, Chu-Yun Chen, Bang-An Li, Pin-Yu Chen, Shau-Yung Hsu, Yun-Nung Chen",
+            "first_author": "Song-Duo Ma",
+            "url": "https://arxiv.org/abs/2606.28340",
+            "pdf_url": "https://arxiv.org/abs/2606.28340",
+            "publish_date": "2026-05-31",
+            "abstract": "Large Language Models (LLMs) are reshaping recommender systems by enabling more semantic, generative, and interactive recommendation pipelines. However, this shift also introduces new fairness challenges, as biases may arise from pretrained knowledge, prompts, generated explanations, decoding strategies, and feedback loops. This survey provides a systematic review of fairness in LLM-based recommender systems (LLM4Rec), organizing existing studies through a two-dimensional view of bias mechanisms and fairness targets, together with a structured overview of the evaluation landscape and mitigation strategies. We further connect fairness with broader trustworthy concerns, including explainability, privacy, robustness, and controllability. To the best of our knowledge, this is the first survey specifically focused on fairness in LLM4Rec, aiming to provide a structured foundation for future research on comprehensive and reliable fairness evaluation in LLM4Rec.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
