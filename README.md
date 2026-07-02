@@ -1,4 +1,4 @@
-## Updated on 2026-07-01
+## Updated on 2026-07-02
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,7 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-06-30 | **Joint Effects of Recommender Systems and Network Structure on the Visibility of Content and Creators** | Virginia Morini, Valentina Pansanella, Luca Pappalardo, Dino Pedreschi, Giulio Rossetti | [Link](https://arxiv.org/abs/2607.00258) | N/A |
 | 2026-06-30 | **Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequential Screening and Hierarchical Refinement** | Sakshi Arya, Abdul-Nasah Soale, Hossein Moradi Rekabdarkolaee | [Link](https://arxiv.org/abs/2606.31661) | N/A |
 | 2026-06-30 | **Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care** | Shreyas Rajesh, Kartik Sharma, Tonmoy Monsoor, Mehmet Yigit Turali, Richard Idro, Juliana Kayaga, Robert Sebunya, Tracy Tushabe Namata, Jessica Nichole Pasqua, Vwani Roychowdhury, Rajarshi Mazumder | [Link](https://arxiv.org/abs/2606.31036) | N/A |
 | 2026-06-29 | **Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation** | Zhe Dong, Fang Qin, Manish Shah, Yicheng Wang | [Link](https://arxiv.org/abs/2606.29947) | N/A |
@@ -213,6 +214,8 @@
 | 2026-05-09 | **Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation** | Haven Kim, Julian McAuley | [Link](https://arxiv.org/abs/2605.09120) | N/A |
 | 2026-05-09 | **Compressed Video Aggregator: Content-driven Module for Efficient Micro-Video Recommendation** | Yang Xiao, Huiyuan Chen, Kaiyuan Deng, Chao Jiang, Zinan Ling, Ruimeng Ye, Xiaolong Ma, Bo Hui | [Link](https://arxiv.org/abs/2605.08810) | N/A |
 | 2026-05-09 | **DiagnosticIQ: A Benchmark for LLM-Based Industrial Maintenance Action Recommendation from Symbolic Rules** | Devin Yasith De Silva, Dhaval Patel, Christodoulos Constantinides, Shuxin Lin, Nianjun Zhou, Paul J Adams, Sal Rosato, Nicolas Constantinides, Deborah L. McGuinness, Jayant Kalagnanam | [Link](https://arxiv.org/abs/2605.08614) | N/A |
+| 2026-05-08 | **SkillSelect-Serve: Budget-Controllable and QoS-Aware Skill Service Recommendation and Composition for Small LLM Agents** | Jingyuan Zheng, Dongjing Wang, Xin Zhang, Butian Huang, Haiping Zhang, Dongjin Yu, Shuguang Deng | [Link](https://arxiv.org/abs/2607.00011) | N/A |
+| 2026-05-08 | **Prompt Optimization for User Simulation in Conversational Recommender Systems: A Multi-Objective Framework** | Nipun B Nair, Tongtong Wu, Weiqing Wang | [Link](https://arxiv.org/abs/2607.00010) | N/A |
 | 2026-05-08 | **A Production-Ready RL Framework for Personalized Utility Tuning with Pareto Sweeping in Pinterest Recommender Systems** | Yichu Zhou, Mehdi Ben Ayed, Lin Yang, Jiacong He, Andreanne Lemay, Jiaye Wang, Jaewon Yang, Josie Zeng, Dhruvil Deven Badani, Yijie Dylan Wang, Jiajing Xu, Charles Rosenberg | [Link](https://arxiv.org/abs/2605.16344) | N/A |
 | 2026-05-08 | **Multi-Level Graph Attention Network Contrastive Learning for Knowledge-Aware Recommendation** | Zhifei Hu, Feng Xia | [Link](https://arxiv.org/abs/2605.08499) | N/A |
 | 2026-05-08 | **Exploring a Virtual Pet to Provide Context Notifications in a Tourism Recommender System: a Pilot Study** | Patrícia Alves, Joana Neto, Ana Barreiro, Jorge Lima, Fausto Alves, Henish Balu, Luís Conceição, Goreti Marreiros | [Link](https://arxiv.org/abs/2605.07960) | N/A |
@@ -313,6 +316,7 @@
 | 2026-04-19 | **Neuro-Symbolic Resolution of Recommendation Conflicts in Multimorbidity Clinical Guidelines** | Shiyao Xie, Jian Du | [Link](https://arxiv.org/abs/2604.17340) | N/A |
 | 2026-04-19 | **Signal or Noise in Multi-Agent LLM-based Stock Recommendations?** | George Fatouros, Kostas Metaxas | [Link](https://arxiv.org/abs/2604.17327) | N/A |
 | 2026-04-19 | **From Language to Action: Enhancing LLM Task Efficiency with Task-Aware MCP Server Recommendation** | Shiyu He, Zhiman Chen, Yuqi Zhao, Neng Zhang, Ran Mo, Yutao Ma | [Link](https://arxiv.org/abs/2604.17234) | N/A |
+| 2026-04-18 | **From "Strings" to "Things" for Personal Knowledge Graphs: Evaluating LLM Triple Extraction for Recommendation Systems** | Abhirup Dasgupta, Fernando Spadea, Oshani Seneviratne | [Link](https://arxiv.org/abs/2607.00003) | N/A |
 | 2026-04-18 | **Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning** | Jiachen Qian | [Link](https://arxiv.org/abs/2604.16966) | N/A |
 | 2026-04-18 | **Beyond Serendipity: From Exposing the Unknown to Fostering Engagement through Peer Recommendation** | Sosui Moribe, Taketoshi Ushiama | [Link](https://arxiv.org/abs/2604.16818) | N/A |
 | 2026-04-17 | **Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation** | Xibo Li, Liang Zhang | [Link](https://arxiv.org/abs/2604.16121) | N/A |

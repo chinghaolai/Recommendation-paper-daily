@@ -17544,6 +17544,50 @@
             "abstract": "Large Language Models (LLMs) are reshaping recommender systems by enabling more semantic, generative, and interactive recommendation pipelines. However, this shift also introduces new fairness challenges, as biases may arise from pretrained knowledge, prompts, generated explanations, decoding strategies, and feedback loops. This survey provides a systematic review of fairness in LLM-based recommender systems (LLM4Rec), organizing existing studies through a two-dimensional view of bias mechanisms and fairness targets, together with a structured overview of the evaluation landscape and mitigation strategies. We further connect fairness with broader trustworthy concerns, including explainability, privacy, robustness, and controllability. To the best of our knowledge, this is the first survey specifically focused on fairness in LLM4Rec, aiming to provide a structured foundation for future research on comprehensive and reliable fairness evaluation in LLM4Rec.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2607.00258": {
+            "title": "Joint Effects of Recommender Systems and Network Structure on the Visibility of Content and Creators",
+            "authors": "Virginia Morini, Valentina Pansanella, Luca Pappalardo, Dino Pedreschi, Giulio Rossetti",
+            "first_author": "Virginia Morini",
+            "url": "https://arxiv.org/abs/2607.00258",
+            "pdf_url": "https://arxiv.org/abs/2607.00258",
+            "publish_date": "2026-06-30",
+            "abstract": "Social media algorithms allocate users' visibility by ranking content within their social networks. Yet, how recommendation logic and network structure jointly shape visibility across content and creators remains largely understudied. In this work, we tackle this question through agent-based simulations using YSocial, a social media virtual twin, in which agents interact under 7 recommendation strategies and 2 network topologies. We find that recommender logic sets the visibility regime: popularity creates a reinforcement loop in which early reactions increase later exposure, concentrating visibility on a small subset of content and limiting creator visibility to those whose content enters this loop, while collaborative filtering distributes visibility broadly across the active catalogue and user base. When the follower graph shapes candidate selection, network structure changes the direction of inequality: under popularity ranking, creator-level concentration becomes comparable to global popularity, but visibility is systematically redirected toward creators who are already socially popular. Network topology modulates the magnitude of these effects without changing their qualitative ordering. These results show that visibility allocation should be evaluated across content, creators, network position, and temporal reinforcement, and that controlled simulations can help test how feed design distributes visibility before deployment.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2607.00011": {
+            "title": "SkillSelect-Serve: Budget-Controllable and QoS-Aware Skill Service Recommendation and Composition for Small LLM Agents",
+            "authors": "Jingyuan Zheng, Dongjing Wang, Xin Zhang, Butian Huang, Haiping Zhang, Dongjin Yu, Shuguang Deng",
+            "first_author": "Jingyuan Zheng",
+            "url": "https://arxiv.org/abs/2607.00011",
+            "pdf_url": "https://arxiv.org/abs/2607.00011",
+            "publish_date": "2026-05-08",
+            "abstract": "Reusable skill libraries are becoming important infrastructure for large language model (LLM) agents, yet existing selection methods often treat skills as retrievable documents and return fixed top-k lists. This paper presents SkillSelect-Serve, a budget-controllable and QoS-aware framework that formulates agent skill selection as Skill Service Recommendation and Composition. SkillSelect-Serve represents raw skills as structured Skill Services with functional descriptions, dependencies, context cost, risk, and QoS-related attributes. A local Micro-Agent Requirement Planner converts natural-language tasks into structured service requirements, while a shared discovery backbone retrieves candidate services from a large registry. The framework then performs dual-granularity utility modeling with skill-level marginal suitability estimation and bundle-level calibration for coverage, redundancy, cost, and risk trade-offs. Experiments on 35,353 skills and 586 task queries show that SkillSelect-Serve consistently improves same-budget bundle recall and mean utility over fixed top-k retrieval baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.00010": {
+            "title": "Prompt Optimization for User Simulation in Conversational Recommender Systems: A Multi-Objective Framework",
+            "authors": "Nipun B Nair, Tongtong Wu, Weiqing Wang",
+            "first_author": "Nipun B Nair",
+            "url": "https://arxiv.org/abs/2607.00010",
+            "pdf_url": "https://arxiv.org/abs/2607.00010",
+            "publish_date": "2026-05-08",
+            "abstract": "Conversational recommender systems (CRSs) are a core component of next-generation intelligent recommender systems because they enable users to actively elicit preferences, clarify intentions, and adapt recommendations in real time. However, there are two key obstacles in the CRS domain: evaluation and access to training data. Evaluating CRSs through real human studies is more critical than for traditional recommender systems, yet such studies are both costly and time-consuming. Moreover, CRS interaction data are often difficult to obtain for model training due to privacy concerns. Large language model (LLM)-based user simulators have shown promise in addressing both challenges by generating synthetic user interactions for evaluation and training. However, existing approaches suffer from systematic positive bias, data leakage, and limited behavioral diversity, and they rely on brittle manual prompt engineering that requires extensive domain expertise. In this paper, we propose a framework to automatically optimize prompts for LLM-based user simulators in CRSs, simultaneously mitigating these issues. Experimental results demonstrate that the proposed framework achieves improved behavioral alignment with human interaction patterns compared to baseline methods across diverse prompt settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.00003": {
+            "title": "From \"Strings\" to \"Things\" for Personal Knowledge Graphs: Evaluating LLM Triple Extraction for Recommendation Systems",
+            "authors": "Abhirup Dasgupta, Fernando Spadea, Oshani Seneviratne",
+            "first_author": "Abhirup Dasgupta",
+            "url": "https://arxiv.org/abs/2607.00003",
+            "pdf_url": "https://arxiv.org/abs/2607.00003",
+            "publish_date": "2026-04-18",
+            "abstract": "Personal Knowledge Graphs (PKGs) offer a privacy-preserving framework for modeling user preferences, yet constructing them from unstructured, decentralized conversational data remains a challenge. This paper bridges the gap between conversational \"strings\" and semantic \"things\" by presenting a reproducible pipeline for extracting structured user-preference triples using lightweight Large Language Models. We evaluate Qwen- and Gemma-based models on their ability to extract RDF-compliant triples linked to Wikidata identifiers from conversational data for PKG construction. Our evaluation assesses both the semantic extraction fidelity and the utility of the resulting graphs in a downstream recommendation task. We found that certain models performed well and had proportionally high downstream performance relative to their triple extraction performance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
