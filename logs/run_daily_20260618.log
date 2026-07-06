@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260618100003
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 10900
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 06/18/2026 10:00:03 ===
+--- Running daily_arxiv.py ---
+ed I
+[06/18/2026 10:00:10 INFO]   + [2026-02-25] EditFlow: Benchmarking and Optimizing Code Edit Recommendation Systems via R
+econ
+[06/18/2026 10:00:10 INFO]   + [2026-02-25] Trie-Aware Transformers for Generative Recommendation
+[06/18/2026 10:00:10 INFO]   + [2026-02-24] Position-Aware Sequential Attention for Accurate Next Item Recommendations
+[06/18/2026 10:00:10 INFO]   + [2026-02-24] HiSAC: Hierarchical Sparse Activation Compression for Ultra-long Sequence Mo
+deli
+[06/18/2026 10:00:10 INFO]   + [2026-02-24] A Counterfactual Approach for Addressing Individual User Unfairness in Colla
+bora
+[06/18/2026 10:00:10 INFO]   + [2026-02-24] Modality-Guided Mixture of Graph Experts with Entropy-Triggered Routing for
+Mult
+[06/18/2026 10:00:10 INFO]   + [2026-02-24] From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommen
+dati
+[06/18/2026 10:00:10 INFO]   + [2026-02-23] T-REX: Transformer-Based Category Sequence Generation for Grocery Basket Rec
+omme
+[06/18/2026 10:00:10 INFO]   + [2026-02-23] ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Comput
+atio
+[06/18/2026 10:00:10 INFO]   + [2026-02-23] FairFS: Addressing Deep Feature Selection Biases for Recommender System
+[06/18/2026 10:00:10 INFO]   + [2026-02-23] GrIT: Group Informed Transformer for Sequential Recommendation
+[06/18/2026 10:00:10 INFO]   + [2026-02-23] A Three-stage Neuro-symbolic Recommendation Pipeline for Cultural Heritage K
+nowl
+[06/18/2026 10:00:13 INFO] Topic 'Recommendation': 500 papers found.
+[06/18/2026 10:00:13 INFO] === Fetch complete ===
+[06/18/2026 10:00:13 INFO] Markdown written: README.md
+[06/18/2026 10:00:13 INFO] Target 'readme' done.
+[06/18/2026 10:00:13 INFO] Markdown written: docs\index.md
+[06/18/2026 10:00:13 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 06/18/2026 10:00:18 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260618100018
+**********************

@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260624100003
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 25788
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 06/24/2026 10:00:03 ===
+--- Running daily_arxiv.py ---
+oiso
+[06/24/2026 10:00:19 INFO]   + [2026-02-27] Recommending Search Filters To Improve Conversions At Airbnb
+[06/24/2026 10:00:19 INFO]   + [2026-02-27] FuXi-Linear: Unleashing the Power of Linear Attention in Long-term Time-awar
+e Se
+[06/24/2026 10:00:19 INFO]   + [2026-02-27] Learning to Reflect and Correct: Towards Better Decoding Trajectories for La
+rge-
+[06/24/2026 10:00:19 INFO]   + [2026-02-26] Cross-Representation Knowledge Transfer for Improved Sequential Recommendati
+ons
+[06/24/2026 10:00:19 INFO]   + [2026-02-26] From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Se
+quen
+[06/24/2026 10:00:19 INFO]   + [2026-02-26] MaRI: Accelerating Ranking Model Inference via Structural Re-parameterizatio
+n in
+[06/24/2026 10:00:19 INFO]   + [2026-02-26] SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommen
+der
+[06/24/2026 10:00:19 INFO]   + [2026-02-26] Generative Recommendation for Large-Scale Advertising
+[06/24/2026 10:00:19 INFO]   + [2026-02-26] U-CAN: Utility-Aware Contrastive Attenuation for Efficient Unlearning in Gen
+erat
+[06/24/2026 10:00:19 INFO]   + [2026-02-26] Fine-grained Semantics Integration for Large Language Model-based Recommenda
+tion
+[06/24/2026 10:00:19 INFO]   + [2026-02-25] Federated Personal Knowledge Graph Completion with Lightweight Large Languag
+e Mo
+[06/24/2026 10:00:22 INFO] Topic 'Recommendation': 500 papers found.
+[06/24/2026 10:00:22 INFO] === Fetch complete ===
+[06/24/2026 10:00:22 INFO] Markdown written: README.md
+[06/24/2026 10:00:22 INFO] Target 'readme' done.
+[06/24/2026 10:00:22 INFO] Markdown written: docs\index.md
+[06/24/2026 10:00:22 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 06/24/2026 10:00:26 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260624100026
+**********************

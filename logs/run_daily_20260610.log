@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260610100002
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 20676
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 06/10/2026 10:00:02 ===
+--- Running daily_arxiv.py ---
+[06/10/2026 10:00:05 INFO]   + [2026-02-19] Bending the Scaling Law Curve in Large-Scale Recommendation Systems
+[06/10/2026 10:00:05 INFO]   + [2026-02-18] ConvApparel: A Benchmark Dataset and Validation Framework for User Simulator
+s in
+[06/10/2026 10:00:05 INFO]   + [2026-02-18] Why Thinking Hurts: Diagnosing and Rectifying Linguistic Inertia in Large La
+ngua
+[06/10/2026 10:00:05 INFO]   + [2026-02-18] AgentFixer: From Failure Detection to Fix Recommendations in LLM Agentic Sys
+tems
+[06/10/2026 10:00:05 INFO]   + [2026-02-18] Variable-Length Semantic IDs for Recommender Systems
+[06/10/2026 10:00:05 INFO]   + [2026-02-18] The Diversity Paradox revisited: Systemic Effects of Feedback Loops in Recom
+mend
+[06/10/2026 10:00:05 INFO]   + [2026-02-18] Rethinking ANN-based Retrieval: Multifaceted Learnable Index for Large-scale
+ Rec
+[06/10/2026 10:00:05 INFO]   + [2026-02-17] FeDecider: An LLM-Based Framework for Federated Cross-Domain Recommendation
+[06/10/2026 10:00:05 INFO]   + [2026-02-17] Can Recommender Systems Teach Themselves? A Recursive Self-Improving Framewo
+rk w
+[06/10/2026 10:00:05 INFO]   + [2026-02-17] Eco-Amazon: Enriching E-commerce Datasets with Product Carbon Footprint for
+Sust
+[06/10/2026 10:00:05 INFO]   + [2026-02-17] Binge Watch: Reproducible Multimodal Benchmarks Datasets for Large-Scale Mov
+ie R
+[06/10/2026 10:00:05 INFO]   + [2026-02-17] Semantics-Aware Denoising: A PLM-Guided Sample Reweighting Strategy for Robu
+st R
+[06/10/2026 10:00:08 INFO] Topic 'Recommendation': 500 papers found.
+[06/10/2026 10:00:08 INFO] === Fetch complete ===
+[06/10/2026 10:00:08 INFO] Markdown written: README.md
+[06/10/2026 10:00:08 INFO] Target 'readme' done.
+[06/10/2026 10:00:08 INFO] Markdown written: docs\index.md
+[06/10/2026 10:00:08 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 06/10/2026 10:00:13 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260610100013
+**********************

@@ -1,4 +1,4 @@
-## Updated on 2026-07-02
+## Updated on 2026-07-06
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,8 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-02 | **Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages** | A. Seza Doğruöz, Xixian Liao, Verena Blaschke, Jakob Prange, Senyu Li, David Ifeoluwa Adelani | [Link](https://arxiv.org/abs/2607.02235) | N/A |
+| 2026-07-01 | **Bi-NAS: Towards Effective and Personalized Explanation for Recommender Systems via Bi-Level Neural Architecture Search** | Longfeng Wu, Yao Zhou, Tong Zeng, Zhimin Peng, Bhanu Pratap Singh Rawat, Lecheng Zheng, Giovanni Seni, Dawei Zhou | [Link](https://arxiv.org/abs/2607.01387) | N/A |
 | 2026-06-30 | **Joint Effects of Recommender Systems and Network Structure on the Visibility of Content and Creators** | Virginia Morini, Valentina Pansanella, Luca Pappalardo, Dino Pedreschi, Giulio Rossetti | [Link](https://arxiv.org/abs/2607.00258) | N/A |
 | 2026-06-30 | **Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequential Screening and Hierarchical Refinement** | Sakshi Arya, Abdul-Nasah Soale, Hossein Moradi Rekabdarkolaee | [Link](https://arxiv.org/abs/2606.31661) | N/A |
 | 2026-06-30 | **Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care** | Shreyas Rajesh, Kartik Sharma, Tonmoy Monsoor, Mehmet Yigit Turali, Richard Idro, Juliana Kayaga, Robert Sebunya, Tracy Tushabe Namata, Jessica Nichole Pasqua, Vwani Roychowdhury, Rajarshi Mazumder | [Link](https://arxiv.org/abs/2606.31036) | N/A |
