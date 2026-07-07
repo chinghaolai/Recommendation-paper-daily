@@ -17610,6 +17610,28 @@
             "abstract": "Recommender systems are vital in helping users navigate vast amounts of information, offering personalized suggestions and effective explanations for these recommendations. While previous efforts have attempted to provide such explanations, evaluating their effectiveness across various scenarios remains a challenge. Enhancing these explanations is essential for improving user engagement, trust, and decision-making. To facilitate effective explanations within the recommender system, we propose a Bi-level Neural Architecture Search (Bi-NAS) framework to optimize explanations. This approach simultaneously refines cross-attention mechanisms and feature interaction functions by exploring both intra-layer and inter-layer design spaces. Furthermore, we integrate Large Language Models (LLMs) to enhance explanation generation, leveraging zero-shot prompting to produce more effective and personalized justifications. By aligning user feature preferences with item quality scores, our approach ensures that explanations reflect both user intent and item attributes, improving transparency and reasoning depth. Extensive evaluations on four real-world datasets demonstrate that Bi-NAS not only boosts recommendation accuracy but also significantly improves the effectiveness of explanations for recommender systems, providing users with clear and reliable insights into the suggestions they receive.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2607.03427": {
+            "title": "AI Systems as Digital Public Goods -- Evidence and Recommendations from a Multi-Stakeholder Assessment",
+            "authors": "Serge Stinckwich, Natalie Wong, Ally S. Nyamawe, Jia'An Liu, Farhan Latif, Jaimee Stuart",
+            "first_author": "Serge Stinckwich",
+            "url": "https://arxiv.org/abs/2607.03427",
+            "pdf_url": "https://arxiv.org/abs/2607.03427",
+            "publish_date": "2026-07-03",
+            "abstract": "AI systems are increasingly being positioned as potential Digital Public Goods (DPGs) to accelerate progress towards the Sustainable Development Goals (SDGs). Yet, despite major global commitments, most notably the Global Digital Compact's call to \"develop, disseminate and maintain safe and secure open-source software, open data, open artificial intelligence models and open standards that benefit society as a whole\", very few AI systems currently meet the DPG Standard in practice. This report explains why, and what must change for \"AI as Digital Public Goods\" (AIDPGs) to become a credible, implementable pathway rather than an aspirational label. Commissioned by the Asian Development Bank (ADB) and produced by United Nations University (UNU) in partnership with UN Office of Digital and Emergent Technologies (UN ODET), this assessment combines: (i) a structured desk review of policy, legal, and technical frameworks on DPGs, openness, and AI governance; (ii) key informant interviews with cross sector experts spanning the UN system, governments, civil society, academia, and the private sector; and (iii) a global survey to test whether interview themes hold across a broader sample and to surface where perspectives diverge by region, sector, and AI readiness.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2607.03362": {
+            "title": "HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems",
+            "authors": "Xiao Liang, Jiali Feng, Xin Feng, Yiqing Wang, Baolin Ye, Siyao Feng, Zhihui Deng, Cunyi Zhang, Huajin Sun, Xuanping Li, Kaiqiao Zhan, Yanan Niu, Kun Gai",
+            "first_author": "Xiao Liang",
+            "url": "https://arxiv.org/abs/2607.03362",
+            "pdf_url": "https://arxiv.org/abs/2607.03362",
+            "publish_date": "2026-07-03",
+            "abstract": "With the explosive growth of content platforms, recommendation systems need to better satisfy user demands to enhance user satisfaction and retention. Taking short-video platforms as an example, users not only seek high-quality content but also trusted authors. Although generative recommendation systems have achieved breakthroughs in recent years, existing methods primarily generate single-type recommendation content and typically employ the inefficient autoregressive paradigm to generate semantic IDs. In this paper, we propose an end-to-end heterogeneous generative recommendation architecture called HGenPush. First, we design a hybrid user behavior understanding module that integrates multi-scenario and multi-perspective behaviors to capture precise user interest. Then, we design a dual-branch heterogeneous generative recommendation module that integrates video recommendation and author recommendation within a unified framework. In addition, to improve generation efficiency, we design a lightweight multi-token prediction method that discards the autoregressive paradigm. Finally, we design a user consumption preference alignment module, which leverages user feedback as reward signals to guide the model toward generating higher-quality content, thereby enhancing user experience and engagement. Through these designs, HGenPush simultaneously fulfills users' demands for high-quality content and trusted authors. We have deployed HGenPush on the push notification system of Kuaishou, a large-scale short-video platform, achieving a significant 0.181% increase in daily active users.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

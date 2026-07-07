@@ -1,4 +1,4 @@
-## Updated on 2026-07-06
+## Updated on 2026-07-07
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,8 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-03 | **AI Systems as Digital Public Goods -- Evidence and Recommendations from a Multi-Stakeholder Assessment** | Serge Stinckwich, Natalie Wong, Ally S. Nyamawe, Jia'An Liu, Farhan Latif, Jaimee Stuart | [Link](https://arxiv.org/abs/2607.03427) | N/A |
+| 2026-07-03 | **HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems** | Xiao Liang, Jiali Feng, Xin Feng, Yiqing Wang, Baolin Ye, Siyao Feng, Zhihui Deng, Cunyi Zhang, Huajin Sun, Xuanping Li, Kaiqiao Zhan, Yanan Niu, Kun Gai | [Link](https://arxiv.org/abs/2607.03362) | N/A |
 | 2026-07-02 | **Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages** | A. Seza Doğruöz, Xixian Liao, Verena Blaschke, Jakob Prange, Senyu Li, David Ifeoluwa Adelani | [Link](https://arxiv.org/abs/2607.02235) | N/A |
 | 2026-07-01 | **Bi-NAS: Towards Effective and Personalized Explanation for Recommender Systems via Bi-Level Neural Architecture Search** | Longfeng Wu, Yao Zhou, Tong Zeng, Zhimin Peng, Bhanu Pratap Singh Rawat, Lecheng Zheng, Giovanni Seni, Dawei Zhou | [Link](https://arxiv.org/abs/2607.01387) | N/A |
 | 2026-06-30 | **Joint Effects of Recommender Systems and Network Structure on the Visibility of Content and Creators** | Virginia Morini, Valentina Pansanella, Luca Pappalardo, Dino Pedreschi, Giulio Rossetti | [Link](https://arxiv.org/abs/2607.00258) | N/A |
