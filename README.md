@@ -1,4 +1,4 @@
-## Updated on 2026-07-07
+## Updated on 2026-07-08
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-07 | **Multimodal Video-to-Music Recommendation via Semantic Retrieval and Temporal Reranking** | Seungheon Doh, Minhee Lee, Sangmoon Lee, Ben Sangbae Chon, Juhan Nam | [Link](https://arxiv.org/abs/2607.05971) | N/A |
+| 2026-07-07 | **Signed-Graph Recommendation as Structural Consistency Maximization** | Zifan Wang, Siyu Chen, Wenzhuo Song | [Link](https://arxiv.org/abs/2607.05952) | N/A |
+| 2026-07-07 | **SCOReD: Student-Aware CoT Optimization for Recommendation Distillation** | Haz Sameen Shahgir, Yufei Li, Frank Shyu, Luke Simon, Sandeep Pandey, Xi Liu, Yue Dong | [Link](https://arxiv.org/abs/2607.05734) | N/A |
+| 2026-07-06 | **Toward Personalized Social Robots for Child Well-being: Data Requirement Principles from a Recommender-System Perspective** | Jin Huang, Eric Nichols, Fethiye Irmak Dogan, Hatice Gunes | [Link](https://arxiv.org/abs/2607.05110) | N/A |
+| 2026-07-06 | **Pathological Regimes of Closed-Loop Recommendation Systems over Social Networks** | Mariano Simone, Frasca Paolo | [Link](https://arxiv.org/abs/2607.05010) | N/A |
+| 2026-07-05 | **Evaluation and Explainability of Unsupervised Scholarly Collaboration Recommendations** | Md Asaduzzaman Noor, John W. Sheppard, Jason A. Clark | [Link](https://arxiv.org/abs/2607.04529) | N/A |
+| 2026-07-05 | **Autonomous Information Seeking: A Roadmap for Agentic Recommender Systems** | Xinyu Lin, Yashar Deldjoo, Sunhao Dai, Honghui Bao, Xiaopeng Ye, Fatemeh Nazary, Wenjie Wang, Tommaso Di Noia, Jun Xu, Tat-Seng Chua | [Link](https://arxiv.org/abs/2607.04433) | N/A |
+| 2026-07-05 | **LBR: Towards Mitigating Length Bias in Large Language Models for Recommendation** | Hongchen Li, Bohao Wang, Jingbang Chen, Weiqin Yang, Hang Pan, Bingde Hu, Can Wang, Jiawei Chen | [Link](https://arxiv.org/abs/2607.04270) | N/A |
+| 2026-07-04 | **Beyond Item Order: Temporal Gap Tokenization for Generative Recommendation with Semantic IDs** | Chengkai Huang, Tianqi Gao, Hongtao Huang, Quan Z. Sheng, Lina Yao | [Link](https://arxiv.org/abs/2607.03918) | N/A |
+| 2026-07-03 | **Retrieval over Reasoning: A Cost-Controlled Benchmark of Language Models for Energy-Retrofit Recommendation** | Eliseo Curcio | [Link](https://arxiv.org/abs/2607.05440) | N/A |
 | 2026-07-03 | **AI Systems as Digital Public Goods -- Evidence and Recommendations from a Multi-Stakeholder Assessment** | Serge Stinckwich, Natalie Wong, Ally S. Nyamawe, Jia'An Liu, Farhan Latif, Jaimee Stuart | [Link](https://arxiv.org/abs/2607.03427) | N/A |
 | 2026-07-03 | **HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems** | Xiao Liang, Jiali Feng, Xin Feng, Yiqing Wang, Baolin Ye, Siyao Feng, Zhihui Deng, Cunyi Zhang, Huajin Sun, Xuanping Li, Kaiqiao Zhan, Yanan Niu, Kun Gai | [Link](https://arxiv.org/abs/2607.03362) | N/A |
 | 2026-07-02 | **Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages** | A. Seza Doğruöz, Xixian Liao, Verena Blaschke, Jakob Prange, Senyu Li, David Ifeoluwa Adelani | [Link](https://arxiv.org/abs/2607.02235) | N/A |
@@ -81,6 +91,7 @@
 | 2026-06-11 | **CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation** | Yujuan Ding, Junrong Liao, Yunshan Ma, Yi Bin, Wenqi Fan, Tat-Seng Chua, Qing Li | [Link](https://arxiv.org/abs/2606.13001) | N/A |
 | 2026-06-10 | **DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation** | Kangning Zhang, Yingjie Qin, Weinan Zhang, Yong Yu, Jianghao Lin | [Link](https://arxiv.org/abs/2606.12245) | N/A |
 | 2026-06-10 | **LLM-Based User Personas for Recommendations at Scale** | Haoting Wang, Haokai Lu, Zheyun Feng, Jenny Huang, Yifat Amir, Gregory Hinkson, Ben Most, Zelong Zhao, Yixin Kelly Cui, Rein Zhang, Fabio Soldo, Yu Xia, Nihar Bhupalam, Minmin Chen, Konstantina Christakopoulou, Lichan Hong, Ed H. Chi | [Link](https://arxiv.org/abs/2606.12198) | N/A |
+| 2026-06-09 | **Automated Recommendation of Programming Learning Content Using Pattern-based Knowledge Components** | Muntasir Hoq, Griffin Pitts, Zhangqi Duan, Arun Balajiee Lekshmi Narayanan, Mohammad Hassany, Andrew Lan, Peter Brusilovsky, Bita Akram | [Link](https://arxiv.org/abs/2607.05409) | N/A |
 | 2026-06-09 | **Generative Archetype-Grounded Item Representations for Sequential Recommendation** | Yifan Li, Jiahong Liu, Xinni Zhang, Hao Chen, Yankai Chen, Wenhao Yu, Jianting Chen, Irwin King | [Link](https://arxiv.org/abs/2606.11023) | N/A |
 | 2026-06-09 | **From Prompt to Purchase: How AI Brand Recommendations Move Consumers on the Open Web** | Michael Iannelli, Alan Ai | [Link](https://arxiv.org/abs/2606.10907) | N/A |
 | 2026-06-09 | **Atomic Intent Reasoning: Bringing LLM Semantics to Industrial Cross-Domain Recommendations** | Zhuohang Jiang, Yuxin Chen, Shijie Wang, Haohao Qu, Zhou Jindong, Wenqi Fan, Li Qing, Dongxu Liang, Jun Wang | [Link](https://arxiv.org/abs/2606.10357) | N/A |
