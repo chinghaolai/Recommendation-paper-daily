@@ -7,6 +7,11 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-15 | **OrDA: Orthogonal Disentanglement of Access Habits Framework for Homepage Marketing Block Recommendations** | Lingxiao Zhang, Xiaobo Li, Tao Xu | [Link](https://arxiv.org/abs/2607.13420) | N/A |
+| 2026-07-15 | **Can We Steer the Black-Box? Towards Controllability-Centric Evaluation of Recommender Systems with Collaborative Agents** | Jiwen Zhou, Xiang Liu, Mingming Li, Pengbo Mo, Jiao Dai, Honglei Lv, Jizhong Han, Songlin Hu | [Link](https://arxiv.org/abs/2607.13418) | N/A |
+| 2026-07-14 | **Privacy Preserving Recommender Systems Balancing Personalization with Privacy** | Ranjeet K Jha, Venkata Suresh Gummadilli | [Link](https://arxiv.org/abs/2607.13328) | N/A |
+| 2026-07-14 | **ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark** | Minh Hoang Nguyen | [Link](https://arxiv.org/abs/2607.12946) | N/A |
+| 2026-07-14 | **RecRec: Latent Interests Recursive Reasoning for Sequential Recommendation** | Wenhao Deng, Junchen Fu, Hanwen Du, Alexandros Karatzoglou, Ioannis Arapakis, Hangjun Guo, Kaiwen Zheng, Yongxin Ni, Joemon M. Jose | [Link](https://arxiv.org/abs/2607.12945) | N/A |
 | 2026-07-14 | **Cheaper is Better: A Discount-Aware Network for Conversion Rate Prediction in E-commerce Recommendation System** | Ruocong Tang, Yang Huang, Xing Fang, Chenyi Yan, Chuike Sun, Jing Wang | [Link](https://arxiv.org/abs/2607.12578) | N/A |
 | 2026-07-14 | **Where Reasoning Matters: Rethinking Latent Reasoning in Semantic ID-based Generative Recommendation** | Shangxin Yang, Min Gao, Zongwei Wang, Junliang Yu | [Link](https://arxiv.org/abs/2607.12425) | N/A |
 | 2026-07-14 | **Skills That Don't Exist: A Large-Scale Study of Hallucinated Skill Recommendation in LLM Agents** | Weifeng Yuan, Wenbo Guo, Feng Dong, Haoyu Wang, Yang Liu | [Link](https://arxiv.org/abs/2607.12340) | N/A |

@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260715100003
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 24384
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 07/15/2026 10:00:03 ===
+--- Running daily_arxiv.py ---
+Syst
+[07/15/2026 10:00:15 INFO]   + [2026-03-16] Same Performance, Hidden Bias: Evaluating Hypothesis- and Recommendation-Dri
+ven
+[07/15/2026 10:00:15 INFO]   + [2026-03-16] Multi-Scenario User Profile Construction via Recommendation Lists
+[07/15/2026 10:00:15 INFO]   + [2026-03-15] GenRecEdit: Adapting Model Editing for Generative Recommendation with Cold-S
+tart
+[07/15/2026 10:00:15 INFO]   + [2026-03-14] Iterative Semantic Reasoning from Individual to Group Interests for Generati
+ve R
+[07/15/2026 10:00:15 INFO]   + [2026-03-14] EVNextTrade: Learning-to-Rank-Based Recommendation of Next Charging Nodes fo
+r EV
+[07/15/2026 10:00:15 INFO]   + [2026-03-14] R3-REC: Reasoning-Driven Recommendation via Retrieval-Augmented LLMs over Mu
+lti-
+[07/15/2026 10:00:15 INFO]   + [2026-03-13] Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes R
+ecom
+[07/15/2026 10:00:15 INFO]   + [2026-03-13] Taming the Long Tail: Efficient Item-wise Sharpness-Aware Minimization for L
+LM-b
+[07/15/2026 10:00:15 INFO]   + [2026-03-13] Anchored Alignment: Preventing Positional Collapse in Multimodal Recommender
+ Sys
+[07/15/2026 10:00:15 INFO]   + [2026-03-13] VLM4Rec: Multimodal Semantic Representation for Recommendation with Large Vi
+sion
+[07/15/2026 10:00:15 INFO]   + [2026-03-13] Sell Me This Stock: Unsafe Recommendation Drift in LLM Agents
+[07/15/2026 10:00:18 INFO] Topic 'Recommendation': 500 papers found.
+[07/15/2026 10:00:18 INFO] === Fetch complete ===
+[07/15/2026 10:00:19 INFO] Markdown written: README.md
+[07/15/2026 10:00:19 INFO] Target 'readme' done.
+[07/15/2026 10:00:19 INFO] Markdown written: docs\index.md
+[07/15/2026 10:00:19 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 07/15/2026 10:00:24 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260715100024
+**********************
