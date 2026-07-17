@@ -15941,7 +15941,7 @@
         },
         "2604.15650": {
             "title": "Sample Is Feature: Beyond Item-Level, Toward Sample-Level Tokens for Unified Large Recommender Models",
-            "authors": "Shuli Wang",
+            "authors": "Shuli Wang, Junwei Yin, Changhao Li, Senjie Kou, Chi Wang, Yinqiu Huang, Yinhua Zhu, Haitao Wang, Xingxing Wang",
             "first_author": "Shuli Wang",
             "url": "https://arxiv.org/abs/2604.15650",
             "pdf_url": "https://arxiv.org/abs/2604.15650",
@@ -18049,6 +18049,61 @@
             "publish_date": "2026-07-14",
             "abstract": "Sequential recommender systems rely on a single forward pass to encode user interaction histories and predict the next item. Increasing inference-time computation through latent reasoning, with the model proceeding step by step before the final prediction, has been recently explored in sequential recommendation with promising results. However, how to structure the reasoning process for sequential recommendation remains an open question. Existing approaches couple reasoning and prediction in a single $d$-dimensional state, limiting reasoning depth and often relying on multi-stage pipelines with reinforcement learning (RL). We propose RecRec (Recursive Reasoning for Recommendation), an RL-free framework that decouples reasoning from prediction, overcoming the fixed $d$-dimensional state bottleneck of prior methods. RecRec consists of a Context Compressor and a Recursive Reasoner, trained in two simple supervised stages. The Context Compressor distills the backbone's hidden states into a small set of latent interests, with an Interest Diversity Regularizer encouraging each interest to capture a distinct aspect of user behavior. The Recursive Reasoner then refines these interests by reasoning in a separate intermediate latent space. Deep supervision lets the reasoning depth be freely adjusted at inference without retraining. On four real-world datasets, RecRec outperforms state-of-the-art reasoning-enhanced methods, and on three of four datasets, gains extend past the training-time depth. Our findings point to a decoupled, multi-vector recipe that unleashes latent reasoning from the single-state bottleneck of prior methods, suggesting reasoning-state structure as a design axis to explore further in sequential recommendation.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.15242": {
+            "title": "Mutable Low-Rank Sketches for Retrain-Free Recommendation",
+            "authors": "Hector J. Garcia, Nick Clayton",
+            "first_author": "Hector J. Garcia",
+            "url": "https://arxiv.org/abs/2607.15242",
+            "pdf_url": "https://arxiv.org/abs/2607.15242",
+            "publish_date": "2026-07-16",
+            "abstract": "A common bottleneck in two-stage recommendation is embedding staleness: when a user rates a new item, their embedding remains fixed until the next retrain cycle. We propose mutable sketches, which store each user's preferences in a KP-tree (a sparse segment tree with sum aggregation), fit a low-rank projection once, and recompute embeddings on-the-fly as ratings arrive. We prove that each new observation monotonically tightens the prediction error envelope (Theorem 1), a guarantee that FunkSVD and eALS lack. On KuaiRec, the mutable sketch achieves 0.810 RMSE at 1.8% data read vs. ALS 0.822 at 100%, with 8x faster per-batch updates. A new user receives personalized recommendations in <1 ms after their first rating, with no model retraining required. A comparison of sampling strategies across density regimes shows that the KP-tree's norm-proportional sampling provides 40-130% better item coverage on sparse data (<1% density), while uniform sampling suffices on dense matrices.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2607.15114": {
+            "title": "CoSimRec: Measuring Coordinated-Content Penetration in Recommender Feedback Loops",
+            "authors": "Nan Li, Jiahong Shao, Jiuyang Lyu",
+            "first_author": "Nan Li",
+            "url": "https://arxiv.org/abs/2607.15114",
+            "pdf_url": "https://arxiv.org/abs/2607.15114",
+            "publish_date": "2026-07-16",
+            "abstract": "Recommender systems increasingly shape which content reaches users, making it important to understand whether coordinated activity is amplified beyond the accounts that initiate it. Existing robustness evaluations largely focus on static target-rank changes and do not capture how coordinated interactions, recommendation, and user response evolve within a feedback loop. To address this gap, we propose CoSimRec, an offline agent-based evaluation framework that models coordinated accounts, dynamic ranking, non-bot responses, and ranking interventions in a shared closed-loop process. CoSimRec introduces the Algorithmic Penetration Rate (APR) metric family to measure target content's share of non-bot exposure and engagement, lift against matched no-attack baselines, and exposure gained per coordinated interaction. We evaluate CoSimRec on MIND, MovieLens, and LastFM using random, popularity-based, feedback-sensitive, MF, and BPR-MF recommenders, with ten-seed inference for the primary APR analysis and population-scale experiments of up to 1000 users. Random controls show no statistically supported positive penetration, whereas popularity-based and feedback-sensitive ranking produce significant positive APR-Lift in all six master-worker dataset--recommender settings, reaching 0.4505 on LastFM; synchronization-aware ranking reduces APR in every corresponding defense setting.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.14970": {
+            "title": "Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation",
+            "authors": "Paul Darm, Cem Alpturk, Kenneth Ulrich, William Duncan, Ali Anwar, Annalisa Riccardi",
+            "first_author": "Paul Darm",
+            "url": "https://arxiv.org/abs/2607.14970",
+            "pdf_url": "https://arxiv.org/abs/2607.14970",
+            "publish_date": "2026-07-16",
+            "abstract": "Automated optimisation is increasingly adopted in industrial processes, yet a trust gap persists between engineers who design these algorithms and operators who must act on their recommendations. Explainable AI methods like SHAP (SHapley Additive exPlanations) have transformed interpretability for machine learning predictions; optimisation outputs could benefit from similar techniques. We present an approach that integrates Implicit Function Theorem (IFT) based sensitivity analysis with SHAP attribution and narrative generation via Large Language Models (LLM), producing explanations tailored for operators. Our approach leverages IFT to compute exact parameter sensitivities $\\partial p^*/\\partial x$ from the optimality conditions, enabling efficient GradientSHAP computation. For an industrial High Pressure Grinding Roll (HPGR) control optimisation problem with 22 features, we achieve equivalent SHAP attributions (correlation $>$0.99 with KernelSHAP) with over 40$\\times$ speedup, enabling real-time natural language explanations. We validate on industrial scenarios and present feedback from domain experts on generated explanations.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.14556": {
+            "title": "Impact of Expert-Following Strategies in Financial Asset Recommendation",
+            "authors": "Ryuki Unno, Koshi Watanabe, Keigo Sakurai, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
+            "first_author": "Ryuki Unno",
+            "url": "https://arxiv.org/abs/2607.14556",
+            "pdf_url": "https://arxiv.org/abs/2607.14556",
+            "publish_date": "2026-07-16",
+            "abstract": "Financial institutions hold rich transaction histories, yet delivering recommendations that simultaneously maximize investment returns and ensure preference alignment remains a significant challenge. Existing approaches, namely return-based and preference-based strategies, each optimize a single objective, resulting in a fundamental trade-off between profitability (ROI) and relevance (nDCG). In this paper, we propose the Expert-Following Strategies: a framework that identifies top-performing investors based on their historical ROI and recommends the assets they purchased, scored by ROI-weighted purchase frequency. Our experiments using real-world transaction histories show that our strategy achieves statistically significant improvement over the market-average baseline in both ROI and nDCG simultaneously across all four thresholds.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.14368": {
+            "title": "Black-Hole Spin Measurements from X-ray Reflection Spectroscopy: Quality Criteria and Community Recommendations",
+            "authors": "Javier A. Garcia, Riley Connors, Laura W. Brenneman, James F. Steiner",
+            "first_author": "Javier A. Garcia",
+            "url": "https://arxiv.org/abs/2607.14368",
+            "pdf_url": "https://arxiv.org/abs/2607.14368",
+            "publish_date": "2026-07-15",
+            "abstract": "X-ray reflection spectroscopy provides one of the most powerful electromagnetic methods for measuring the dimensionless spin of accreting black holes. It has yielded spin constraints for stellar-mass black holes in X-ray binaries and supermassive black holes in active galactic nuclei, and is central to the science goals of current and future X-ray observatories. However, the technique is subject to observational and modeling systematics, including continuum-reflection degeneracy, limited spectral coverage, unresolved distant reflection or absorption, detector effects, source variability, accretion-state dependence, and assumptions inherent to reflection models. Motivated by discussions at the 2025 Wake Forest workshop *Recent Progress on Black Hole Spin Measurements Across the Electromagnetic and Gravitational Spectra*, we propose a practical framework for evaluating whether published reflection-based spin measurements should be considered robust, provisional, or not assessable from the available information. The framework is built on three principles: **detectability**, requiring an unambiguous relativistic reflection signal; **uniqueness**, requiring that the relativistic component be distinguishable from the continuum, distant reflection, absorption, and instrumental effects; and **robustness**, requiring that the inferred spin remain stable against reasonable changes in model assumptions, data selection, and accretion-state treatment. We translate these principles into assessment criteria, a quality-classification scheme, and a reporting checklist for future studies. Calibration of these criteria through dedicated simulations is outlined here and deferred to a companion paper. Our goal is to establish a reproducible path toward a community-maintained compilation of reliable black hole spin measurements for the high-throughput, high-resolution era of X-ray astronomy.",
+            "primary_category": "astro-ph.HE",
             "code_url": "null"
         }
     }

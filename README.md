@@ -1,4 +1,4 @@
-## Updated on 2026-07-16
+## Updated on 2026-07-17
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,11 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-16 | **Mutable Low-Rank Sketches for Retrain-Free Recommendation** | Hector J. Garcia, Nick Clayton | [Link](https://arxiv.org/abs/2607.15242) | N/A |
+| 2026-07-16 | **CoSimRec: Measuring Coordinated-Content Penetration in Recommender Feedback Loops** | Nan Li, Jiahong Shao, Jiuyang Lyu | [Link](https://arxiv.org/abs/2607.15114) | N/A |
+| 2026-07-16 | **Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation** | Paul Darm, Cem Alpturk, Kenneth Ulrich, William Duncan, Ali Anwar, Annalisa Riccardi | [Link](https://arxiv.org/abs/2607.14970) | N/A |
+| 2026-07-16 | **Impact of Expert-Following Strategies in Financial Asset Recommendation** | Ryuki Unno, Koshi Watanabe, Keigo Sakurai, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama | [Link](https://arxiv.org/abs/2607.14556) | N/A |
+| 2026-07-15 | **Black-Hole Spin Measurements from X-ray Reflection Spectroscopy: Quality Criteria and Community Recommendations** | Javier A. Garcia, Riley Connors, Laura W. Brenneman, James F. Steiner | [Link](https://arxiv.org/abs/2607.14368) | N/A |
 | 2026-07-15 | **OrDA: Orthogonal Disentanglement of Access Habits Framework for Homepage Marketing Block Recommendations** | Lingxiao Zhang, Xiaobo Li, Tao Xu | [Link](https://arxiv.org/abs/2607.13420) | N/A |
 | 2026-07-15 | **Can We Steer the Black-Box? Towards Controllability-Centric Evaluation of Recommender Systems with Collaborative Agents** | Jiwen Zhou, Xiang Liu, Mingming Li, Pengbo Mo, Jiao Dai, Honglei Lv, Jizhong Han, Songlin Hu | [Link](https://arxiv.org/abs/2607.13418) | N/A |
 | 2026-07-14 | **Privacy Preserving Recommender Systems Balancing Personalization with Privacy** | Ranjeet K Jha, Venkata Suresh Gummadilli | [Link](https://arxiv.org/abs/2607.13328) | N/A |
@@ -364,7 +369,7 @@
 | 2026-04-17 | **Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation** | Xibo Li, Liang Zhang | [Link](https://arxiv.org/abs/2604.16121) | N/A |
 | 2026-04-17 | **Polarization by Default: Auditing Recommendation Bias in LLM-Based Content Curation** | Nicolò Pagan, Christopher Barrie, Chris Andrew Bail, Petter Törnberg | [Link](https://arxiv.org/abs/2604.15937) | N/A |
 | 2026-04-17 | **On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note** | Yusheng Huang, Shuang Yang, Zhaojie Liu, Han Li | [Link](https://arxiv.org/abs/2604.15739) | N/A |
-| 2026-04-17 | **Sample Is Feature: Beyond Item-Level, Toward Sample-Level Tokens for Unified Large Recommender Models** | Shuli Wang | [Link](https://arxiv.org/abs/2604.15650) | N/A |
+| 2026-04-17 | **Sample Is Feature: Beyond Item-Level, Toward Sample-Level Tokens for Unified Large Recommender Models** | Shuli Wang, Junwei Yin, Changhao Li, Senjie Kou, Chi Wang, Yinqiu Huang, Yinhua Zhu, Haitao Wang, Xingxing Wang | [Link](https://arxiv.org/abs/2604.15650) | N/A |
 | 2026-04-16 | **LWGR: Lagrangian-Constrained Personalized World Knowledge for Generative Recommendation** | Lingyu Mu, Hao Deng, Haibo Xing, Kaican Lin, Zhitong Zhu, Yu Zhang, Xiaoyi Zeng, Zhengxiao Liu, Zheng Lin, Jinxin Hu | [Link](https://arxiv.org/abs/2605.18771) | N/A |
 | 2026-04-16 | **SAGER: Self-Evolving User Policy Skills for Recommendation Agent** | Zhen Tao, Riwei Lai, Chenyun Yu, Weixin Chen, Li Chen, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Qingqiang Sun | [Link](https://arxiv.org/abs/2604.14972) | N/A |
 | 2026-04-16 | **GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation** | Yanyan Zou, Junbo Qi, Lunsong Huang, Yu Li, Kewei Xu, Jiabao Gao, Binglei Zhao, Xuanhua Yang, Sulong Xu, Shengjie Li | [Link](https://arxiv.org/abs/2604.14878) | N/A |
