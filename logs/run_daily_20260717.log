@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260717120651
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 47156
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 07/17/2026 12:06:51 ===
+--- Running daily_arxiv.py ---
+[07/17/2026 12:06:54 INFO]   + [2026-03-18] Report-based Recommendations for Policy Making and Agency Operations: Datase
+t an
+[07/17/2026 12:06:54 INFO]   + [2026-03-18] VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for
+Mult
+[07/17/2026 12:06:54 INFO]   + [2026-03-18] Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily
+ Hac
+[07/17/2026 12:06:54 INFO]   + [2026-03-18] FastPFRec: A Fast Personalized Federated Recommendation with Secure Sharing
+[07/17/2026 12:06:54 INFO]   + [2026-03-18] Public Profile Matters: A Scalable Integrated Approach to Recommend Citation
+s in
+[07/17/2026 12:06:54 INFO]   + [2026-03-18] PACE-RAG: Patient-Aware Contextual and Evidence-Constrained RAG for Clinical
+ Dru
+[07/17/2026 12:06:54 INFO]   + [2026-03-18] Learning Evolving Preferences: A Federated Continual Framework for User-Cent
+ric
+[07/17/2026 12:06:54 INFO]   + [2026-03-17] RaDAR: Relation-aware Diffusion-Asymmetric Graph Contrastive Learning for Re
+comm
+[07/17/2026 12:06:54 INFO]   + [2026-03-17] ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Atten
+tion
+[07/17/2026 12:06:54 INFO]   + [2026-03-17] RecBundle: A Next-Generation Geometric Paradigm for Explainable Recommender
+Syst
+[07/17/2026 12:06:54 INFO]   + [2026-03-16] Same Performance, Hidden Bias: Evaluating Hypothesis- and Recommendation-Dri
+ven
+[07/17/2026 12:06:57 INFO] Topic 'Recommendation': 500 papers found.
+[07/17/2026 12:06:57 INFO] === Fetch complete ===
+[07/17/2026 12:06:58 INFO] Markdown written: README.md
+[07/17/2026 12:06:58 INFO] Target 'readme' done.
+[07/17/2026 12:06:58 INFO] Markdown written: docs\index.md
+[07/17/2026 12:06:58 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 07/17/2026 12:07:03 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260717120703
+**********************

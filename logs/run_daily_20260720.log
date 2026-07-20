@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260720100003
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 45308
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 07/20/2026 10:00:03 ===
+--- Running daily_arxiv.py ---
+ Rec
+[07/20/2026 10:00:10 INFO]   + [2026-03-19] Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation
+[07/20/2026 10:00:10 INFO]   + [2026-03-19] HypeMed: Enhancing Medication Recommendations with Hypergraph-Based Patient
+Rela
+[07/20/2026 10:00:10 INFO]   + [2026-03-18] A Unified Language Model for Large Scale Search, Recommendation, and Reasoni
+ng
+[07/20/2026 10:00:10 INFO]   + [2026-03-18] Report-based Recommendations for Policy Making and Agency Operations: Datase
+t an
+[07/20/2026 10:00:10 INFO]   + [2026-03-18] VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for
+Mult
+[07/20/2026 10:00:10 INFO]   + [2026-03-18] Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily
+ Hac
+[07/20/2026 10:00:10 INFO]   + [2026-03-18] FastPFRec: A Fast Personalized Federated Recommendation with Secure Sharing
+[07/20/2026 10:00:10 INFO]   + [2026-03-18] Public Profile Matters: A Scalable Integrated Approach to Recommend Citation
+s in
+[07/20/2026 10:00:10 INFO]   + [2026-03-18] PACE-RAG: Patient-Aware Contextual and Evidence-Constrained RAG for Clinical
+ Dru
+[07/20/2026 10:00:10 INFO]   + [2026-03-18] Learning Evolving Preferences: A Federated Continual Framework for User-Cent
+ric
+[07/20/2026 10:00:10 INFO]   + [2026-03-17] RaDAR: Relation-aware Diffusion-Asymmetric Graph Contrastive Learning for Re
+comm
+[07/20/2026 10:00:13 INFO] Topic 'Recommendation': 500 papers found.
+[07/20/2026 10:00:13 INFO] === Fetch complete ===
+[07/20/2026 10:00:13 INFO] Markdown written: README.md
+[07/20/2026 10:00:13 INFO] Target 'readme' done.
+[07/20/2026 10:00:13 INFO] Markdown written: docs\index.md
+[07/20/2026 10:00:13 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 07/20/2026 10:00:18 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260720100018
+**********************
