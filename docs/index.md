@@ -2,11 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026-07-19
+## Updated on 2026-07-20
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-17 | **RECAP: Feedback-Driven Streaming Semantic User Profiles for Short-Video Recommendation** | Ziyi Zhao, Xiaoyou Zhou, Xiao Lv, Yangyang Li, Chubo He, Zhao Liu, Jiayao Shen, Yuqi Liu, He Li, Chengyi Zhang, Jian Liang, Ming Li, Chongming Gao, Fuli Feng, Ruiming Tang, Han Li | [Link](https://arxiv.org/abs/2607.15730) | N/A |
+| 2026-07-17 | **From Skill Extraction to Multistakeholder Recommendation: A Two-Stage Framework for Bias Governance in Skills-Based Job Matching** | Andrea Forster, Gregor Autischer, Dominik Kowald, Simone Kopeinik | [Link](https://arxiv.org/abs/2607.15707) | N/A |
+| 2026-07-17 | **Visualization Autocomplete: Visualization Authoring via Stepwise Design Recommendations** | Hyeon Jeon, Sungbok Shin, Niklas Elmqvist | [Link](https://arxiv.org/abs/2607.15608) | N/A |
 | 2026-07-16 | **Mutable Low-Rank Sketches for Retrain-Free Recommendation** | Hector J. Garcia, Nick Clayton | [Link](https://arxiv.org/abs/2607.15242) | N/A |
 | 2026-07-16 | **CoSimRec: Measuring Coordinated-Content Penetration in Recommender Feedback Loops** | Nan Li, Jiahong Shao, Jiuyang Lyu | [Link](https://arxiv.org/abs/2607.15114) | N/A |
 | 2026-07-16 | **Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation** | Paul Darm, Cem Alpturk, Kenneth Ulrich, William Duncan, Ali Anwar, Annalisa Riccardi | [Link](https://arxiv.org/abs/2607.14970) | N/A |
