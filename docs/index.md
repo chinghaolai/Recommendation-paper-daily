@@ -2,11 +2,12 @@
 layout: default
 ---
 
-## Updated on 2026-07-22
+## Updated on 2026-07-23
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-22 | **Personalized Recommendation Tool Learning via Autonomous Language Agents** | Mingdai Yang, Zhiwei Liu, Weizhi Zhang, Yibo Wang, Hao Peng, Philip Yu | [Link](https://arxiv.org/abs/2607.19739) | N/A |
 | 2026-07-21 | **Spectral Biclustering-Driven Scalability for Post-Hoc Explainability in Recommender Systems** | Jose L. Salmeron, Irina Arévalo | [Link](https://arxiv.org/abs/2607.19189) | N/A |
 | 2026-07-21 | **Beyond Noisy Signals: Dual-Level Denoising for Multi-modal Sequential Recommendation** | Jie Luo, Qi Jin, Xinming Zhang | [Link](https://arxiv.org/abs/2607.18786) | N/A |
 | 2026-07-21 | **Mitigating Matthew Effect: Multi-Hypergraph Boosted Multi-Interest Self-Supervised Learning for Conversational Recommendation** | Yongsen Zheng, Ruilin Xu, Guohua Wang, Liang Lin, Kwok-Yan Lam | [Link](https://arxiv.org/abs/2607.18609) | N/A |
@@ -44,7 +45,7 @@ layout: default
 | 2026-07-12 | **RecRec: Recursive Refinement for Sequential Recommendation** | Pervez Shaik, Prosenjit Biswas, Abhinav Thorat, Ravi Kolla, Niranjan Pedanekar | [Link](https://arxiv.org/abs/2607.10541) | N/A |
 | 2026-07-11 | **Learning from an Unknown DGP: Experimental Evidence on Belief Updating with AI Recommendations** | Matthew Kovach, Daniel Martin, Gerelt Tserenjigmid | [Link](https://arxiv.org/abs/2607.10460) | N/A |
 | 2026-07-11 | **Consensus vs. Dissent: Dynamic LLM Modeling of Subjective Preferences in Group Recommenders** | Cedric Waterschoot, Nava Tintarev, Francesco Barile | [Link](https://arxiv.org/abs/2607.10235) | N/A |
-| 2026-07-10 | **An LLM-powered Agentic Recommendation System for Connected TV Content Discovery** | Lei Shi, Di Wang, Harry Tran, Helsing Xu, Yuchen Lu, Dhara Ghodasara, Wilson Chaney, Xueting Liao, Jerry Yu, Huayu Ding, Reza Mirghaderi, David Fan, Qi Guo, Chongguang He, Warren Wang, Mingze Gao, Shike Mei, Shuo Tang, Zhe Zhang, Jianming He, Abhishek Kumar, Haotian Wu, Hamed Firooz, Li Li | [Link](https://arxiv.org/abs/2607.09988) | N/A |
+| 2026-07-10 | **An LLM-powered Agentic Recommendation System for Connected TV Content Discovery** | Lei Shi, Di Wang, Harry Tran, Helsing Xu, Yuchen Lu, Dhara Ghodasara, Wilson Chaney, Xueting Liao, Jerry Yu, Huayu Ding, Reza Mirghaderi, David Fan, Qi Guo, Chongguang He, Warren Wang, Warren Deng, Mingze Gao, Shike Mei, Shuo Tang, Zhe Zhang, Jianming He, Abhishek Kumar, Haotian Wu, Hamed Firooz, Li Li | [Link](https://arxiv.org/abs/2607.09988) | N/A |
 | 2026-07-10 | **A Knowledge-Based Multi-Agent Framework for Security Control Recommendation** | Carolina Fernández-Martínez, Shuaib Siddiqui, Vanesa Daza | [Link](https://arxiv.org/abs/2607.09954) | N/A |
 | 2026-07-10 | **RouteRec: Strict Evaluation of Recommender-Agent Selection and Aggregation** | Kaiji Zhou, Vladimir Kalmykov, Yue Feng | [Link](https://arxiv.org/abs/2607.09908) | N/A |
 | 2026-07-10 | **From Raw IDs to Semantic Planning: How Recommender Systems Utilize Information at Scale** | Changhong Jin, Shiqiu Yang, Roger Zhe Li, Yingjie Niu, Aghiles Salah, Mete Sertkan, Zheng Ju, Xingsheng Guo, Huifeng Guo, Ruihai Dong, Barry Smyth | [Link](https://arxiv.org/abs/2607.09540) | N/A |
@@ -193,6 +194,7 @@ layout: default
 | 2026-05-27 | **ProRL: Effective Reinforcement Learning for Proactive Recommendation via Rectified Policy Gradient Estimation** | Hongru Hou, Tiehua Mei, Denghui Geng, Jinhui Huang, Ao Xu, Hengrui Chen, Jiaqing Liang, Deqing Yang | [Link](https://arxiv.org/abs/2605.28293) | N/A |
 | 2026-05-27 | **Whose Name Comes Up? III: Persona Prompting Effects in LLM-Based Scholar Recommendation** | Annabella Sánchez-Guzmán, Lukas Eberhard, Denis Helic, Lisette Espín-Noboa | [Link](https://arxiv.org/abs/2605.28187) | N/A |
 | 2026-05-27 | **Mixture-of-Experts Knowledge Graph Retrieval-Augmented Generation for Multi-Agent LLM-based Recommendation** | Shijie Wang, Chengyi Liu, Yujuan Ding, Shanru Lin, See-Kiong Ng, Xu Xin, Wenqi Fan | [Link](https://arxiv.org/abs/2605.28175) | N/A |
+| 2026-05-26 | **Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems** | Dmitrii Moor, Ben Carterette, Senthilkumar Krishnamoorthy, Kyle Kretschman, Denis Beslic, Melissa Yalla, Alice Y Wang, Mounia Lalmas | [Link](https://arxiv.org/abs/2607.19357) | N/A |
 | 2026-05-26 | **Developing an Intelligent Job Recommendation System Using Semantic Retrieval and Explainable AI Techniques** | Hussein Al Awad, Khaled Fathi Omar | [Link](https://arxiv.org/abs/2605.27656) | N/A |
 | 2026-05-26 | **Causal Representation Learning for Generalisable Recommendation** | Yorgos Felekis, Michael O'Riordan, Oriol Corcoll, Ciarán M. Gilligan-Lee | [Link](https://arxiv.org/abs/2605.27043) | N/A |
 | 2026-05-26 | **RAGEAR: Retrieval-Augmented Graph-Enhanced Academic Recommender** | Francesco Granata, Lorenzo Lamazzi, Misael Mongiovì, Francesco Poggi, Valeria Secchini | [Link](https://arxiv.org/abs/2605.26819) | N/A |
