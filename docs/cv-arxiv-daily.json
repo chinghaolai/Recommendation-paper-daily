@@ -14115,7 +14115,7 @@
         },
         "2605.11707": {
             "title": "Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation",
-            "authors": "Wei Wang",
+            "authors": "Wei Wang, Yujie Lin, Moyan Zhang, Huan Huo, Xianye Ben, Pengjie Ren, Yujun Li, Jianli Zhao",
             "first_author": "Wei Wang",
             "url": "https://arxiv.org/abs/2605.11707",
             "pdf_url": "https://arxiv.org/abs/2605.11707",
@@ -18268,6 +18268,94 @@
             "pdf_url": "https://arxiv.org/abs/2607.19357",
             "publish_date": "2026-05-26",
             "abstract": "Recent advances in recommender systems (RS) have shown substantial performance gains through generative modelling. In practice, recommendation often involves constructing slates -- ordered lists of items -- that must satisfy multiple objectives beyond relevance, such as constraints defined over item attributes or fairness constraints. Existing multiobjective approaches either rely on post-processing techniques designed for non-generative settings, or incorporate auxiliary objectives directly into model training. The former does not explicitly account for the sequential nature of generative RS, while the latter is often impractical in large-scale systems. We propose a lightweight, inference-time decoding layer that augments autoregressive generative RS to support multiobjective slate generation without modifying or retraining the underlying model. We formulate decoding as an online constrained optimisation problem, where items are selected sequentially, and trade-offs between relevance and auxiliary objectives are adjusted dynamically based on the remaining constraint slack, i.e., how much of each objective remains to be satisfied. This is implemented via a stochastic primal-dual approximation scheme that balances relevance and auxiliary objectives during generation. We provide theoretical guarantees on constraint violation and regret, and evaluate the proposed approach through extensive offline experiments and a large-scale online A/B experiment in a real-world recommender system. Our results show consistent improvements in multiobjective trade-offs, including a +1.8\\% gain in the auxiliary objectives achieved at zero cost to user satisfaction.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.21519": {
+            "title": "Diffusion Language Model for Recommendation",
+            "authors": "Chengyi Liu, Yongqi Zhou, Junwei Pan, Zhixiang Feng, Chengguo Yin, Haijie Gu, Jie Jiang, Yinghao Liu, Yujuan Ding, Qing Li, Wenqi Fan",
+            "first_author": "Chengyi Liu",
+            "url": "https://arxiv.org/abs/2607.21519",
+            "pdf_url": "https://arxiv.org/abs/2607.21519",
+            "publish_date": "2026-07-23",
+            "abstract": "Large language model (LLM)-empowered recommender systems have emerged as a promising paradigm for generative recommendation, leveraging their strong semantic reasoning and generative capacity to model complex, diverse user preferences. However, most existing approaches rely on an autoregressive paradigm that is suboptimal for recommendation. The next-token objective emphasizes sequential order rather than the structural inter-item dependencies underlying user preferences. In addition, prefix-constrained generation restricts bidirectional context and commits to left-to-right decoding, causing early errors to accumulate without correction. Inspired by the success of diffusion language models, we propose \\textbf{DLMRec}, a discrete diffusion language model tailored for recommendation that offers a compelling alternative to autoregressive generation. Specifically, DLMRec introduces three key components to bridge diffusion language modeling with recommendation. First, a collaborative-aware stochastic tokenizer encodes multi-hop collaborative signals into expressive discrete tokens compatible with diffusion modeling. Second, a curriculum-driven training strategy aligns the denoising process with preference recovery through progressive item- and token-level learning. Third, a stability-aware voting mechanism aggregates iterative predictions to improve generation consistency and robustness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.21101": {
+            "title": "Can Generative Recommendation Reach Cold Items? A Temporal Perspective on Semantic-ID Generation",
+            "authors": "Jie Peng, Yanping Zheng, Zhewei Zhe, Bin Tong, Guan Wang, Bo Zheng",
+            "first_author": "Jie Peng",
+            "url": "https://arxiv.org/abs/2607.21101",
+            "pdf_url": "https://arxiv.org/abs/2607.21101",
+            "publish_date": "2026-07-23",
+            "abstract": "Semantic-ID-based generative recommendation represents items as sequences of shared semantic tokens, enabling token recombination beyond isolated item IDs. However, closed-world recombination does not necessarily imply temporal open-token cold-start induction, where new items enter the item catalog with unseen atomic tokens or weakly supported SID paths. In this work, we revisit SID-based generative recommendation under an absolute-time temporal protocol that separates seen and unseen targets and diagnoses the cold item reachability at the token level. Through seen/unseen-hit analysis, coldness taxonomy, and oracle-prefix probing, we show that current SID-based models can occasionally reach future items supported by observed tokens and prefixes, but struggle with unseen atomic tokens and unsupported SID paths. We further explain this boundary by interpreting SID generation as hierarchical semantic bucketing: early tokens select coarse semantic regions, while later tokens refine item-specific paths. These findings show that SID generation is compositional but not fully open-ended, and suggest future directions in more independent SID spaces, scoring-based interfaces, and dynamic textual context.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.21028": {
+            "title": "Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation",
+            "authors": "Junchao Zeng, Junzhang Zhu, Junyang Chen, Yudong Li, Wei Liu, Chengxiang Zhuo, Zang Li",
+            "first_author": "Junchao Zeng",
+            "url": "https://arxiv.org/abs/2607.21028",
+            "pdf_url": "https://arxiv.org/abs/2607.21028",
+            "publish_date": "2026-07-23",
+            "abstract": "Generative Recommendation (GR) has emerged as a new paradigm for sequential recommendation, in which a representative line of work encodes items into hierarchical semantic IDs via residual quantization and predicts the IDs token by token. However, this generative formulation still exhibits structural gaps with respect to the recommendation task: flattening multi-token IDs into a single sequence destroys item-level structure, and the inconsistency between training and inference over a hierarchical codebook gives rise to semantic drift. To bridge these two gaps, we propose BARGE, which employs Item Context-Aware Attention (ICA) to restore item-level structure during encoding, and Hierarchical Path Reranking (HPR) together with Dual-Path Decoding (DPD) to suppress semantic drift from two complementary angles during decoding. Extensive experiments and analytical studies on public benchmarks and a large-scale offline test demonstrate that BARGE achieves superior recommendation performance. An online A/B test on a Tencent platform yields improvements of 0.60% in click-through rate, 1.34% in click unique visitors, and 1.70% in total reading time, confirming the practical value of BARGE in industrial-scale recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.20938": {
+            "title": "Controllable and Content-Based Recommendations",
+            "authors": "Fırat Öncel, Jihoon Jeong, Emiliano Penaloza, Mirco Ravanelli, Laurent Charlin, Cem Subakan",
+            "first_author": "Fırat Öncel",
+            "url": "https://arxiv.org/abs/2607.20938",
+            "pdf_url": "https://arxiv.org/abs/2607.20938",
+            "publish_date": "2026-07-23",
+            "abstract": "Traditional recommendation systems rely on latent (dense) representations, making them difficult to interpret and control. We propose the Controllable and Content-Based Recommendations (CCBR) framework, which builds its recommendations from textual user profile representations. CCBR plugs into collaborative filtering models and introduces controllability via text bottlenecks. We show that CCBR enables text-based and multimodal interventions, allowing users to steer the model towards the directions they prefer. Different from existing controllable recommendation systems, CCBR infers the text summaries directly from item contents (images, audio or video). Across image-, audio-, and video-based datasets, we demonstrate that the proposed framework obtains competitive model performance with standard (latent-representation) models while providing controllable model summaries via text. The model also outperforms TEARS, a recent baseline for controllable recommendation systems. Through systematic interventions, we demonstrate the efficacy of the user steering mechanism.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.20873": {
+            "title": "LO-FAR: A Cost-Aware Local Filter for Sparse Feature Ranking in Industrial Ad Recommendation",
+            "authors": "Egemen Erbayat, Luis Duque, Sohini Roychowdhury, Mohammad Amin, Srihari Reddy",
+            "first_author": "Egemen Erbayat",
+            "url": "https://arxiv.org/abs/2607.20873",
+            "pdf_url": "https://arxiv.org/abs/2607.20873",
+            "publish_date": "2026-07-23",
+            "abstract": "Industrial ad recommendation models rely heavily on sparse, high-cardinality ID-list features that encode user histories and contextual identifiers. Each is backed by a dedicated embedding table, so these features dominate storage, training, and serving cost and must be revisited as traffic and downstream models evolve. Therefore, sparse feature ranking is not just an offline modeling problem but also a recurrent systems decision limited by compute budgets and iteration cadence. We present Localized Feature Ranking (LO-FAR), a CPU-only, model-agnostic workflow that ranks each candidate feature from its stand-alone held-out predictive signal using lightweight local estimators rather than the GPU-bound retraining loops of permutation- and stochastic-gate-based methods. On a production dataset of more than one million logged interactions and 475 sparse ID-list features, LO-FAR completes ranking in approximately two CPU-hours and preserves downstream Normalized Entropy gains on CTR and CVR tasks that are competitive with shuffle-based importance, Binary Stochastic Neurons, and a coverage-based heuristic across budgets of 100--400 retained features. The contribution is a deployable workflow showing that, when cost and turnaround constraints are binding, a simple local filter can be a practical production choice over heavier interaction-aware alternatives.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.20863": {
+            "title": "Probabilistic Residual Learning for Online Recommendations",
+            "authors": "Wenyuan Wang, Yusong Zhao, Zihao Xu, Hengyi Wang, Qi Xu, Zhigang Hua, Yan Xie, Yi Wang, Zihao Zhao, Bo Long, Chengzhi Mao, Shuang Yang, Hengguan Huang, Hao Wang",
+            "first_author": "Wenyuan Wang",
+            "url": "https://arxiv.org/abs/2607.20863",
+            "pdf_url": "https://arxiv.org/abs/2607.20863",
+            "publish_date": "2026-07-23",
+            "abstract": "Modern recommender systems are typically based on deep learning (DL) models, where a dense encoder learns representations of users and items. As a result, these systems often suffer from the black-box nature and computational complexity of the underlying models, making it difficult to systematically enhance their recommendation capabilities. To address this problem, we propose Probabilistic Residual Learning (PRL), a causal Bayesian recommendation model that models the residual between ground-truth and base predictions, enabling targeted refinement of existing systems. Specifically, PRL (1) probabilistically groups users for localized residual modeling, (2) models domain-level confounders that influence user and item representations, and (3) aggregates cluster-specific residual predictions over the confounders using do-calculus. Experiments demonstrate that our plug-and-play PRL is compatible with various base deep learning recommender systems, improving their performance while automatically discovering meaningful user clusters.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.20737": {
+            "title": "Cardinality-Decomposed Loss: Matching Training Objectives to Relation Structure in Heterogeneous Recommendation Graphs",
+            "authors": "Parul Maheshwari, Amulya Paruchuri, Yiqing Zou, Alireza Sahami Shirazi, Farhad Farahani, Prakhar Mehrotra",
+            "first_author": "Parul Maheshwari",
+            "url": "https://arxiv.org/abs/2607.20737",
+            "pdf_url": "https://arxiv.org/abs/2607.20737",
+            "publish_date": "2026-07-22",
+            "abstract": "Graph Neural Networks trained on heterogenous bipartite graphs form a common basis in recommendation systems. These graphs often express relations that vary in cardinality, for example, user-item preferences are one-to-many and user-attribute features are one-to-one. Traditionally, a unique loss function is applied for all of the network components which is often Bayesian Personalized Ranking (BPR). While BPR works well for the recommendation task, we find that it causes attribute embeddings to collapse to near-random geometry -- a silent failure that leaves standard ranking metrics largely unaffected and therefore invisible to conventional evaluation. This in turn pollutes user node embeddings, which are shaped by both edge types simultaneously, hurting downstream tasks like personalization, segmentation, etc. Here we propose a Cardinality-Decomposed Loss (CDL) that combines both Cross Entropy (CE) and BPR to enable the model to collectively optimize for relations across cardinalities. We confirm this CE-BPR conflict by showing the two losses compete in the shared encoder's parameter space. We evaluate CDL on five datasets spanning two structural configurations -- one-to-one attributes on user nodes (MovieLens-1M, Last.fm-360K, PayPal Audience Factory, BookCrossing) and on item nodes (Yelp) -- and find that CDL consistently improves discriminability in attribute embeddings. We also show that ranking (NDCG) improves when attributes carry meaningful preference signal, but conflicts with it when the correlation is weak. We use a lambda parameter to navigate this trade-off, and a lambda-sweep reveals that dataset behavior is governed by two graph properties -- semantic alignment and topology leakage. Semantic alignment measures whether the attribute predicts preferences, while topology leakage measures whether the graph's connectivity already encodes it.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2607.20528": {
+            "title": "PromptPack: Scaling LLM Annotation Agents for Online Recommendation",
+            "authors": "Sebastian Koralewski, Merwan Barlier, Yulia Stolin, Blaž Škrlj",
+            "first_author": "Sebastian Koralewski",
+            "url": "https://arxiv.org/abs/2607.20528",
+            "pdf_url": "https://arxiv.org/abs/2607.20528",
+            "publish_date": "2026-07-10",
+            "abstract": "Online recommendation platforms increasingly use Large Language Models (LLMs) to extract structured features from ad creatives. While deploying a single-call LLM annotation agent yields significant Click-Through Rate (CTR) improvements in our live production environment, per-creative prompting is prohibitively expensive to scale. The redundant system instructions sent in every request account for 94% of billed input tokens. To break this cost bottleneck, we introduce PromptPack, a scalable, high-throughput LLM annotation agent. PromptPack achieves this scale via in-context batching, combining a shared system prompt, a strict XML structural envelope, and an output correction layer to ensure deterministic, pipeline-ready feature extraction across multiple creatives simultaneously. We evaluate PromptPack via an offline retrieval benchmark using a downstream logistic-regression ranker. To deeply profile the agent's behavior, we measure AUC and introduce Volume-Weighted Absolute Lift (VWAL), a novel metric capturing the signal quality of the generated features. Compared to our live, unbatched production baseline, PromptPack at batch size 20 cuts our LLM costs by 89% and accelerates throughput by 2.5x while fully preserving AUC.",
             "primary_category": "cs.AI",
             "code_url": "null"
         }
