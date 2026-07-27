@@ -1,4 +1,4 @@
-## Updated on 2026-07-26
+## Updated on 2026-07-27
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,10 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-24 | **Bringing GRACE to Recommendation: Fine-Tuning for Sustainable and Accurate Personalization** | Yibowen Zhao, Yinan Zhang, Ning Liu, Lizhen Cui, Chunyan Miao | [Link](https://arxiv.org/abs/2607.22341) | N/A |
+| 2026-07-24 | **Efficient Recommendations via Graph Coarsening and Label Propagation** | Alessandro Sbandi, Federico Siciliano, Fabrizio Silvestri | [Link](https://arxiv.org/abs/2607.22287) | N/A |
+| 2026-07-24 | **SIREN (Luring LLMs onto the Rocks): PAIR-Driven Preference Manipulation in Web-RAG Recommenders** | Evan Caville, Siamak Layeghy, Billy Sung, Sara Dolnicar, Marius Portmann | [Link](https://arxiv.org/abs/2607.21951) | N/A |
+| 2026-07-23 | **StARS: Socially Appropriate Robot Actions via a Recommender System-Driven Approach** | Erencem Ozbey, Fethiye Irmak Dogan, Jin Huang, Hatice Gunes | [Link](https://arxiv.org/abs/2607.21802) | N/A |
 | 2026-07-23 | **Diffusion Language Model for Recommendation** | Chengyi Liu, Yongqi Zhou, Junwei Pan, Zhixiang Feng, Chengguo Yin, Haijie Gu, Jie Jiang, Yinghao Liu, Yujuan Ding, Qing Li, Wenqi Fan | [Link](https://arxiv.org/abs/2607.21519) | N/A |
 | 2026-07-23 | **Can Generative Recommendation Reach Cold Items? A Temporal Perspective on Semantic-ID Generation** | Jie Peng, Yanping Zheng, Zhewei Zhe, Bin Tong, Guan Wang, Bo Zheng | [Link](https://arxiv.org/abs/2607.21101) | N/A |
 | 2026-07-23 | **Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation** | Junchao Zeng, Junzhang Zhu, Junyang Chen, Yudong Li, Wei Liu, Chengxiang Zhuo, Zang Li | [Link](https://arxiv.org/abs/2607.21028) | N/A |
