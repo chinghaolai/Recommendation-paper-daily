@@ -7,6 +7,18 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-27 | **Recommended Second Virial Coefficients for Nitrogen and Oxygen** | Robert Hellmann, Giovanni Garberoglio, Allan H. Harvey | [Link](https://arxiv.org/abs/2607.24634) | N/A |
+| 2026-07-27 | **LaRec: Unleashing LLM-based Latent Reasoning for Generative Recommendation** | Yu Xia, Zihan Lin, Wei Yang, Rui Zhong, Cheng Chen, Huan Ren, Yao Hu | [Link](https://arxiv.org/abs/2607.24617) | N/A |
+| 2026-07-27 | **One Graph, Multiple Gains: Single High-Quality Item-Item Graph for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, Ziyue Peng, Shuo Yang, Jinze Li, Zewei Liu, Shujie Li, Yipeng Du, Edith C. H. Ngai | [Link](https://arxiv.org/abs/2607.24607) | N/A |
+| 2026-07-27 | **CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation** | Xiang Liu, Jingsong Su, Shuqi Zhao, Pengbo Mo, Yiming Qiu, Huimu Wang, Mingming Li, Jiao Dai, Jizhong Han, Songlin Hu | [Link](https://arxiv.org/abs/2607.24402) | N/A |
+| 2026-07-27 | **OxygenREC-v2: Internalizing Discrimination into Generative Recommendation** | Guo Tang, Hanye Wu, Changjiang Han, Qingyang Li, Ming Zhang, Xiangyu Qian, Yanchen Qiao, Huanjie Wang, Zhi Ma, Zhen Li, Yaqiang Zang, Pinghua Gong | [Link](https://arxiv.org/abs/2607.24255) | N/A |
+| 2026-07-27 | **Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation** | Yuntong Chen, Yingqi Li, Yingying Xiao, Ziang Wang, Zewei Liu, Jiahao Liu, Xitian Tian, Lijiang Huang | [Link](https://arxiv.org/abs/2607.24213) | N/A |
+| 2026-07-27 | **ConAlign: Conditional Alignment Framework for Balancing Biased and Unbiased Recommendation** | Jingcheng Zhang, Yihan Wang, Qi Song, Liyin Hong | [Link](https://arxiv.org/abs/2607.24092) | N/A |
+| 2026-07-27 | **SpecFormer: Mitigating Embedding and Attention Collapse via Spectral-Aware Transformer for Recommendation** | Yu Cui, Yi Xu, Jiahao Wang, Hao Zhang, Yu Zhang, Xiaoyi Zeng, Can Wang, Jinxin Hu, Jiawei Chen | [Link](https://arxiv.org/abs/2607.24025) | N/A |
+| 2026-07-27 | **Mosaic: A Fleet of User Embedding Specialists for Recommendation at Meta** | John Zhiyuan Zheng, Xian Sun, Xiangyang Mou, Yujunrong Ma, Christina You, Michael Jiayuan He, Hrishikesh Paranjape, Aakarsha Agarwal, Hong Li | [Link](https://arxiv.org/abs/2607.24015) | N/A |
+| 2026-07-27 | **MEMOIR: Temporal Behavioral Memory for Recommendation Across the Preference-Drift Spectrum** | Younggue Bae | [Link](https://arxiv.org/abs/2607.23986) | N/A |
+| 2026-07-26 | **ClawRec: A Claw-Native Recommender System** | Chenghao Wu, Kesha Ou, Xiaolei Wang, Bowen Zheng, Bingqian Li, Enze Liu, Wayne Xin Zhao, Weitao Li, Long Zhang, Sheng Chen, Ji-Rong Wen | [Link](https://arxiv.org/abs/2607.23779) | N/A |
+| 2026-07-26 | **Escaping the Euclidean Void: Manifold-Informed Flow Matching for Sequential Recommendation** | Dengzhao Fang, Jingtong Gao, Yu Li, Xiangyu Zhao, Yi Chang | [Link](https://arxiv.org/abs/2607.23762) | N/A |
 | 2026-07-26 | **Melo: A Production LLM-Powered Music Recommendation Agent** | Shijia Wang, Da Guo, Qiang Xiao, Fanghui Bi, Weisheng Li, Dongjing Wang, Chuanjiang Luo | [Link](https://arxiv.org/abs/2607.23718) | N/A |
 | 2026-07-26 | **CALMRec: Causally Aligned Language Memory for Long-Horizon Recommendation** | Gengyu Zhan | [Link](https://arxiv.org/abs/2607.23647) | N/A |
 | 2026-07-25 | **A scalable online machine learning approach for Stock Recommendation** | Harsh Nagarkar | [Link](https://arxiv.org/abs/2607.23120) | N/A |

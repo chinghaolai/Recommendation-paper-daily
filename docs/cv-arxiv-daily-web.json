@@ -18468,6 +18468,138 @@
             "abstract": "Evidence-based clinical decision making requires specialists to identify, evaluate and synthesize relevant scientific literature. However, PubMed searches for complex clinical cases often return hundreds of publications that cannot be reviewed manually under time constraints. This study proposes SCEPTER (Single-Case Evidence-driven PubMed-To-rEcommendation Reasoner), a framework for transforming clinical case descriptions into evidence-based recommendations. SCEPTER combines PubMed retrieval, PubMedBERT semantic ranking, large language model (LLM)-based claim extraction, evidence-level weighting, contradiction detection, consensus analysis and multi-objective Pareto claim selection. The framework generates structured evidence syntheses and grounded actionable recommendations. A Paper Q&A module further enables interactive exploration of selected publications. The proposed framework introduces multi-objective reasoning model that integrates literature support, contradiction analysis and interactive literature interrogation into a unified clinical decision-support pipeline. Evaluation on 150 case studies demonstrated that the framework reduced an average search space of 576 papers to 53 retained papers, 7 Pareto-optimal claims and 3 final recommendations, corresponding to an overall compression ratio of 192:1. Despite this reduction, the retained evidence maintained high diversity (entropy=0.901). The ablation study showed that Pareto-based selection increased evidence diversity and recommendation utility compared with conventional ranking approaches.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2607.24634": {
+            "title": "Recommended Second Virial Coefficients for Nitrogen and Oxygen",
+            "authors": "Robert Hellmann, Giovanni Garberoglio, Allan H. Harvey",
+            "first_author": "Robert Hellmann",
+            "url": "https://arxiv.org/abs/2607.24634",
+            "pdf_url": "https://arxiv.org/abs/2607.24634",
+            "publish_date": "2026-07-27",
+            "abstract": "We provide recommended values for the second virial coefficient, $B(T)$, and its uncertainty, for molecular nitrogen and oxygen. The temperature range covered is $20-3000$ K for nitrogen and $20-2000$ K for oxygen. The recommendations are based on tuning previously published state-of-the-art ab initio pair potentials so that the $B(T)$ calculated from the potentials match selected high-accuracy experimental data; for nitrogen the tuning utilizes values of $B$ derived from literature density data with greatly reduced uncertainty by analyzing the data with the aid of ab initio calculated higher virial coefficients. Quantum effects on $B$ are fully included with the path-integral Monte Carlo method. The resulting $B(T)$ have uncertainties similar to those of the best experimental data, but cover a much wider temperature range.",
+            "primary_category": "physics.chem-ph",
+            "code_url": "null"
+        },
+        "2607.24617": {
+            "title": "LaRec: Unleashing LLM-based Latent Reasoning for Generative Recommendation",
+            "authors": "Yu Xia, Zihan Lin, Wei Yang, Rui Zhong, Cheng Chen, Huan Ren, Yao Hu",
+            "first_author": "Yu Xia",
+            "url": "https://arxiv.org/abs/2607.24617",
+            "pdf_url": "https://arxiv.org/abs/2607.24617",
+            "publish_date": "2026-07-27",
+            "abstract": "Large Language Models (LLMs) have shown great promise in recommendation due to superior reasoning abilities. However, existing methods mainly rely on explicit Chain-of-Thought (CoT), resulting in verbose reasoning texts and inefficient response times. latent reasoning aims to balance efficiency by thinking within a continuous latent space, yet it faces two major challenges: (1) Lack of Fine-grained Supervision: Latent reasoning relies solely on feedback from the final labels, providing sparse supervisory signals that struggle to effectively guide the optimization of multiple hidden reasoning steps. (2) Single Reasoning Path: The deterministic nature of latent reasoning impedes the exploration of users' diverse interests and preferences, thereby limiting the recommendation capabilities of LLMs. To address these issues, we propose \\textbf{$LaRec$}, an efficient generative recommendation framework designed to unleash the potential of latent reasoning in LLMs. $LaRec$ consists of two core stages: First, we design Latent Pre-training that empowers LLMs with latent reasoning capabilities by providing rich supervisory signals to the latent space reasoning via step-level alignment and process direction alignment. Second, we introduce Personalized RL-tuning. Specifically, we construct a personalized Gaussian Mixture Distribution for each user based on their historical interests. By randomly sampling distinct reasoning starting points from this distribution during training, we guide the LLMs to traverse diverse reasoning paths within the latent space, enabling efficient exploration of user's multi-faceted interests. Experiments on multiple datasets show that $LaRec$ significantly outperforms existing baselines with comparable efficiency.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24607": {
+            "title": "One Graph, Multiple Gains: Single High-Quality Item-Item Graph for Multimodal Recommendation",
+            "authors": "Jinfeng Xu, Zheyu Chen, Ziyue Peng, Shuo Yang, Jinze Li, Zewei Liu, Shujie Li, Yipeng Du, Edith C. H. Ngai",
+            "first_author": "Jinfeng Xu",
+            "url": "https://arxiv.org/abs/2607.24607",
+            "pdf_url": "https://arxiv.org/abs/2607.24607",
+            "publish_date": "2026-07-27",
+            "abstract": "Multimodal recommendation leverages item multimodal features alongside collaborative signals to capture user preferences. While item-item graphs have become a key building block in advanced models, existing methods typically construct them with noisy similarity edges and limit their role to a single function of item-item representation propagation, leaving substantial potential untapped. In this paper, we propose IIMRec, a framework that constructs a single high-quality item-item graph during preprocessing and systematically reuses it across three stages of the recommendation pipeline: representation enhancement, interaction graph enhancement, and optimization enhancement. The graph is built by fusing semantic and co-occurrence signals, then refined via Neighborhood Consistency Edge Reweighting (NCER), which applies the triadic closure principle to amplify structurally reliable edges and suppress spurious ones. Once constructed, the graph is leveraged in three complementary ways: (1) Item-item propagation with a Residual II Gate (RIG) that adaptively controls per-item absorption of semantic neighborhood signals for representation enhancement; (2) A content-guided UI graph expansion that introduces virtual user-item edges through high-confidence semantic neighbors for interaction graph enhancement; (3) II-Neighbor BPR Augmentation (INA) that treats top neighbors of positive items as discounted soft positives for optimization enhancement. We provide theoretical analysis showing that NCER reduces the spectral noise-to-signal ratio, RIG converges to a non-degenerate gating regime, and INA yields a tighter generalization bound. Extensive experiments on four datasets demonstrate that IIMRec consistently outperforms state-of-the-art baselines while running faster and consuming less GPU memory, with particularly strong gains under cold-start and sparse-interaction conditions.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24402": {
+            "title": "CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation",
+            "authors": "Xiang Liu, Jingsong Su, Shuqi Zhao, Pengbo Mo, Yiming Qiu, Huimu Wang, Mingming Li, Jiao Dai, Jizhong Han, Songlin Hu",
+            "first_author": "Xiang Liu",
+            "url": "https://arxiv.org/abs/2607.24402",
+            "pdf_url": "https://arxiv.org/abs/2607.24402",
+            "publish_date": "2026-07-27",
+            "abstract": "Semantic-ID-based generative recommendation represents each item as a hierarchical discrete token sequence and reformulates next-item prediction as constrained sequence generation. Existing methods, however, mainly use Semantic IDs as target sequences to be memorized, leaving the hierarchy, intra-layer relations, and item neighborhoods underused as an explicit reasoning space. Explicit reasoning-enhanced generative methods often produce a natural-language rationale before the item identifier, but this rationale is only weakly coupled with the discrete SID space in which the final prediction is made. We propose CogRec, a structure-cognitive fast-and-slow reasoning framework that grounds intermediate reasoning in the same SID topology used for target generation. CogRec augments the vertical SID hierarchy with intra-layer semantic graphs and item-level neighborhoods, and introduces SID Routing to represent recommendation reasoning through layer-wise Match, LateralJump, and Explore operations. Exact matching implements fast semantic localization, whereas lateral and exploratory operations instantiate slower structural navigation. A supervised multi-stage pipeline aligns the newly introduced SID tokens, establishes direct SID generation, and trains natural-language and SID-routing reasoning branches from a shared checkpoint under the same trie-constrained output space. Experiments on three public sequential-recommendation benchmarks show that SID Routing improves its corresponding direct-generation, indicate that structure-grounded reasoning is most useful when prefix matching is insufficient but learnable SID-space transitions remain available, whereas long or weakly supported routes introduce additional decoding cost and accumulated errors. Code is available at https://github.com/caskcsg/CogRec",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24255": {
+            "title": "OxygenREC-v2: Internalizing Discrimination into Generative Recommendation",
+            "authors": "Guo Tang, Hanye Wu, Changjiang Han, Qingyang Li, Ming Zhang, Xiangyu Qian, Yanchen Qiao, Huanjie Wang, Zhi Ma, Zhen Li, Yaqiang Zang, Pinghua Gong",
+            "first_author": "Guo Tang",
+            "url": "https://arxiv.org/abs/2607.24255",
+            "pdf_url": "https://arxiv.org/abs/2607.24255",
+            "publish_date": "2026-07-27",
+            "abstract": "Generative recommendation unifies retrieval and ranking within a single model by autoregressively decoding semantic identifier (SID) sequences. Yet reliably incorporating behavior signals from clicks, cart additions, and orders remains challenging. Existing approaches either jointly optimize generative and discriminative objectives, requiring delicate trade-offs, or use a separate ranker as a post-hoc reinforcement-learning reward, risking out-of-distribution scoring and reward misalignment. We propose OxygenREC-v2, a generative recommender that Internalizes Discrimination into Generative Recommendation (IDGR). Rather than adding a separate discriminative objective, OxygenREC-v2 uses logged behavior to condition generation and supervise training. During pre-training, a behavior instruction conditions generation on the target behavior. During post-training, future interaction behaviors are exploited as privileged knowledge in our entropy-aware trajectory optimization self-distillation framework, enabling reward-model-free policy optimization. Throughout both training stages, OxygenREC-v2 maintains a single unified backbone. We implement OxygenREC-v2 as a 3B-parameter, 1B-activated MoE and deploy it on JD.com's large-scale e-commerce platform. Across multiple online A/B tests, OxygenREC-v2 improves user click-through conversion rate (UCTCVR) by 1.6--4.4% and GMV by 2.8--6.8% over OxygenREC-v1.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24213": {
+            "title": "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation",
+            "authors": "Yuntong Chen, Yingqi Li, Yingying Xiao, Ziang Wang, Zewei Liu, Jiahao Liu, Xitian Tian, Lijiang Huang",
+            "first_author": "Yuntong Chen",
+            "url": "https://arxiv.org/abs/2607.24213",
+            "pdf_url": "https://arxiv.org/abs/2607.24213",
+            "publish_date": "2026-07-27",
+            "abstract": "Integrating heterogeneous industrial knowledge, including factual relations and decision constraints, remains a core challenge in industrial information systems. Machining process planning exemplifies this problem because engineers must select operations by combining material properties, feature characteristics, and quality requirements. Existing methods rely mainly on similarity retrieval or classification, without a unified ranking objective or standardized evaluation. We propose PCA-GAT, which formulates machining process plan recommendation as a knowledge graph enhanced collaborative filtering problem. Bayesian Personalized Ranking provides the learning objective, while Recall@K and NDCG@K define evaluation. The knowledge graph supplies semantic structure when collaborative signals are sparse. Four domain constraints, material compatibility, precision requirements, feature applicability, and operation sequencing, are introduced as attention biases during graph propagation. Type-specific weights learn their importance, and an adaptive gate adjusts their influence using local context. On a real aerospace dataset with 115 parts and 507 plans, PCA-GAT achieves Recall@1 = 0.9087 and strong cold-start robustness, with about half the degradation of the strongest baseline under severe sparsity. Ablation studies show that knowledge graph enrichment is essential, constraints add value, and ungated constraint injection can hurt performance. The learned weights identify material-operation compatibility as the dominant factor, consistent with domain expertise. Results on three public benchmarks show no degradation when constraints are absent, supporting generalization beyond manufacturing. This study establishes a standardized recommendation protocol for engineering process planning and benchmarks seven methods across three categories, showing that knowledge representation is the main bottleneck.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.24092": {
+            "title": "ConAlign: Conditional Alignment Framework for Balancing Biased and Unbiased Recommendation",
+            "authors": "Jingcheng Zhang, Yihan Wang, Qi Song, Liyin Hong",
+            "first_author": "Jingcheng Zhang",
+            "url": "https://arxiv.org/abs/2607.24092",
+            "pdf_url": "https://arxiv.org/abs/2607.24092",
+            "publish_date": "2026-07-27",
+            "abstract": "Industry recommender systems trained on observational data suffer from various biases that create filter bubbles, causing user interests to collapse into narrow categories and severely degrading long-term engagement. While utilizing unbiased uniform data for debiasing has shown promise, existing methods remain impractical for industrial deployment due to limitations such as neglect of factual (biased) recommendation performance and the substantial computational overhead. To overcome these limitations, we propose ConAlign (Conditional Alignment Framework), a conditional debiasing approach for industrial deployment. The key innovation of ConAlign lies in a discrete gating-based conditional alignment mechanism that selectively transfers knowledge from the biased tower to the unbiased tower. Following a selective intervention paradigm rather than universal correction, it seamlessly balances factual accuracy and unbiased preference estimation while supporting real-time streaming adaptation. To the best of our knowledge, ConAlign is the first streaming debiasing recommendation framework successfully deployed in a large-scale industrial recommendation system that utilizes a small fraction of unbiased random traffic for debiasing. Extensive offline experiments on three real-world datasets rigorously validate the effectiveness of our proposed framework. Furthermore, large-scale online A/B testing on Kuaishou demonstrates significant improvements in long-term user engagement and interest diversity, with negligible latency overhead.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24025": {
+            "title": "SpecFormer: Mitigating Embedding and Attention Collapse via Spectral-Aware Transformer for Recommendation",
+            "authors": "Yu Cui, Yi Xu, Jiahao Wang, Hao Zhang, Yu Zhang, Xiaoyi Zeng, Can Wang, Jinxin Hu, Jiawei Chen",
+            "first_author": "Yu Cui",
+            "url": "https://arxiv.org/abs/2607.24025",
+            "pdf_url": "https://arxiv.org/abs/2607.24025",
+            "publish_date": "2026-07-27",
+            "abstract": "Transformer architectures have achieved remarkable success across diverse domains; however, directly applying their standard self-attention mechanism to recommendation often yields suboptimal performance, sometimes even trailing behind well-designed simple recommendation models. In this paper, we reveal that this performance bottleneck stems from severe embedding and attention collapse unique to recommendation scenarios. The heterogeneity and long-tail nature of recommendation data lead to a severe spectral collapse dominated by a few principal singular values. We further theoretically demonstrate that this triggers a vicious cycle in recommendation model's forward and backward propagation, which accelerates embedding and attention collapse and limits the model's scaling capability with increased depth. To address these issues, we propose SpecFormer, a novel Spectral-Aware Transformer designed for mitigating embedding and attention collapse in recommendation. Specifically, SpecFormer introduces 1) a Learnable Spectral Softening module to dynamically smooth the singular values distribution of the input token embeddings; 2) a Spectrum-softened Attention mechanism to model feature interaction under a more uniform spectral distribution space; 3) a Spectral Residual Position Encoding via Taylor expansion of singular values, explicitly providing a spectral inductive bias for feature interactions. Extensive experiments on one industrial and two public datasets demonstrate that SpecFormer significantly outperforms state-of-the-art baselines. Notably, SpecFormer has been successfully deployed in a real-world commercial recommender system and exhibits exceptional scaling capabilities: stacking SpecFormer layers actively improves the attention effective rank and recommendation performance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24015": {
+            "title": "Mosaic: A Fleet of User Embedding Specialists for Recommendation at Meta",
+            "authors": "John Zhiyuan Zheng, Xian Sun, Xiangyang Mou, Yujunrong Ma, Christina You, Michael Jiayuan He, Hrishikesh Paranjape, Aakarsha Agarwal, Hong Li",
+            "first_author": "John Zhiyuan Zheng",
+            "url": "https://arxiv.org/abs/2607.24015",
+            "pdf_url": "https://arxiv.org/abs/2607.24015",
+            "publish_date": "2026-07-27",
+            "abstract": "User representation is one of the highest-leverage modeling problems in industrial recommendation systems: a single advancement in how users are encoded can propagate across retrieval, ranking, and integrity tasks at platform scale. Prior industrial user representation work builds either a single user model that emits one or more embedding vectors or a shared backbone with task-specific adaptation. In this paper, we present Mosaic, a foundational user modeling platform that employs a fleet of specialists to learn user embeddings. The fleet comprises four architecturally diverse model families - memorization-driven, dense-heavy, sequential-based, and CoTrain models - each focusing on a distinct facet of user behavior. We developed MRM (Multi-task Relations Mining) and CRL (Cosine Redundancy Loss) techniques to maximize the marginal information contribution of each new specialist. We also introduce CoEval and User Tower Zero-Out, new logging-free embedding evaluation framework that improves development velocity while preserving downstream-aligned accuracy. Our hybrid CPU/GPU, online-and-offline serving stack allows each specialist to choose the adequate serving strategy to meet the freshness, latency, and computational requirements. Mosaic delivers consistent and significant offline NE improvements in addition to online gains.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.23986": {
+            "title": "MEMOIR: Temporal Behavioral Memory for Recommendation Across the Preference-Drift Spectrum",
+            "authors": "Younggue Bae",
+            "first_author": "Younggue Bae",
+            "url": "https://arxiv.org/abs/2607.23986",
+            "pdf_url": "https://arxiv.org/abs/2607.23986",
+            "publish_date": "2026-07-27",
+            "abstract": "We propose MEMOIR, a framework that segments user interaction histories into temporal windows, generates semantic behavioral memory for each period using an LLM, and aggregates current state, evolution direction, and predicted future into a single user representation. On the Electronics and Clothing_Shoes_and_Jewelry categories of Amazon Reviews 2023, MEMOIR is statistically tied with UniSRec, the strongest baseline, on aggregate NDCG@10 (0.0643 vs. 0.0641), splitting the four reported metrics 2-2: MEMOIR leads NDCG@10 and MRR, UniSRec leads HR@10 and HR@20. An ablation study finds that no single architectural component - the evolution-preserving contrastive loss, its directional-consistency term, or temporal window segmentation itself - individually explains much of MEMOIR's approximately 18% relative gain over ID-based SASRec; all four ablations land within 2% of the full model on aggregate NDCG@10. Stratifying test performance by a composite preference-drift score instead reveals where the gain concentrates: MEMOIR leads on ranking-quality metrics (NDCG@10, MRR) specifically among users at the high- and low-drift extremes of the distribution, while UniSRec leads the volume-oriented HR@10/HR@20 metrics across all drift strata and edges out MEMOIR on ranking quality in the middle band. We report this drift-stratified pattern, rather than the near-tied aggregate numbers or any single ablated component, as MEMOIR's most substantive and reproducible finding, and surface why it holds as an open question for future work.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.23779": {
+            "title": "ClawRec: A Claw-Native Recommender System",
+            "authors": "Chenghao Wu, Kesha Ou, Xiaolei Wang, Bowen Zheng, Bingqian Li, Enze Liu, Wayne Xin Zhao, Weitao Li, Long Zhang, Sheng Chen, Ji-Rong Wen",
+            "first_author": "Chenghao Wu",
+            "url": "https://arxiv.org/abs/2607.23779",
+            "pdf_url": "https://arxiv.org/abs/2607.23779",
+            "publish_date": "2026-07-26",
+            "abstract": "Recommender systems have become integral to navigating the modern digital ecosystem. Yet most deployed systems remain confined within single-platform boundaries, observing localized interaction traces and ranking items from isolated candidate spaces. This design is poorly suited to real-world tasks that unfold through searches, content consumption, and comparisons across multiple information sources. Claw-style personal agents, with persistent access to authorized cross-platform context, create an opportunity for recommendation to operate around the user rather than any single platform. In this paper, we introduce Claw-native recommender systems, a new paradigm that moves beyond platform-local ranking to produce unified, complementary recommendation slates spanning diverse sources and content forms. To instantiate this paradigm, we present ClawRec, the first recommender system designed to operate natively in this environment. ClawRec maintains an evidence-linked, temporally structured user state that connects cross-platform behaviors with cross-source recommendations. It organizes retrieval around functional source roles and selects candidates according to their marginal utility, producing non-redundant slates aligned with the user's active task. To enable rigorous evaluation, we introduce ClawRec-SimBench, a benchmark constructed from sequences of concrete life events and cross-platform behavior trajectories. Experiments show that ClawRec outperforms the strongest baselines, achieving an NDCG@20 of 0.6134 (+0.1126) and a Hit@20 of 0.6944 (+0.0854), while also improving user state quality and temporal alignment. Our code and dataset are available at https://github.com/RUCAIBox/ClawRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.23762": {
+            "title": "Escaping the Euclidean Void: Manifold-Informed Flow Matching for Sequential Recommendation",
+            "authors": "Dengzhao Fang, Jingtong Gao, Yu Li, Xiangyu Zhao, Yi Chang",
+            "first_author": "Dengzhao Fang",
+            "url": "https://arxiv.org/abs/2607.23762",
+            "pdf_url": "https://arxiv.org/abs/2607.23762",
+            "publish_date": "2026-07-26",
+            "abstract": "Conventional recommenders capture users' preferences by optimizing observed user-item relations, whereas continuous generative recommendation additionally learns the trajectory of synthesizing a target item. Flow matching drives this process by gradually shaping initial noise into a definitive next-item representation through intermediate states in a continuous embedding space. However, item catalogs are discrete and sparsely supported, meaning even a straight Euclidean path can cross continuous regions that contain little evidence of valid item semantics. Formalizing this failure as the Euclidean void, we propose MIRAGE, a Manifold-Informed Rectification framework for Accelerated Generation of Embeddings in sequential recommendation, which rectifies the learned embedding geometry around an unchanged straight probability path. By leveraging an item co-occurrence graph as a proxy for the underlying semantic manifold, MIRAGE aligns interpolated path states with local anchors, reorganizing the embedding space to ground the trajectory in valid item support. MIRAGE retains the original probability path and uses the graph only during training, thereby enabling accurate and efficient one-step inference. Extensive experiments on four real-world datasets reveal that MIRAGE consistently outperforms state-of-the-art baselines, effectively boosting performance on sparsely observed targets while achieving robust overall accuracy. Our code will be made publicly available upon publication.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
