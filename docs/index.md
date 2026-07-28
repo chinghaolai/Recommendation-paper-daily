@@ -2,11 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026-07-27
+## Updated on 2026-07-28
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-26 | **Melo: A Production LLM-Powered Music Recommendation Agent** | Shijia Wang, Da Guo, Qiang Xiao, Fanghui Bi, Weisheng Li, Dongjing Wang, Chuanjiang Luo | [Link](https://arxiv.org/abs/2607.23718) | N/A |
+| 2026-07-26 | **CALMRec: Causally Aligned Language Memory for Long-Horizon Recommendation** | Gengyu Zhan | [Link](https://arxiv.org/abs/2607.23647) | N/A |
+| 2026-07-25 | **A scalable online machine learning approach for Stock Recommendation** | Harsh Nagarkar | [Link](https://arxiv.org/abs/2607.23120) | N/A |
+| 2026-07-24 | **Reflections and Recommendations on AI Adoption Practice from a Mixed-Ability Research Group** | Shalini Madan, Sreelakshmi Surabiyil Bindu, Veronica Pimenova, Ellie Seehorn, Venkatesh Potluri | [Link](https://arxiv.org/abs/2607.22886) | N/A |
 | 2026-07-24 | **Bringing GRACE to Recommendation: Fine-Tuning for Sustainable and Accurate Personalization** | Yibowen Zhao, Yinan Zhang, Ning Liu, Lizhen Cui, Chunyan Miao | [Link](https://arxiv.org/abs/2607.22341) | N/A |
 | 2026-07-24 | **Efficient Recommendations via Graph Coarsening and Label Propagation** | Alessandro Sbandi, Federico Siciliano, Fabrizio Silvestri | [Link](https://arxiv.org/abs/2607.22287) | N/A |
 | 2026-07-24 | **SIREN (Luring LLMs onto the Rocks): PAIR-Driven Preference Manipulation in Web-RAG Recommenders** | Evan Caville, Siamak Layeghy, Billy Sung, Sara Dolnicar, Marius Portmann | [Link](https://arxiv.org/abs/2607.21951) | N/A |
@@ -79,6 +83,7 @@ layout: default
 | 2026-07-03 | **HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems** | Xiao Liang, Jiali Feng, Xin Feng, Yiqing Wang, Baolin Ye, Siyao Feng, Zhihui Deng, Cunyi Zhang, Huajin Sun, Xuanping Li, Kaiqiao Zhan, Yanan Niu, Kun Gai | [Link](https://arxiv.org/abs/2607.03362) | N/A |
 | 2026-07-02 | **Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages** | A. Seza Doğruöz, Xixian Liao, Verena Blaschke, Jakob Prange, Senyu Li, David Ifeoluwa Adelani | [Link](https://arxiv.org/abs/2607.02235) | N/A |
 | 2026-07-01 | **Bi-NAS: Towards Effective and Personalized Explanation for Recommender Systems via Bi-Level Neural Architecture Search** | Longfeng Wu, Yao Zhou, Tong Zeng, Zhimin Peng, Bhanu Pratap Singh Rawat, Lecheng Zheng, Giovanni Seni, Dawei Zhou | [Link](https://arxiv.org/abs/2607.01387) | N/A |
+| 2026-06-30 | **Obliviate: Efficient Unlearning in Recommender Systems** | Tushar Prakash, Brijraj Singh, Niranjan Pedanekar, Narayan Chaturvedi | [Link](https://arxiv.org/abs/2607.22665) | N/A |
 | 2026-06-30 | **Joint Effects of Recommender Systems and Network Structure on the Visibility of Content and Creators** | Virginia Morini, Valentina Pansanella, Luca Pappalardo, Dino Pedreschi, Giulio Rossetti | [Link](https://arxiv.org/abs/2607.00258) | N/A |
 | 2026-06-30 | **Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequential Screening and Hierarchical Refinement** | Sakshi Arya, Abdul-Nasah Soale, Hossein Moradi Rekabdarkolaee | [Link](https://arxiv.org/abs/2606.31661) | N/A |
 | 2026-06-30 | **Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care** | Shreyas Rajesh, Kartik Sharma, Tonmoy Monsoor, Mehmet Yigit Turali, Richard Idro, Juliana Kayaga, Robert Sebunya, Tracy Tushabe Namata, Jessica Nichole Pasqua, Vwani Roychowdhury, Rajarshi Mazumder | [Link](https://arxiv.org/abs/2606.31036) | N/A |
@@ -164,6 +169,7 @@ layout: default
 | 2026-06-07 | **Adaptive Loss Balancing for Noise-Robust GRPO in Generative Recommendation** | Kewei Xu, Junbo Qi, Yanyan Zou, Pengfei Zhang, Xingzhi Yao, Shengjie Li | [Link](https://arxiv.org/abs/2606.08480) | N/A |
 | 2026-06-07 | **ToolRec: Calibrated Preference Alignment for Query Recommendation in On-Device Assistants** | Zihan Luo, Lingkui Chen, Ruike Zhang, Hong Huang, Boyang Zhang, Ziniu Chen, Lizhong Wang | [Link](https://arxiv.org/abs/2606.08466) | N/A |
 | 2026-06-06 | **Unintended Consequences of Recommender System Interventions: Evidence from a Field Experiment** | Shilei Luo, Song Yao, Dennis J. Zhang | [Link](https://arxiv.org/abs/2606.08265) | N/A |
+| 2026-06-05 | **Too much evidence, too little time: From text to actionable recommendations through multi-objective evidence reasoning** | Adela Bara, Simona-Vasilica Oprea | [Link](https://arxiv.org/abs/2607.22574) | N/A |
 | 2026-06-05 | **TRACER: Token ReAssignment for Concept ERasure in Generative Recommendation** | Ziheng Chen, Jiali Cheng, Zezhong Fan, Hadi Amiri, Diyuan Wu, Gabriele Tolomei, Yang Zhang | [Link](https://arxiv.org/abs/2606.07688) | N/A |
 | 2026-06-05 | **Bradley-Terry Rankings for Recommender Systems Across Dataset Taxonomies** | Ekaterina Grishina, Stepan Kuznetsov, Askar Tsyganov, Ilya Ivanov, Daria Korovaitceva, Margarita Rusanova, Uliana Parkina, Alexander Derevyagin, Evgeny Frolov, Sergey Samsonov, Anton Lysenko | [Link](https://arxiv.org/abs/2606.07492) | N/A |
 | 2026-06-05 | **PaperFlow: Profiling, Recommending, and Adapting Across Daily Paper Streams** | Fuqiang Wang, Song Tan, Zheng Guo, Jiaohao Fu, Xinglong Xu, Bihui Yu, Jie Dong, Zheng Sun, Siyuan Li, Jingxuan Wei, Cheng Tan | [Link](https://arxiv.org/abs/2606.07454) | N/A |

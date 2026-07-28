@@ -18402,6 +18402,72 @@
             "abstract": "Social appropriateness in human-robot interaction (HRI) is not universal: different people can judge the same robot action differently in the same situation. To capture this inter-subject variability, we reformulate socially appropriate action generation as a preference modelling problem inspired by recommender systems, treating annotators as users, contexts/scenes as items, and appropriateness scores over a set of candidate robot actions as targets. We propose StARS, a novel model-agnostic framework that integrates collaborative filtering with learnable scene representations to generate user-specific appropriateness scores over candidate robot actions. StARS is model-agnostic: it can be integrated with various scene encoders and backbones, enabling personalisation without redesigning the underlying model. We evaluate StARS on two socially aware robotics datasets, MannersDB+ and SocNav1, and analyse robustness under sparse preference feedback. Across datasets and backbones, StARS consistently improves performance and agreement with annotators, supporting personalised action selection aligned with user norms. Our code is publicly available at https://github.com/Cambridge-AFAR/StARS.git.",
             "primary_category": "cs.RO",
             "code_url": "null"
+        },
+        "2607.23718": {
+            "title": "Melo: A Production LLM-Powered Music Recommendation Agent",
+            "authors": "Shijia Wang, Da Guo, Qiang Xiao, Fanghui Bi, Weisheng Li, Dongjing Wang, Chuanjiang Luo",
+            "first_author": "Shijia Wang",
+            "url": "https://arxiv.org/abs/2607.23718",
+            "pdf_url": "https://arxiv.org/abs/2607.23718",
+            "publish_date": "2026-07-26",
+            "abstract": "We describe Melo, an LLM-powered music recommendation agent deployed on NetEase Cloud Music. Melo is structured as a deterministic five-node state graph over heterogeneous tools, with a prompt- and state-machine-driven orchestration policy rather than a fine-tuned controller. At industrial scale, the bottleneck is not how smart the brain is but how the system detects and recovers from the mistakes that brain makes. Two production failure modes drove the design: entity hallucination, where the agent commits to interpretations unsupported by the live catalog or user-behavior index, and long-tail degradation, where over-constrained requests collapse to generic popular fallbacks. We address them with two complementary mechanisms. Inference-time entity grounding repurposes the production search index as a verification primitive that gates entity decisions before they propagate downstream. Reflective retry verbalizes failure reasons from a broken tool chain and feeds them into the next planning step, so the system can relax or revise constraints rather than fall back blindly. A one-month online A/B test across NetEase Cloud Music's playlist surfaces reports an over 2 pp lift in a primary playlist retention metric and a lift of over one minute in a core playlist engagement metric. Offline ablation isolates a 7.8 pp reduction in entity misidentification from the three-layer grounding stack on our evaluation set, and a triggered-session analysis on our evaluation set shows reflective retry firing on 5.8% of sessions with 59% process-level recovery. Our deployment experience suggests that progress on LLM-powered music recommendation at this scale depends as much on the named, ablatable runtime machinery that catches and corrects the brain's mistakes as on the brain itself: a hypothesis we offer for the community to test.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.23647": {
+            "title": "CALMRec: Causally Aligned Language Memory for Long-Horizon Recommendation",
+            "authors": "Gengyu Zhan",
+            "first_author": "Gengyu Zhan",
+            "url": "https://arxiv.org/abs/2607.23647",
+            "pdf_url": "https://arxiv.org/abs/2607.23647",
+            "publish_date": "2026-07-26",
+            "abstract": "Large language models (LLMs) can summarize heterogeneous user evidence in natural language, but current LLM recommenders often collapse enduring preferences, transient intent, and exposure-induced behavior into one profile. This makes recommendation vulnerable to feedback loops: repeated exposure is mistaken for preference, immediate clicks dominate delayed satisfaction, and fluent explanations need not reflect the ranking decision. We propose our method, a model-agnostic framework for long-horizon recommendation. Our method uses a frozen multimodal language model to convert item content and feedback into evidence-grounded semantic atoms, then maintains separate short-term, long-term, and exposure memories. Propensity-weighted updates reduce policy-induced exposure bias, while a conservative offline critic reranks candidates for delayed satisfaction under a behavior-support constraint. Explanations use only influential evidence atoms and are checked by counterfactual deletion. We provide an identification result and evaluate the framework in e-commerce-like, news-like, and short-video-like environments. Across ten seeds, our method improves discounted long-term value over the strongest alternative by 6.1%, 7.6%, and 6.7%, respectively. Twenty-seed paired ablations show significant value drops after removing propensity correction (0.739 +/- 0.191) or conservative support regularization (0.523 +/- 0.234). A frozen instruction language model also more than doubles semantic-atom NDCG over TF-IDF on a held-out paraphrase benchmark.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2607.23120": {
+            "title": "A scalable online machine learning approach for Stock Recommendation",
+            "authors": "Harsh Nagarkar",
+            "first_author": "Harsh Nagarkar",
+            "url": "https://arxiv.org/abs/2607.23120",
+            "pdf_url": "https://arxiv.org/abs/2607.23120",
+            "publish_date": "2026-07-25",
+            "abstract": "Stock recommendation systems face the dual challenge of adapting to rapidly changing market conditions while maintaining low-latency predictions for end users. Traditional batch-trained models fail to capture concept drift, and monolithic architectures struggle to provide fault tolerance under load. This paper presents a scalable online deep learning-based stock recommendation system built on a distributed microservices architecture using Kubernetes, Docker, and RabbitMQ. The system employs a hybrid leader-follower architecture where a primary model continuously trains on streaming financial data, including EPS, MACD, and price, from the Alpha Vantage API while multiple replica models serve user-facing recommendations in parallel. A multilayer perceptron implemented with TensorFlow Recommenders generates content-based recommendations using explicit user ratings (1-5) and transfer learning. The architecture ensures high availability. The leader persists model weights to Google Cloud Object Storage, allowing replicas to recover seamlessly upon failure, while RabbitMQ provides message durability and replay. Results demonstrate that the system serves stock recommendations in 23 seconds per request and processes up to 500 portfolio addition requests per second per follower. Key limitations include data staleness (up to 150 minutes due to API rate limits) and the absence of a service mesh for inter-cluster security. This work contributes a production-ready reference architecture for online recommender systems that balances consistency, availability, and scalability in a financial domain context",
+            "primary_category": "cs.CE",
+            "code_url": "null"
+        },
+        "2607.22886": {
+            "title": "Reflections and Recommendations on AI Adoption Practice from a Mixed-Ability Research Group",
+            "authors": "Shalini Madan, Sreelakshmi Surabiyil Bindu, Veronica Pimenova, Ellie Seehorn, Venkatesh Potluri",
+            "first_author": "Shalini Madan",
+            "url": "https://arxiv.org/abs/2607.22886",
+            "pdf_url": "https://arxiv.org/abs/2607.22886",
+            "publish_date": "2026-07-24",
+            "abstract": "Generative AI tools have recently been rapidly adopted by academics in mixed-ability research teams for both personal and professional tasks. While previous work on adoption of AI-based workflows has focused on collaboration and productivity, the perceptions of AI use within research teams remains divided. Through qualitative analysis of interviews of the five members of our mixed-ability research team, we discuss the motivations, challenges, and practices surrounding the use of generative AI in our lab. We reflect on experiences that shaped recommendations for balanced AI use that enable mixed-ability team workflows: (1) managing disability tax & crip time, (2) homogenizing identity, (3) risk disclosure of private information, (4) self-experimentation and miscellaneous tasks, and (5) information seeking. We build upon these themes to present AI practice recommendations we established for our lab to promote AI workflow adoption while preserving agency and disability identity.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2607.22665": {
+            "title": "Obliviate: Efficient Unlearning in Recommender Systems",
+            "authors": "Tushar Prakash, Brijraj Singh, Niranjan Pedanekar, Narayan Chaturvedi",
+            "first_author": "Tushar Prakash",
+            "url": "https://arxiv.org/abs/2607.22665",
+            "pdf_url": "https://arxiv.org/abs/2607.22665",
+            "publish_date": "2026-06-30",
+            "abstract": "Machine unlearning is becoming increasingly critical in the context of data privacy regulations, particularly for recommendation systems that are directly trained on user interaction data. The goal of this work is to remove requested interaction data and their downstream influence from trained model while preserving recommendation quality, and to do so without incurring the substantial computational cost of full retraining. Existing approaches exhibit several limitations, including limited unlearning completeness and degradation in recommendation performance, while having substantial computational overhead. In this paper, we propose Obliviate, an efficient two-stage unlearning framework for recommender systems that achieves high unlearning completeness while maintaining good utility. In the first stage, we introduce a Low-Rank Unlearning Adapter (LUA), which employs a lightweight Hessian proxy to enable curvature-aware and efficient unlearning through localized low-rank adapters rather than full parameters. In the second stage, we propose Locality-Aware Calibration (LAC), a lightweight refinement stage that updates only the adapter parameters to improve the performance by enforcing unlearning via ranking-based objectives while preserving utility through knowledge distillation. Extensive empirical evaluations demonstrate that Obliviate achieves high level of forgetting with minimal loss in recommendation quality and at significantly reduced computational cost, offering a practical and scalable solution for large-scale recommender systems.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.22574": {
+            "title": "Too much evidence, too little time: From text to actionable recommendations through multi-objective evidence reasoning",
+            "authors": "Adela Bara, Simona-Vasilica Oprea",
+            "first_author": "Adela Bara",
+            "url": "https://arxiv.org/abs/2607.22574",
+            "pdf_url": "https://arxiv.org/abs/2607.22574",
+            "publish_date": "2026-06-05",
+            "abstract": "Evidence-based clinical decision making requires specialists to identify, evaluate and synthesize relevant scientific literature. However, PubMed searches for complex clinical cases often return hundreds of publications that cannot be reviewed manually under time constraints. This study proposes SCEPTER (Single-Case Evidence-driven PubMed-To-rEcommendation Reasoner), a framework for transforming clinical case descriptions into evidence-based recommendations. SCEPTER combines PubMed retrieval, PubMedBERT semantic ranking, large language model (LLM)-based claim extraction, evidence-level weighting, contradiction detection, consensus analysis and multi-objective Pareto claim selection. The framework generates structured evidence syntheses and grounded actionable recommendations. A Paper Q&A module further enables interactive exploration of selected publications. The proposed framework introduces multi-objective reasoning model that integrates literature support, contradiction analysis and interactive literature interrogation into a unified clinical decision-support pipeline. Evaluation on 150 case studies demonstrated that the framework reduced an average search space of 576 papers to 53 retained papers, 7 Pareto-optimal claims and 3 final recommendations, corresponding to an overall compression ratio of 192:1. Despite this reduction, the retained evidence maintained high diversity (entropy=0.901). The ablation study showed that Pareto-based selection increased evidence diversity and recommendation utility compared with conventional ranking approaches.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
         }
     }
 }
