@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260730100004
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 6588
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 07/30/2026 10:00:04 ===
+--- Running daily_arxiv.py ---
+[07/30/2026 10:00:14 INFO]   + [2026-04-09] Efficient Dataset Selection for Continual Adaptation of Generative Recommend
+ers
+[07/30/2026 10:00:14 INFO]   + [2026-04-08] HiMARS: Hybrid multi-objective algorithms for recommender systems
+[07/30/2026 10:00:14 INFO]   + [2026-04-08] Leveraging Artist Catalogs for Cold-Start Music Recommendation
+[07/30/2026 10:00:14 INFO]   + [2026-04-08] NestPipe: Large-Scale Recommendation Training on 1,500+ Accelerators via Nes
+ted
+[07/30/2026 10:00:14 INFO]   + [2026-04-08] Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Sessio
+n-Ba
+[07/30/2026 10:00:14 INFO]   + [2026-04-08] CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Reco
+mmen
+[07/30/2026 10:00:14 INFO]   + [2026-04-07] The Unreasonable Effectiveness of Data for Recommender Systems
+[07/30/2026 10:00:14 INFO]   + [2026-04-07] SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendati
+on
+[07/30/2026 10:00:14 INFO]   + [2026-04-07] Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential
+ Rec
+[07/30/2026 10:00:14 INFO]   + [2026-04-07] From Clues to Generation: Language-Guided Conditional Diffusion for Cross-Do
+main
+[07/30/2026 10:00:14 INFO]   + [2026-04-07] Curr-RLCER:Curriculum Reinforcement Learning For Coherence Explainable Recom
+mend
+[07/30/2026 10:00:14 INFO]   + [2026-04-07] Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recomme
+ndat
+[07/30/2026 10:00:17 INFO] Topic 'Recommendation': 500 papers found.
+[07/30/2026 10:00:17 INFO] === Fetch complete ===
+[07/30/2026 10:00:17 INFO] Markdown written: README.md
+[07/30/2026 10:00:17 INFO] Target 'readme' done.
+[07/30/2026 10:00:17 INFO] Markdown written: docs\index.md
+[07/30/2026 10:00:17 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 07/30/2026 10:00:23 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260730100023
+**********************
