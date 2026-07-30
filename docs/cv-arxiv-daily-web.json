@@ -14247,12 +14247,12 @@
         },
         "2605.08810": {
             "title": "Compressed Video Aggregator: Content-driven Module for Efficient Micro-Video Recommendation",
-            "authors": "Yang Xiao, Huiyuan Chen, Kaiyuan Deng, Chao Jiang, Zinan Ling, Ruimeng Ye, Xiaolong Ma, Bo Hui",
+            "authors": "Yang Xiao, Huiyuan Chen, Kaiyuan Deng, Chao Jiang, Zinan Ling, Ruimeng Ye, Fei Wang, Xiaolong Ma, Bo Hui",
             "first_author": "Yang Xiao",
             "url": "https://arxiv.org/abs/2605.08810",
             "pdf_url": "https://arxiv.org/abs/2605.08810",
             "publish_date": "2026-05-09",
-            "abstract": "We propose Compressed Video Aggregator (CVA), a lightweight micro-video recommendation module that decouples video information from preference learning. It aggregates frozen VFM embeddings, and uses latent reasoning without cross-attention projection, producing compact video embeddings for recommenders. Due to the redundancy in the frame count of the original benchmark and its overly coarse sampling, we used titles to re-select key frames based on CLIP. Experiments on MicroLens and Short-Video show consistent gains with orders-of-magnitude reductions in training time and GPU memory, and re-selected frames can further enhance the performance of all methods, including CVA. Furthermore, we also discussed the impact of several scenarios involving erroneous titles on our method. Code will be released soon.",
+            "abstract": "We propose \\textbf{Compressed Video Aggregator} (CVA), a lightweight micro-video recommendation module that decouples video information from preference learning. CVA first summarizes frozen VFM frame embeddings into a semantic-consensus anchor through masked mean pooling, projects this anchor into a compact latent space, and refines the projected representation with residual self-attention and feedforward blocks before producing a single video embedding for the recommender. Due to the redundancy in the frame count of the original benchmark and its overly coarse sampling, we used titles to re-select key frames based on CLIP. Experiments on MicroLens and Short-Video show consistent gains with orders-of-magnitude reductions in training time and GPU memory, and re-selected frames can further enhance the performance of all methods, including CVA. Furthermore, we also discussed the impact of several scenarios involving erroneous titles on our method.",
             "primary_category": "cs.LG",
             "code_url": "null"
         },
@@ -14378,13 +14378,13 @@
             "code_url": "null"
         },
         "2605.05803": {
-            "title": "Unified Value Alignment for Generative Recommendation in Industrial Advertising",
-            "authors": "Xinxun Zhang, Yuling Xiong, Jiale Zhou, Zhengkai Guo, Zhennan Pang, Junbang Huo, Jingwen Wang, Xuyang Sun, Enming Zhang, Jiaguang Jin, Changping Wang, Yi Li, Jun Zhang, Xiao Yan, Jiawei Jiang, Jie Jiang",
+            "title": "UniVA: Unified Value Alignment for Generative Recommendation in Online Advertising at Tencent",
+            "authors": "Xinxun Zhang, Yuling Xiong, Yangru Huang, Jiale Zhou, Zhengkai Guo, Zhennan Pang, Junbang Huo, Jingwen Wang, Xuyang Sun, Enming Zhang, Jiaguang Jin, Changping Wang, Yi Li, Jun Zhang, Xiao Yan, Jiawei Jiang, Jie Jiang",
             "first_author": "Xinxun Zhang",
             "url": "https://arxiv.org/abs/2605.05803",
             "pdf_url": "https://arxiv.org/abs/2605.05803",
             "publish_date": "2026-05-07",
-            "abstract": "Generative Recommendation (GR) reformulates recommendation as a next-token generation problem and has shown promise in industrial applications. However, extending GR to industrial advertising is non-trivial because the system must optimize not only user interest but also commercial value. Existing GR pipelines remain largely semantics-centric, making it difficult to align value signals across tokenization, decoding, and online serving. To address this issue, we propose UniVA, a Unified Value Alignment framework for advertising recommendation. We first introduce a Commercial SID tokenizer that injects value-related attributes into SID construction, yielding value-discriminative item representations. We then develop a Generation-as-Ranking SID Decoder jointly optimized by supervised learning and eCPM-aware reinforcement learning, which fuses value scores into next-item SID generation to perform generation and ranking in one decoding process. Finally, we design a value-guided personalized beam search that reuses generation-as-ranking logits as online value guidance and applies a personalized trie tree to constrain decoding to request-valid SID paths. Experiments on the Tencent WeChat Channels advertising platform show that UniVA achieves a 37.04\\% improvement in offline Hit Rate@100 over the baseline and a 1.5\\% GMV lift in online A/B tests.",
+            "abstract": "Generative Recommendation (GR) reformulates recommendation as next-token generation over item Semantic IDs (SIDs) and has shown promise in industrial applications. However, extending GR to advertising is non-trivial, as advertising recommendation must jointly account for user relevance and commercial value. This creates a mismatch: high generation likelihood does not necessarily imply high advertising utility. As a result, valuable ads may be poorly distinguished in the SID space, pruned during autoregressive decoding, or missed when request-invalid branches consume limited beam capacity during online serving. To address this problem, we propose UniVA, a Unified Value Alignment framework for generative advertising recommendation. UniVA aligns commercial value across the entire pipeline of SID construction, autoregressive decoding, and online serving. Commercial SID Tokenization injects business attributes and bid information into SID construction. A Generation-as-Ranking SID Decoder then fuses generation scores with token-level value estimates during autoregressive decoding. {Finally, Value-Aware Constrained Serving restricts the fused decoding process to request-valid SID paths through a personalized trie.} Experiments on the Tencent WeChat Channels advertising platform show that UniVA achieves a 37.04\\% relative improvement in offline Hit Rate@100 over the baseline and lifts gross merchandise value (GMV) by 1.5\\% in online A/B tests.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -18907,6 +18907,127 @@
             "publish_date": "2026-06-04",
             "abstract": "The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents. Traditional item-level methods face scalability and accuracy challenges, motivating category-level recommendation as a more structured and practical alternative. We present GROCLM, a fine-tuned language model for grocery category recommendation in a real-world production environment. GROCLM employs a two-stage LoRA-based training strategy to encode cyclical purchasing patterns directly into model parameters, enabling more effective utilization of rebuying signals compared to prompt-based conditioning. To ensure valid and controllable outputs, we further introduce a trie-based constrained decoding mechanism over a predefined category space. Experiments on both proprietary production data and a public benchmark demonstrate that GROCLM consistently outperforms strong baselines. In a live production restocking task, GROCLM achieves a 7.5% relative improvement in cart-adds per impression, while maintaining efficient inference by generating all categories jointly. These results highlight the effectiveness and practicality of integrating large language models into structured recommendation systems.",
             "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.27055": {
+            "title": "Learning from the Future: Privileged Self-Distillation for Sequential Recommendation",
+            "authors": "Jiakai Tang, Yang Zhang, See-Kiong Ng, Xu Chen, Wen Chen, Jian Wu, Han Zhu",
+            "first_author": "Jiakai Tang",
+            "url": "https://arxiv.org/abs/2607.27055",
+            "pdf_url": "https://arxiv.org/abs/2607.27055",
+            "publish_date": "2026-07-29",
+            "abstract": "Sequential recommenders are commonly trained with one-hot next-item labels under a causal (prefix-only) objective aligned with inference. While deployment-compatible, this supervision offers little insight into relative preferences among non-target items. Yet logged interaction sequences contain an additional supervisory source: interactions following the target often reveal how user intent evolves, making the target easier to interpret. We treat these future interactions as training-only privileged information, available during learning but not at inference. This raises a natural question: can future interactions provide richer supervision while keeping training aligned with inference-time prediction? We propose Privileged Self-Distillation (PSD), a framework that separates learning-time information from inference-time information. PSD applies two attention masks to the same backbone: a future-aware view yields a privileged teacher distribution conditioned on past and future interactions, while a prefix-only view yields the student distribution used for deployment. Distilling the privileged distribution converts future interactions into training-only supervision rather than inference-time inputs. Since both views share a backbone, the teacher's advantage is purely informational, not architectural, removing the need for a separately pretrained teacher and letting its supervision adapt as the student evolves. PSD further uses an advantage-reachability gate to focus distillation on teacher signals likely supported by the observed prefix, along with a momentum-averaged teacher for stable targets. The framework is optimized end-to-end in a single stage, leaving the deployed model and inference cost unchanged. Experiments across public benchmarks and diverse backbones show consistent improvements.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.27002": {
+            "title": "IMFuse: Instance-Aware Multi-Layer Fusion for LLM-Enhanced Sequential Recommendation",
+            "authors": "Yuheng Zheng, Yu Cui, Bin Wu, Jian Zhang, Ye Feng, Can Wang, Jiawei Chen",
+            "first_author": "Yuheng Zheng",
+            "url": "https://arxiv.org/abs/2607.27002",
+            "pdf_url": "https://arxiv.org/abs/2607.27002",
+            "publish_date": "2026-07-29",
+            "abstract": "Recent advancements in Large Language Models (LLMs) have significantly enhanced sequential recommendation by encoding rich item textual information into semantic representations. However, existing methods typically rely on the final-layer hidden states of LLMs, overlooking potentially useful semantic signals encoded in other layers. Through empirical analysis, we reveal the limitations of this practice: final-layer representations often suffer from dimensional collapse, whereas intermediate layers preserve complementary, coarse-to-fine semantic knowledge. Furthermore, we observe that different items exhibit heterogeneous layer-wise representation evolution, making a uniform layer selection sub-optimal. To bridge this gap, we propose IMFuse, an instance-aware multi-layer fusion strategy designed for LLM-enhanced recommendation. Instead of relying on a single layer, IMFuse adaptively aggregates multi-layer semantic information by learning global dimension-wise layer preferences to capture general semantic contributions. To address item-level heterogeneity, IMFuse introduces an instance-aware expert modulation mechanism that dynamically adjusts these global preferences, generating personalized, item-specific semantic representations. Extensive experiments across four real-world datasets demonstrate the effectiveness of IMFuse. It consistently outperforms state-of-the-art baselines with an average relative improvement of 6.72%, while introducing limited parameter and computational overhead.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.26832": {
+            "title": "Kairos: Numerically Robust News Recommendation under Item Cold-Start via Cholesky-based LinUCB",
+            "authors": "Finn Hertsch",
+            "first_author": "Finn Hertsch",
+            "url": "https://arxiv.org/abs/2607.26832",
+            "pdf_url": "https://arxiv.org/abs/2607.26832",
+            "publish_date": "2026-07-29",
+            "abstract": "Algorithmic news personalization in regional markets often fails because modern deep learning models require massive interaction data while real-world news has a short Time-to-Live (TTL < 48 h) and shallow article pools. This structural item cold-start deprives collaborative filtering of the data needed for robust modeling. This paper presents Project Kairos, a framework that bridges this data scarcity through a contextual online learning approach (LinUCB). To ensure numerical integrity for continuous operation, Kairos replaces error-prone Sherman-Morrison inversions with direct rank-1 updates of Cholesky factors. This preserves the positive definiteness of the covariance matrix even under ill-conditioned data scenarios. Simultaneously, Matryoshka Representation Learning (MRL) integration addresses inference latency. Empirical evaluations based on the Tagesschau API demonstrate that exploiting semantic redundancy in the feature space achieves a 4.85-fold efficiency gain without significantly compromising ranking precision. Kairos thus provides a blueprint for high-performance recommendation systems in resource- and data-constrained environments.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2607.26720": {
+            "title": "CaIRec: Calibrated Modality Imputation for Incomplete Multimodal Recommendation",
+            "authors": "Ruiyu Liu, Xiaohao Liu, Miaomiao Cai, Yunshan Ma, See-Kiong Ng",
+            "first_author": "Ruiyu Liu",
+            "url": "https://arxiv.org/abs/2607.26720",
+            "pdf_url": "https://arxiv.org/abs/2607.26720",
+            "publish_date": "2026-07-29",
+            "abstract": "Real-world multimodal recommender systems often face incomplete modality observations, where items lack images, text, or other content features. Such incompleteness weakens item representations and degrades recommendation performance. Existing modality imputation methods estimate missing representations from available item content, but two challenges remain. First, they optimize the recovered representation itself without explicitly considering its relations with other modalities of the same item. The completed modalities may therefore form inconsistent cross-modal relations, causing Cross-modal Structural Distortion. Second, even structurally coherent recovered information may remain ineffective for personalized ranking. Recovered representations receive limited ranking-oriented guidance, while modality missingness disrupts the item neighborhoods required for preference propagation, resulting in a Preference Adaptation Gap. To address these challenges, we propose Calibrated Imputation for Incomplete Multimodal Recommendation (CaIRec), a two-stage framework. Structural Imputation Calibration (SIC) estimates missing-modality representations from shared information inferred from available modalities and calibrates their cross-modal organization through structural regularization and correspondence supervision from observed modality pairs. Preference-oriented Representation Calibration (PRC) performs recommendation-specific adaptation at both the representation and relation levels. It constructs pseudo-missing instances to align recovered representations with observed counterparts shaped by ranking supervision in the recommendation space. It further builds completion-aware item graphs by integrating completed content relations with collaborative evidence. Extensive experiments on three datasets under different modality-missing settings demonstrate the effectiveness and robustness of CaIRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.26621": {
+            "title": "WhisperRec: Latent Reasoning for Efficient Foundation Recommendation Models",
+            "authors": "Hao Jiang, Peiru Du, Pengfei Yao, Mengting Li, Siyuan Lou, Kuo Cai, Sheng Yu, Qiang Luo, Jian Liang, Ruiming Tang, Fei Pan, Peng Jiang, Wenwu Ou",
+            "first_author": "Hao Jiang",
+            "url": "https://arxiv.org/abs/2607.26621",
+            "pdf_url": "https://arxiv.org/abs/2607.26621",
+            "publish_date": "2026-07-29",
+            "abstract": "Large language models (LLMs) have demonstrated strong reasoning capabilities, motivating their adoption as backbones for foundation recommendation models (FRMs). Existing approaches typically enhance recommendation with explicit Chain-of-Thought (CoT) under the Think-then-Answer paradigm. However, generating lengthy rationales introduces substantial inference overhead, while fixed CoT templates struggle to model diverse, dynamic, and context-dependent user interests. We propose WhisperRec, an efficient latent reasoning framework for FRMs. WhisperRec compresses teacher-generated CoT into learnable latent reasoning tokens, enabling a Latent-Reason-then-Answer paradigm that performs reasoning in latent space without producing verbose rationales. This design retains decision-relevant reasoning information while avoiding the latency bottleneck of autoregressive rationale generation. Specifically, it first introduces Multi-View Adaptive CoT (MV-ACoT) to construct diverse, high-quality supervision from complementary perspectives on user interests. MV-ACoT also adapts reasoning complexity to each instance, applying lightweight analysis to clear cases and targeted multi-factor reasoning to challenging ones. Building on a pre-trained FRM, WhisperRec then employs a three-stage Latent Reasoning Alignment procedure to progressively internalize teacher CoT into latent representations. Finally, curriculum-based post-training activates latent-token reasoning for downstream recommendation while preserving standard recommendation capability. Experiments on an industrial-scale Kuaishou dataset and the public Kuaishou LLM-Rec benchmark show that WhisperRec consistently outperforms explicit-CoT methods and conventional baselines. Compared with explicit CoT Think and No-Think variants, WhisperRec improves SID@64 by 17.44% and 9.33%, respectively, and achieves over 10x higher online inference throughput.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.26500": {
+            "title": "Multi-Decoder OneRec: Controllable Generative Retrieval for Multi-Objective Industrial Recommendation",
+            "authors": "You Wang, Zhao Liu, Guoping Tang, Yiqing Yang, Shuo Su, Jing Liu, Naifu Zhou, Xiaoyou Zhou, Wei Jiang, Jian Liang, Xiao Lv, Ruiming Tang, Liyin Hong, Wenwu Ou",
+            "first_author": "You Wang",
+            "url": "https://arxiv.org/abs/2607.26500",
+            "pdf_url": "https://arxiv.org/abs/2607.26500",
+            "publish_date": "2026-07-29",
+            "abstract": "Industrial recommender systems build candidate pools by assigning explicit quotas to objective-specific retrieval routes. This design offers quota control but increasingly fragments modeling, training, and serving as the route set grows. Semantic-ID-based generative retrieval provides a unified alternative, yet a single decoder entangles objective policies and limits candidate complementarity. We propose Multi-Decoder OneRec, a controllable framework that combines shared representations, isolated objective adaptation, and coordinated decoding. All objectives share a user-context module and the General Decoder, while each objective adds an isolated, parameter-efficient LoRA expert. During training, exposure-sample next-token prediction (NTP) updates the shared base, target-filtered NTP updates the event-based experts, and Kullback-Leibler (KL)-regularized policy optimization updates the Watch-time expert; gradient routing isolates these updates, and the General Decoder supplies a stop-gradient reference. At inference, explicit route quotas allocate the fixed budget and Multi-Decoder Constrained Beam Search reduces cross-route overlap. We publicly release Kwai26, a large-scale multi-objective benchmark with 1.31 billion raw item-level records, 31.85 million Item-ID entries, and 25.03 million items with valid Semantic IDs, together with predefined splits and an evaluation protocol. Under the same 512-item retrieval budget, Multi-Decoder OneRec improves over the single-decoder OneRec baseline by 1.69%-5.62% across four Recall@512 metrics. In a production A/B test, it yields relative gains of 0.37% in app usage time per device, 0.19% in Day-7 retained users, 0.19% in devices with at least one share, and 2.09% in new-content Cold-Start. These results show that generative retrieval can combine shared modeling with objective-specific control and complementary candidate generation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.26429": {
+            "title": "NMKFR: A Robust Framework for Time-Aware Cold-Start Recommendation",
+            "authors": "Chengzhi Liu, Ning Zeng, Zehui Qu",
+            "first_author": "Chengzhi Liu",
+            "url": "https://arxiv.org/abs/2607.26429",
+            "pdf_url": "https://arxiv.org/abs/2607.26429",
+            "publish_date": "2026-07-29",
+            "abstract": "Item cold-start recommendation is difficult when new items have sparse early interactions and appear in recommendation environments that keep changing over time. Static content, early feedback, and temporal-state evidence are all useful, but their reliability varies across the item lifecycle. This work proposes a framework--Neural Memory Kalman Fusion Recommender (NMKFR), which combines a Titans-based semantic encoder with time-aware Kalman state tracking. The semantic branch extracts memory-enhanced item observations from text, while the temporal branch estimates latent states under irregular interaction intervals. The NMKFR further uses posterior covariance as an uncertainty signal to calibrate semantic memory retrieval and adaptive static-temporal fusion. Experiments on Amazon Video Games and MovieLens-32M evaluate NMKFR under time-aware and item cold-start protocols using sampled candidate ranking. Across the reported comparisons, ablations, diagnostics, and robustness analyses, NMKFR achieves the strongest retained results and exhibits bounded uncertainty-related internal behavior. These findings provide empirical evidence for posterior-covariance-guided semantic-temporal fusion under the evaluated offline settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.26418": {
+            "title": "DIRECTOR: Dynamic Index-based Recommendation with Transport-Optimized Retrieval",
+            "authors": "Yuanhao Pu, Chenghao Zhang, Chao Feng, Xiang Li, Defu Lian",
+            "first_author": "Yuanhao Pu",
+            "url": "https://arxiv.org/abs/2607.26418",
+            "pdf_url": "https://arxiv.org/abs/2607.26418",
+            "publish_date": "2026-07-29",
+            "abstract": "Reranking is a combinatorial decision problem that aims to select and order a high-utility slate from a request-specific candidate set. A major line of generative rerankers adopts autoregressive (AR) models, which construct the slate one position at a time to capture inter-position dependencies. However, under practical greedy or bounded-width decoding, prefix-based search may prematurely prune globally promising permutations and incurs inherently sequential latency, restricting the effective search space under a fixed serving budget. Non-autoregressive (NAR) alternatives alleviate this efficiency bottleneck through position-parallel prediction, but naive position-wise factorization treats different positions too independently, leading to insufficient cross-position coordination and potentially duplicate or conflicting item selections. To retain parallel efficiency while introducing global structural coordination, we propose Dynamic Index-based RECommendation with Transport-Optimized Retrieval (DIRECTOR), a transport-guided parallel reranking framework. DIRECTOR maps candidate items into a continuous latent space and generates request-conditioned dynamic retrieval indices for all target positions in parallel. During training, it uses entropy-regularized OT to provide conflict-aware supervision; at inference, it directly performs global hard matching on similarity matrix, producing duplicate-free slates without iterative transport. To further align the generator with an opaque list-wise evaluator that returns only a scalar utility, we introduce a prefix-anchored credit assignment mechanism that converts the global reward into position-specific training signals. Extensive offline and online experiments demonstrate that DIRECTOR consistently outperforms strong reranking baselines, achieving significant improvement in large-scale industrial recommendation scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.26380": {
+            "title": "Continuous Online Evaluation of Recommendation Strategies in Social Science Academic Search",
+            "authors": "Mehmet Deniz Türkmen, Daniel Hienert",
+            "first_author": "Mehmet Deniz Türkmen",
+            "url": "https://arxiv.org/abs/2607.26380",
+            "pdf_url": "https://arxiv.org/abs/2607.26380",
+            "publish_date": "2026-07-29",
+            "abstract": "Delivering relevant recommendations in academic search engines is a complex task due to the diversity of subject areas, information types, and user preferences. In this case study, we address these challenges by integrating and evaluating a range of recommendation systems within GESIS Search - a domain-specific search engine for the social sciences that provides researchers with access to research data, publications, variables, and measurement instruments. To support continuous, real-time evaluation of multiple recommendation strategies with actual platform users, we utilize the STELLA evaluation framework. We implement and compare a diverse set of algorithms, including traditional lexical similarity, semantic document similarity by using transformer-based embeddings, and session-based recommendations based on click paths from historical user sessions. Our results show that users prefer recommendations based on semantic similarity, which outperformed term-similarity and session-based methods. However, the performance of recommenders varies across categories within GESIS Search, suggesting that information-seeking behavior differs by information type. Overall, our study provides insights into how continuous evaluation can be incorporated to develop recommendations that better align with the preferences in academic search portals.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.26074": {
+            "title": "Reproducibility in Recommender Systems: A Survey",
+            "authors": "Alan Said, Alejandro Bellogin",
+            "first_author": "Alan Said",
+            "url": "https://arxiv.org/abs/2607.26074",
+            "pdf_url": "https://arxiv.org/abs/2607.26074",
+            "publish_date": "2026-07-13",
+            "abstract": "Reproducibility has become a cornerstone of credible recommender systems research, driven by growing concerns about the reliability and generalizability of experimental results. In response, the ACM RecSys conference introduced a dedicated Reproducibility Track in 2020 to encourage rigorous, transparent, and repeatable research. This paper presents a structured analysis of the track from 2020 to 2025, covering 51 accepted papers. We classify contributions by type and analyze common patterns in datasets, algorithms, frameworks, and evaluation practices, with the goal of understanding how reproducibility is operationalized in practice within the community. Our findings reveal three main trends. First, the track has expanded in scope, evolving from a focus on reproduction and replication to include benchmarking, resources, and methodological contributions. Second, reproducibility papers exhibit a consistent methodological profile, relying on a limited set of datasets, algorithms, and evaluation protocols. Third, reproducibility in practice often involves extending prior experiments rather than strictly replicating them, with studies frequently introducing additional models or evaluation criteria. Overall, reproducibility work has improved transparency and documentation, but has had limited impact on methodological diversity, highlighting a gap between the conceptual definition of reproducibility and its implementation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.26073": {
+            "title": "Guess Where You Go: Generative Next Point-of-Interest Recommendation in Amap",
+            "authors": "Penglong Zhai, Bowen Zheng, Jie Li, Yifang Yuan, Yue Liu, Sicong Wang, Mingyang Yin, Tingting Hu, Shuaijun Guo, Fanyi Di, Xin Li",
+            "first_author": "Penglong Zhai",
+            "url": "https://arxiv.org/abs/2607.26073",
+            "pdf_url": "https://arxiv.org/abs/2607.26073",
+            "publish_date": "2026-07-13",
+            "abstract": "Generative retrieval enables recommender systems to retrieve items by generating compact item identifiers, but scaling it to industrial scenarios remains challenging due to redundant or colliding token assignments and insufficient integration of heterogeneous item signals. These challenges are particularly critical for next Point-of-Interest (POI) recommendation, where models must represent structured spatial entities, capture sequential mobility patterns, and produce predictions consistent with real user behavior. We propose Gwhere, an end-to-end industrial framework that integrates semantic identifier (SID) generation with LLM-based generative next POI recommendation. Gwhere first learns discriminative POI SIDs through a contrastive residual-quantization tokenizer that aligns textual, visual, spatial, and collaborative signals. Based on these SIDs, Gwhere adapts LLMs to mobility scenarios via continued pretraining on enriched spatio-temporal corpora, supervised fine-tuning, and Exposure-Aware Kahneman-Tversky Optimization (EAKTO), a reinforcement learning objective for behavioral preference alignment. Experiments on public datasets and Amap's large-scale industrial dataset demonstrate the effectiveness of Gwhere. The system has been deployed in Amap's homepage service under high-concurrency and low-latency constraints. Long-term online A/B tests show improvements of 5.83% in P-CTR and 6.20% in U-CTR over the production baseline. The implementation is publicly available at https://github.com/alibaba/SimCIT.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }

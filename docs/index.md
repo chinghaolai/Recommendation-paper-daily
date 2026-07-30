@@ -2,11 +2,20 @@
 layout: default
 ---
 
-## Updated on 2026-07-29
+## Updated on 2026-07-30
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-29 | **Learning from the Future: Privileged Self-Distillation for Sequential Recommendation** | Jiakai Tang, Yang Zhang, See-Kiong Ng, Xu Chen, Wen Chen, Jian Wu, Han Zhu | [Link](https://arxiv.org/abs/2607.27055) | N/A |
+| 2026-07-29 | **IMFuse: Instance-Aware Multi-Layer Fusion for LLM-Enhanced Sequential Recommendation** | Yuheng Zheng, Yu Cui, Bin Wu, Jian Zhang, Ye Feng, Can Wang, Jiawei Chen | [Link](https://arxiv.org/abs/2607.27002) | N/A |
+| 2026-07-29 | **Kairos: Numerically Robust News Recommendation under Item Cold-Start via Cholesky-based LinUCB** | Finn Hertsch | [Link](https://arxiv.org/abs/2607.26832) | N/A |
+| 2026-07-29 | **CaIRec: Calibrated Modality Imputation for Incomplete Multimodal Recommendation** | Ruiyu Liu, Xiaohao Liu, Miaomiao Cai, Yunshan Ma, See-Kiong Ng | [Link](https://arxiv.org/abs/2607.26720) | N/A |
+| 2026-07-29 | **WhisperRec: Latent Reasoning for Efficient Foundation Recommendation Models** | Hao Jiang, Peiru Du, Pengfei Yao, Mengting Li, Siyuan Lou, Kuo Cai, Sheng Yu, Qiang Luo, Jian Liang, Ruiming Tang, Fei Pan, Peng Jiang, Wenwu Ou | [Link](https://arxiv.org/abs/2607.26621) | N/A |
+| 2026-07-29 | **Multi-Decoder OneRec: Controllable Generative Retrieval for Multi-Objective Industrial Recommendation** | You Wang, Zhao Liu, Guoping Tang, Yiqing Yang, Shuo Su, Jing Liu, Naifu Zhou, Xiaoyou Zhou, Wei Jiang, Jian Liang, Xiao Lv, Ruiming Tang, Liyin Hong, Wenwu Ou | [Link](https://arxiv.org/abs/2607.26500) | N/A |
+| 2026-07-29 | **NMKFR: A Robust Framework for Time-Aware Cold-Start Recommendation** | Chengzhi Liu, Ning Zeng, Zehui Qu | [Link](https://arxiv.org/abs/2607.26429) | N/A |
+| 2026-07-29 | **DIRECTOR: Dynamic Index-based Recommendation with Transport-Optimized Retrieval** | Yuanhao Pu, Chenghao Zhang, Chao Feng, Xiang Li, Defu Lian | [Link](https://arxiv.org/abs/2607.26418) | N/A |
+| 2026-07-29 | **Continuous Online Evaluation of Recommendation Strategies in Social Science Academic Search** | Mehmet Deniz Türkmen, Daniel Hienert | [Link](https://arxiv.org/abs/2607.26380) | N/A |
 | 2026-07-28 | **RecoReward: Recommender-Guided Multimodal Description Generation for Recommendation** | Guohong Mu, Yueyang Liu, Jiangxia Cao, Changxin Lao, Zijie Zhuang, Yuhui Zhang, Jiaqi Feng, Ruochen Yang, Shuang Yang, Zhaojie Liu, Qibin Hou | [Link](https://arxiv.org/abs/2607.25901) | N/A |
 | 2026-07-28 | **Hypothesis-Driven Shelf Generation for Personalised Recommendation** | Aleksandr V. Petrov, Tarun Chillara, Matthew D. Moellman, Lucas de Haas, Yabai Song, Alina Susoykina, Melissa Crawford, Gabriel Negash, Erik Franco, Tasnim Rahman, Binal Jhaveri, Shubham Bansal, Hugues Bouchard, Roberto Mirizzi, Mounia Lalmas, Aloïs Gruson | [Link](https://arxiv.org/abs/2607.25823) | N/A |
 | 2026-07-28 | **Nudging Sustainable Choices through LLM-Generated Recommendation Explanations** | Haya Halimeh, Dietmar Jannach, Oliver Müller | [Link](https://arxiv.org/abs/2607.25726) | N/A |
@@ -86,6 +95,8 @@ layout: default
 | 2026-07-14 | **Where Reasoning Matters: Rethinking Latent Reasoning in Semantic ID-based Generative Recommendation** | Shangxin Yang, Min Gao, Zongwei Wang, Junliang Yu | [Link](https://arxiv.org/abs/2607.12425) | N/A |
 | 2026-07-14 | **Skills That Don't Exist: A Large-Scale Study of Hallucinated Skill Recommendation in LLM Agents** | Weifeng Yuan, Wenbo Guo, Feng Dong, Haoyu Wang, Yang Liu | [Link](https://arxiv.org/abs/2607.12340) | N/A |
 | 2026-07-14 | **Not Only NTP: Extending Training Signal Coverage for Generative Recommendation** | Changhao Li, Shuli Wang, Junwei Yin, Senjie Kou, Yinqiu Huang, Chi Wang, Yinhua Zhu, Haitao Wang, Xingxing Wang | [Link](https://arxiv.org/abs/2607.12277) | N/A |
+| 2026-07-13 | **Reproducibility in Recommender Systems: A Survey** | Alan Said, Alejandro Bellogin | [Link](https://arxiv.org/abs/2607.26074) | N/A |
+| 2026-07-13 | **Guess Where You Go: Generative Next Point-of-Interest Recommendation in Amap** | Penglong Zhai, Bowen Zheng, Jie Li, Yifang Yuan, Yue Liu, Sicong Wang, Mingyang Yin, Tingting Hu, Shuaijun Guo, Fanyi Di, Xin Li | [Link](https://arxiv.org/abs/2607.26073) | N/A |
 | 2026-07-13 | **Agentic systems for breast cancer treatment recommendations** | Vinicius Anjos de Almeida, Nícolas Henrique Borges, Leonardo Vicenzi, Helena Kociolek, Sarah Miriã de Castro Rocha, Frederico Nassif Gomes, Júlia Cristina Ferreira Ribeiro, Lucas Emanuel Silva e Oliveira | [Link](https://arxiv.org/abs/2607.12051) | N/A |
 | 2026-07-13 | **STEP: Career-Path Recommendation via Temporal and Educational Trajectory Modeling** | Iman Johary, Guillaume Bied, Alexandru C. Mara, Tijl De Bie | [Link](https://arxiv.org/abs/2607.11722) | N/A |
 | 2026-07-13 | **User Preference Induction with LLMs for Offline Top-N Recommendation Evaluation** | David Otero, Javier Parapar | [Link](https://arxiv.org/abs/2607.11354) | N/A |
@@ -329,7 +340,7 @@ layout: default
 | 2026-05-10 | **A General Framework for Multimodal LLM-Based Multimedia Understanding in Large-Scale Recommendation Systems** | Yiming Zhu, Xu Liu, Ziyun Xu, Zheng Wu, Joena Zhang, Sirius Chen, Chenheli Hua, Silvester Yao, Qichao Que, Wentao Shi, Junfeng Pan, Linhong Zhu | [Link](https://arxiv.org/abs/2605.09338) | N/A |
 | 2026-05-09 | **Statin Recommendations among US Adults with the 2026 Dyslipidemia Guidelines** | James A. Diao, Thomas A. Buckley, Andrew Z. Zhou, Smaraki Dash, Rishi K. Wadhera, Arjun K. Manrai | [Link](https://arxiv.org/abs/2605.10979) | N/A |
 | 2026-05-09 | **Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation** | Haven Kim, Julian McAuley | [Link](https://arxiv.org/abs/2605.09120) | N/A |
-| 2026-05-09 | **Compressed Video Aggregator: Content-driven Module for Efficient Micro-Video Recommendation** | Yang Xiao, Huiyuan Chen, Kaiyuan Deng, Chao Jiang, Zinan Ling, Ruimeng Ye, Xiaolong Ma, Bo Hui | [Link](https://arxiv.org/abs/2605.08810) | N/A |
+| 2026-05-09 | **Compressed Video Aggregator: Content-driven Module for Efficient Micro-Video Recommendation** | Yang Xiao, Huiyuan Chen, Kaiyuan Deng, Chao Jiang, Zinan Ling, Ruimeng Ye, Fei Wang, Xiaolong Ma, Bo Hui | [Link](https://arxiv.org/abs/2605.08810) | N/A |
 | 2026-05-09 | **DiagnosticIQ: A Benchmark for LLM-Based Industrial Maintenance Action Recommendation from Symbolic Rules** | Devin Yasith De Silva, Dhaval Patel, Christodoulos Constantinides, Shuxin Lin, Nianjun Zhou, Paul J Adams, Sal Rosato, Nicolas Constantinides, Deborah L. McGuinness, Jayant Kalagnanam | [Link](https://arxiv.org/abs/2605.08614) | N/A |
 | 2026-05-08 | **SkillSelect-Serve: QoS-Aware Budgeted Skill Service Recommendation for LLM Agents** | Jingyuan Zheng, Dongjing Wang, Xin Zhang, Hao Chen, Youhuizi Li, Xudong Shen, Haiping Zhang, Butian Huang, Dongjin Yu, Guandong Xu | [Link](https://arxiv.org/abs/2607.00011) | N/A |
 | 2026-05-08 | **Prompt Optimization for User Simulation in Conversational Recommender Systems: A Multi-Objective Framework** | Nipun B Nair, Tongtong Wu, Weiqing Wang | [Link](https://arxiv.org/abs/2607.00010) | N/A |
@@ -345,7 +356,7 @@ layout: default
 | 2026-05-07 | **Light-FMP: Lightweight Feature and Model Pruning for Enhanced Deep Recommender Systems** | Nghia Bui, Yue Ning, Lijing Wang | [Link](https://arxiv.org/abs/2605.06441) | N/A |
 | 2026-05-07 | **Expressiveness Limits of Autoregressive Semantic ID Generation in Generative Recommendation** | Yupeng Hou, Haven Kim, Clark Mingxuan Ju, Eduardo Escoto, Neil Shah, Julian McAuley | [Link](https://arxiv.org/abs/2605.06331) | N/A |
 | 2026-05-07 | **Bridging Passive and Active: Enhancing Conversation Starter Recommendation via Active Expression Modeling** | Yiqing Wu, Haoming Li, Guanyu Jiang, Jiahao Liang, Yongchun Zhu, Jingwu Chen, Feng Zhang | [Link](https://arxiv.org/abs/2605.05855) | N/A |
-| 2026-05-07 | **Unified Value Alignment for Generative Recommendation in Industrial Advertising** | Xinxun Zhang, Yuling Xiong, Jiale Zhou, Zhengkai Guo, Zhennan Pang, Junbang Huo, Jingwen Wang, Xuyang Sun, Enming Zhang, Jiaguang Jin, Changping Wang, Yi Li, Jun Zhang, Xiao Yan, Jiawei Jiang, Jie Jiang | [Link](https://arxiv.org/abs/2605.05803) | N/A |
+| 2026-05-07 | **UniVA: Unified Value Alignment for Generative Recommendation in Online Advertising at Tencent** | Xinxun Zhang, Yuling Xiong, Yangru Huang, Jiale Zhou, Zhengkai Guo, Zhennan Pang, Junbang Huo, Jingwen Wang, Xuyang Sun, Enming Zhang, Jiaguang Jin, Changping Wang, Yi Li, Jun Zhang, Xiao Yan, Jiawei Jiang, Jie Jiang | [Link](https://arxiv.org/abs/2605.05803) | N/A |
 | 2026-05-07 | **Effective Knowledge Transfer for Multi-Task Recommendation Models** | Guohao Cai, Jun Yuan, Zhenhua Dong | [Link](https://arxiv.org/abs/2605.05730) | N/A |
 | 2026-05-06 | **CapsID: Soft-Routed Variable-Length Semantic IDs for Generative Recommendation** | Wenzhuo Cheng, Menghang Gong, Qixin Guo, Hang Zheng, Zhaobin Yang, Jianguo Lou, Zhengwei Zheng | [Link](https://arxiv.org/abs/2605.05096) | N/A |
 | 2026-05-06 | **RecGPT-Mobile: On-Device Large Language Models for User Intent Understanding in Taobao Feed Recommendation** | Bin Zhang, Weipeng Huang, Dimin Wang, Jialin Zhu, Yuning Jiang, Zhaode Wang, Chengfei Lv, Jian Wang, Qichao Ma, Li Chen, Junqing Wu, Yipeng Yu | [Link](https://arxiv.org/abs/2605.04726) | N/A |
