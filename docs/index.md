@@ -2,11 +2,24 @@
 layout: default
 ---
 
-## Updated on 2026-08-02
+## Updated on 2026-08-04
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-08-02 | **GRACE: Generative Recommender Acceleration Engine for Real-Time Ads Retrieval** | Zhou Fang, Yuhang Huang, Ang Zhang, Yihan He, Ruichao Xiao, Chao Li, Yavuz Yetim, Sibyl Yang, Xiaohan Wei, Fei Tian, Liang Wang, Liyuan Li, Nathan Yan, Gaoxiang Liu | [Link](https://arxiv.org/abs/2608.00938) | N/A |
+| 2026-08-01 | **Exponential Reward Weighting for Fine-Tuning Generative Recommenders under Sparse and Noisy Feedback** | Keertana Chidambaram, Sanath Kumar Krishnamurthy, Qiuling Xu, Ko-Jen Hsiao, Moumita Bhattacharya | [Link](https://arxiv.org/abs/2608.00816) | N/A |
+| 2026-08-01 | **Hierarchical Residual Policy Optimization for Generative Recommendations** | Kaifeng Guo, Yiming Yang, Jingtong Gao, Guolei Zeng, Fukang Yang, Yukang Liang, Peng Jiang, Qingpeng Cai, Xiangyu Zhao | [Link](https://arxiv.org/abs/2608.00750) | N/A |
+| 2026-08-01 | **GARDRec: Decision-Level Graph Grounding for Large Language Model Recommendation** | Yong Wang, Hongliang Sun, Jinlan Liu, Hua Zhang, Dianbo Sui, Dianhui Chu, Zhiying Tu | [Link](https://arxiv.org/abs/2608.00669) | N/A |
+| 2026-07-31 | **Producing Policy Recommendations: from Statistical Decision Theory to Empirical Practice** | Giacomo Opocher | [Link](https://arxiv.org/abs/2607.29281) | N/A |
+| 2026-07-31 | **UniPolymer: A Unified Framework for Property Prediction, Structure Recommendation, and Evaluation in Polyimide Design** | Junquan Hu, Zhihui Wang, Peng Xu, Xinru Guo, Xintong Li, Kun Lu, Ben Fei | [Link](https://arxiv.org/abs/2607.29256) | N/A |
+| 2026-07-31 | **RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems** | Haoran Ling, Yuecheng Li, Zeyu Song, Jing Yao, Shuwen Kang, Chi Lu, Wenjin Wu, Peng Jiang | [Link](https://arxiv.org/abs/2607.29241) | N/A |
+| 2026-07-31 | **GALA: Generative Aligned Learning for Adaptive Multimodal Representation in the Taobao Shangou Recommender System** | Jiping Liu, Zhongmin Zhang, Zisen Sang, Zhijia Fang, Tao Ouyang, Ma Jiang, Shaopeng Liang, Zeyang Hou, Guodong Cao, Jia Jia | [Link](https://arxiv.org/abs/2607.29213) | N/A |
+| 2026-07-31 | **EvoReason: Self-Evolving Reasoning Primitive-Guided On-Policy Distillation for Latent Reasoning in Generative Recommendation** | Zhuang Zhuang, Zhipeng Wei, Rongfeng Guo, Shijie Li, Peng Zhao, Jie Chen, Fei Pan | [Link](https://arxiv.org/abs/2607.29010) | N/A |
+| 2026-07-31 | **Think2Go: Generative Next POI Recommendation with LLM Reasoning** | Zhuang Zhuang, Shanshan Feng, Hangwei Qian, Mingqi Yang, Heng Qi, Yanming Shen, Baocai Yin | [Link](https://arxiv.org/abs/2607.28997) | N/A |
+| 2026-07-31 | **TransX: Scaling Transformer-based Recommendation via Behavioral and Serving Stream Crossings** | Da Xu, Liyan Fang, Divya Venugopalan, Sunny Hsu, Xukai Wang, Rishav Roy Chowdhury, Cindy Liang, Nishant Satya Lakshmikanth | [Link](https://arxiv.org/abs/2607.28940) | N/A |
+| 2026-07-30 | **GRAIN: Molecules Are Not the Right Granularity -- Active-Ingredient Modeling for Safe Medication Recommendation** | Juao Fan, Jinhan Li, Shengxin Zhu | [Link](https://arxiv.org/abs/2608.00098) | N/A |
+| 2026-07-30 | **LLM-Based Generative Retrieval for Snapchat Content Recommendation** | Liam Collins, Jiwen Ren, Donald Loveland, Bhuvesh Kumar, Clark Mingxuan Ju, Xuan Guo, Mo Li, Alvin Hou, Yi Cui, Peng Yang, Jian Wang, Saud Afzal Shafi, Nga Than, Ruiming Lu, Wenfeng Zhuo, Dongheng Li, Lili Zhang, Mingtao Zhang, Jinchao Ye, Vincent Xue, Chunhui Zhu, Neil Shah | [Link](https://arxiv.org/abs/2607.28895) | N/A |
 | 2026-07-30 | **CCFormer: Efficient Cross-Field Interaction and Hierarchical Sequence Compression for Industrial Recommendation at Tencent** | Yunlong Wang, Huizhe Zhang, Haonan Hu, Yudong Li, Bing Wen, Jianchao Tu, Chengxiang Zhuo, Zang Li | [Link](https://arxiv.org/abs/2607.28070) | N/A |
 | 2026-07-30 | **Interpretable Representation via LLM-Driven Generative Disentanglement for Local-Life Service Recommendation** | Long Zhang, Hao Jiang, Sheng Yu, Fei Pan, Peng Jiang, Kun Gai | [Link](https://arxiv.org/abs/2607.27944) | N/A |
 | 2026-07-30 | **From Understanding to Action: Feedback-Grounded Policy Discovery for Generative Recommendation** | Zhi Chen, Minmao Wang, Xingchen Liu, Haoqiang Liang, Huihuang Lin, Likang Wu, Hongke Zhao, Yulong Wang, Shijie Yi, Fei Pan, Peng Jiang | [Link](https://arxiv.org/abs/2607.27789) | N/A |
@@ -76,6 +89,7 @@ layout: default
 | 2026-07-23 | **Probabilistic Residual Learning for Online Recommendations** | Wenyuan Wang, Yusong Zhao, Zihao Xu, Hengyi Wang, Qi Xu, Zhigang Hua, Yan Xie, Yi Wang, Zihao Zhao, Bo Long, Chengzhi Mao, Shuang Yang, Hengguan Huang, Hao Wang | [Link](https://arxiv.org/abs/2607.20863) | N/A |
 | 2026-07-22 | **Cardinality-Decomposed Loss: Matching Training Objectives to Relation Structure in Heterogeneous Recommendation Graphs** | Parul Maheshwari, Amulya Paruchuri, Yiqing Zou, Alireza Sahami Shirazi, Farhad Farahani, Prakhar Mehrotra | [Link](https://arxiv.org/abs/2607.20737) | N/A |
 | 2026-07-22 | **Personalized Recommendation Tool Learning via Autonomous Language Agents** | Mingdai Yang, Zhiwei Liu, Weizhi Zhang, Yibo Wang, Hao Peng, Philip Yu | [Link](https://arxiv.org/abs/2607.19739) | N/A |
+| 2026-07-21 | **Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding** | Yuxuan Hu, Yuhao Wang, Tianbo Huang, Chao Zhang, Ziwei Liu, Lihua Zhang, Xiangyu Zhao | [Link](https://arxiv.org/abs/2607.28659) | N/A |
 | 2026-07-21 | **Spectral Biclustering-Driven Scalability for Post-Hoc Explainability in Recommender Systems** | Jose L. Salmeron, Irina Arévalo | [Link](https://arxiv.org/abs/2607.19189) | N/A |
 | 2026-07-21 | **Beyond Noisy Signals: Dual-Level Denoising for Multi-modal Sequential Recommendation** | Jie Luo, Qi Jin, Xinming Zhang | [Link](https://arxiv.org/abs/2607.18786) | N/A |
 | 2026-07-21 | **Mitigating Matthew Effect: Multi-Hypergraph Boosted Multi-Interest Self-Supervised Learning for Conversational Recommendation** | Yongsen Zheng, Ruilin Xu, Guohua Wang, Liang Lin, Kwok-Yan Lam | [Link](https://arxiv.org/abs/2607.18609) | N/A |
@@ -238,7 +252,7 @@ layout: default
 | 2026-06-04 | **Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations** | Nimesh Sinha, Raghav Saboo, Martin Wang, Sudeep Das | [Link](https://arxiv.org/abs/2606.06779) | N/A |
 | 2026-06-04 | **Bridging the Semantic-Collaborative Gap: An Asymmetric Graph Architecture for Cold-Start Item Recommendation** | Anh Truong, John Trenkle, Yuanbo Chen, Honghong Zhao, Abdullah Alchihabi, Effy Fang, Michael Tamir | [Link](https://arxiv.org/abs/2606.06225) | N/A |
 | 2026-06-04 | **QueryAgent-R1: Bridging Query Generation and Product Retrieval for E-Commerce Query Recommendation** | Dike Sun, Zheng Zou, Jingtong Zang, Qi Sun, Huaipeng Zhaoand Tao Luo, Xiaoyi Zeng | [Link](https://arxiv.org/abs/2606.05671) | N/A |
-| 2026-06-04 | **ANCHOR: Agentic Noise Creation Framework for Human Simulation and Denoising Recommendation** | Xiangming Li, Hua Chu, Chengyu Feng, Jianan Li, Yangtao Zhou | [Link](https://arxiv.org/abs/2606.05621) | N/A |
+| 2026-06-04 | **ANCHOR: Agentic Noise Creation Framework for Human Simulation and Denoising Recommendation** | Xiangming Li, Hua Chu, Jiaming Liang, Jianan Li, Yangtao Zhou | [Link](https://arxiv.org/abs/2606.05621) | N/A |
 | 2026-06-04 | **PHKT:Personalized Dynamic Hypergraph-enhanced KAN-Transformer for Multi-behavior Sequential Recommendation** | Ruijie Du, Hao Chen, Xin Zhang, Dongjing Wang, Ze Zhang, Xudong Shen, Runze Wu, Dongjin Yu | [Link](https://arxiv.org/abs/2606.05537) | N/A |
 | 2026-06-03 | **SinkRec: Mitigating Semantic State Sink in Long Sequence Recommendation with Memory-Conditioned Gated Delta Networks** | Zhuang Zhuang, Zhipeng Wei, Ji Dai, Jie Chen, Fei Pan, Peng Jiang, Kun Gai | [Link](https://arxiv.org/abs/2606.09888) | N/A |
 | 2026-06-03 | **Trading Engagement for Sustainability: Carbon-Aware Re-ranking for E-commerce Recommendations** | Noah Lund Syrdal, Anders Vestrum, Jorgen Bergh | [Link](https://arxiv.org/abs/2606.04550) | N/A |
