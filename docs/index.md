@@ -2,11 +2,24 @@
 layout: default
 ---
 
-## Updated on 2026-08-04
+## Updated on 2026-08-05
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-08-04 | **SITA: Semantic Interest Tokens for Target-Aware Compression in Long-Sequence Recommendation** | Rui Zhou, Bo Chen, Qinglin Jia, Jiezhou Ji, Chaoyi Ma, Ruiming Tang, Hao Wang, Enhong Chen | [Link](https://arxiv.org/abs/2608.03692) | N/A |
+| 2026-08-04 | **Conditionally Identifiable Latent-Environment Modeling for Out-of-Distribution Recommendation** | Qianqian Wang, Wenwu Gong, Yunshan Li, Zhenqing Wu, Ruili Wang, Lili Yang | [Link](https://arxiv.org/abs/2608.03647) | N/A |
+| 2026-08-04 | **LLM-Derived Priors for Thompson Sampling in Cold-Start Comment Recommendation** | Eugene Lee, Oseong Choi, Byungsoo Kang, Taeyeong Jang | [Link](https://arxiv.org/abs/2608.03382) | N/A |
+| 2026-08-03 | **Knowledge-Geometry Decoupling: Refreshable Pretrained Transfer for Streaming Recommendation** | Zixuan Wang, Yuhong Chen, Yuxuan Zhu, Guidong Lei, Zhiluohan Guo, Yu Zhao, Kun Wang, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li | [Link](https://arxiv.org/abs/2608.02738) | N/A |
+| 2026-08-03 | **Studying Developer Perceptions on the Potential of CI Recommendation Systems** | Osamah H. Alaini, Taher A. Ghaleb | [Link](https://arxiv.org/abs/2608.02682) | N/A |
+| 2026-08-03 | **Unpaired Modality-Agnostic Generative Recommendation** | Weihao Shen, Wei Chen, Fuwei Zhang, Meng Yuan, Yuqin Lan, Guojun Liu, Qingsong Hua, Wei Lin, Fuzhen Zhuang | [Link](https://arxiv.org/abs/2608.02477) | N/A |
+| 2026-08-03 | **SmartGR: Hierarchy and Beam-Aware Knowledge Distillation for Generative Recommendation** | Ziheng Zhang, Yu Cui, Bohao Wang, Yong He, Chao Yu, Chuan Yuan, Wujie Sun, Can Wang, Jiawei Chen | [Link](https://arxiv.org/abs/2608.02048) | N/A |
+| 2026-08-03 | **A Self-Triggered Agentic Push Recommendation System** | Zhao-Yu Zhang, Qingying Chen, Chunyuan Zheng, Jing Zhou, Jian Sun, Siqi Chen, Leiying Chen, Chuan Zhou, Huiyou Jiang, Xin Tao, Haoxuan Li, Zhouchen Lin | [Link](https://arxiv.org/abs/2608.01949) | N/A |
+| 2026-08-03 | **HyperAgent4POI: Dynamic Semantic Message Passing on Multi-Agent Hypergraphs for Missing-Modality Recommendation** | Jinze Wang, Yuze Liu, Tiehua Zhang, Jiong Jin, Zhu Sun | [Link](https://arxiv.org/abs/2608.01846) | N/A |
+| 2026-08-03 | **X-KGRank: A Knowledge Graph RAG Framework for Explainable Recommendations via Pattern Mining and LLM Re-Ranking** | Meenakshi Rajpurohit, Jainish Patel | [Link](https://arxiv.org/abs/2608.01732) | N/A |
+| 2026-08-03 | **MODE: Mutual Optimality in Direct Effects of Reciprocal Recommendations in Matching Markets** | Yoji Tomita | [Link](https://arxiv.org/abs/2608.01731) | N/A |
+| 2026-08-02 | **Collaborative Memory Augmentation for Generative Recommendation** | Enze Liu, Zhen Tian, Wayne Xin Zhao | [Link](https://arxiv.org/abs/2608.01315) | N/A |
+| 2026-08-02 | **Auditing Semantic Gains in Sequential Recommendation: A Lightweight Recovery Test** | Kong Wang, Zhongke He, Xiang Chen, Hongwei Zeng, Kai Deng, Long Wang, Kehua Yang | [Link](https://arxiv.org/abs/2608.01260) | N/A |
 | 2026-08-02 | **GRACE: Generative Recommender Acceleration Engine for Real-Time Ads Retrieval** | Zhou Fang, Yuhang Huang, Ang Zhang, Yihan He, Ruichao Xiao, Chao Li, Yavuz Yetim, Sibyl Yang, Xiaohan Wei, Fei Tian, Liang Wang, Liyuan Li, Nathan Yan, Gaoxiang Liu | [Link](https://arxiv.org/abs/2608.00938) | N/A |
 | 2026-08-01 | **Exponential Reward Weighting for Fine-Tuning Generative Recommenders under Sparse and Noisy Feedback** | Keertana Chidambaram, Sanath Kumar Krishnamurthy, Qiuling Xu, Ko-Jen Hsiao, Moumita Bhattacharya | [Link](https://arxiv.org/abs/2608.00816) | N/A |
 | 2026-08-01 | **Hierarchical Residual Policy Optimization for Generative Recommendations** | Kaifeng Guo, Yiming Yang, Jingtong Gao, Guolei Zeng, Fukang Yang, Yukang Liang, Peng Jiang, Qingpeng Cai, Xiangyu Zhao | [Link](https://arxiv.org/abs/2608.00750) | N/A |
@@ -338,7 +351,7 @@ layout: default
 | 2026-05-15 | **Contexting as Recommendation: Evolutionary Collaborative Filtering for Context Engineering** | Jiachen Zhu, Zhuoying Ou, Congmin Zheng, Yuxiang Chen, Zeyu Zheng, Rong Shan, Lingyu Yang, Lionel Z. Wang, Weiwen Liu, Yong Yu, Weinan Zhang, Jianghao Lin | [Link](https://arxiv.org/abs/2605.15721) | N/A |
 | 2026-05-14 | **Fortress: A Case Study in Stabilizing Search Recommendations via Temporal Data Augmentation and Feature Pruning** | Milind Pandurang Jagre, Jia Huang, Dayvid V. R. Oliveira, Zhinan Cheng, Babak Seyed Aghazadeh, Puja Das, Chris Alvino, Jinda Han, Kailash Thiyagarajan | [Link](https://arxiv.org/abs/2605.15299) | N/A |
 | 2026-05-14 | **RxEval: A Prescription-Level Benchmark for Evaluating LLM Medication Recommendation** | Shuhao Chen, Weisen Jiang, Changmiao Wang, Xiaoqing Wu, Xuanren Shi, Yu Zhang, James T. Kwok | [Link](https://arxiv.org/abs/2605.14543) | N/A |
-| 2026-05-14 | **Asymmetric Generative Recommendation via Multi-Expert Projection and Multi-Faceted Hierarchical Quantization** | Bin Huang, Xin Wang, Junwei Pan, Yongqi Zhou, Yifeng Zhou, Zhixiang Feng, Shudong Huang, Haijie Gu, Wenwu Zhu | [Link](https://arxiv.org/abs/2605.14512) | N/A |
+| 2026-05-14 | **Asymmetric Generative Recommendation via Kronecker Residual Bridge and Multi-Faceted Hierarchical Quantization** | Bin Huang, Xin Wang, Junwei Pan, Yongqi Zhou, Yifeng Zhou, Zhixiang Feng, Shudong Huang, Haijie Gu, Wenwu Zhu | [Link](https://arxiv.org/abs/2605.14512) | N/A |
 | 2026-05-14 | **Agentic Recommender System with Hierarchical Belief-State Memory** | Xiang Shen, Yuhang Zhou, Yifan Wu, Zhuokai Zhao, Siyu Lin, Lei Huang, Qianqian Zhong, Lizhu Zhang, Benyu Zhang, Xiangjun Fan, Hong Yan | [Link](https://arxiv.org/abs/2605.14401) | N/A |
 | 2026-05-13 | **Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models** | Xinye Wanyan, Chenglong Ma, Danula Hettiachchi, Ziqi Xu, Jeffrey Chan | [Link](https://arxiv.org/abs/2605.13497) | N/A |
 | 2026-05-13 | **TurboGR: An Accelerated Training System for Large-Scale Generative Recommendation** | Huichao Chai, Zhixin Wu, Xuemiao Li, Shiqing Fan, Hengfeng Wang, Maojun Peng, Lu Xu, Yaoyuan Wang, Yibo Jin, Wei Guo, Yongxiang Feng | [Link](https://arxiv.org/abs/2605.13433) | N/A |
