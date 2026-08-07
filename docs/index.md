@@ -2,11 +2,16 @@
 layout: default
 ---
 
-## Updated on 2026-08-06
+## Updated on 2026-08-07
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-08-06 | **Gryphon-v2: One Model in Place of a Cascade - Generate-and-Rank Recommender with Rollout Distillation** | Anna Lipkina, Daria Tikhonovich, Viktor Yanush, Mariia Ulianova, Oleg Sorokin, Vladislav Dodonov, Ilya Murzin, Denis Burshtein, Nikolay Savushkin | [Link](https://arxiv.org/abs/2608.06213) | N/A |
+| 2026-08-06 | **Is Personalized Modality Weighting Actually Personalized? A Controlled Audit of Per-User Weighting Claims in Multimodal Recommenders** | Jingyuan Zheng, Xin Zhang, Yang Gu, Dongjing Wang, Yuxiang Wang, Xudong Shen, Haiping Zhang, Youhuizi Li, Dongjin Yu | [Link](https://arxiv.org/abs/2608.05655) | N/A |
+| 2026-08-05 | **Robustness and User-Perceived Value of Popularity Calibration in Music Recommendation: A User Study** | Oleg Lesota, Gustavo Escobedo, Bruce Ferwerda, Simone Kopeinik, Dominik Kowald, Elisabeth Lex, Markus Schedl | [Link](https://arxiv.org/abs/2608.05402) | N/A |
+| 2026-08-05 | **WatchLens: A Configurable Platform for Online Video Recommendation Experiments** | Deogyong Kim, Dongha Lee | [Link](https://arxiv.org/abs/2608.04807) | N/A |
+| 2026-08-04 | **ATLAS: Learning to Recommend Across Unseen Domains** | Pervez Shaik, Prosenjit Biswas, Abhinav Thorat, Ravi Kolla, Niranjan Pedanekar | [Link](https://arxiv.org/abs/2608.03899) | N/A |
 | 2026-08-04 | **SITA: Semantic Interest Tokens for Target-Aware Compression in Long-Sequence Recommendation** | Rui Zhou, Bo Chen, Qinglin Jia, Jiezhou Ji, Chaoyi Ma, Ruiming Tang, Hao Wang, Enhong Chen | [Link](https://arxiv.org/abs/2608.03692) | N/A |
 | 2026-08-04 | **Conditionally Identifiable Latent-Environment Modeling for Out-of-Distribution Recommendation** | Qianqian Wang, Wenwu Gong, Yunshan Li, Zhenqing Wu, Ruili Wang, Lili Yang | [Link](https://arxiv.org/abs/2608.03647) | N/A |
 | 2026-08-04 | **LLM-Derived Priors for Thompson Sampling in Cold-Start Comment Recommendation** | Eugene Lee, Oseong Choi, Byungsoo Kang, Taeyeong Jang | [Link](https://arxiv.org/abs/2608.03382) | N/A |
@@ -20,7 +25,7 @@ layout: default
 | 2026-08-03 | **MODE: Mutual Optimality in Direct Effects of Reciprocal Recommendations in Matching Markets** | Yoji Tomita | [Link](https://arxiv.org/abs/2608.01731) | N/A |
 | 2026-08-02 | **Collaborative Memory Augmentation for Generative Recommendation** | Enze Liu, Zhen Tian, Wayne Xin Zhao | [Link](https://arxiv.org/abs/2608.01315) | N/A |
 | 2026-08-02 | **Auditing Semantic Gains in Sequential Recommendation: A Lightweight Recovery Test** | Kong Wang, Zhongke He, Xiang Chen, Hongwei Zeng, Kai Deng, Long Wang, Kehua Yang | [Link](https://arxiv.org/abs/2608.01260) | N/A |
-| 2026-08-02 | **GRACE: Generative Recommender Acceleration Engine for Real-Time Ads Retrieval** | Zhou Fang, Yuhang Huang, Ang Zhang, Yihan He, Ruichao Xiao, Chao Li, Yavuz Yetim, Sibyl Yang, Xiaohan Wei, Fei Tian, Liang Wang, Liyuan Li, Nathan Yan, Gaoxiang Liu | [Link](https://arxiv.org/abs/2608.00938) | N/A |
+| 2026-08-02 | **GRACE: Generative Recommender Acceleration Engine for Real-Time Ads Retrieval** | Zhou Fang, Yuhang Huang, Ang Zhang, Yihan He, Ruichao Xiao, Chao Li, Yavuz Yetim, Sibyl Yang, Xiaohan Wei, Fei Tian, Liang Wang, Chonglin Sun, Liyuan Li, Nathan Yan, Gaoxiang Liu | [Link](https://arxiv.org/abs/2608.00938) | N/A |
 | 2026-08-01 | **Exponential Reward Weighting for Fine-Tuning Generative Recommenders under Sparse and Noisy Feedback** | Keertana Chidambaram, Sanath Kumar Krishnamurthy, Qiuling Xu, Ko-Jen Hsiao, Moumita Bhattacharya | [Link](https://arxiv.org/abs/2608.00816) | N/A |
 | 2026-08-01 | **Hierarchical Residual Policy Optimization for Generative Recommendations** | Kaifeng Guo, Yiming Yang, Jingtong Gao, Guolei Zeng, Fukang Yang, Yukang Liang, Peng Jiang, Qingpeng Cai, Xiangyu Zhao | [Link](https://arxiv.org/abs/2608.00750) | N/A |
 | 2026-08-01 | **GARDRec: Decision-Level Graph Grounding for Large Language Model Recommendation** | Yong Wang, Hongliang Sun, Jinlan Liu, Hua Zhang, Dianbo Sui, Dianhui Chu, Zhiying Tu | [Link](https://arxiv.org/abs/2608.00669) | N/A |
