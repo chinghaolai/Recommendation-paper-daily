@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260817102106
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 20692
+PSVersion: 5.1.26100.8875
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8875
+BuildVersion: 10.0.26100.8875
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 08/17/2026 10:21:06 ===
+--- Running daily_arxiv.py ---
+[08/17/2026 10:21:09 INFO]   + [2026-04-27] How Personal Characteristics Shape User Exploration of Diverse Movie Recomme
+ndat
+[08/17/2026 10:21:09 INFO]   + [2026-04-27] Versioned Late Materialization for Ultra-Long Sequence Training in Recommend
+atio
+[08/17/2026 10:21:09 INFO]   + [2026-04-27] FreeScale: Distributed Training for Sequence Recommendation Models with Mini
+mal
+[08/17/2026 10:21:09 INFO]   + [2026-04-27] Disagreement as Signals: Dual-view Calibration for Sequential Recommendation
+ Den
+[08/17/2026 10:21:09 INFO]   + [2026-04-26] Prompt-Unknown Promotion Attacks against LLM-based Sequential Recommender Sy
+stem
+[08/17/2026 10:21:09 INFO]   + [2026-04-26] Green-Red Watermarking for Recommender Systems
+[08/17/2026 10:21:09 INFO]   + [2026-04-26] Beyond Static Collision Handling: Adaptive Semantic ID Learning for Multimod
+al R
+[08/17/2026 10:21:09 INFO]   + [2026-04-25] Birds of a Feather Cluster Nearby: a Proximity-Aware Geo-Codebook for Local
+Serv
+[08/17/2026 10:21:09 INFO]   + [2026-04-25] Adopting State-of-the-Art Pretrained Audio Representations for Music Recomme
+nder
+[08/17/2026 10:21:09 INFO]   + [2026-04-24] CASP: Support-Aware Offline Policy Selection for Two-Stage Recommender Syste
+ms
+[08/17/2026 10:21:09 INFO]   + [2026-04-24] Objective Shaping with Hard Negatives: Windowed Partial AUC Optimization for
+ RL-
+[08/17/2026 10:21:12 INFO] Topic 'Recommendation': 500 papers found.
+[08/17/2026 10:21:12 INFO] === Fetch complete ===
+[08/17/2026 10:21:12 INFO] Markdown written: README.md
+[08/17/2026 10:21:12 INFO] Target 'readme' done.
+[08/17/2026 10:21:12 INFO] Markdown written: docs\index.md
+[08/17/2026 10:21:12 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 08/17/2026 10:21:16 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260817102116
+**********************

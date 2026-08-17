@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260804100003
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 8532
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 08/04/2026 10:00:03 ===
+--- Running daily_arxiv.py ---
+[08/04/2026 10:00:22 INFO]   + [2026-04-14] TRACE: A Conversational Framework for Sustainable Tourism Recommendation wit
+h Ag
+[08/04/2026 10:00:22 INFO]   + [2026-04-14] Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommen
+dati
+[08/04/2026 10:00:22 INFO]   + [2026-04-14] Identifying and Mitigating Gender Cues in Academic Recommendation Letters: A
+n In
+[08/04/2026 10:00:22 INFO]   + [2026-04-14] UniRec: Bridging the Expressive Gap between Generative and Discriminative Re
+comm
+[08/04/2026 10:00:22 INFO]   + [2026-04-13] WiseOWL: A Methodology for Evaluating Ontological Descriptiveness and Semant
+ic C
+[08/04/2026 10:00:22 INFO]   + [2026-04-13] R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generat
+ive
+[08/04/2026 10:00:22 INFO]   + [2026-04-12] Participatory, not Punitive: Student-Driven AI Policy Recommendations in a D
+esig
+[08/04/2026 10:00:22 INFO]   + [2026-04-11] MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescien
+t Re
+[08/04/2026 10:00:22 INFO]   + [2026-04-11] HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recomm
+enda
+[08/04/2026 10:00:22 INFO]   + [2026-04-11] Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Sy
+stem
+[08/04/2026 10:00:22 INFO]   + [2026-04-10] Beyond Centralization: User-Controlled Federated Recommendations in Practice
+[08/04/2026 10:00:25 INFO] Topic 'Recommendation': 500 papers found.
+[08/04/2026 10:00:25 INFO] === Fetch complete ===
+[08/04/2026 10:00:25 INFO] Markdown written: README.md
+[08/04/2026 10:00:25 INFO] Target 'readme' done.
+[08/04/2026 10:00:25 INFO] Markdown written: docs\index.md
+[08/04/2026 10:00:25 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 08/04/2026 10:00:29 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260804100029
+**********************

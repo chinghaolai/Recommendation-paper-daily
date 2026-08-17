@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260731100004
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 28536
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 07/31/2026 10:00:04 ===
+--- Running daily_arxiv.py ---
+uent
+[07/31/2026 10:00:35 INFO]   + [2026-04-10] Hybrid Cold-Start Recommender System for Closure Model Selection in Multipha
+se F
+[07/31/2026 10:00:35 INFO]   + [2026-04-10] DIAURec: Dual-Intent Space Representation Optimization for Recommendation
+[07/31/2026 10:00:35 INFO]   + [2026-04-10] IAT: Instance-As-Token Compression for Historical User Sequence Modeling in
+Indu
+[07/31/2026 10:00:35 INFO]   + [2026-04-09] Creator Incentives in Recommender Systems: A Cooperative Game-Theoretic Appr
+oach
+[07/31/2026 10:00:35 INFO]   + [2026-04-09] Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation
+[07/31/2026 10:00:35 INFO]   + [2026-04-09] Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A
+Caus
+[07/31/2026 10:00:35 INFO]   + [2026-04-09] DialBGM: A Benchmark for Background Music Recommendation from Everyday Multi
+-Tur
+[07/31/2026 10:00:35 INFO]   + [2026-04-09] Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems
+[07/31/2026 10:00:35 INFO]   + [2026-04-09] ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcem
+ent
+[07/31/2026 10:00:35 INFO]   + [2026-04-09] Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders
+[07/31/2026 10:00:35 INFO]   + [2026-04-09] Efficient Dataset Selection for Continual Adaptation of Generative Recommend
+ers
+[07/31/2026 10:00:35 INFO]   + [2026-04-08] HiMARS: Hybrid multi-objective algorithms for recommender systems
+[07/31/2026 10:00:35 INFO]   + [2026-04-08] Leveraging Artist Catalogs for Cold-Start Music Recommendation
+[07/31/2026 10:00:38 INFO] Topic 'Recommendation': 500 papers found.
+[07/31/2026 10:00:38 INFO] === Fetch complete ===
+[07/31/2026 10:00:38 INFO] Markdown written: README.md
+[07/31/2026 10:00:38 INFO] Target 'readme' done.
+[07/31/2026 10:00:38 INFO] Markdown written: docs\index.md
+[07/31/2026 10:00:38 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 07/31/2026 10:00:44 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260731100044
+**********************
