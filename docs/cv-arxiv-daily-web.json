@@ -14478,7 +14478,7 @@
         },
         "2605.17648": {
             "title": "SAPO: Step-Aligned Policy Optimization for Reasoning-Based Generative Recommendation",
-            "authors": "Zaiyi Zheng, Guanghui Min, Yaochen Zhu, Liang Wu, Liangjie Hong, Chen Chen, Jundong Li",
+            "authors": "Zaiyi Zheng, Liang Wu, Guanghui Min, Yaochen Zhu, Liangjie Hong, Chen Chen, Jundong Li",
             "first_author": "Zaiyi Zheng",
             "url": "https://arxiv.org/abs/2605.17648",
             "pdf_url": "https://arxiv.org/abs/2605.17648",
@@ -17134,7 +17134,7 @@
             "url": "https://arxiv.org/abs/2606.21120",
             "pdf_url": "https://arxiv.org/abs/2606.21120",
             "publish_date": "2026-06-19",
-            "abstract": "We study a model in which a sender allocates limited treatment to agents with heterogeneous quality and later recommends selected agents to a receiver, seeking to maximize the number of agents accepted by the receiver. All agents value treatment, which improves agents' quality, but treatment must be allocated before the sender observes agents' initial quality; recommendation occurs only after quality is learned. A natural benchmark is to design the two instruments separately: allocate treatment randomly first, and then recommend agents from the top down afterward. Our main result shows that the sender can do strictly better by coordinating treatment allocation with recommendations. In the optimal joint mechanism, treatment is non-monotone in quality: an intermediate group has a lower treatment probability than both higher- and lower-quality agents, but is compensated with a guaranteed recommendation when treatment is realized. We provide an implementation through contracts that induce self-selection and discuss applications to education, industrial policy, and startup incubation. The takeaway is simple: coordinate treatment allocation and recommendation.",
+            "abstract": "We study a model in which a sender allocates limited treatment to agents with heterogeneous quality and later recommends selected agents to a receiver, seeking to maximize the number of agents accepted by the receiver. All agents value treatment, which improves agents' quality, but treatment must be allocated before the sender observes agents' initial quality; recommendation occurs only after quality is learned. A natural benchmark is to design the two instruments separately: allocate treatment randomly first, and then recommend agents from the top down afterward. Our main result shows that the sender can do strictly better by coordinating treatment allocation with recommendations. In the optimal joint mechanism, treatment is non-monotone in quality: an intermediate group has a lower treatment probability than both higher- and lower-quality agents, but is compensated with a guaranteed recommendation when treatment is realized. We provide an implementation through contracts that induce self-selection and discuss applications to education, industrial policy, and startup incubation.",
             "primary_category": "econ.TH",
             "code_url": "null"
         },
@@ -19592,7 +19592,7 @@
             "code_url": "null"
         },
         "2608.11980": {
-            "title": "HCGRec: Hint-Conditioned Generative Recommendation with Semantic IDs",
+            "title": "Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation",
             "authors": "Kangning Zhang, Haotian Fang, Xukun Luo, Hao Yin, Yang Gao, Peng Yan, Weiwen Liu, Weinan Zhang, Yong Yu",
             "first_author": "Kangning Zhang",
             "url": "https://arxiv.org/abs/2608.11980",
@@ -20029,6 +20029,28 @@
             "publish_date": "2026-06-06",
             "abstract": "Preventive care services (PCS) extend life, yet physicians often underprioritize highly effective interventions such as lifestyle modifications (Zhang et al., JAMA Network Open 2020). We evaluated whether large language models (LLMs) replicate and augment physician prioritization of PCS under time constraints. Using Zhang et al.'s validated survey with two patients assessed during long and short visits, we compared seven LLMs with historical physicians. We generated 137 simulated physician personas matching cohort demographics and tested three prompts per model. Primary outcomes were concordance with physician rankings, measured by Spearman correlation, and Consensus-Stratified Agreement (CSA), the proportion of LLM selections rated 4 or higher that matched physician consensus across agreement strata. Secondary outcomes included life-years gained per prioritized choice (LYGPC), consistency, and selectiveness. Augmentation was assessed by having models revise physician rankings under three informative prompts, with delta LYGPC quantifying impact. LLMs closely mirrored physicians (mean Spearman = 0.83, SD = 0.11), with high CSA at extreme agreement ranges (94%, 197/210) but low CSA in moderate ranges (21%, 30/140), where they underprioritized lifestyle services (8.8% vs. 38% rated 4 or higher; P < .001). Several models exceeded physicians in LYGPC and consistency while being more selective. Time constraints affected physicians and LLMs similarly, increasing LYGPC and selectiveness but reducing consistency. Augmentation effects varied by model. Current LLMs reproduced physicians' time-sensitivity and base-rate prioritization while exacerbating underprioritized lifestyle interventions. Some models improved prioritization performance, but consistent augmentation will require value-aligned training, explicit time-constraint representation, and prospective real-world validation.",
             "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2608.15780": {
+            "title": "Decomposing Staleness in Recommender Systems: A Dual-Filter Framework for Supersession and Decay",
+            "authors": "Di Bai, Feng Han, Zhenwei Tang, Jintao Liu, Luoshu Wang, Jialu Liu",
+            "first_author": "Di Bai",
+            "url": "https://arxiv.org/abs/2608.15780",
+            "pdf_url": "https://arxiv.org/abs/2608.15780",
+            "publish_date": "2026-08-16",
+            "abstract": "Stale recommendations are a pervasive challenge and a leading source of user complaints on large-scale content platforms. Items lose relevance through two primary mechanisms: supersession, where emerging updates render prior coverage stale, and relevance decay, where an item's informational value naturally diminishes over its lifecycle. Traditional countermeasures serve as crude proxies: age cutoffs poorly reflect actual relevance loss, while engagement heuristics rely on lagging signals, broadly exposing users to stale content before the system adapts. We present SDF (Supersession-Decay Filtering), a staleness filtering system fully deployed in Google Discover, a personalized recommendation feed with hundreds of millions of daily and billions of monthly active users. SDF targets both mechanisms with complementary filters, each powered by a learned model: a relational staleness model that detects supersession between item pairs, and a predicted traffic ratio (PTR) model that forecasts relevance decay from the item's content, trained on lifetime visit traffic. Applied via disjunction upstream of the ranking stage, SDF prunes stale candidates, measurably reducing downstream serving costs. Online experiments demonstrate that these filters significantly reduce the prevalence of stale content while improving user engagement. Over a two-year production deployment, user-filed staleness reports (in-product user feedback) declined by 54.9% relative to the pre-deployment baseline, establishing SDF as a robust and scalable paradigm for resolving content staleness at industrial scale.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.14602": {
+            "title": "Recommended Selves: Authenticity and Algorithmic Filtering",
+            "authors": "Etienne Brown",
+            "first_author": "Etienne Brown",
+            "url": "https://arxiv.org/abs/2608.14602",
+            "pdf_url": "https://arxiv.org/abs/2608.14602",
+            "publish_date": "2026-07-02",
+            "abstract": "By allocating their attention to pieces of content, algorithmic filtering shapes the daily behavior of billions of users when they interact with a digital platform. Beyond conditioning what we do, can recommendation algorithms influence who we are? This article suggests that they do. Specifically, I contend that recommender systems affect users' capacity to be their authentic selves in both positive and negative ways. I start by offering an account of authenticity that builds on two central concepts: volitional alignment and self-understanding. I then explain how algorithmic filtering works and impacts authenticity. While recommender systems frustrate users' second-order desires by relying on uninformative behavioral signals, they also facilitate self-understanding by inciting users to question their identity. I end by discussing how controllable and explainable recommenders would best enable users to be authentic.",
+            "primary_category": "cs.CY",
             "code_url": "null"
         }
     }
