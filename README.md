@@ -1,4 +1,4 @@
-## Updated on 2026-08-21
+## Updated on 2026-08-24
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,11 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-08-21 | **Recommendation Quality and the Concentration of Consumption: Experimental Evidence from Netflix** | Guy Aridor, Winston Chou, Nathan Kallus, Antoine Scheid, Allen Tren, Kevin Zielincki | [Link](https://arxiv.org/abs/2608.21274) | N/A |
+| 2026-08-21 | **Adapting Knowledge Graphs for Behavior Denoising in Sequential Recommendation** | Zichun Jin, Zihan Zhou, Yinan Liu, Bin Wang, Xiaochun Yang | [Link](https://arxiv.org/abs/2608.21243) | N/A |
+| 2026-08-21 | **From a Static Multi-Level Small Semantic Codebook to a Dynamic Single-Level Large Semantic Codebook for Generative Recommendation** | Tianlu Xie, Xin Ku, Mingjie Sun, Yunhao Sha, Lixiang Wang, Peng Wang, Yiyu Wang, Wenjin Wu, Zhaojie Liu, Peng Jiang, Wenwu Ou | [Link](https://arxiv.org/abs/2608.21012) | N/A |
+| 2026-08-21 | **Profiling What Matters: Context-Aware Item Profiles from Large-Scale Metadata for LLM Recommenders** | Dojun Hwang, Seunghan Lee, Cheonyoung Park, Sara Yu, SeongKu Kang | [Link](https://arxiv.org/abs/2608.20801) | N/A |
+| 2026-08-20 | **Difficulty-Aware Semantic-ID Optimization for Generative Recommendation** | Xin Yu, Stephen Li, Sina Aghaei, Zifan Zhu, Jiamu Bai, Guanjie Huang, Bo Peng, Yiyao Liu, Lingzhou Xue | [Link](https://arxiv.org/abs/2608.20611) | N/A |
 | 2026-08-20 | **SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation** | Seunghyun Baek, Gyuseok Lee, Seunghan Lee, Wonbin Kweon, Dong Wang, SeongKu Kang | [Link](https://arxiv.org/abs/2608.19998) | N/A |
 | 2026-08-20 | **Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?** | Aleksandr V. Petrov, Praveen Chandar, Paul N. Bennett, Hugues Bouchard, Mounia Lalmas | [Link](https://arxiv.org/abs/2608.19833) | N/A |
 | 2026-08-20 | **RecPFN: Prior-Fitted Networks for In-Context-Based Recommendations** | En Zhi Tan, Jia Xiang Lim, Bryan Lijie Chew, Tze Minh Ng, Benjamin Yan Han Yap | [Link](https://arxiv.org/abs/2608.19735) | N/A |
@@ -18,7 +23,7 @@
 | 2026-08-19 | **SIDScope: A Diagnostic Resource for Semantic-ID Interfaces in Generative Recommendation** | Jiandong Ding, Huijie Qin, Tiandeng Wu, Yi Cao | [Link](https://arxiv.org/abs/2608.18779) | N/A |
 | 2026-08-19 | **Budget-First Tariff Recommendation (BFTR): A Complete Algorithmic Framework for Telecom Plan Recommendation without Overcharging** | Ghislain Dorian Tchuente Mondjo | [Link](https://arxiv.org/abs/2608.18723) | N/A |
 | 2026-08-19 | **ERASE: EaRly bAckpropagation SchEdule for Faster Training of Modern Recommendation Systems** | Ergan Shang, Flavio Sales Truzzi | [Link](https://arxiv.org/abs/2608.18469) | N/A |
-| 2026-08-18 | **The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations** | Emma Yanyang Kong, JJ Tan, Ishan Gupta, Lars Olds, Claire Campbell, David Fagnan, Veli Balin, Rohan Gosain, Louis Garcia, Minsu Jang | [Link](https://arxiv.org/abs/2608.18300) | N/A |
+| 2026-08-18 | **The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations** | Emma Yanyang Kong, JJ Tan, Ishan Gupta, Lars Olds, Claire Campbell, David Fagnan, Ratna Kavuri, Veli Balin, Rohan Gosain, Louis Garcia, Minsu Jang | [Link](https://arxiv.org/abs/2608.18300) | N/A |
 | 2026-08-18 | **Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating** | Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev, Valerii Klimov | [Link](https://arxiv.org/abs/2608.18058) | N/A |
 | 2026-08-18 | **Once Generated, Ranked: End-to-End Generative Slate Recommendation with Unified Semantic-Collaborative IDs** | Yang Hu, Jiayi Guo, Jingui Ma, Ning Li, Jiangling Qin, Yanming Li, Yang Deng, Xiaoshuang Chen, Kaiqiao Zhan | [Link](https://arxiv.org/abs/2608.17613) | N/A |
 | 2026-08-18 | **Empowering Compact LLMs with Fusion of Layer-wise Exits for Recommendation** | Xurong Liang, Tong Chen, Quoc Viet Hung Nguyen, Jianxin Li, Xiangliang Zhang, Hongzhi Yin | [Link](https://arxiv.org/abs/2608.17316) | N/A |
@@ -171,7 +176,7 @@
 | 2026-07-24 | **Reflections and Recommendations on AI Adoption Practice from a Mixed-Ability Research Group** | Shalini Madan, Sreelakshmi Surabiyil Bindu, Veronica Pimenova, Ellie Seehorn, Venkatesh Potluri | [Link](https://arxiv.org/abs/2607.22886) | N/A |
 | 2026-07-24 | **Bringing GRACE to Recommendation: Fine-Tuning for Sustainable and Accurate Personalization** | Yibowen Zhao, Yinan Zhang, Ning Liu, Lizhen Cui, Chunyan Miao | [Link](https://arxiv.org/abs/2607.22341) | N/A |
 | 2026-07-24 | **Efficient Recommendations via Graph Coarsening and Label Propagation** | Alessandro Sbandi, Federico Siciliano, Fabrizio Silvestri | [Link](https://arxiv.org/abs/2607.22287) | N/A |
-| 2026-07-24 | **SIREN (Luring LLMs onto the Rocks): PAIR-Driven Preference Manipulation in Web-RAG Recommenders** | Evan Caville, Siamak Layeghy, Billy Sung, Sara Dolnicar, Marius Portmann | [Link](https://arxiv.org/abs/2607.21951) | N/A |
+| 2026-07-24 | **SIREN (Luring LLMs onto the Rocks): PAIR-Driven Preference Manipulation in Web-RAG Recommenders** | Evan Caville, Spencer Kayser, Siamak Layeghy, Billy Sung, Sara Dolnicar, Marius Portmann | [Link](https://arxiv.org/abs/2607.21951) | N/A |
 | 2026-07-23 | **Improving Rare Medication Recommendation with Counterfactual Data Augmentation and Large Language Models** | Shinhwan Kang, Soo Yong Lee, Jaewon Kim, Kijung Shin, Buru Chang | [Link](https://arxiv.org/abs/2607.24829) | N/A |
 | 2026-07-23 | **StARS: Socially Appropriate Robot Actions via a Recommender System-Driven Approach** | Erencem Ozbey, Fethiye Irmak Dogan, Jin Huang, Hatice Gunes | [Link](https://arxiv.org/abs/2607.21802) | N/A |
 | 2026-07-23 | **Diffusion Language Model for Recommendation** | Chengyi Liu, Yongqi Zhou, Junwei Pan, Zhixiang Feng, Chengguo Yin, Haijie Gu, Jie Jiang, Yinghao Liu, Yujuan Ding, Qing Li, Wenqi Fan | [Link](https://arxiv.org/abs/2607.21519) | N/A |
