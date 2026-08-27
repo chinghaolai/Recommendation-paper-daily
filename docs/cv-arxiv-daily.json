@@ -20514,6 +20514,171 @@
             "abstract": "Personal intelligence is becoming a central frontier for user-facing AI agents. To be helpful in everyday life, agents must understand users across the digital contexts where their preferences, intents, habits, social relationships, and needs unfold over time. Today's systems can personalize within individual apps or tasks, but personal intelligence as a whole remains under-measured: how agents build cross-context user understanding, support steerable recommendation systems, act proactively across platforms, and avoid over-personalization. We introduce PersonaMem-v3, a real-world-grounded benchmark and evaluation harness for omni-platform personal intelligence. PersonaMem-v3 is seeded from more than one million anonymized real-world engagement histories, most of which are implicit signals, and uses them to construct time-indexed user digital worlds across social media, chatbot, calendar, and AI-companion with preference evolvement over time. The benchmark brings personalization, LLM-powered recommendation, proactiveness, agentic tool use, and geo-temporal reasoning into one framework, anchored in psychology, social-linguistics, and user-behavior theories. It evaluates whether AI agents can infer holistic user understanding from cross-platform evidence, personalize responses, rerank recommendations on social media, follow user steering through natural language, and hold back when personalization would be inappropriate, repetitive, outdated, or unnecessary. PersonaMem-v3 points toward LLM-powered personal intelligent agents that work with existing scalable recommendation infrastructure while making personalization more interactive, agentic, and aligned with how real users experience their digital lives.",
             "primary_category": "cs.CY",
             "code_url": "null"
+        },
+        "2608.25755": {
+            "title": "Hamiltonian Spectral-Temporal Dissipative Dynamics for Sequential Recommendation",
+            "authors": "Shuiying Liao, P. Y. Mok",
+            "first_author": "Shuiying Liao",
+            "url": "https://arxiv.org/abs/2608.25755",
+            "pdf_url": "https://arxiv.org/abs/2608.25755",
+            "publish_date": "2026-08-26",
+            "abstract": "Sequential recommendation requires understanding how user preferences evolve over time, yet most existing models treat such evolution as a first order process where the next state depends solely on the current latent representation. Nevertheless, real user behavior often exhibits richer dynamics, including inertia, periodicity, and sudden shifts that cannot be fully captured by these first order assumptions. Motivated by these behavioral characteristics, we reconceptualize sequential recommendation through the lens of second order dynamical systems and introduce the Hamiltonian Spectral Recommender (HSR), which recasts preference evolution as a dissipative Hamiltonian system in a latent phase space of position (stable preference) and momentum (short-term tendency). The linear time-invariant structure of the governing equation admits a closed-form solution in the frequency domain. A learnable dissipation mechanism further captures natural interest decay, while a short local impulse refinement module models abrupt behavioral fluctuations commonly observed in sparse interaction logs. This design jointly accounts for global periodic patterns, inertial evolution, and localized shocks, where three phenomena that are underrepresented in existing sequential models. Extensive experiments on three benchmark datasets demonstrate that HSR consistently outperforms state-of-the-art Transformer-based and state space model (SSM)-based recommenders.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25737": {
+            "title": "D3ER: Supporting Multi-Modal Recommendation via Disentangle and Distillation-based Dynamic Ensemble",
+            "authors": "Bingnan Wang, Yi Li, Xiongxin Tang, Fanjiang Xu, Jiangmeng Li",
+            "first_author": "Bingnan Wang",
+            "url": "https://arxiv.org/abs/2608.25737",
+            "pdf_url": "https://arxiv.org/abs/2608.25737",
+            "publish_date": "2026-08-26",
+            "abstract": "Incorporating items' information shared among multiple modalities into a fused representation, multi-modal recommendation (MR) has demonstrated documented success than canonical unimodal recommendation. Although several attempts have been made to extract the discriminative information unique in each modality, existing methods suffer from a core limitation: the joint learning of modal-homogeneity discriminative information (HOI) and modal-heterogeneity discriminative information (HEI) tends to weaken their individual effectiveness. To remedy this deficiency, we propose a novel method, dubbed Disentangle and Distillation-based Dynamic Ensemble for multi-modal Recommendation (D3ER). We introduce gradient boosting into MR for the first time to formalize the optimization objective for alternately learning HOI and HEI. This design enables models dedicated to each type of information to focus on their proficient samples, thereby promoting specialized optimization. Furthermore, to mitigate the inherent high storage cost and risk of local optima in gradient boosting, we enhance our framework with knowledge distillation and a global correction regularization. Experiments on prevalent real-world datasets confirm the superiority of our proposed method on MR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25601": {
+            "title": "A Dual-Transformer for Multi-Camera View Recommendation",
+            "authors": "Josep Cabacas-Maso, Carles Ventura, Ismael Benito-Altamirano",
+            "first_author": "Josep Cabacas-Maso",
+            "url": "https://arxiv.org/abs/2608.25601",
+            "pdf_url": "https://arxiv.org/abs/2608.25601",
+            "publish_date": "2026-08-26",
+            "abstract": "Multi-camera systems are foundational to modern media production, and multi-camera editing is a critical task. This involves the proper selection of the appropriate camera view at each moment. In this paper, we propose a novel Dual-Transformer architecture with Cross-Attention that heavily outperformed the current SOTA models over the TVMCE dataset (TV Shows Multicamera Editing dataset). Our model decouples these tasks: (1) a dedicated temporal encoder first processes the sequence of past frames to build a rich memory of the recent history, and (2) the candidate camera views then act as queries to this memory via a cross-attention module, allowing each candidate to independently interrogate the historical context and find the most relevant information for its own evaluation. Our approach achieved 56.60% Precision@0.5, representing a substantial improvement over the prior best result of 37.16%. We further conducted an ablation study exploring the use of lightweight backbone architectures, where the SwinV2 backbone yielded the best performance, achieving 69.65% Precision@0.5. Using this best-performing configuration, we then investigated the feasibility of adapting the model to replicate the editing style of a specific human editor. To this end, we fine-tuned the model using varying proportions of the initial segment of a target video. Our results demonstrate that even with only 20% of the video used for fine-tuning, the model exhibited measurable improvements in Precision@0.5, indicating strong potential for data-efficient personalization of editing style adapted to each individual TV show or producer.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
+        },
+        "2608.25546": {
+            "title": "An Event is Worth One Token: Event Tokenization for Industrial-scale LLM Recommendation",
+            "authors": "Fan Xia, Zhaoheng Zheng, Iman Setayesh, Ruogu Lin, Yiqin Pan, Samarth Mittal, Wentao Bao, Vinti Pandey, Sachin Patil, Jianpeng Cheng, Jun Xiao, Zhuang Wang, Xiangjun Fan, Sri Reddy, Minghai Chen",
+            "first_author": "Fan Xia",
+            "url": "https://arxiv.org/abs/2608.25546",
+            "pdf_url": "https://arxiv.org/abs/2608.25546",
+            "publish_date": "2026-08-26",
+            "abstract": "LLM-based recommendation has scaled along model capacity and sequence length, yet each position encodes only text, semantic IDs, or a few categorical features, discarding rich user, item, context, and outcome signals available at each event. Under autoregressive modeling, this yields weak queries at each position and, since each position becomes context for the next, the degradation compounds across the sequence. We propose an event-centric paradigm that represents each interaction by its full temporal snapshot, and identify a new scaling dimension we term snapshot resolution: the amount of information encoded per event. To efficiently scale snapshot resolution, we introduce AMBER (Autoregressive Modeling via Bottlenecked Event Representation), which compresses each temporal snapshot into a compact Event Token, a new LLM input modality. The representation is learned end-to-end, while Event Tokens are pre-computed and cached for serving, decoupling snapshot resolution from real-time serving compute. On industrial-scale ranking and retrieval benchmarks, AMBER advances the compute-quality Pareto frontier relative to alternative recommendation paradigms. At sufficient capacity, a single unified tokenizer even outperforms dedicated per-entity tokenizers, demonstrating positive transfer across structurally different entity types. AMBER's Event Tokens also transfer across model architectures: when integrated into a heavily optimized non-LLM ranker as serving-time historical features, they yield statistically significant improvements. Further scaling Event Tokenizer capacity provides additional improvements.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25528": {
+            "title": "TransRetrieval: Scaling Up Transformer-Based Retrieval for Industrial Recommendation",
+            "authors": "Zhifei Zheng, Yunfei Liu, Bin Liu, Qiren Zhu, Hanbing Liu, Ziru Xu, Han Zhu, Jian Xu, Qi Qi, Bo Zheng",
+            "first_author": "Zhifei Zheng",
+            "url": "https://arxiv.org/abs/2608.25528",
+            "pdf_url": "https://arxiv.org/abs/2608.25528",
+            "publish_date": "2026-08-26",
+            "abstract": "Applying scaling laws to recommendation retrieval is hindered by feature heterogeneity: naively stacking Transformer layers yields diminishing returns because heterogeneous fields produce severe token-norm divergence. We present TransRetrieval, a Transformer-based retrieval framework that scales with both computational budget and cross-domain data. The key enabler is (1) weighted average aggregation, which restores the homogeneous-token assumption Transformers rely on. Building on this, we introduce (2) target token compression that cuts per-candidate FLOPs by 85% while preserving cross-attention expressiveness, and (3) position-style domain embeddings that unify multiple domains at negligible additional cost, turning cross-domain data into a scaling asset. On a 40-billion-interaction industrial dataset and the public KuaiRand benchmark, scaling compute from 0.1 to 2 MFLOPs per target yields +19.3/+22.2 pt Recall@2000, confirming robust log-linear scaling. In online A/B tests, TransRetrieval lifts platform revenue by 2.53% under the same end-to-end latency constraint as the production baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25381": {
+            "title": "MOTIF: Motivation-guided Topology Inference for Cold-start Multimodal Recommendation",
+            "authors": "Yurui Shi, Yuchen Miao, Ximing Hu, Zijun Wang, Chang Han",
+            "first_author": "Yurui Shi",
+            "url": "https://arxiv.org/abs/2608.25381",
+            "pdf_url": "https://arxiv.org/abs/2608.25381",
+            "publish_date": "2026-08-26",
+            "abstract": "Cold-start multimodal recommendation faces three coupled challenges: (i) sparse interactions obscure user intent, (ii) cold items remain topologically isolated, and (iii) similarity-based item graphs may cause semantic drift. To address these issues, we propose MOTIF, a Motivation-guided Topology Inference framework for cold-start multimodal recommendation. MOTIF integrates Semantic Motivation Reasoning, Knowledge-enhanced Graph Reconstruction, Weighted Graph Contrastive Learning, and Semantic-Structural Alignment. It uses offline LLM reasoning to infer motivation semantics, reconstructs transferable item-item topology, and learns robust graph embeddings without injecting generated text into prediction. Experiments on three multimodal benchmarks show consistent gains over graph-based, multimodal, cold-start, and LLM-enhanced baselines, with up to 6.07% relative improvement over the strongest recent baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25370": {
+            "title": "CRAMER: Control via Request-Aware Masking for Editing Recommenders",
+            "authors": "Zhiyuan Julian Su, Naihe Feng, Zhen Luther Qin, Ga Wu",
+            "first_author": "Zhiyuan Julian Su",
+            "url": "https://arxiv.org/abs/2608.25370",
+            "pdf_url": "https://arxiv.org/abs/2608.25370",
+            "publish_date": "2026-08-26",
+            "abstract": "Sequential recommendation models, while powerful, have limited flexibility in responding to immediate user requests, making it difficult to adapt their recommendations to the user's timely interests. Unfortunately, existing user request adaptation methods often incur high computational overhead due to either 1) retraining the entire backbone network or 2) leveraging the inference ability of large language models (a.k.a. prompt engineering), limiting their applicability in large-scale recommendation services. This paper presents Control via Request-Aware Masking for Editing Recommenders (CRAMER), a framework that takes users' natural-language requests to immediately change sequential recommendation models' behavior. Specifically, inspired by the model control theory, CRAMER treats user requests as control signals to modulate frozen backbone parameters through masking, achieving instant adaptation to diverse requests while avoiding costly retraining. Experiments on multiple large-scale benchmark datasets show that CRAMER outperforms four state-of-the-art request-aware baselines across multiple recommendation metrics while achieving minimal overhead. Moreover, the proposed framework exhibits enhanced controllability and cross-domain adaptability, establishing a new paradigm for request-aware sequential recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.24815": {
+            "title": "Auditing Return Conditioning as a Control Knob: An Offline Diagnostic for Decision Transformer Recommendation",
+            "authors": "Jingyu Wang",
+            "first_author": "Jingyu Wang",
+            "url": "https://arxiv.org/abs/2608.24815",
+            "pdf_url": "https://arxiv.org/abs/2608.24815",
+            "publish_date": "2026-08-25",
+            "abstract": "Offline return-to-go (RTG) sweeps can test whether a recommender conditioned on return is controllable, but the intervention is rarely audited. Rewriting every historical RTG token creates an increasingly synthetic context, while rewriting only the current token is more local. We test this distinction in an offline setting with a fixed window. On MovieLens 25M and MyAnimeList 2020 (MAL), we evaluate a Decision Transformer using an RTG locality ladder, a control without RTG, a logged match and score reward check, and a within-trajectory shuffled RTG ablation. On MovieLens, a $K=20$ intervention that covers the full context, applied only to real context positions, shifts the share of Crime predictions by $+23.61 \\pm 2.96$ percentage points from the validation 5th to 95th percentile, whereas changing only the current slot shifts it by $+1.77 \\pm 1.17$ points. The shuffled RTG model largely removes this response ($+2.08 \\pm 1.20$ points at $K=20$). On MAL, the same protocol does not produce a Drama response: $K=20$ changes Drama by $-0.03 \\pm 0.07$ points, and $K=1$ by $-0.01 \\pm 0.01$. Genre prediction accuracy is numerically close across real RTG, no RTG, and shuffled RTG, and at $K=1$ logged match rates and matched ratings change little. Because dataset and focus-genre selection were exploratory, these magnitudes are descriptive; the cross-diagnostic pattern across locality, shuffled RTG, and the null result on MAL does not establish reward control. We propose four checks: intervention locality, a no-RTG baseline, a reward check, and RTG-content ablation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.24274": {
+            "title": "Eating for a Sustainable Planet: Personalized Sustainable Diet Recommendation via Constraint-Aware Decision-Making Modeling",
+            "authors": "Ying Jin, Weiqing Min, Mingyu Huang, Shuqiang Jiang",
+            "first_author": "Ying Jin",
+            "url": "https://arxiv.org/abs/2608.24274",
+            "pdf_url": "https://arxiv.org/abs/2608.24274",
+            "publish_date": "2026-08-25",
+            "abstract": "A sustainable diet represents a multi-dimensional synergy among four essential pillars: nutrition adequacy, economic affordability, cultural acceptability, and environmental respect. Despite the prevalence of population-level sustainability modeling, practical implementation relies on effective individual-level adoption. This transition is often hindered by inter-individual heterogeneity, posing a formidable challenge in aligning sustainable diet requirements with individual preferences. To address this issue, we propose a personalized sustainable diet recommendation model based on a constraint-aware decision-making mechanism, where sustainability is incorporated through learnable constraints rather than modeled as user preferences. To systematically evaluate the proposed approach, we construct a sustainable diet dataset named SusDiet with about 150k recipes, characterized by broad coverage of sustainability indicators. Experimental results on this dataset show that our method promotes more sustainable choices without compromising individual preference. This work establishes a framework for aligning individual dietary choices with planetary health, offering quantitative evidence to guide future sustainable diet interventions and policy-making for sustainable development.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.24176": {
+            "title": "Tlow: Flow-based Item Tokenizer for Recommendation",
+            "authors": "Nian Li, Chonggang Song, Jingtao Ding, Lingling Yi, Yong Li, Qingmin Liao",
+            "first_author": "Nian Li",
+            "url": "https://arxiv.org/abs/2608.24176",
+            "pdf_url": "https://arxiv.org/abs/2608.24176",
+            "publish_date": "2026-08-25",
+            "abstract": "Item tokenizer encodes semantic embeddings into token IDs to replace the randomly assigned item IDs used in traditional recommendation models, fundamentally addressing the problems of excessive parameters and cold starts. However, the most common tokenizer, RQ-VAE, suffers from low decoding efficiency due to the inherent dependencies among its codebooks. Meanwhile, efficient independent tokenizers such as optimized product quantization (OPQ) still struggle with dimensional correlations and distribution complexity of semantic embeddings. In this work, we propose a f\\underline{low}-based item \\underline{T}okenizer (Tlow) to transform raw semantic embeddings into a latent space where embeddings conform to a unified standard normal distribution, achieving dual advantages of dimensional independence and distributional simplicity. Independent tokenization performed on these latent embeddings yields semantically clear token IDs. Additionally, we introduce a novel codebook guidance to align the codebook space with the token embedding space, further aiding the learning of more semantically distinct token embeddings. Offline experiments on four public datasets demonstrate that Tlow's tokenization and codebook guidance significantly improve recommendation performance. The improvement on cross-domain and multi-modal recommendations also proves the effectiveness of item tokenization in a simplified embedding space. Online experiments for a multi-modal retrieval task on China's largest social media platform WeChat validate Tlow's powerful distribution transformation capability. The retrieval model based on token IDs improves user CTR by 10.32\\% globally and by 11.64\\% for new items. Our codes are available at https://github.com/wjjln/Tlow.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.24132": {
+            "title": "From Gradient-Boosted Trees to Deep Recommenders: Practical Lessons from Migrating a Production Customer Support Recommender",
+            "authors": "Sonia Sharma, Jeyendran Balakrishnan, Shreya Rajpal, Swapnil Parekh, Nagaraj Janardhana, Andrew Mattarella-Micke",
+            "first_author": "Sonia Sharma",
+            "url": "https://arxiv.org/abs/2608.24132",
+            "pdf_url": "https://arxiv.org/abs/2608.24132",
+            "publish_date": "2026-08-25",
+            "abstract": "Product catalogs in fast-moving service businesses are shifting from static, independently priced SKUs toward dynamically bundled, discount-coupled offerings--a shift that strains the tree-based classifiers traditionally preferred for sparse and highly imbalanced data. These classifiers assume a fixed, slowly changing label space and struggle to incorporate multimodal signals such as tabular data and transcripts. We present the migration of a live, production conversational recommendation system from a gradient-boosted multiclass model to a pairwise-binary deep recommender. Because this system is critical to ecosystem growth initiatives and downstream features like dynamic pitching--surfacing the most relevant pitch text to a support agent in real time during a live customer conversation--maintaining live recommendation quality was a non-negotiable constraint. We detail the techniques that made this migration successful--reformulating recommendation as pairwise binary prediction to learn jointly from user and item features, and enhancing learned representations via negative sampling and noise injection. To efficiently incorporate long, live conversation context, we apply attention pooling over transcript chunks and benchmark it against TF-IDF and sentence-embedding baselines. Finally, we explore multiple architectures (including two-tower models, DeepFM, and their variants) and loss functions such as contrastive loss. Evaluating against a CatBoost baseline across all conversational stages, we demonstrate that our approach achieves parity at conversation beginning and outperforms at later conversational stages.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2608.24079": {
+            "title": "RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation",
+            "authors": "Theodore Rogers, Joe Standerfer, Dmitrii Timoshenko, Haoxue Li, Zuhaib Akhtar, Soyoung Yang",
+            "first_author": "Theodore Rogers",
+            "url": "https://arxiv.org/abs/2608.24079",
+            "pdf_url": "https://arxiv.org/abs/2608.24079",
+            "publish_date": "2026-08-25",
+            "abstract": "A shared search-and-recommendation index must score new items from features alone because search has no exploration slot. In a public log covering both surfaces over one catalog, $38.6\\%$ of held-out query-search impressions show an item never previously shown or visited. For user-cold engagements, the feature-based tower serves this demand without measurable loss against $99$ sampled negatives ($0.9595$ Recall@20 versus $0.9510$ warm). A lexical baseline reaches similar parity, while a full-catalog check remains statistically undecided. Dual-encoder retrieval therefore keeps the index \\emph{open} to new items, unlike an ID-softmax recommender that requires retraining. We price this openness on recommendation against six sequential baselines, each retrained and tuned through five rounds on corrected targets. A float32 timestamp bug had reordered leave-one-out targets for $19.7\\%$ of users. On MovieLens-1M, warm accuracy trails the strongest retrained baseline by $5.2\\%$ Recall@20 and $11.4\\%$ NDCG@20. On MIND, the gap narrows to $0.8$--$3.6\\%$ relative to the five strongest baselines, though the model ranks sixth of seven. Under strict zero-leakage cold-start evaluation, the content tower achieves $0.172 \\pm 0.006$ Recall@20, $1.4\\times$ the strongest retrained dedicated method ($0.124 \\pm 0.007$) and $3\\times$ a training-free floor, without cold-specific training. Exact full-softmax training raises Recall@20 by $54\\%$ on MIND-small and $6.9\\%$ on MovieLens-1M over sampled InfoNCE, but recomputes the full catalog each step and exhausts accelerator memory at $240$K items. Approximate nearest-neighbor search explains none of the remaining gap, serving cost does not regress against ID-softmax retrieval, and a history-window sweep explains half the post-recipe remainder. Exact-quality training at catalog scale remains the open problem.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.24034": {
+            "title": "TAGR: Temporally Adaptive Generative Recommendation for Industrial Live-Streaming Advertising",
+            "authors": "Wencai Ye, Guangyi Liu, Chaoyi Wang, Wenbin Luo, Shengyu Wang, Mingjie Sun, Peng Wang, Quanming Yao, Wenjin Wu, Peng Jiang",
+            "first_author": "Wencai Ye",
+            "url": "https://arxiv.org/abs/2608.24034",
+            "pdf_url": "https://arxiv.org/abs/2608.24034",
+            "publish_date": "2026-08-25",
+            "abstract": "Live-streaming advertising is an important monetization channel on short-video and e-commerce platforms, where rapidly changing live content, promoted products, and user feedback impose strong freshness requirements on recommendation models. Existing generative recommenders designed for static domains fail at three levels: static semantic IDs (SID) cannot track evolving live ads; single-scale behavior modeling misses shifting intent; preference optimization conflicts between fresh on-policy feedback and training stability. We propose TAGR, a generative recommendation framework with temporal adaptation at three levels: live-ad tokenization, user intent modeling, and preference alignment. At the token level, Live Semantic-Collaborative ID (LSID) periodically refreshes each active ad's SID based on its current live scene and promoted products, while retaining a stable hierarchical token vocabulary for autoregressive generation. At the intent level, Intent-Aware Generation (IAG) models live-room entry histories at multiple temporal granularities as the primary intent sequence, keeps auxiliary behaviors as separate inputs, and weights next-token prediction (NTP) using post-request intent evidence and business value. At the alignment level, Intermittent On-Policy Preference Optimization (IOPO) periodically samples fresh candidate groups from the current policy and performs behavior- and value-aligned preference updates interleaved with supervised NTP maintenance to preserve learned behavior distribution. Deployed on a large-scale e-commerce live-stream advertising platform, TAGR improves live-room entry and shopping-cart click rates by 8.5% and 7.4%, respectively, and achieves a 16.1% revenue lift over the production baseline. These results demonstrate the effectiveness and industrial viability of temporally adaptive generative recommendation for live-stream advertising.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.23966": {
+            "title": "Who Chooses How Preferences Are Aggregated? Auditing Aggregation-Rule Authority in LLM-Based Group Recommendation",
+            "authors": "Yuxuan Du",
+            "first_author": "Yuxuan Du",
+            "url": "https://arxiv.org/abs/2608.23966",
+            "pdf_url": "https://arxiv.org/abs/2608.23966",
+            "publish_date": "2026-08-25",
+            "abstract": "AI systems increasingly make joint recommendations for users with conflicting preferences. However, when reasonable aggregation rules support different actions, a further question arises: who may choose how those preferences are combined? We study this interaction-level problem as aggregation-rule authority. Using synthetic preference profiles and profiles constructed from empirical ratings, we conduct a controlled behavioral audit of three LLMs under three authority conditions: unspecified, explicitly retained by users, and delegated to the model. In cases where two witness rules supported different actions, models almost never committed when users retained authority, but committed in every delegated case. All three models executed both witness rules perfectly when directly instructed. Yet when authority was unspecified or delegated, their aggregation-consistent outcome distributions differed across models and preference settings. Together, these results separate rule-execution capability from aggregation-rule authority: delegation assigns the model discretion to resolve the aggregation choice, but does not determine which collective outcome follows.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2608.23852": {
+            "title": "ColorA11Y: Enhancing Creative Design Workflows with Just-in-Time Color Accessibility Recommendations",
+            "authors": "Alexa Siu, Rajiv Jain, Abhinav Kannan, Jose Echevarria, Mary Ann, Jawili, Yalpi Shiva Prasad, Rick Treitman, Garreth W. Tigwell, Jonathan Lazar",
+            "first_author": "Alexa Siu",
+            "url": "https://arxiv.org/abs/2608.23852",
+            "pdf_url": "https://arxiv.org/abs/2608.23852",
+            "publish_date": "2026-08-24",
+            "abstract": "Effective color contrast in visual design is essential for content accessibility. While existing tools can identify contrast issues, they often operate in isolation from design workflows or are used as an afterthought. We present ColorA11Y, a system that supports designers in creating accessible content by providing just-in-time feedback and actionable recommendations throughout the authoring process to meet accessibility color contrast guidelines. Our system analyzes the visual properties of text and background elements and offers recommended changes, including text color adjustments, background modifications, and opacity changes. Through two user studies, we evaluate ColorA11Y's effectiveness. A user preference study (n=40) revealed varying effectiveness of different recommendations based on design context, while a qualitative study with designers (n=8) indicated a more seamless workflow experience in comparison to a baseline using a color contrast checker. This work advances a born-accessible approach to design, where accessibility considerations are seamlessly integrated into the creative process rather than treated as an afterthought.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
         }
     }
 }

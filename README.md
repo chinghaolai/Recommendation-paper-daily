@@ -1,4 +1,4 @@
-## Updated on 2026-08-25
+## Updated on 2026-08-27
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,21 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-08-26 | **Hamiltonian Spectral-Temporal Dissipative Dynamics for Sequential Recommendation** | Shuiying Liao, P. Y. Mok | [Link](https://arxiv.org/abs/2608.25755) | N/A |
+| 2026-08-26 | **D3ER: Supporting Multi-Modal Recommendation via Disentangle and Distillation-based Dynamic Ensemble** | Bingnan Wang, Yi Li, Xiongxin Tang, Fanjiang Xu, Jiangmeng Li | [Link](https://arxiv.org/abs/2608.25737) | N/A |
+| 2026-08-26 | **A Dual-Transformer for Multi-Camera View Recommendation** | Josep Cabacas-Maso, Carles Ventura, Ismael Benito-Altamirano | [Link](https://arxiv.org/abs/2608.25601) | N/A |
+| 2026-08-26 | **An Event is Worth One Token: Event Tokenization for Industrial-scale LLM Recommendation** | Fan Xia, Zhaoheng Zheng, Iman Setayesh, Ruogu Lin, Yiqin Pan, Samarth Mittal, Wentao Bao, Vinti Pandey, Sachin Patil, Jianpeng Cheng, Jun Xiao, Zhuang Wang, Xiangjun Fan, Sri Reddy, Minghai Chen | [Link](https://arxiv.org/abs/2608.25546) | N/A |
+| 2026-08-26 | **TransRetrieval: Scaling Up Transformer-Based Retrieval for Industrial Recommendation** | Zhifei Zheng, Yunfei Liu, Bin Liu, Qiren Zhu, Hanbing Liu, Ziru Xu, Han Zhu, Jian Xu, Qi Qi, Bo Zheng | [Link](https://arxiv.org/abs/2608.25528) | N/A |
+| 2026-08-26 | **MOTIF: Motivation-guided Topology Inference for Cold-start Multimodal Recommendation** | Yurui Shi, Yuchen Miao, Ximing Hu, Zijun Wang, Chang Han | [Link](https://arxiv.org/abs/2608.25381) | N/A |
+| 2026-08-26 | **CRAMER: Control via Request-Aware Masking for Editing Recommenders** | Zhiyuan Julian Su, Naihe Feng, Zhen Luther Qin, Ga Wu | [Link](https://arxiv.org/abs/2608.25370) | N/A |
+| 2026-08-25 | **Auditing Return Conditioning as a Control Knob: An Offline Diagnostic for Decision Transformer Recommendation** | Jingyu Wang | [Link](https://arxiv.org/abs/2608.24815) | N/A |
+| 2026-08-25 | **Eating for a Sustainable Planet: Personalized Sustainable Diet Recommendation via Constraint-Aware Decision-Making Modeling** | Ying Jin, Weiqing Min, Mingyu Huang, Shuqiang Jiang | [Link](https://arxiv.org/abs/2608.24274) | N/A |
+| 2026-08-25 | **Tlow: Flow-based Item Tokenizer for Recommendation** | Nian Li, Chonggang Song, Jingtao Ding, Lingling Yi, Yong Li, Qingmin Liao | [Link](https://arxiv.org/abs/2608.24176) | N/A |
+| 2026-08-25 | **From Gradient-Boosted Trees to Deep Recommenders: Practical Lessons from Migrating a Production Customer Support Recommender** | Sonia Sharma, Jeyendran Balakrishnan, Shreya Rajpal, Swapnil Parekh, Nagaraj Janardhana, Andrew Mattarella-Micke | [Link](https://arxiv.org/abs/2608.24132) | N/A |
+| 2026-08-25 | **RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation** | Theodore Rogers, Joe Standerfer, Dmitrii Timoshenko, Haoxue Li, Zuhaib Akhtar, Soyoung Yang | [Link](https://arxiv.org/abs/2608.24079) | N/A |
+| 2026-08-25 | **TAGR: Temporally Adaptive Generative Recommendation for Industrial Live-Streaming Advertising** | Wencai Ye, Guangyi Liu, Chaoyi Wang, Wenbin Luo, Shengyu Wang, Mingjie Sun, Peng Wang, Quanming Yao, Wenjin Wu, Peng Jiang | [Link](https://arxiv.org/abs/2608.24034) | N/A |
+| 2026-08-25 | **Who Chooses How Preferences Are Aggregated? Auditing Aggregation-Rule Authority in LLM-Based Group Recommendation** | Yuxuan Du | [Link](https://arxiv.org/abs/2608.23966) | N/A |
+| 2026-08-24 | **ColorA11Y: Enhancing Creative Design Workflows with Just-in-Time Color Accessibility Recommendations** | Alexa Siu, Rajiv Jain, Abhinav Kannan, Jose Echevarria, Mary Ann, Jawili, Yalpi Shiva Prasad, Rick Treitman, Garreth W. Tigwell, Jonathan Lazar | [Link](https://arxiv.org/abs/2608.23852) | N/A |
 | 2026-08-24 | **Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conversational Music Recommendation** | Naman Garg, Sarika Jain, George Fazekas | [Link](https://arxiv.org/abs/2608.23484) | N/A |
 | 2026-08-24 | **Adaptive Item-based Collaborative Structures via Noise Rescheduling in Diffusion for Generative Recommendation** | Jiaqi Wang, Tianying Liu, Heng Chang, Jihong Guan, Wengen Li, Shuigeng Zhou | [Link](https://arxiv.org/abs/2608.23400) | N/A |
 | 2026-08-24 | **The Disconnect Between Better Descriptive Reasoning Trace Quality and Recommendation Effectiveness** | Gustavo Penha, Juan Elenter, Claudia Hauff, Hugues Bouchard, Paul Bennett, Mounia Lalmas | [Link](https://arxiv.org/abs/2608.23154) | N/A |
