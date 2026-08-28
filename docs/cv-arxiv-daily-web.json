@@ -20181,7 +20181,7 @@
             "url": "https://arxiv.org/abs/2608.17316",
             "pdf_url": "https://arxiv.org/abs/2608.17316",
             "publish_date": "2026-08-18",
-            "abstract": "Large language model-based recommender systems (LLM-RSs) have demonstrated remarkable capabilities, but are computationally unsustainable for many real-world applications. Compact LLMs offer a practical alternative, yet their reduced capacity often requires reasoning or knowledge distillation methods that increase latency or depend on larger models. Combined with autoregressive generation, these approaches face severe scalability bottlenecks. In contrast, discriminative LLM-RSs enable efficient full-corpus ranking through embedding similarity, but compact backbones remain limited in expressiveness and structural adaptivity. We propose the Fusion of Layer-wise Exits for Sequential Recommendation (FLEXRec), a discriminative framework that enhances compact LLMs while retaining scalable full-corpus ranking. FLEXRec inserts prediction heads (i.e., exits) at multiple transformer layers and adaptively fuses their score distributions. An adaptive continuous router (AC-Router) dynamically selects both the number and identity of exits for each user sequence, while a novel target-k hinge loss regulates routing sparsity. Experiments on three real-world datasets with Qwen 3 1.7B and Llama 3.2 3B show that FLEXRec achieves state-of-the-art accuracy among compact-backbone methods while remaining highly efficient. Code: https://github.com/xurong-liang/FLEXRec",
+            "abstract": "Large language model-based recommender systems (LLM-RSs) have demonstrated remarkable capabilities, but are computationally unsustainable for many real-world applications. Compact LLMs offer a practical alternative, yet their reduced capacity often requires reasoning or knowledge distillation methods that increase latency or depend on larger models. Combined with autoregressive generation, these approaches face severe scalability bottlenecks. In contrast, discriminative LLM-RSs enable efficient full-corpus ranking through embedding similarity, but compact backbones remain limited in expressiveness and structural adaptivity. We propose the Fusion of Layer-wise Exits for Sequential Recommendation (FLEXRec), a discriminative framework that enhances compact LLMs while retaining scalable full-corpus ranking. FLEXRec inserts prediction heads (i.e., exits) at multiple transformer layers and adaptively fuses their score distributions. An adaptive continuous router (AC-Router) dynamically selects both the number and identity of exits for each user sequence, while a novel target-k hinge loss regulates routing sparsity. Experiments on three real-world datasets with Qwen 3 1.7B and Llama 3.2 3B show that FLEXRec achieves state-of-the-art accuracy among competing methods while remaining highly efficient. Code: https://github.com/xurong-liang/FLEXRec",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -20637,7 +20637,7 @@
             "code_url": "null"
         },
         "2608.24079": {
-            "title": "RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation",
+            "title": "Keeping the Index Open: The Recommendation-Side Cost of Shared Search and Recommendation",
             "authors": "Theodore Rogers, Joe Standerfer, Dmitrii Timoshenko, Haoxue Li, Zuhaib Akhtar, Soyoung Yang",
             "first_author": "Theodore Rogers",
             "url": "https://arxiv.org/abs/2608.24079",
@@ -20678,6 +20678,72 @@
             "publish_date": "2026-08-24",
             "abstract": "Effective color contrast in visual design is essential for content accessibility. While existing tools can identify contrast issues, they often operate in isolation from design workflows or are used as an afterthought. We present ColorA11Y, a system that supports designers in creating accessible content by providing just-in-time feedback and actionable recommendations throughout the authoring process to meet accessibility color contrast guidelines. Our system analyzes the visual properties of text and background elements and offers recommended changes, including text color adjustments, background modifications, and opacity changes. Through two user studies, we evaluate ColorA11Y's effectiveness. A user preference study (n=40) revealed varying effectiveness of different recommendations based on design context, while a qualitative study with designers (n=8) indicated a more seamless workflow experience in comparison to a baseline using a color contrast checker. This work advances a born-accessible approach to design, where accessibility considerations are seamlessly integrated into the creative process rather than treated as an afterthought.",
             "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2608.27205": {
+            "title": "Profit based evaluation of machine learning for nitrogen recommendations in winter wheat",
+            "authors": "Xulong Wang, Po Yang",
+            "first_author": "Xulong Wang",
+            "url": "https://arxiv.org/abs/2608.27205",
+            "pdf_url": "https://arxiv.org/abs/2608.27205",
+            "publish_date": "2026-08-27",
+            "abstract": "Nitrogen rates for winter wheat are set before the season, under unknown prices and weather. The standard UK advice does not respond to prices, yet recent price swings moved the most profitable rate by tens of kilograms per hectare. Machine learning is often proposed as the fix. However, it is usually judged on prediction accuracy, and accurate prediction does not by itself make the recommended rate more profitable. Our insight is to score nitrogen advice directly by the profit it forgoes on measured yield response curves. We build a test bench on 892 such curves from two long running UK experiments, and sweep the nitrogen to grain price ratio to cover all price scenarios. On this bench, machine learning fails as a predictor. No model recovers the best rate within farm tolerance, and the benchmark noise shows none can. At normal prices, every model also loses to the standard advice on profit. The gain sits elsewhere. A simple correction step applied after the model cuts profit losses by a quarter, while better models and extra features give no gain. The same frozen correction cuts losses by 43% at the second site without any retraining. A hybrid of standard advice plus a damped correction removes bias and trims rare large losses. The same price sweep also prices emission cuts, at a cost comparable to current carbon prices. Machine learning therefore pays as a profit scored correction to standard advice, not as its replacement.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2608.27006": {
+            "title": "Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval",
+            "authors": "Ante Kapetanovic, Tomislav Duricic, Dionizije Fa, Andro Mercep, Emanuel Lacic",
+            "first_author": "Ante Kapetanovic",
+            "url": "https://arxiv.org/abs/2608.27006",
+            "pdf_url": "https://arxiv.org/abs/2608.27006",
+            "publish_date": "2026-08-27",
+            "abstract": "Conversational recommender systems based on large language models (LLMs) are usually evaluated on static, pre-indexed item collections, yet e-commerce catalogues change continuously as products are added or removed, repriced, and restocked. We present a merchant-agnostic, multi-turn conversational shopping assistant that operates over such live catalogues. Its central component is a self-refreshing retriever that ingests a merchant product feed, enriches the records, and synchronizes them into a vector index. On each run, per-item hashes identify which products are new, changed, deleted, or unchanged, so only the delta is processed rather than rebuilding the whole catalogue. A controller-based dialogue layer consumes this index, using an LLM only for intent classification and preference elicitation while retrieval, reranking, and diversity selection run as dedicated functions. Our demonstration is a WhatsApp shopping assistant in which catalogue changes reach the recommendations after the next successful sync. A live chatbot, documentation, and a recorded walkthrough are available at https://github.com/infobip/infobip-agentic-crs.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.26895": {
+            "title": "When Memory Takes Gradients: Collaborative Vector Memory for Agentic Recommender Systems",
+            "authors": "Hanchong Chen, Xing Tang, Lingjie Li, Xiongfeng Shan, Xiuqiang He",
+            "first_author": "Hanchong Chen",
+            "url": "https://arxiv.org/abs/2608.26895",
+            "pdf_url": "https://arxiv.org/abs/2608.26895",
+            "publish_date": "2026-08-27",
+            "abstract": "Agentic recommender systems ground each decision of a large language model (LLM) in a persistent memory of the user, and in existing agents that memory is text: a narrative written and maintained by further LLM calls. Text limits this memory in two ways. It is updated one rewrite at a time, so exploiting the full interaction history is prohibitively expensive; and collaborative evidence, graded similarity over an entire catalog, does not survive translation into sentences. We propose CoVeMem (Collaborative Vector Memory), which vectorizes the collaborative core of the agent's memory. Frozen LightGCN user and item states form the memory bank; at each decision, the candidate set itself retrieves the most relevant historical states, which enter the LLM's context as soft tokens alongside a light textual profile. Contrastive alignment to item-semantic anchors, followed by listwise co-training with masked candidates, teaches the model to read these states and to rank through them; a pointwise yes/no readout scores each candidate. Across four instruction-grounded recommendation benchmarks, CoVeMem matches or exceeds the strongest collaborative text-memory agent on 19 of 20 metric cells while requiring zero additional LLM calls for memory maintenance beyond the shared static profile, against per-interaction calls for text memory. The memory now takes gradients: the full interaction history, out of reach for text, becomes available as training data for what the agent remembers and for how it reads what it remembers.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.26804": {
+            "title": "Incremental Recommendation via Causal Models",
+            "authors": "Athanasios Vlontzos, David Gustafsson, Michael O'Riordan, Ciarán M. Gilligan-Lee",
+            "first_author": "Athanasios Vlontzos",
+            "url": "https://arxiv.org/abs/2608.26804",
+            "pdf_url": "https://arxiv.org/abs/2608.26804",
+            "publish_date": "2026-08-27",
+            "abstract": "Recommendation impressions are a finite resource, hence delivering a recommendation to a user who would discover the content organically yields no incremental value and displaces other recommendations that could. We address this by extending an existing production recommendation model to a causal architecture using holdback data that is already collected as part of routine experimentation infrastructure, requiring no new data collection. A central challenge is that attribution windows differ between treated and holdback observations: treated users are attributed a stream within a short direct-response window, while holdback users are attributed organic streams over a multi-day window. This mismatch makes naive treatment-effect subtraction invalid. We resolve this with a dual-threshold targeting policy that delivers a recommendation only when the probability of a treated stream is high and the probability of organic stream is low. In a production-scale A/B test on millions of Spotify users, this policy reduces recommendation impressions by 7% with no statistically significant reduction in overall recommended content consumption. We further show that joint training with holdback data improves calibration of the treated head relative to the production baseline, and argue this can be taken as evidence that causal models learn more generalisable representations than models trained on observational data alone.",
+            "primary_category": "stat.ML",
+            "code_url": "null"
+        },
+        "2608.26728": {
+            "title": "Beyond a Single Story: Meta-Reviewing Sparse and Incomplete User-generated Contents for Recommendation",
+            "authors": "Hongren Wang, Tianjun Wei, Yingpeng Du, Jie Zhang, Yin-Leng Theng",
+            "first_author": "Hongren Wang",
+            "url": "https://arxiv.org/abs/2608.26728",
+            "pdf_url": "https://arxiv.org/abs/2608.26728",
+            "publish_date": "2026-08-27",
+            "abstract": "Data sparsity remains a long-standing challenge in recommender systems, and it becomes more severe for methods relying on user-generated content (UGC) such as textual reviews, which capture fine-grained preferences but require more user efforts to produce. As a result, UGC exhibits (1) missing reviews, where interactions lack any review, and (2) incomplete reviews, where available reviews cover only a subset of relevant attributes. Existing approaches often overlook these UGC-specific issues, leading to degraded accuracy. Motivated by meta-review in academic peer review, we propose MOSAIC (Meta-review On Sparse And Incomplete user-generated Content), which constructs a meta-review for each target user by aggregating attribute-sentiment evidence from neighbor users' reviews. A multi-gate mixture-of-experts (MMoE) architecture jointly optimizes rating prediction and meta-review attribute-sentiment prediction, while an attention module personalizes the aggregated meta-review signals to each target user, yielding both refined rating predictions and attribute-level explanations. Experiments on four real-world datasets demonstrate that MOSAIC consistently outperforms state-of-the-art baselines in both recommendation accuracy and explanation quality, mitigating UGC sparsity and incompleteness while delivering consistent gains for users with limited interaction history.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.26579": {
+            "title": "Preference Flow Matching with Spectral Factorization for Micro-video Recommendation",
+            "authors": "Xinxin Dong, Haokai Ma, Fei Hu, YuZe Zheng, Bin Wu, Yonghui Yang, Xiaodong Wang",
+            "first_author": "Xinxin Dong",
+            "url": "https://arxiv.org/abs/2608.26579",
+            "pdf_url": "https://arxiv.org/abs/2608.26579",
+            "publish_date": "2026-08-27",
+            "abstract": "Micro-video recommendation aims to infer user preferences from historical interactions and multimodal video content, thereby identifying the next video of interest. However, prevailing methods compress frame sequences into a single holistic representation, entangling the stable visual semantics and the evolving dynamics that jointly shape user preferences. Meanwhile, diffusion- and flow matching-based recommenders condition their generation process solely on coarse behavioral context, leaving its internal temporal structure outside preference formation. We therefore propose PrismRec, a Preference Flow Matching framework with Spectral Factorization for Micro-video Recommendation. Analogous to a prism that disperses white light into its constituent spectrum, PrismRec devises Spectral Semantic Factorization (SSF) to derive complementary static semantic and dynamic factors from frame-level representations via a prior-guided learnable frequency mask in the temporal frequency domain. Then, it proposes Context-Calibrated Preference Matching (CPM) to weigh them with each user's specific sensitivity and inject the calibrated context as a structured condition to steer the matching trajectory toward the target representation, making video content as an intrinsic driver of preference formation rather than auxiliary side information. Experiments on four datasets from two platforms show that PrismRec surpasses the SOTA baseline by up to 22.65%, with the lowest inference cost and peak memory among the compared methods.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }

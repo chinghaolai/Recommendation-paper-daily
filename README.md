@@ -1,4 +1,4 @@
-## Updated on 2026-08-27
+## Updated on 2026-08-28
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,12 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-08-27 | **Profit based evaluation of machine learning for nitrogen recommendations in winter wheat** | Xulong Wang, Po Yang | [Link](https://arxiv.org/abs/2608.27205) | N/A |
+| 2026-08-27 | **Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval** | Ante Kapetanovic, Tomislav Duricic, Dionizije Fa, Andro Mercep, Emanuel Lacic | [Link](https://arxiv.org/abs/2608.27006) | N/A |
+| 2026-08-27 | **When Memory Takes Gradients: Collaborative Vector Memory for Agentic Recommender Systems** | Hanchong Chen, Xing Tang, Lingjie Li, Xiongfeng Shan, Xiuqiang He | [Link](https://arxiv.org/abs/2608.26895) | N/A |
+| 2026-08-27 | **Incremental Recommendation via Causal Models** | Athanasios Vlontzos, David Gustafsson, Michael O'Riordan, Ciarán M. Gilligan-Lee | [Link](https://arxiv.org/abs/2608.26804) | N/A |
+| 2026-08-27 | **Beyond a Single Story: Meta-Reviewing Sparse and Incomplete User-generated Contents for Recommendation** | Hongren Wang, Tianjun Wei, Yingpeng Du, Jie Zhang, Yin-Leng Theng | [Link](https://arxiv.org/abs/2608.26728) | N/A |
+| 2026-08-27 | **Preference Flow Matching with Spectral Factorization for Micro-video Recommendation** | Xinxin Dong, Haokai Ma, Fei Hu, YuZe Zheng, Bin Wu, Yonghui Yang, Xiaodong Wang | [Link](https://arxiv.org/abs/2608.26579) | N/A |
 | 2026-08-26 | **Hamiltonian Spectral-Temporal Dissipative Dynamics for Sequential Recommendation** | Shuiying Liao, P. Y. Mok | [Link](https://arxiv.org/abs/2608.25755) | N/A |
 | 2026-08-26 | **D3ER: Supporting Multi-Modal Recommendation via Disentangle and Distillation-based Dynamic Ensemble** | Bingnan Wang, Yi Li, Xiongxin Tang, Fanjiang Xu, Jiangmeng Li | [Link](https://arxiv.org/abs/2608.25737) | N/A |
 | 2026-08-26 | **A Dual-Transformer for Multi-Camera View Recommendation** | Josep Cabacas-Maso, Carles Ventura, Ismael Benito-Altamirano | [Link](https://arxiv.org/abs/2608.25601) | N/A |
@@ -21,7 +27,7 @@
 | 2026-08-25 | **Eating for a Sustainable Planet: Personalized Sustainable Diet Recommendation via Constraint-Aware Decision-Making Modeling** | Ying Jin, Weiqing Min, Mingyu Huang, Shuqiang Jiang | [Link](https://arxiv.org/abs/2608.24274) | N/A |
 | 2026-08-25 | **Tlow: Flow-based Item Tokenizer for Recommendation** | Nian Li, Chonggang Song, Jingtao Ding, Lingling Yi, Yong Li, Qingmin Liao | [Link](https://arxiv.org/abs/2608.24176) | N/A |
 | 2026-08-25 | **From Gradient-Boosted Trees to Deep Recommenders: Practical Lessons from Migrating a Production Customer Support Recommender** | Sonia Sharma, Jeyendran Balakrishnan, Shreya Rajpal, Swapnil Parekh, Nagaraj Janardhana, Andrew Mattarella-Micke | [Link](https://arxiv.org/abs/2608.24132) | N/A |
-| 2026-08-25 | **RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation** | Theodore Rogers, Joe Standerfer, Dmitrii Timoshenko, Haoxue Li, Zuhaib Akhtar, Soyoung Yang | [Link](https://arxiv.org/abs/2608.24079) | N/A |
+| 2026-08-25 | **Keeping the Index Open: The Recommendation-Side Cost of Shared Search and Recommendation** | Theodore Rogers, Joe Standerfer, Dmitrii Timoshenko, Haoxue Li, Zuhaib Akhtar, Soyoung Yang | [Link](https://arxiv.org/abs/2608.24079) | N/A |
 | 2026-08-25 | **TAGR: Temporally Adaptive Generative Recommendation for Industrial Live-Streaming Advertising** | Wencai Ye, Guangyi Liu, Chaoyi Wang, Wenbin Luo, Shengyu Wang, Mingjie Sun, Peng Wang, Quanming Yao, Wenjin Wu, Peng Jiang | [Link](https://arxiv.org/abs/2608.24034) | N/A |
 | 2026-08-25 | **Who Chooses How Preferences Are Aggregated? Auditing Aggregation-Rule Authority in LLM-Based Group Recommendation** | Yuxuan Du | [Link](https://arxiv.org/abs/2608.23966) | N/A |
 | 2026-08-24 | **ColorA11Y: Enhancing Creative Design Workflows with Just-in-Time Color Accessibility Recommendations** | Alexa Siu, Rajiv Jain, Abhinav Kannan, Jose Echevarria, Mary Ann, Jawili, Yalpi Shiva Prasad, Rick Treitman, Garreth W. Tigwell, Jonathan Lazar | [Link](https://arxiv.org/abs/2608.23852) | N/A |
