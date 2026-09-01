@@ -18839,7 +18839,7 @@
             "url": "https://arxiv.org/abs/2607.24845",
             "pdf_url": "https://arxiv.org/abs/2607.24845",
             "publish_date": "2026-07-24",
-            "abstract": "Large language models (LLMs) have been applied to sequential recommendation by formulating it as a natural language task. Previous work has improved personalization by incorporating collaborative and sequential signals through input conditioning or LLM fine-tuning. However, existing approaches often rely on one or more of the following: LLM fine-tuning, additional architectural modules, representation distillation, or item-level conditioning over long interaction histories, increasing training complexity and deployment cost. We propose REPREC, a lightweight framework that reformulates LLM-based sequential recommendation through lightweight user representation alignment. REPREC maps a fixed-size user embedding from a frozen sequential encoder into a small set of learned soft tokens through a lightweight MLP injector that conditions a frozen LLM, leaving both pretrained backbones unchanged while training only the injector. We conducted exhaustive experiments on multiple benchmark datasets and demonstrate that REPREC consistently outperforms LoRA while remaining compatible with different pretrained sequential encoders and LLM backbones, enabling a modular and production-friendly recommendation pipeline without modifying either pretrained component. The gains are particularly pronounced for casual and core users across all datasets, highlighting REPREC's effectiveness in low-data regimes. Finally, when trained on short prompt histories and evaluated with longer contexts, REPREC maintains 85-100% of LoRA's performance while reducing per-epoch training time by an average of 1.51X, demonstrating an effective balance between recommendation quality and computational efficiency for production deployment. The code is available at https://github.com/phdbotcode/REPREC",
+            "abstract": "Large language models (LLMs) have been applied to sequential recommendation by incorporating collaborative signals through input conditioning or model adaptation. However, existing approaches often require LLM fine-tuning, additional architectural modules, representation distillation, or item-level conditioning over long interaction histories, increasing computational and deployment costs. We propose REPREC, a lightweight framework that conditions a frozen LLM using compact user-level representations. REPREC maps a fixed-size embedding from a frozen sequential encoder into a small set of learned soft tokens through an MLP injector, training only the injector while leaving both pretrained backbones unchanged. Our extensive experiments demonstrate that REPREC consistently improves recommendation performance across different sequential encoders, LLM backbones, and user activity levels. Its compact conditioning mechanism also makes REPREC computationally efficient during both training and inference. Moreover, training with short histories while evaluating with longer contexts retains 94--99\\% of full-history performance while achieving an average $1.50\\times$ per-epoch training speedup. The code is available at: https://github.com/phdbotcode/REPREC",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -20681,7 +20681,7 @@
             "code_url": "null"
         },
         "2608.27205": {
-            "title": "Profit based evaluation of machine learning for nitrogen recommendations in winter wheat",
+            "title": "Accurate prediction is not profitable advice: profit-based evaluation of machine learning nitrogen recommendations in winter wheat",
             "authors": "Xulong Wang, Po Yang",
             "first_author": "Xulong Wang",
             "url": "https://arxiv.org/abs/2608.27205",
@@ -20743,6 +20743,160 @@
             "pdf_url": "https://arxiv.org/abs/2608.26579",
             "publish_date": "2026-08-27",
             "abstract": "Micro-video recommendation aims to infer user preferences from historical interactions and multimodal video content, thereby identifying the next video of interest. However, prevailing methods compress frame sequences into a single holistic representation, entangling the stable visual semantics and the evolving dynamics that jointly shape user preferences. Meanwhile, diffusion- and flow matching-based recommenders condition their generation process solely on coarse behavioral context, leaving its internal temporal structure outside preference formation. We therefore propose PrismRec, a Preference Flow Matching framework with Spectral Factorization for Micro-video Recommendation. Analogous to a prism that disperses white light into its constituent spectrum, PrismRec devises Spectral Semantic Factorization (SSF) to derive complementary static semantic and dynamic factors from frame-level representations via a prior-guided learnable frequency mask in the temporal frequency domain. Then, it proposes Context-Calibrated Preference Matching (CPM) to weigh them with each user's specific sensitivity and inject the calibrated context as a structured condition to steer the matching trajectory toward the target representation, making video content as an intrinsic driver of preference formation rather than auxiliary side information. Experiments on four datasets from two platforms show that PrismRec surpasses the SOTA baseline by up to 22.65%, with the lowest inference cost and peak memory among the compared methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.29410": {
+            "title": "Agents as Knowledge Integrator and Utilizer in Multimodal Recommendation",
+            "authors": "Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Puzhen Wu, Zewei Liu, Zheng Lin, Jianheng Tang, Jing Yang, Wei Wang, Xiping Hu, Edith Ngai",
+            "first_author": "Jinfeng Xu",
+            "url": "https://arxiv.org/abs/2608.29410",
+            "pdf_url": "https://arxiv.org/abs/2608.29410",
+            "publish_date": "2026-08-29",
+            "abstract": "Online platforms increasingly rely on multimodal recommender systems to rank products, media, and other Web content. Existing methods usually inject visual and textual features into item representations or build homogeneous graphs from modality-level similarity, but the resulting signals can remain misaligned with the recommendation objective. We study this semantic gap from a knowledge-integration perspective: multimodal content should be interpreted together with user behavior before it is used to construct recommendation graphs or adjust rankings. We propose AgentMMRec, an agent-based multimodal recommendation framework with two coordinated roles. The Integrator Agent infers behavior- and multimodal-aware user preferences and item properties from training interactions and item content, then stores them in a reusable knowledge memory. The Utilizer Agent consumes this memory to refine modality-specific item-item graphs, construct behavior-aware homogeneous graphs, and rerank candidate lists under a frozen evaluation-time memory. This design differs from direct LLM feature augmentation and pure LLM reranking because the generated knowledge is first converted into graph structure and model representations before recommendation. Experiments on three Amazon multimodal recommendation datasets show that AgentMMRec consistently improves Recall and NDCG over recent multimodal baselines, remains effective under sparsity and item cold-start settings, and can transfer its constructed knowledge to existing backbones.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.29409": {
+            "title": "Personalized Recommender Systems for Gym Workouts: A Reinforcement Learning Approach",
+            "authors": "Roan Rosema, Helma Torkamaan, Masoud Mansoury",
+            "first_author": "Roan Rosema",
+            "url": "https://arxiv.org/abs/2608.29409",
+            "pdf_url": "https://arxiv.org/abs/2608.29409",
+            "publish_date": "2026-08-29",
+            "abstract": "Workout recommender systems aim to help gym users complete effective and engaging training sessions. However, recommending exercises alone is insufficient, as a practical system must also determine appropriate sets, repetitions, and training loads, while adapting to user behavior such as skipping exercises. Existing approaches typically consider only a subset of these factors, limiting their applicability in real-world settings. In this paper, we extend workout recommendation from exercise selection to full workout prescription. We propose a reinforcement learning (RL)-based framework with four environments: exercise-only and full-prescription settings, each with and without skip-based interaction. The full-prescription environments recommend exercises, sets, repetitions, and load, while the skip-enabled environments use user skipping behavior for online personalization. Experiments with synthetic users show that modeling the full prescription task leads to higher rewards and greater user engagement than exercise-only recommendation, highlighting the importance of realistic workout planning in personalized gym recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.29336": {
+            "title": "FISICA: A Deployed Service for Plantar-Pressure and Posture Assessment with Ontology-Grounded Recommendation",
+            "authors": "Juhwan Song, Heejung Kim, Juntae Noh, Jonghak Ryu, Huiju Park, Junseong Lee, Dohyeon Ahn, Byungwoo Jo",
+            "first_author": "Juhwan Song",
+            "url": "https://arxiv.org/abs/2608.29336",
+            "pdf_url": "https://arxiv.org/abs/2608.29336",
+            "publish_date": "2026-08-29",
+            "abstract": "FISICA is a body-assessment and recommendation service running in production. One standing session with two photographs returns foot-loading measures, posture coordinates, a driven 3D avatar, a visual report, and ranked shoe and exercise candidates. Measurement comes from a purpose-built scale carrying 634 force-sensitive elements on a 1 cm grid and four load cells, and a rule-based evaluator controls every recommendation while a language model only explains the stored result. The method contribution is the avatar. Instead of mapping a measured angle onto a rig through a tuned gain, we measure the avatar with the same function used on the subject and solve until the two agree, on a sampling-invariant spinal metric that separated a normal from a kyphotic record by 7.2 degrees against 0.9 degrees for a single-joint formulation. In production, general APIs respond at a 0.023 s median, plantar-pressure analysis at 0.45 s, and recommendation at 2.16 s to 2.26 s with the rule-based portion under one second in every trial. The served keypoint graph reaches 0.960 PCK@0.2 on public data, and the catalog holds 699 shoes with 10,500 typed facts. An approved study supplies the radiographic reference for the validation still ahead.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
+        },
+        "2608.29179": {
+            "title": "TAAL: Mitigating Early Beam Pruning in Generative Recommendation via Temporal Autoregressive Alignment",
+            "authors": "Lianjie Li, Zhiying Tu, Dianhui Chu, Hongliang Sun",
+            "first_author": "Lianjie Li",
+            "url": "https://arxiv.org/abs/2608.29179",
+            "pdf_url": "https://arxiv.org/abs/2608.29179",
+            "publish_date": "2026-08-29",
+            "abstract": "Generative recommendation encodes items as hierarchical semantic identifiers (SIDs) and retrieves the next item through autoregressive decoding. Standard next-token prediction, however, does not explicitly cover the multimodal transitions present in interaction sequences, leaving the ground-truth SID vulnerable to irreversible pruning at early beam-search branches. Across three public benchmarks, we find that 91.9\\%--96.6\\% of retrieval failures occur within the first two decoding steps. We therefore propose Temporal Autoregressive Alignment (TAAL). During training, TAAL constructs a joint $(c_1,c_2)$ soft target from historical transitions and aligns the early-prefix distribution with a forward KL objective. During inference, it calibrates candidate scores with pointwise mutual information (PMI) to reduce the influence of globally frequent prefixes. On Amazon Beauty, Instruments, and Yelp, TAAL improves NDCG@10 over the standard baseline by 39.5\\%, 6.7\\%, and 28.6\\%, respectively, while increasing full-SID survival by 3.9\\%--16.6\\%. Beam-width analysis further shows that the relative survival gain grows as the beam narrows, reaching 39.4\\% at $B=5$.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.28905": {
+            "title": "Off-Policy Evaluation for Semantic ID Recommenders: Does the Model's Own Code Hierarchy Help?",
+            "authors": "Artem Betlei",
+            "first_author": "Artem Betlei",
+            "url": "https://arxiv.org/abs/2608.28905",
+            "pdf_url": "https://arxiv.org/abs/2608.28905",
+            "publish_date": "2026-08-28",
+            "abstract": "Generative recommenders increasingly emit semantic IDs (SIDs): each item is a short sequence of hierarchical discrete codes from a residual quantizer, decoded autoregressively. Before spending scarce A/B-test, a team may decide offline which decoder or reranking variants are worth testing - a job for off-policy evaluation (OPE). We ask a simple question: can the model's own SID tree serve as the action abstraction for that OPE? Our answer has three parts. (i) Under the near-argmax logging real recommenders use, per-item OPE is hopeless - as item-level effective sample size is usually small on production logs - but marginalizing items to code-prefix clusters restores estimable support and cuts error. (ii) This gain is thanks to coarsening, not to the hierarchy specifically; but the SID tree is what makes coarsening feasible in a generative system - each cluster's mass is exactly and cheaply returned by the decoder, whereas flat clustering requires enumerating item/leaf masses that a code-only decoder does not directly expose. (iii) Resolution depth is the operative knob - coarser under scarce support - and a conditional bias bound links the coarsening bias to the quantizer's worst-case reconstruction residual and the target-logging divergence.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2608.28820": {
+            "title": "Explainable Artificial Intelligence (XAI) in Computational Pathology: Definitions, Taxonomy, and Recommendations",
+            "authors": "Shubham Innani, Suhang You, Adam Shephard, Bhakti Baheti, Francesco Ciompi, Joe Yeong, Nasir Rajpoot, Michael Feldman, Solene Florence Kammerer-Jacquet, Dimitrios Makris, Geert Litjens, Anne L. Martel, Jana Lipkova, April Khademi, Spyridon Bakas, for the MICCAI SIG-CompPath",
+            "first_author": "Shubham Innani",
+            "url": "https://arxiv.org/abs/2608.28820",
+            "pdf_url": "https://arxiv.org/abs/2608.28820",
+            "publish_date": "2026-08-28",
+            "abstract": "Computational pathology (CompPath) is transforming medicine by leveraging artificial intelligence (AI) algorithms to support diagnosis, prognosis, and treatment prediction from gigapixel whole-slide images. Clinical adoption is progressing, but is constrained by concerns about safety, accountability, and regulatory oversight in high-stakes clinical environments. Explainable AI (XAI) systems hold promise for building trust and enabling verification, yet the literature remains fragmented due to inconsistent terminology, overlapping methodological families, ad hoc validation, and current reviews. This review aims to formalize XAI methods in CompPath through the: i) introduction of a pathology-centric vocabulary comprising seven core terms; ii) development of a taxonomy across methodological families and three orthogonal axes (stage, type, scope); and iii) establishment of a task-driven framework that maps five clinical questions to recommended methods, method evaluation, and deployment context. Five key gaps between current XAI capabilities and clinical deployment are identified, and actionable steps are proposed to advance XAI for CompPath.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.28552": {
+            "title": "Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining",
+            "authors": "Kia Kazemi-Nia, Harsh Bandhey, Philip J. Freda, Ryan J. Urbanowicz",
+            "first_author": "Kia Kazemi-Nia",
+            "url": "https://arxiv.org/abs/2608.28552",
+            "pdf_url": "https://arxiv.org/abs/2608.28552",
+            "publish_date": "2026-08-28",
+            "abstract": "As a precursor to high-dimensional biomedical data modeling, reliable feature selection can reduce computational expense, improve modeling performance, and yield simpler, more interpretable models. However, most filter-based feature selection methods struggle to detect feature interactions, while wrapper or embedded feature selection methods are computationally expensive. Relief-based algorithms (RBAs) are filter methods that are sensitive to feature interactions while mitigating these other limitations. This study (1) refactors, optimizes, and expands the scikit-rebate Python package with existing and newly proposed RBA variants and (2) conducts rigorous RBA benchmark comparisons across diverse genomic simulations. We expand scikit-rebate to include SWRF*, mu-Relief, and 5 novel RBA variants implementing alternative strategies for neighbor selection and feature scoring. All RBAs were evaluated to compare predictive feature ranking and runtime across simulated genomic datasets varying in sample size, number of features, heritability, and underlying association type (e.g. main effects and interactions). All RBAs, except mu-Relief, were proficient in detecting 2-way interactions in noisy data. RBAs utilizing 'far' scoring were best at detecting 2-way interactions - with MultiSWRFDB* top-performing - but were far less sensitive to main effects. SWRF, MultiSWRF, MultiSURF, and MultiSWRFDB yielded top performance across main effect and 2-way interaction datasets with MultiSWRFDB performing best when also considering 3-way interactions. Refactoring of scikit-rebate resulted in 10 to 35-fold reductions in RBA runtimes. The newly introduced RBAs were among the strongest performing, and by robustly retaining both main effects and 2-way epistatic interactions, these algorithms preserve predictive signals for downstream modeling.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2608.28393": {
+            "title": "Timing-Aware Repurchase Prediction for Web-Scale E-Commerce: Survival Models for Multi-Surface Grocery Recommendation",
+            "authors": "Akshay Kekuda, Shreeranjani Srirangamsridharan, Ishan Bhatt, Yanan Cao, Sinduja Subramaniam, Evren Korpeoglu, Kaushiki Nag, Kannan Achan",
+            "first_author": "Akshay Kekuda",
+            "url": "https://arxiv.org/abs/2608.28393",
+            "pdf_url": "https://arxiv.org/abs/2608.28393",
+            "publish_date": "2026-08-28",
+            "abstract": "Repurchase recommenders in e-commerce are commonly framed as a binary question asking \"will this customer buy this item within W days\", a formulation that requires a separately trained model for every horizon of interest. We replace this stack with survival models that predict time-to-repurchase directly, and evaluate them on millions of customers from a major grocery e-commerce platform across more than thirty ablation configurations. Our study makes three contributions. First, an empirical hazard analysis reveals a slightly decreasing marginal hazard (k ~ 0.9), differing from the common intuition that grocery items become more likely to be repurchased the longer since the last purchase (increasing hazard, k > 1). Log-Normal achieves the best marginal fit (R^2 = 0.998) and the best ranking, despite Weibull providing the best conditional residual fit, revealing an apparent discrepancy we analyze in detail. Second, a single Accelerated Failure Time (AFT) model replaces three per-horizon binary classifiers, matching or exceeding each at its own horizon while using roughly 3x fewer total trees. Feature importance reshuffles under the survival objective: channel-cadence and recency signals rise while aggregate frequency counts fall. Third, a 4-parameter parametric calibration maps raw survival CDFs to per-horizon probabilities with zero cross-horizon monotonicity violations. Calibration quality varies by an order of magnitude across the AFT family: Exponential AFT (Weibull k=1) achieves expected calibration error (ECE) ~1e-4, roughly 10x lower than Log-Normal, while ranking metrics agree within 0.3% relative. We adopt Exponential AFT for probability-consuming surfaces and Log-Normal for pure ranking, exposing a principled calibration-ranking trade-off within a single AFT family.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.27991": {
+            "title": "HubMixer: Progressive Latent Hub Mixing for Parameter-Efficient Feature Interaction in Recommendation",
+            "authors": "Jie Zhou, Zixian Gong, Wenhao Li, Chang Liu, Enzhao Shen, Bo Liu, Xu Guo, Fei Pan, Peng Jiang",
+            "first_author": "Jie Zhou",
+            "url": "https://arxiv.org/abs/2608.27991",
+            "pdf_url": "https://arxiv.org/abs/2608.27991",
+            "publish_date": "2026-08-28",
+            "abstract": "Learning effective feature interactions is central to industrial recommendation and advertising ranking systems. Recent token-mixing architectures simplify self-attention with lightweight mixing operators, improving hardware efficiency and enabling large-scale deployment. However, recommendation tokens are fundamentally heterogeneous: user profiles, item attributes, behavioral sequences, context features, statistical signals, and business-side features live in different semantic spaces and interact in sparse, sample-specific patterns. Directly mixing all tokens in the raw heterogeneous token space may therefore be parameter-inefficient, as the model must implicitly discover which feature groups should interact and how such interactions should be routed. In the paper, we propose HubMixer, a parameter-efficient latent hub mixing architecture for feature interaction in recommendation. Instead of directly mixing raw feature tokens, HubMixer introduces a small set of learnable latent hubs to organize feature interactions through an `induction--interaction--readout` paradigm. First, hub induction summarizes heterogeneous tokens into compact latent hubs, where latent hubs query input tokens through cross-attention. Second, hub interaction performs high-order interaction in the cleaner latent hub space. Third, token-conditioned readout lets each original token selectively read from the interacted hubs, injecting global interaction semantics while preserving token-level field identity. Extensive offline experiments on industrial recommendation tasks show that HubMixer outperforms the SOTA models. Online A/B testing in the Kuaishou short-video recruitment business further shows a statistically significant 5.48% improvement in resume submission conversion rate, and HubMixer has been fully deployed in production.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.27950": {
+            "title": "Information-Guided Selective Modality-Interest Alignment for Multimodal Recommendation",
+            "authors": "Wenze Ma, Chenyu Sun, Yanmin Zhu, Qiwen Gu, Xuhao Zhao",
+            "first_author": "Wenze Ma",
+            "url": "https://arxiv.org/abs/2608.27950",
+            "pdf_url": "https://arxiv.org/abs/2608.27950",
+            "publish_date": "2026-08-28",
+            "abstract": "Multimodal recommendation (MMRec) aims to enhance recommendation performance by leveraging rich item content from multiple modalities. However, directly incorporating all modality information does not necessarily lead to better preference modeling, since user interests are often more related to a subset of modality signals, while other signals may be weakly aligned with user preferences or even introduce noise. Although recent MMRec methods improve modality utilization through invariant learning, attention mechanisms, graph refinement, or contrastive learning, their alignment processes are often implicit or heuristic and lack a clear objective for selecting modality signals that better match user interests. In this paper, we propose AMUR, an information-guided selective modality-interest alignment framework for multimodal recommendation. Inspired by an information-theoretic view, AMUR aims to enhance modality information that is more related to user interests while reducing the influence of less aligned signals. Specifically, AMUR first refines modality graph structures towards user behavior, and then selectively aligns shared interest-related semantics across modalities. This enables AMUR to improve modality-interest alignment while preserving useful modality-specific complementary information. Extensive experiments on three real-world datasets demonstrate the effectiveness of AMUR over competitive baselines. The code is available at https://github.com/Wenze1/AMUR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.27840": {
+            "title": "An Empirical Evaluation of Cross-City POI Recommendation on a Large-Scale Benchmark",
+            "authors": "Peibo Li, Yang Song, Hao Xue, Maarten de Rijke, Flora D. Salim",
+            "first_author": "Peibo Li",
+            "url": "https://arxiv.org/abs/2608.27840",
+            "pdf_url": "https://arxiv.org/abs/2608.27840",
+            "publish_date": "2026-08-28",
+            "abstract": "Cross-city point-of-interest (POI) recommendation is crucial for navigating unfamiliar urban environments, yet its progress has historically been constrained by data limitations. Using the recently proposed large-scale benchmark Trip World, we empirically re-examine whether conclusions drawn on small prior benchmarks still hold under worldwide coverage, low home-destination region overlap, and large, semantically rich POI inventories. Our evaluation surfaces three bottlenecks of representative state-of-the-art methods: (1) hometown-aware models appear to rely more on destination-region priors than on user-specific preference transfer; (2) their accuracy-efficiency trade-off degrades at this scale, where the simplest model is among the strongest; and (3) existing mechanisms for integrating semantic metadata yield little benefit. We further include a diagnostic pilot on agentic methods adapted from next-POI recommendation, finding that naive adaptation trails a simple popularity prior even though the relevant semantic signal is present in the data. These results highlight the need for task-specific designs that support cross-city preference transfer, semantic grounding, and scalable reasoning over unseen destination inventories.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.27826": {
+            "title": "Personalized and Multi-View Representation for Federated Cold-Start Recommendation",
+            "authors": "Jaehyung Lim, Wonbin Kweon, Woojoo Kim, Junyoung Kim, Dongha Kim, Hwanjo Yu",
+            "first_author": "Jaehyung Lim",
+            "url": "https://arxiv.org/abs/2608.27826",
+            "pdf_url": "https://arxiv.org/abs/2608.27826",
+            "publish_date": "2026-08-28",
+            "abstract": "Federated recommendation (FedRec) enables personalized modeling without centralizing users' interaction histories, but most existing methods assume a fixed item pool and thus overlook the practical cold-item setting where new items continuously arrive. Under the dual-sided constraint, where the server cannot access clients' interactions while clients cannot access the server's proprietary item attribute features, prior federated cold-start recommendation approaches suffer from three structural limitations: a lack of personalization, compositionality failure caused by forcing heterogeneous semantics into a single embedding space, and training- and communication-inefficiency arising from explicit alignment between separate collaborative and attribute representations. To address these challenges, we propose Personalized and Multi-view Representation for Federated Cold-Start Recommendation (PMFRec). PMFRec learns a personalized representation generator to produce user-specific item representations from attribute features, and introduces a global multi-view encoder with item-adaptive gating and an orthogonality objective to capture complementary semantic views while reducing cross-view redundancy. In addition, PMFRec fuses collaborative and attribute knowledge into a single exchanged item representation, eliminating the need for an explicit client-side regularizer and reducing communication overhead. Extensive experiments on real-world datasets show that PMFRec consistently outperforms strong baselines in cold-item recommendation and further improves user-level fairness, warm-scenario adaptability, and robustness under Local Differential Privacy (LDP).",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.27413": {
+            "title": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
+            "authors": "Maksim Utushkin, Andrei Ovsiannikov, Alexander D'yakonov",
+            "first_author": "Maksim Utushkin",
+            "url": "https://arxiv.org/abs/2608.27413",
+            "pdf_url": "https://arxiv.org/abs/2608.27413",
+            "publish_date": "2026-08-27",
+            "abstract": "Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production-scale social graph with hundreds of millions of users and tens of billions of edges requires addressing numerous modeling and systems challenges. We present a scalable end-to-end GNN ranking system for production social graphs, focusing on two design choices that are critical in this setting: multi-hash ID embeddings and temporal neighbor sampling. Multi-hash embeddings are common for high-cardinality features, but industrial GNN systems typically either ignore trainable IDs or accept full embedding tables, exceeding 200 GB for our graph. We integrate multi-hash as the primary node representation, reducing the ID-embedding table size by more than 98 percent while preserving ranking quality. Temporal neighbor sampling is well understood in principle, but existing implementations scan full adjacency lists, which is a non-starter for users with tens of thousands of friends. We implement timestamp-sorted CSR storage with binary search, reducing the per-node temporal sampling cost from $O(deg(v) + k)$ to $O(\\log(deg(v)) + k)$. Beyond these components, we show that this combination scales and yields measurable production impact. On a graph with 194M users and 28B edges, offline ablations isolate each design choice's contribution. In an online A/B test, our system increases friend additions from recommendations by 16 percent and unique friend adders by 11.5 percent over a strong production baseline. We release our framework for distributed training and inference on large temporal graphs.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.27366": {
+            "title": "Stageboost: Recommending Signals Based on Counterfactual Estimation",
+            "authors": "Darpan Singhal, Matan Mandelbrod, Tal Franji, Manasa Kolla, Vipul Gaba, Yuri Brovman",
+            "first_author": "Darpan Singhal",
+            "url": "https://arxiv.org/abs/2608.27366",
+            "pdf_url": "https://arxiv.org/abs/2608.27366",
+            "publish_date": "2026-08-27",
+            "abstract": "Signals are short textual or visual snippets displayed on the eBay View-Item (VI) page, providing additional, contextual information for users about the viewed item. The aim of displaying these signals is to facilitate intelligent purchase and to incentivize engagement. In this paper, we present a 2 stage xgboost based model that optimally populates the VI page with signals. This approach has shown a 0.08% lift in overall GMB (Gross Merchandise Bought) and 0.58% increase in Parts and Accessories GMB, primarily due to increase in conversion of high average price items in online experimentation.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }

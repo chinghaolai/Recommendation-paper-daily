@@ -2,12 +2,26 @@
 layout: default
 ---
 
-## Updated on 2026-08-31
+## Updated on 2026-09-01
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
-| 2026-08-27 | **Profit based evaluation of machine learning for nitrogen recommendations in winter wheat** | Xulong Wang, Po Yang | [Link](https://arxiv.org/abs/2608.27205) | N/A |
+| 2026-08-29 | **Agents as Knowledge Integrator and Utilizer in Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Puzhen Wu, Zewei Liu, Zheng Lin, Jianheng Tang, Jing Yang, Wei Wang, Xiping Hu, Edith Ngai | [Link](https://arxiv.org/abs/2608.29410) | N/A |
+| 2026-08-29 | **Personalized Recommender Systems for Gym Workouts: A Reinforcement Learning Approach** | Roan Rosema, Helma Torkamaan, Masoud Mansoury | [Link](https://arxiv.org/abs/2608.29409) | N/A |
+| 2026-08-29 | **FISICA: A Deployed Service for Plantar-Pressure and Posture Assessment with Ontology-Grounded Recommendation** | Juhwan Song, Heejung Kim, Juntae Noh, Jonghak Ryu, Huiju Park, Junseong Lee, Dohyeon Ahn, Byungwoo Jo | [Link](https://arxiv.org/abs/2608.29336) | N/A |
+| 2026-08-29 | **TAAL: Mitigating Early Beam Pruning in Generative Recommendation via Temporal Autoregressive Alignment** | Lianjie Li, Zhiying Tu, Dianhui Chu, Hongliang Sun | [Link](https://arxiv.org/abs/2608.29179) | N/A |
+| 2026-08-28 | **Off-Policy Evaluation for Semantic ID Recommenders: Does the Model's Own Code Hierarchy Help?** | Artem Betlei | [Link](https://arxiv.org/abs/2608.28905) | N/A |
+| 2026-08-28 | **Explainable Artificial Intelligence (XAI) in Computational Pathology: Definitions, Taxonomy, and Recommendations** | Shubham Innani, Suhang You, Adam Shephard, Bhakti Baheti, Francesco Ciompi, Joe Yeong, Nasir Rajpoot, Michael Feldman, Solene Florence Kammerer-Jacquet, Dimitrios Makris, Geert Litjens, Anne L. Martel, Jana Lipkova, April Khademi, Spyridon Bakas, for the MICCAI SIG-CompPath | [Link](https://arxiv.org/abs/2608.28820) | N/A |
+| 2026-08-28 | **Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining** | Kia Kazemi-Nia, Harsh Bandhey, Philip J. Freda, Ryan J. Urbanowicz | [Link](https://arxiv.org/abs/2608.28552) | N/A |
+| 2026-08-28 | **Timing-Aware Repurchase Prediction for Web-Scale E-Commerce: Survival Models for Multi-Surface Grocery Recommendation** | Akshay Kekuda, Shreeranjani Srirangamsridharan, Ishan Bhatt, Yanan Cao, Sinduja Subramaniam, Evren Korpeoglu, Kaushiki Nag, Kannan Achan | [Link](https://arxiv.org/abs/2608.28393) | N/A |
+| 2026-08-28 | **HubMixer: Progressive Latent Hub Mixing for Parameter-Efficient Feature Interaction in Recommendation** | Jie Zhou, Zixian Gong, Wenhao Li, Chang Liu, Enzhao Shen, Bo Liu, Xu Guo, Fei Pan, Peng Jiang | [Link](https://arxiv.org/abs/2608.27991) | N/A |
+| 2026-08-28 | **Information-Guided Selective Modality-Interest Alignment for Multimodal Recommendation** | Wenze Ma, Chenyu Sun, Yanmin Zhu, Qiwen Gu, Xuhao Zhao | [Link](https://arxiv.org/abs/2608.27950) | N/A |
+| 2026-08-28 | **An Empirical Evaluation of Cross-City POI Recommendation on a Large-Scale Benchmark** | Peibo Li, Yang Song, Hao Xue, Maarten de Rijke, Flora D. Salim | [Link](https://arxiv.org/abs/2608.27840) | N/A |
+| 2026-08-28 | **Personalized and Multi-View Representation for Federated Cold-Start Recommendation** | Jaehyung Lim, Wonbin Kweon, Woojoo Kim, Junyoung Kim, Dongha Kim, Hwanjo Yu | [Link](https://arxiv.org/abs/2608.27826) | N/A |
+| 2026-08-27 | **Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling** | Maksim Utushkin, Andrei Ovsiannikov, Alexander D'yakonov | [Link](https://arxiv.org/abs/2608.27413) | N/A |
+| 2026-08-27 | **Stageboost: Recommending Signals Based on Counterfactual Estimation** | Darpan Singhal, Matan Mandelbrod, Tal Franji, Manasa Kolla, Vipul Gaba, Yuri Brovman | [Link](https://arxiv.org/abs/2608.27366) | N/A |
+| 2026-08-27 | **Accurate prediction is not profitable advice: profit-based evaluation of machine learning nitrogen recommendations in winter wheat** | Xulong Wang, Po Yang | [Link](https://arxiv.org/abs/2608.27205) | N/A |
 | 2026-08-27 | **Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval** | Ante Kapetanovic, Tomislav Duricic, Dionizije Fa, Andro Mercep, Emanuel Lacic | [Link](https://arxiv.org/abs/2608.27006) | N/A |
 | 2026-08-27 | **When Memory Takes Gradients: Collaborative Vector Memory for Agentic Recommender Systems** | Hanchong Chen, Xing Tang, Lingjie Li, Xiongfeng Shan, Xiuqiang He | [Link](https://arxiv.org/abs/2608.26895) | N/A |
 | 2026-08-27 | **Incremental Recommendation via Causal Models** | Athanasios Vlontzos, David Gustafsson, Michael O'Riordan, Ciarán M. Gilligan-Lee | [Link](https://arxiv.org/abs/2608.26804) | N/A |
