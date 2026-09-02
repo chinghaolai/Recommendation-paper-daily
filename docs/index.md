@@ -2,11 +2,20 @@
 layout: default
 ---
 
-## Updated on 2026-09-01
+## Updated on 2026-09-02
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-09-01 | **Does This Moment Justify the Recommendation? Counterfactual Behavior-Grounded Evidence Retrieval for Personalized Video Recommendation** | Xin Liu | [Link](https://arxiv.org/abs/2609.00996) | N/A |
+| 2026-09-01 | **TGR: Advancing Industrial Recommendation from Generative-Paradigm Ranking toward Unified Generation and Reasoning** | TGR Team, Lei Cheng, Haonan Hu, Beibei Kong, Yudong Li, Zang Li, Yunsheng Pang, Hongyang Su, Jianchao Tu, Yunlong Wang, Bing Wen, Junzhang Zhu, Shaojie Zhu, Chengxiang Zhuo | [Link](https://arxiv.org/abs/2609.00986) | N/A |
+| 2026-09-01 | **RPCBench: A Benchmark for Proactive Premise Critique in LLM-based Recommendation** | Zhongru Chen, Yuan Wu, Yi Chang | [Link](https://arxiv.org/abs/2609.00918) | N/A |
+| 2026-09-01 | **Towards Effective Structured Context Modeling for Conversational Recommender Systems via Dual-node Monte Carlo Tree Search** | Jincheng Zhang, Chen Huang, Wenqiang Lei, See-Kiong Ng, Yang Deng | [Link](https://arxiv.org/abs/2609.00618) | N/A |
+| 2026-08-31 | **Authority Bias in Conversational Search Engines for Academic Paper Recommendation** | Uthman Jinadu, Parsa Ghazvinian, Anjila Budathoki, Benjamin M. Ampel, Rajshekhar Sunderraman, Yi Ding | [Link](https://arxiv.org/abs/2609.00248) | N/A |
+| 2026-08-31 | **Two-Sided State-Space Models for Sequential Recommendation with Non-Random Multimodal Review Feedback** | Ziwen Pan, Zihan Liang, Ruoxuan Xiong | [Link](https://arxiv.org/abs/2609.00165) | N/A |
+| 2026-08-31 | **Retrieval, Scoring, and Decoding Shape Performance and Stability in LLM-based Conversational Recommendation** | Ante Kapetanovic, Tomislav Duricic, Andro Mercep, Emanuel Lacic | [Link](https://arxiv.org/abs/2609.00086) | N/A |
+| 2026-08-31 | **Beyond Ranking Accuracy: Evaluating LLM-Cited Feature Rationales for Next Basket Repurchase Recommendation** | Yanan Cao, Anay Dombe, Murali Mohana Krishna Dandu, Shreeranjani Srirangamsridharan, Sinduja Subramaniam, Yogananth Mahalingam, Evren Korpeoglu, Kannan Achan | [Link](https://arxiv.org/abs/2608.30333) | N/A |
+| 2026-08-30 | **The Language of the Question Selects the Market: Query Language and Exit IP as Separable Factors in Commercial Recommendations from a Generative Search Interface** | Dmitrij Żatuchin | [Link](https://arxiv.org/abs/2608.30052) | N/A |
 | 2026-08-29 | **Agents as Knowledge Integrator and Utilizer in Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Puzhen Wu, Zewei Liu, Zheng Lin, Jianheng Tang, Jing Yang, Wei Wang, Xiping Hu, Edith Ngai | [Link](https://arxiv.org/abs/2608.29410) | N/A |
 | 2026-08-29 | **Personalized Recommender Systems for Gym Workouts: A Reinforcement Learning Approach** | Roan Rosema, Helma Torkamaan, Masoud Mansoury | [Link](https://arxiv.org/abs/2608.29409) | N/A |
 | 2026-08-29 | **FISICA: A Deployed Service for Plantar-Pressure and Posture Assessment with Ontology-Grounded Recommendation** | Juhwan Song, Heejung Kim, Juntae Noh, Jonghak Ryu, Huiju Park, Junseong Lee, Dohyeon Ahn, Byungwoo Jo | [Link](https://arxiv.org/abs/2608.29336) | N/A |
