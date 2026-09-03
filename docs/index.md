@@ -2,15 +2,24 @@
 layout: default
 ---
 
-## Updated on 2026-09-02
+## Updated on 2026-09-03
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-09-02 | **Training seeds and model-selection stability in recommender-system evaluation** | Juan Manuel Rodriguez, Oleg Lesota, Antonela Tommasel | [Link](https://arxiv.org/abs/2609.02499) | N/A |
+| 2026-09-02 | **DMRL: Document-Mediated Reinforcement Learning for Skill Optimization in Advertising Recommendation** | Wei Zhang, Hongji Li, Song Sun, Peng Yu, Xue Yang, Lei Zhao, Peng Jiang | [Link](https://arxiv.org/abs/2609.02170) | N/A |
+| 2026-09-02 | **GenCAR: Generative Counterfactual Alignment with Risk-Controlled Selection for Out-of-Distribution Recommendation** | Qianqian Wang, Yunshan Li, Jiawen Zeng, Wenwu Gong, Lili Yang | [Link](https://arxiv.org/abs/2609.02162) | N/A |
+| 2026-09-02 | **Beyond Modality Harmony: Orthogonal Purification and Topology-Guided MoE for Conflict-Aware Multimodal Recommendation** | Jialin Liu, Zhaorui Zhang, Ray C. C. Cheung | [Link](https://arxiv.org/abs/2609.02152) | N/A |
+| 2026-09-02 | **SPAR: Enhancing Industrial-Scale Generative POI Recommendation via Real-World Spatial Perception** | Fangye Wang, Yunjin Gu, Haowen Lin, Yifang Yuan, Song Yang, Xiaojiang Zhou, Pengjie Wang | [Link](https://arxiv.org/abs/2609.02062) | N/A |
+| 2026-09-01 | **UAV Thermal Imagery for Inert Ordnance Screening: Multi Campaign Dataset Development,Object Detection, and Practical Recommendations** | Chad Melton, PhD., Annabelle Kelton | [Link](https://arxiv.org/abs/2609.01738) | N/A |
+| 2026-09-01 | **From Language to Behavior: Scaling Sequence Transformers for Industrial Recommendation Ranking with Rec-Native Designs** | Jie Chen, Xiangqian Yu, Yanchao Lian, Tan Lu, Run Yang, Zhengchun Shang, Xing Wang, Cheng Chen, Ke Hu, Qiang Li, Tianjiu Yin, Xiaobing Liu | [Link](https://arxiv.org/abs/2609.01240) | N/A |
 | 2026-09-01 | **Does This Moment Justify the Recommendation? Counterfactual Behavior-Grounded Evidence Retrieval for Personalized Video Recommendation** | Xin Liu | [Link](https://arxiv.org/abs/2609.00996) | N/A |
 | 2026-09-01 | **TGR: Advancing Industrial Recommendation from Generative-Paradigm Ranking toward Unified Generation and Reasoning** | TGR Team, Lei Cheng, Haonan Hu, Beibei Kong, Yudong Li, Zang Li, Yunsheng Pang, Hongyang Su, Jianchao Tu, Yunlong Wang, Bing Wen, Junzhang Zhu, Shaojie Zhu, Chengxiang Zhuo | [Link](https://arxiv.org/abs/2609.00986) | N/A |
 | 2026-09-01 | **RPCBench: A Benchmark for Proactive Premise Critique in LLM-based Recommendation** | Zhongru Chen, Yuan Wu, Yi Chang | [Link](https://arxiv.org/abs/2609.00918) | N/A |
 | 2026-09-01 | **Towards Effective Structured Context Modeling for Conversational Recommender Systems via Dual-node Monte Carlo Tree Search** | Jincheng Zhang, Chen Huang, Wenqiang Lei, See-Kiong Ng, Yang Deng | [Link](https://arxiv.org/abs/2609.00618) | N/A |
+| 2026-08-31 | **From Feature Interaction to Feature Transport - A Unified Block for Scalable Recommendation Models** | Zichen Luo, Jiachen Guo, Keming Gu, Jie Zhang | [Link](https://arxiv.org/abs/2609.01655) | N/A |
+| 2026-08-31 | **Not All Matches Are Equally Valuable: An Online Experiment of Retention-Focused Recommendation in a Job-Matching Platform** | Tatsuya Ute, Chiaki Ichimura, Yuta Saito | [Link](https://arxiv.org/abs/2609.01652) | N/A |
 | 2026-08-31 | **Authority Bias in Conversational Search Engines for Academic Paper Recommendation** | Uthman Jinadu, Parsa Ghazvinian, Anjila Budathoki, Benjamin M. Ampel, Rajshekhar Sunderraman, Yi Ding | [Link](https://arxiv.org/abs/2609.00248) | N/A |
 | 2026-08-31 | **Two-Sided State-Space Models for Sequential Recommendation with Non-Random Multimodal Review Feedback** | Ziwen Pan, Zihan Liang, Ruoxuan Xiong | [Link](https://arxiv.org/abs/2609.00165) | N/A |
 | 2026-08-31 | **Retrieval, Scoring, and Decoding Shape Performance and Stability in LLM-based Conversational Recommendation** | Ante Kapetanovic, Tomislav Duricic, Andro Mercep, Emanuel Lacic | [Link](https://arxiv.org/abs/2609.00086) | N/A |
@@ -113,6 +122,7 @@ layout: default
 | 2026-08-11 | **Deciding When to Rely on Visual Information: Gated Multimodal Fusion in Sequential Recommendation** | Natalija Glisovic, Danica Kragic, Martin Tegner | [Link](https://arxiv.org/abs/2608.10700) | N/A |
 | 2026-08-11 | **Multi Interests for Joint Search-Recommendation Modeling** | Xiangchen Pan, Wei Wei, Huakang Niu, Zhicong Cheng | [Link](https://arxiv.org/abs/2608.10535) | N/A |
 | 2026-08-11 | **Towards Efficient Reasoning in LLM-Based Recommender Systems via Model Merging** | Linh Dieu Le, Tong Chen, Shazia Sadiq, Hongzhi Yin, Ming Jin, Junliang Yu | [Link](https://arxiv.org/abs/2608.10447) | N/A |
+| 2026-08-10 | **Graph Neural Team Recommendation: An Integrated Approach** | Md Jamil Ahmed, Mahdis Saeedi, Hossein Fani | [Link](https://arxiv.org/abs/2609.01631) | N/A |
 | 2026-08-10 | **GenRec: An LLM-Backed Recommendation Ranker at Netflix** | Ying Li, Shradha Sehgal, Arjun Rao, Rein Houthooft, Yaochen Zhu, Ashish Rastogi | [Link](https://arxiv.org/abs/2608.10257) | N/A |
 | 2026-08-10 | **Sequential Modality Dropout for Robust Multi-Modal Sequential Recommendation** | Guanqun Yang, Wenlong Zhang | [Link](https://arxiv.org/abs/2608.10240) | N/A |
 | 2026-08-10 | **ConnectionMind: Leveraging Social Networks and Large Language Models for Personalized Recommendation at Meta** | Haoyu Han, Yuming Liu, Lei Huang, Lizhu Zhang, Jiliang Tang, Xiangjun Fan | [Link](https://arxiv.org/abs/2608.10187) | N/A |
@@ -128,6 +138,7 @@ layout: default
 | 2026-08-08 | **Fair on the Surface? Benchmarking Hidden-Output Fairness Gaps in LLM Recommenders** | Chan Aristella Lu, Arya Fayyazi, Junhao Zhang, Saeid Shokoufa, Yue Xing, Zhen Xiang, Kyu Hyung Lee, Mehdi Kamal, Massoud Pedram | [Link](https://arxiv.org/abs/2608.08284) | N/A |
 | 2026-08-08 | **Give the Long-tail More SPACE: Promoting Provider Fairness in Next POI Recommendation** | Anran Zhang, Jiaqi Jiang, jiahui Jin, Yuhan Zhao | [Link](https://arxiv.org/abs/2608.07998) | N/A |
 | 2026-08-08 | **PushDualGen: Enabling LLMs to Generate Semantic IDs with Interpretable Copy for Industrial Push Recommendation** | Manjia Lin, Da Li, Yan Wang, Yong Jin, Zheming Ding, Wei Yuan, Lei Yan, Yanan Xia, Lu Zhang, Fan Yang, Xuanping Li, Yanan Niu | [Link](https://arxiv.org/abs/2608.07989) | N/A |
+| 2026-08-07 | **The Utility of LLMs in Recommender Systems Explanation Evaluation** | Kathrin Wardatzky, Oana Inel, Luca Rossetto, Abraham Bernstein | [Link](https://arxiv.org/abs/2609.01627) | N/A |
 | 2026-08-07 | **Do LLM Recommenders Know When They're Hallucinating? Auditing Confidence Calibration in Catalog Faithfulness** | Srijith Ravikumar | [Link](https://arxiv.org/abs/2608.10008) | N/A |
 | 2026-08-07 | **Preserving Item Semantics for Free: Rethinking Token Initialization in LLM-Based Generative Recommendation** | Donald Loveland, Liam Collins, Bhuvesh Kumar, Danai Koutra, Neil Shah | [Link](https://arxiv.org/abs/2608.07816) | N/A |
 | 2026-08-07 | **Invisible to the Machine: Auditing AI Restaurant, Cafe, and Bar Recommendation Against a Complete Market Census** | Vladimir Pitenin | [Link](https://arxiv.org/abs/2608.07069) | N/A |
@@ -247,6 +258,7 @@ layout: default
 | 2026-07-21 | **Beyond Noisy Signals: Dual-Level Denoising for Multi-modal Sequential Recommendation** | Jie Luo, Qi Jin, Xinming Zhang | [Link](https://arxiv.org/abs/2607.18786) | N/A |
 | 2026-07-21 | **Mitigating Matthew Effect: Multi-Hypergraph Boosted Multi-Interest Self-Supervised Learning for Conversational Recommendation** | Yongsen Zheng, Ruilin Xu, Guohua Wang, Liang Lin, Kwok-Yan Lam | [Link](https://arxiv.org/abs/2607.18609) | N/A |
 | 2026-07-21 | **Topology-Aware Tokenization for Generative Recommendation** | Yaokun Liu, Yifan Liu, Zhenrui Yue, Gyuseok Lee, Zelin Li, Ruichen Yao, Dong Wang | [Link](https://arxiv.org/abs/2607.18600) | N/A |
+| 2026-07-20 | **RecEvolve: A Knowledge-Driven Autonomous Agent System for Recommender Systems** | Weidi Pan, He Ma, Shuhao Ye, Palaksh Rungta, David McPeek, Junyi Jiao, Arnab Bhadury, Mingyan Gao, Onkar Dalal | [Link](https://arxiv.org/abs/2609.01622) | N/A |
 | 2026-07-20 | **SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategy Refinement in E-Commerce Recommendation** | Hanchen Yang, Kaiwen Yang, Junpeng Zhuang, Yang He, Keting Cen, Bochao Liu, Zhongbo Sun, An Liu, Zhongteng Han, Chenyi Lei | [Link](https://arxiv.org/abs/2607.17719) | N/A |
 | 2026-07-20 | **RAMP: Robust Ad Recommendation Under Limited Personalized-Feature Availability via Masking and Alignment Pathways** | Dairui Liu, Zhongyi Lu, Roger Zhe Li, Changhong Jin, Jitao Lu, Xinyang Shao, Bichen Shi, Mete Sertkan, Aghiles Salah, Aonghus Lawlor, Barry Smyth, Tri Kurniawan Wijaya, Ruihai Dong, Xingsheng Guo | [Link](https://arxiv.org/abs/2607.17473) | N/A |
 | 2026-07-20 | **HyCoRec: Hypergraph-Enhanced Multi-Preference Learning for Alleviating Matthew Effect in Conversational Recommendation** | Yongsen Zheng, Ruilin Xu, Ziliang Chen, Guohua Wang, Mingjie Qian, Jinghui Qin, Liang Lin | [Link](https://arxiv.org/abs/2607.17461) | N/A |
@@ -309,6 +321,7 @@ layout: default
 | 2026-07-02 | **Recommended Selves: Authenticity and Algorithmic Filtering** | Etienne Brown | [Link](https://arxiv.org/abs/2608.14602) | N/A |
 | 2026-07-02 | **Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages** | A. Seza Doğruöz, Xixian Liao, Verena Blaschke, Jakob Prange, Senyu Li, David Ifeoluwa Adelani | [Link](https://arxiv.org/abs/2607.02235) | N/A |
 | 2026-07-01 | **Bi-NAS: Towards Effective and Personalized Explanation for Recommender Systems via Bi-Level Neural Architecture Search** | Longfeng Wu, Yao Zhou, Tong Zeng, Zhimin Peng, Bhanu Pratap Singh Rawat, Lecheng Zheng, Giovanni Seni, Dawei Zhou | [Link](https://arxiv.org/abs/2607.01387) | N/A |
+| 2026-06-30 | **MGDiff: Multi-Interest Sequence Recommendation with Masking GNN-Guided Diffusion** | Wenjing Xiao, Hao Ding | [Link](https://arxiv.org/abs/2609.01619) | N/A |
 | 2026-06-30 | **Obliviate: Efficient Unlearning in Recommender Systems** | Tushar Prakash, Brijraj Singh, Niranjan Pedanekar, Narayan Chaturvedi | [Link](https://arxiv.org/abs/2607.22665) | N/A |
 | 2026-06-30 | **Joint Effects of Recommender Systems and Network Structure on the Visibility of Content and Creators** | Virginia Morini, Valentina Pansanella, Luca Pappalardo, Dino Pedreschi, Giulio Rossetti | [Link](https://arxiv.org/abs/2607.00258) | N/A |
 | 2026-06-30 | **Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequential Screening and Hierarchical Refinement** | Sakshi Arya, Abdul-Nasah Soale, Hossein Moradi Rekabdarkolaee | [Link](https://arxiv.org/abs/2606.31661) | N/A |

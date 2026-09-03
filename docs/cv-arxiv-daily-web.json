@@ -20998,6 +20998,149 @@
             "abstract": "When a generative search interface answers a commercial question, which market's products it names is decided before the model reasons about the products. We report a controlled probe of 234 runs against the logged-out ChatGPT web interface and the OpenAI API, collected on 29 and 30 August 2026 across four exit countries and six query languages, with six identical runs per cell. Three results. First, the top recommendation is unstable: it changed across six identical runs on four of six prompts, and that rate was identical in the browser interface and in the API with web search both enabled and disabled, so instability is a property of the system and not of the surface. Second, query language, and not location, decides whether local suppliers appear at all. Where the query language matched the country, a global brand won 1 of 24 runs; asked in English on the same connections, local brands took 0 of 6 runs in Estonia and Turkiye. Third, language and location are separable and act on different things: holding the query language fixed and moving only the exit IP moves the market whose brands are named while the answer stays in the query language. We show this on two unrelated pairs, Turkish asked from Berlin and Russian asked from Tallinn, and in both the answer names the resident country's suppliers. A minority language occupies a middle tier: Russian asked from Estonia names an Estonian supplier in 4 of 6 runs and a global one in all six, where Estonian names a local supplier in every run and English names none. A negative control in a second category, coded with the same instrument, shows no language effect at all, and disconfirms our own expectation: that category does have domestic suppliers and none was named in any language, which points the explanation at whether a category is nationally regulated rather than at whether it is nationally supplied.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2609.02499": {
+            "title": "Training seeds and model-selection stability in recommender-system evaluation",
+            "authors": "Juan Manuel Rodriguez, Oleg Lesota, Antonela Tommasel",
+            "first_author": "Juan Manuel Rodriguez",
+            "url": "https://arxiv.org/abs/2609.02499",
+            "pdf_url": "https://arxiv.org/abs/2609.02499",
+            "publish_date": "2026-09-02",
+            "abstract": "Recommender-system experiments often rely on a single random training seed, assuming that run-to-run stochasticity has limited impact on evaluation conclusions. This assumption is risky, as a training seed may influence several algorithm-dependent mechanisms, including parameter initialization, mini-batch ordering, dropout, masking, latent sampling, and training-time negative sampling. We examine this assumption by fixing the data partition and varying the training seed across hyperparameter configurations. We analyze seed effects at three levels: user-level metric sensitivity, validation-based model selection and recommendation-list agreement. Results show that seed variation is often detectable. Its impact depends on whether configurations are clearly separated, whether validation results transfer to test, and whether similar scores lead to similar top-$k$ lists. Findings suggest that reporting single-seed results can overstate the stability of recommender system evaluation, and that training seeds should be treated as part of the evaluation protocol rather than as incidental implementation noise.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.02170": {
+            "title": "DMRL: Document-Mediated Reinforcement Learning for Skill Optimization in Advertising Recommendation",
+            "authors": "Wei Zhang, Hongji Li, Song Sun, Peng Yu, Xue Yang, Lei Zhao, Peng Jiang",
+            "first_author": "Wei Zhang",
+            "url": "https://arxiv.org/abs/2609.02170",
+            "pdf_url": "https://arxiv.org/abs/2609.02170",
+            "publish_date": "2026-09-02",
+            "abstract": "Advertising recommendation requires continuously tuning complex system parameters while balancing commercial returns and user experience. Recent work has introduced large language models (LLMs) with skill documents to assist this labor-intensive process, but skill optimization remains largely prompt-driven, lacking a principled mechanism to attribute rewards to specific document edits. To address this limitation, we propose Document-Mediated Reinforcement Learning (DMRL), a skill self-evolution framework that models skill document optimization as a sequence of structured editing actions. In DMRL, an upper-level agent performs controlled document edits, while a frozen lower-level task agent evaluates their effects through A/B testing. To address credit assignment and long-term outcomes, we introduce two key components: (1) Dual-Relative Policy Optimization (DRPO), a post-training policy optimization method for robust and risk-aware advantage estimation; and (2) Long-term Reward Predictor (LRP), which estimates long-term outcomes by modeling population heterogeneity with disentangled representation learning and cross-attention transfer. DMRL was deployed on a large-scale short-video ads platform and extensive empirical evaluation shows that DMRL outperforms state-of-the-art baselines across key advertising metrics",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2609.02162": {
+            "title": "GenCAR: Generative Counterfactual Alignment with Risk-Controlled Selection for Out-of-Distribution Recommendation",
+            "authors": "Qianqian Wang, Yunshan Li, Jiawen Zeng, Wenwu Gong, Lili Yang",
+            "first_author": "Qianqian Wang",
+            "url": "https://arxiv.org/abs/2609.02162",
+            "pdf_url": "https://arxiv.org/abs/2609.02162",
+            "publish_date": "2026-09-02",
+            "abstract": "Serving useful recommendations under distribution shift is crucial for balancing utility and risk in out-of-distribution (OOD) recommendation. However, most existing OOD methods improve ranking or construct counterfactual candidates without controlling the proxy-label false discovery rate (FDR) of the served set. In this work, we formulate OOD serving as the $α$-Valid Counterfactual Recommendation ($α$-VCR) problem to retain candidate support learned from counterfactual supervision while controlling proxy-label FDR, and propose GenCAR, which couples preference-grounded counterfactual supervision with calibrated set selection. In particular, GenCAR fixes the stable-preference representation while intervening on the environmental factor, grounds offline large language model proposals through preference anchors and trust-radius filtering, and uses conformal $p$-values for Benjamini--Hochberg selection. We theoretically bound conditional counterfactual approximation error and prove finite-sample, distribution-free control of proxy-label FDR under exchangeability and positive regression dependence, with a Benjamini--Yekutieli guarantee under arbitrary dependence. Extensive experiments audit realized proxy false discovery proportions and demonstrate that GenCAR consistently enhances OOD candidate recovery across diverse benchmarks.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.02152": {
+            "title": "Beyond Modality Harmony: Orthogonal Purification and Topology-Guided MoE for Conflict-Aware Multimodal Recommendation",
+            "authors": "Jialin Liu, Zhaorui Zhang, Ray C. C. Cheung",
+            "first_author": "Jialin Liu",
+            "url": "https://arxiv.org/abs/2609.02152",
+            "pdf_url": "https://arxiv.org/abs/2609.02152",
+            "publish_date": "2026-09-02",
+            "abstract": "Multimodal Recommender Systems (MRSs) typically rely on a flawed \"modality harmony\" assumption, presuming that multimodal features are inherently beneficial and strictly aligned with users' collaborative interaction patterns. However, modality-topology conflicts are ubiquitous in real-world scenarios due to deceptive visual clickbaits and mismatched semantics. Blindly integrating these noisy modalities inevitably pollutes the pristine collaborative space, causing severe representation distortion. To address this, we propose Orthogonal purification and topology-guided MoE for conflict-aware multimodal Recommendation (OrthoRec). At its core, OrthoRec introduces Collaborative-Guided Orthogonal Purification (CGOP), which geometrically decouples multimodal features into directions parallel and orthogonal to a pure collaborative anchor. By adaptively truncating the orthogonal noise with an energy-preserving normalization, CGOP rectifies deceptive semantic directions while preserving the modality's intrinsic representation capacity. Furthermore, we design a Topology-Aware Routing Mixture-of-Experts (TAR-MoE). Guided by the collaborative topology, TAR-MoE employs decoupled sigmoid gating to break the zero-sum bottleneck of traditional softmax attention, autonomously determining the injection scale for each purified modality. Finally, a safe-SSL objective is introduced to dynamically penalize the forced contrastive alignment of contradictory pairs. Experiments on three real-world Amazon datasets show that OrthoRec consistently outperforms competitive recent baselines and exhibits improved robustness under modality noise and item sparsity.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.02062": {
+            "title": "SPAR: Enhancing Industrial-Scale Generative POI Recommendation via Real-World Spatial Perception",
+            "authors": "Fangye Wang, Yunjin Gu, Haowen Lin, Yifang Yuan, Song Yang, Xiaojiang Zhou, Pengjie Wang",
+            "first_author": "Fangye Wang",
+            "url": "https://arxiv.org/abs/2609.02062",
+            "pdf_url": "https://arxiv.org/abs/2609.02062",
+            "publish_date": "2026-09-02",
+            "abstract": "Generative Point-of-Interest (POI) recommendation, autoregressively generating a target POI's semantic ID (SID), holds great promise for Location-Based Services, where a recommendation helps only if the user can reach it. Yet, existing methods operate within an interest space defined by behavior sequences and collaborative signals, where geography enters only as a textual attribute of the SID, leaving no explicit mechanism to learn or preserve how urban places are related by distance, direction, and reachability; their predictions are thus behaviorally plausible yet far from the user's real-time location. We argue that such services require injecting real urban spatial knowledge into the interest space, rather than inferring geography from behavior alone. Hence, we propose SPAR, a unified framework whose three synergistic stages jointly construct, cultivate, and preserve urban spatial knowledge: (1) at the tokenization level, Spatially-Intrinsic SID (SI-SID) explicitly encodes longitude--latitude coordinates into a sinusoidal geospatial embedding and fuses it with the textual semantic embedding, producing identifiers via RQ-Kmeans that are simultaneously semantically and geographically consistent; (2) at the cognition level, Multi-Granular Geospatial CPT (MG-CPT) continually pre-trains the base LLM on 25 curated geospatial datasets organized into three tiers of basic attributes, pairwise relations, and city-scale navigation, so that scattered POIs cohere into a connected urban space; and (3) at the adaptation level, Task-Vector Anchored SFT (TV-SFT) anchors the acquired spatial knowledge as a frozen parameter-space task vector to prevent its catastrophic forgetting during behavioral fine-tuning, thereby fusing the two spaces. Extensive quantitative and visualization experiments on two public and four industrial-scale datasets demonstrate the effectiveness of SPAR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.01738": {
+            "title": "UAV Thermal Imagery for Inert Ordnance Screening: Multi Campaign Dataset Development,Object Detection, and Practical Recommendations",
+            "authors": "Chad Melton, PhD., Annabelle Kelton",
+            "first_author": "Chad Melton",
+            "url": "https://arxiv.org/abs/2609.01738",
+            "pdf_url": "https://arxiv.org/abs/2609.01738",
+            "publish_date": "2026-09-01",
+            "abstract": "Unexploded ordnance (UXO) continues to restrict civilian access, agricultural activity, infrastructure recovery, and environmental remediation in contaminated areas around the world. This study created a multi campaign UAV thermal image data set of inert ordnance, developed a labeled image set from collected imagery, tested object detection models, and identified practical considerations for humanitarian mine action and demining applications. Data were collected during four field campaigns in Tennessee under summer and winter conditions using inert mines, munitions, and other ordnance placed in short grass, tall vegetation, gravel, mulch, rock, compost, and compacted surfaces. Thermal imagery was collected under flight altitutes of 33 m and 15 m. The final source inventory contained 5,855 thermal image label pairs, including 918 positive images and 4,937 background images. After retaining all positive images and downsampling background images, the 33 m dataset contained 420 training and 106 validation images, while the 15 m dataset contained 629 training and 157 validation images. YOLOV11l and RT-DETR-R50 algorithms were trained and evaluated to develop an automated candidate detection model. Practical recommendations include collecting thermal and RGB imagery together, incorporating varied surfaces and background only imagery, considering periods following changes in solar exposure, balancing survey coverage against target pixel representation, calibrating models with representative local data, and retaining qualified human review. The intended use is screening and prioritization for follow on technical survey or EOD assessment, and not a standalone clearance.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
+        },
+        "2609.01240": {
+            "title": "From Language to Behavior: Scaling Sequence Transformers for Industrial Recommendation Ranking with Rec-Native Designs",
+            "authors": "Jie Chen, Xiangqian Yu, Yanchao Lian, Tan Lu, Run Yang, Zhengchun Shang, Xing Wang, Cheng Chen, Ke Hu, Qiang Li, Tianjiu Yin, Xiaobing Liu",
+            "first_author": "Jie Chen",
+            "url": "https://arxiv.org/abs/2609.01240",
+            "pdf_url": "https://arxiv.org/abs/2609.01240",
+            "publish_date": "2026-09-01",
+            "abstract": "Scaling Transformers has driven large gains in language modeling, but transplanting this to behavior-sequence modeling in production ranking is challenging: recommendation differs in signal quality, where behavior sequences are noisy, temporally irregular, and sparsely supervised, and in computation asymmetry, where each request scores many candidates against one shared user history under tight latency budgets. We propose ReST, a recommendation-native Transformer scaling framework. For signal quality, it introduces a sequence encoder with dual-gated attention, rotary positional and temporal embedding, stabilized residual normalization, and training-only auxiliary objectives. For computation asymmetry, it factorizes ranking into a heavy reusable encoder and a lightweight cross decoder with projection-free KV attention and token-specific parameterization, coupling user-level shared-prefix training with shared-prefix serving for compute-once, decode-many-times ranking. Across industrial and public benchmarks, ReST achieves higher accuracy and scales more consistently along sequence length, depth, and width, where LLM-style Transformer blocks saturate. A one-week online A/B test on a production advertising platform improves online AUC by 1.31% and lifts a core revenue metric by 11.93% within a 50 ms P99 budget; ReST has since been fully deployed in production, showing that behavior-sequence scaling remains a promising, under-exploited axis for production ranking.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.01655": {
+            "title": "From Feature Interaction to Feature Transport - A Unified Block for Scalable Recommendation Models",
+            "authors": "Zichen Luo, Jiachen Guo, Keming Gu, Jie Zhang",
+            "first_author": "Zichen Luo",
+            "url": "https://arxiv.org/abs/2609.01655",
+            "pdf_url": "https://arxiv.org/abs/2609.01655",
+            "publish_date": "2026-08-31",
+            "abstract": "Unified recommendation models aim to jointly model non-sequential multi-field features and sequential user behaviors, but existing interaction-centric designs mainly focus on mixing heterogeneous tokens within each layer. We argue that scalable unified recommendation also requires controlling how intent information is carried, filtered, and preserved across stacked blocks. Inspired by flow-based representation dynamics, we introduce feature transport, a view that treats deep unified recommendation as a discrete context-conditioned representation evolution process. We propose CRAFT, a Contextual Residual Adaptive Feature Transport block, which summarizes non-sequential features into a reliability-aware contextual field and uses it to generate residual displacement and memory-preserving signals for intent and sequence representations. In this way, non-sequential context acts as an active controller of representation evolution rather than a passive object of interaction. In the TAAC2026 advertising recommendation competition, CRAFT achieves a test AUC of 0.838090, surpassing the previous leaderboard-best score of 0.83798. Scaling experiments further show that CRAFT benefits from both depth and width expansion: stacking CRAFT to six blocks improves test AUC to 0.838148, while increasing the hidden dimension reaches 0.838106. These results demonstrate the effectiveness, scalability, and generalization potential of the feature transport paradigm. Source code: https://github.com/AshleyLuo001/CRAFT",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.01652": {
+            "title": "Not All Matches Are Equally Valuable: An Online Experiment of Retention-Focused Recommendation in a Job-Matching Platform",
+            "authors": "Tatsuya Ute, Chiaki Ichimura, Yuta Saito",
+            "first_author": "Tatsuya Ute",
+            "url": "https://arxiv.org/abs/2609.01652",
+            "pdf_url": "https://arxiv.org/abs/2609.01652",
+            "publish_date": "2026-08-31",
+            "abstract": "Recommender systems in two-sided matching platforms are commonly optimized for immediate engagement signals such as click-through rate, reply rate, or the total number of successful matches. However, in real-world marketplaces, maximizing matches alone may be misaligned with business goals such as user churn rate and platform revenue, especially when users with fewer matches are at substantially higher risk of churn. In this paper, we study a real job matching platform and show that users with very few recent matches are indeed much more likely to leave the platform, while additional matches for already successful users provide limited marginal value for retention. Motivated by this empirical finding, we formulate a retention-aware recommendation problem and implement a simple post-processing method that adjusts the baseline match-focused ranking to prevent user churn. Specifically, the implemented method gives a score boost to churn-risk users with the goal of increasing their likelihood of obtaining matches and improving retention. We evaluate this practical approach in an online experiment on a real job-matching platform. The treatment group showed directionally lower user churn than the control group, although the estimated effect was not statistically significant at conventional levels, while company-side churn showed no evidence of deterioration. To our knowledge, this is among the first online experimental studies to investigate retention-focused recommendation in a real reciprocal job-matching platform.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.01631": {
+            "title": "Graph Neural Team Recommendation: An Integrated Approach",
+            "authors": "Md Jamil Ahmed, Mahdis Saeedi, Hossein Fani",
+            "first_author": "Md Jamil Ahmed",
+            "url": "https://arxiv.org/abs/2609.01631",
+            "pdf_url": "https://arxiv.org/abs/2609.01631",
+            "publish_date": "2026-08-10",
+            "abstract": "Team recommendation aims to select an optimal subset of experts who can form an almost surely successful collaborative team for a given set of required skills. State-of-the-art methods are neural multi-label classifiers that transfer dense vector representations of skills into a sparse occurrence vector representing the optimal subset of experts. Such methods, however, overlook experts' relational and structural information encoded in the expert collaboration graph and, thus, fall short of capturing complex inter-dependencies among experts and their associated skills within teams. Moreover, the skills' dense vectors are pretrained disjointly and independently of the underlying neural classifier, hence, preventing end-to-end optimization. In this paper, we propose to reformulate the team recommendation problem into end-to-end link predictions in the expert collaboration graph to consume multi-hop intra-team and cross-team collaborations among experts while eschewing the unnecessary complexities of the disjoint two-phase training procedure. Our experiments on two large-scale datasets from various domains with distinct distributions of skills in teams demonstrate the superiority of the end-to-end approach and establish a new state of the art. Our code is available at https://github.com/fani-lab/OpeNTF.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2609.01627": {
+            "title": "The Utility of LLMs in Recommender Systems Explanation Evaluation",
+            "authors": "Kathrin Wardatzky, Oana Inel, Luca Rossetto, Abraham Bernstein",
+            "first_author": "Kathrin Wardatzky",
+            "url": "https://arxiv.org/abs/2609.01627",
+            "pdf_url": "https://arxiv.org/abs/2609.01627",
+            "publish_date": "2026-08-07",
+            "abstract": "Explanations play a crucial role in creating trustworthy recommender systems (RS), yet choosing a good explanation method presents challenges. Many explanation methods exist, but little guidance exists on which is best for which setting. Existing explanation generation methods often produce abstract outputs that require further formatting to become user-friendly, with a seemingly endless pool of options. Running user-based evaluations of all possible options is usually unfeasible, while automated evaluation metrics often either assess only the explainer's abstract output or require comparison with a ground truth, which is generally unavailable. Recent studies have shown that large language models (LLMs) can serve as ``judges'' for explanation evaluation, but their reliability has not yet been thoroughly explored. This paper studies the utility of LLMs in selecting an effective explanation method for a given application. We first explore their ability to generate explanation prototypes given varying information about the RS and the user. Specifically, we generate 18 distinct explanation prototypes, which are subsequently evaluated by 14 LLMs of varying sizes across two temperature settings. We compare these against human ratings derived from a user study. Our results show that while LLMs exhibit human-like rating patterns and achieve moderate rank correlation with human raters, their absolute rating agreement is low and varies substantially by model size and evaluation construct. We derive four practical recommendations: keep explanation-generation prompts concise, prefer larger models for evaluation, pre-test evaluation constructs, and audit explanations for factual accuracy, as neither humans nor LLMs reliably detect non-factual content.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.01622": {
+            "title": "RecEvolve: A Knowledge-Driven Autonomous Agent System for Recommender Systems",
+            "authors": "Weidi Pan, He Ma, Shuhao Ye, Palaksh Rungta, David McPeek, Junyi Jiao, Arnab Bhadury, Mingyan Gao, Onkar Dalal",
+            "first_author": "Weidi Pan",
+            "url": "https://arxiv.org/abs/2609.01622",
+            "pdf_url": "https://arxiv.org/abs/2609.01622",
+            "publish_date": "2026-07-20",
+            "abstract": "The rise of agentic AI has catalyzed a shift toward self-iterating systems, opening new frontiers for the autonomous optimization of production recommender models. This paper presents the empirical validation of a knowledge-driven autonomous agent system, deployed directly on a production large-scale Two-Tower retrieval model. By delegating the entire research lifecycle, spanning idea generation, code implementation, offline training, and metric evaluation, to a continuous closed-loop autonomous framework, the agent system executed over 40 completed autonomous training runs from scratch. Executing these runs under rigorous production-scale evaluations, the system systematically navigated hidden architectural bottlenecks on the latest production model to achieve a breakthrough ~20% relative improvement in NDCG, a gain that translated directly to a +3.77% increase in user satisfaction in live production traffic. Furthermore, the deployment exposed critical vulnerabilities in standard evaluation protocols, as the agent system autonomously discovered reward-hacking shortcuts. These findings prove that an autonomous pipeline can dramatically accelerate the pace of machine learning research and stress-test the rigorousness of underlying experimental infrastructure, while also exposing novel challenges such as reward hacking and redundant exploration of failed hypotheses.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.01619": {
+            "title": "MGDiff: Multi-Interest Sequence Recommendation with Masking GNN-Guided Diffusion",
+            "authors": "Wenjing Xiao, Hao Ding",
+            "first_author": "Wenjing Xiao",
+            "url": "https://arxiv.org/abs/2609.01619",
+            "pdf_url": "https://arxiv.org/abs/2609.01619",
+            "publish_date": "2026-06-30",
+            "abstract": "We propose a novel Multi-Interest Sequence Recommendation Framework with \\underline{M}asking \\underline{G}NN-Guided \\underline{Diff}usion Model (MGDiff), designed to generate accurate, bias-free user interest information during the diffusion process. First, we propose a semantics-enhanced Dual-layer Semantic Guidance (DSG) framework, which decomposes guidance into two synergistic stages: extracting latent item semantics and decoupling multidimensional user intent. We design a Weight-adaptive Masking Graph Neural Network reconstructs missing links to uncover deep item relationships beyond superficial co-occurrence, while a Dynamic Multi-Expert Network projects user preferences into distinct semantic subspaces to suppress irrelevant interference. This hierarchical design yields structured guidance that significantly improves the generation accuracy of diffusion models. Second, We propose a Popularity-Aware Guidance (PAG) mechanism that performs spatial geometric adjustments on the outputs of diffusion models: by using item popularity as a differentiable adjustment signal to recalibrate similarity metrics, we enable DMs to generate diverse recommendations free from popularity bias. Finally, we compare MGDiff with multiple baseline models across four widely used datasets, demonstrating its superior performance and validating its effectiveness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
