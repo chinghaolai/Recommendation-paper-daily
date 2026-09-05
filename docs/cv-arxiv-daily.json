@@ -21141,6 +21141,83 @@
             "abstract": "We propose a novel Multi-Interest Sequence Recommendation Framework with \\underline{M}asking \\underline{G}NN-Guided \\underline{Diff}usion Model (MGDiff), designed to generate accurate, bias-free user interest information during the diffusion process. First, we propose a semantics-enhanced Dual-layer Semantic Guidance (DSG) framework, which decomposes guidance into two synergistic stages: extracting latent item semantics and decoupling multidimensional user intent. We design a Weight-adaptive Masking Graph Neural Network reconstructs missing links to uncover deep item relationships beyond superficial co-occurrence, while a Dynamic Multi-Expert Network projects user preferences into distinct semantic subspaces to suppress irrelevant interference. This hierarchical design yields structured guidance that significantly improves the generation accuracy of diffusion models. Second, We propose a Popularity-Aware Guidance (PAG) mechanism that performs spatial geometric adjustments on the outputs of diffusion models: by using item popularity as a differentiable adjustment signal to recalibrate similarity metrics, we enable DMs to generate diverse recommendations free from popularity bias. Finally, we compare MGDiff with multiple baseline models across four widely used datasets, demonstrating its superior performance and validating its effectiveness.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2609.04127": {
+            "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+            "authors": "Shai Vardi, João Sedoc",
+            "first_author": "Shai Vardi",
+            "url": "https://arxiv.org/abs/2609.04127",
+            "pdf_url": "https://arxiv.org/abs/2609.04127",
+            "publish_date": "2026-09-03",
+            "abstract": "Large language models are increasingly used to support organizational decisions, yet users often lack a principled basis for assessing whether to rely on a specific recommendation. Existing approaches typically evaluate broad model properties, such as reliability, uncertainty, or robustness, or focus on user trust, rather than the underlying basis for relying on an individual recommendation. Adapting theoretical foundations from epistemology, we introduce epistemic warrant, a decision-level construct that characterizes the stability of a model's preference and the scope over which that preference holds. We operationalize this construct through a four-tier reliance certificate for pairwise recommendations, distinguishing among unstable, context-dependent, locally supported, and broadly supported recommendations. We validate the construct using contemporary methodologies: known-groups tests successfully recover expert-prespecified warrant orderings, and stronger warrants systematically align with independent consensus from crowd workers. Furthermore, we demonstrate that epistemic warrant provides information distinct from verbalized confidence and is not readily explained by decision difficulty. Ultimately, this framework offers a theoretically grounded, implementable approach for characterizing the warrant of individual LLM recommendations when objective ground truth is unavailable.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.04047": {
+            "title": "The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations",
+            "authors": "Dmitrij Żatuchin",
+            "first_author": "Dmitrij Żatuchin",
+            "url": "https://arxiv.org/abs/2609.04047",
+            "pdf_url": "https://arxiv.org/abs/2609.04047",
+            "publish_date": "2026-09-03",
+            "abstract": "Background: Researchers increasingly use repeated identical prompts to audit stochastic variation in large language model (LLM) brand recommendations, yet no standardized protocol exists for setting iteration counts, selecting stability metrics, or establishing reliability thresholds. Objective: We formalize the Dice Roll Method as a reusable protocol for repeated-query auditing of LLM brand recommendations, grounded in a generative model of temperature-scaled nucleus sampling. Methods: Total response variance is decomposed into sampling, prompt-phrasing, run-to-run, and model-version components. The stack: a negative-binomial mixed model with iterations as repeated measures; Cliff's delta as the distribution-free effect size; dependence-preserving bootstrap; simulation-based power; a generalizability-theory decomposition; drift diagnostics on pinned snapshots. We reanalyse five brand-recommendation auditing studies: approximately 190,000 observations, 270+ brands, 6 languages, iteration counts 5 to 40. Results: Three tiers of iteration guidance emerge from the D-study: exploratory (n = 5, G = 0.58), confirmatory (n = 10, G = 0.74), and rigorous (n = 15, G = 0.81), tied to effect-size and generalizability targets. The four metric families (count, set, embedding, fairness-adjusted PASOR) are complementary, motivating a compact metric battery over single indicators. A pre-registered external validation on three independent corpora (Motoki et al., 100-round; Rozado, 24 models; llm-stability) reproduces the D-study reliability prediction in 37 of 39 cells with no failures and the n = 5 power value to two decimals; the fixed tiers do not transfer, supporting a pilot-then-solve reading. Conclusion: The protocol gives repeated-query auditing of LLM brand recommendations a statistically principled footing under the conditional, non-Gaussian structure of real autoregressive generation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.03522": {
+            "title": "EPIC: Explicit Posterior Item Conditioning for Semantic ID Diffusion Recommendation",
+            "authors": "Tuan-Binh Tran, Thanh Tam Nguyen, Quoc Viet Hung Nguyen, Dung D. Le, Tung Kieu, Thanh Trung Huynh",
+            "first_author": "Tuan-Binh Tran",
+            "url": "https://arxiv.org/abs/2609.03522",
+            "pdf_url": "https://arxiv.org/abs/2609.03522",
+            "publish_date": "2026-09-03",
+            "abstract": "Semantic ID (SID) generative recommendation predicts the next item by generating a short tuple of discrete tokens. Recent masked-diffusion methods improve this process through bidirectional context and flexible decoding, yet recommendation ultimately requires selecting among complete catalog items. At each denoising step, a partial SID can correspond to multiple feasible items, while existing methods primarily reason through position-wise token predictions. We propose Explicit Posterior Item Conditioning (EPIC), which introduces explicit item-level competition into SID denoising. EPIC constructs a personalized posterior over feasible candidate items using the current generation context and the user's recent interactions, then projects this distribution back to unresolved SID positions to guide subsequent token decisions. The pretrained backbone remains frozen and requires no additional decoder forward pass. Experiments on four Amazon benchmarks show consistent improvements over strong baselines, while diagnostic analyses indicate that the gains primarily arise from personalized transition evidence that preserves promising item hypotheses during denoising.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.03369": {
+            "title": "HypRQ-VAE: Hyperbolic Item Indexing for Long-Tail-Aware Generative Recommender Systems",
+            "authors": "Longfeng Wu, Tong Zeng, Giovanni Seni, Zhimin Peng, Bhanu Pratap Singh Rawat, Si Zhang, Yao Zhou, Lecheng Zheng, Bo Ji, Yujun Yan, Dawei Zhou",
+            "first_author": "Longfeng Wu",
+            "url": "https://arxiv.org/abs/2609.03369",
+            "pdf_url": "https://arxiv.org/abs/2609.03369",
+            "publish_date": "2026-09-03",
+            "abstract": "Sequential recommender systems model user behavior as item ID sequences, while recent generative methods cast recommendation as a language modeling task using large language models (LLMs). While this paradigm incorporates rich textual semantics, it introduces a fundamental mismatch: LLMs operate on text tokens, whereas recommender systems depend on discrete item indices. This misalignment often leads to hallucinations in generative recommendations. Existing methods attempt to bridge this gap by learning item vocabularies in Euclidean space, but they struggle to model the inherent long-tail distribution of real-world catalogs, where a small number of head items dominate, and a vast number of tail items reflect users' niche preferences. To address this issue, we introduce Hyperbolic Residual-Quantized Variational AutoEncoder (HypRQ-VAE), the first framework to learn item indexing in hyperbolic space. HypRQ-VAE leverages the unique properties of hyperbolic geometry, whose exponential volume expansion naturally accommodates the power law structure of user-item interactions. This allows the model to encode rich textual semantics while preserving the representational fidelity of sparse, long-tail items. Experiments on three benchmark datasets show that HypRQ-VAE significantly improves the performance of recommendation, particularly in recommending tail items. Our analysis attributes these gains to the superior capacity of hyperbolic space to model item hierarchies and sparsity in generative recommendation. Our code and data are available at: https://github.com/wulongfeng/HypRQ-VAE.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.03313": {
+            "title": "SelfDR: Self-Distillation from Reasoning for LLM-Based Recommendation",
+            "authors": "Chumeng Jiang, Jiayin Wang, Xinjie Lin, Zhiqiang Guo, Hengliang Luo, Min Zhang",
+            "first_author": "Chumeng Jiang",
+            "url": "https://arxiv.org/abs/2609.03313",
+            "pdf_url": "https://arxiv.org/abs/2609.03313",
+            "publish_date": "2026-09-03",
+            "abstract": "Large Language Models (LLMs) have recently emerged as powerful backbones for recommendation. To better elicit their capabilities, reasoning has been widely incorporated to help LLMs interpret rich textual signals and improve recommendation accuracy. However, explicitly generating intermediate reasoning traces often incurs substantial computational costs, which limits practical deployment in real-world recommender systems. To address this challenge, we propose SelfDR, a Self-Distillation from Reasoning framework for LLM-based Recommendation. SelfDR distills an LLM's own reasoning-enhanced predictions to produce recommendations directly, improving recommendation effectiveness while maintaining inference efficiency. All components in the framework are built on the same base LLM, without relying on any external models. Specifically, the teacher recommender is constructed by training a reasoner with downstream performance as the reward, enabling it to generate targeted rationales that are later incorporated into the teacher's input. A student recommender for direct recommendation, with the same underlying model, then learns from the teacher through self-distillation with a dynamic weighting strategy. Extensive experiments on three public datasets validate the effectiveness, rationality, and efficiency of SelfDR. Codes are available at https://github.com/JiangDeccc/SelfDistillation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.02730": {
+            "title": "CORAL: An LLM-Native Harness for Production Recommender Systems",
+            "authors": "Muhammad Rafay Azhar, Yuhang Zhou, Gilbert Jiang, Yuchen Wang, Rahul Sharma, Matthew DeSousa, Jiayi Liu, Xin Guo, Lizhu Zhang, Xiangjun Fan",
+            "first_author": "Muhammad Rafay Azhar",
+            "url": "https://arxiv.org/abs/2609.02730",
+            "pdf_url": "https://arxiv.org/abs/2609.02730",
+            "publish_date": "2026-09-02",
+            "abstract": "Production recommender systems shape what billions of people see, and sustaining their performance requires continual optimization: as content, user behavior, and upstream models shift, the choices governing retrieval, ranking, and serving must be revisited. Traditionally, human engineers test such changes through online experiments--a slow, reactive process limited by engineering effort, leaving parts of the system unrevised as conditions change. Although large language models have been applied to ranking, user modeling, and offline model development, few systems place an agent in a continual closed loop that acts on a live recommender and learns from the measured effects of its decisions. We present CORAL (Constraint-Optimized Recommender via an Agentic Loop), an LLM-native harness that closes this loop: each cycle, the agent observes operating signals, reasons over a memory of past decisions and outcomes, and invokes tools--including a numerical optimizer that keeps changes within a fixed operating budget--to reconfigure the recommender, with measured outcomes informing the next cycle. We formulate this as a partially observed, non-stationary, constrained optimization problem in which the policy improves in context, without parameter updates, from its prior actions. Across two large-scale social platforms, evaluated with A/B experiments, the same harness improves engagement at no additional serving cost on one and reduces serving cost without degrading engagement on the other, spanning the engagement-efficiency frontier. Performance improves as the loop iterates, suggesting that a single agentic loop can automate continual optimization work traditionally performed by human algorithm engineers under explicit guardrails.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2609.02671": {
+            "title": "Recommender System as Slow and Fast Thinkers",
+            "authors": "Zichen Yuan, Xiaoxuan Dong, Linkun Dai, Jinwei Yang, Jining Luan, Dexu Yu, Chunxiao Li, Joemon M. Jose, Youhua Li, Hanwen Du, Junchen Fu",
+            "first_author": "Zichen Yuan",
+            "url": "https://arxiv.org/abs/2609.02671",
+            "pdf_url": "https://arxiv.org/abs/2609.02671",
+            "publish_date": "2026-09-02",
+            "abstract": "Sequential recommendation models are foundational to modern personalized services, yet their effectiveness varies substantially across heterogeneous user environments. In particular, static one-pass recommenders often perform well on common behavior patterns but degrade on operationally challenging user groups, such as users with longer histories or less mainstream item profiles. To address this limitation, we propose \\textsc{DS-Frame}, an adaptive fast--slow inference framework for sequential recommendation. \\textsc{DS-Frame} combines a Fast System for efficient routine prediction, a Slow System for iterative latent refinement, and a learned selector that routes each sample under a controllable computation budget. Experiments on five real-world datasets show that \\textsc{DS-Frame} consistently improves representative sequential recommendation backbones, with larger gains on challenging groups and effective accuracy--efficiency trade-offs. This highlights the potential of adaptive inference for more efficient and robust recommendation. Code is available at \\href{https://github.com/ZichenYuan233/Recommender-System-as-Slow-and-Fast-Thinkers}{this link}.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

@@ -1,4 +1,4 @@
-## Updated on 2026-09-03
+## Updated on 2026-09-05
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,13 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-09-03 | **Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable** | Shai Vardi, João Sedoc | [Link](https://arxiv.org/abs/2609.04127) | N/A |
+| 2026-09-03 | **The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations** | Dmitrij Żatuchin | [Link](https://arxiv.org/abs/2609.04047) | N/A |
+| 2026-09-03 | **EPIC: Explicit Posterior Item Conditioning for Semantic ID Diffusion Recommendation** | Tuan-Binh Tran, Thanh Tam Nguyen, Quoc Viet Hung Nguyen, Dung D. Le, Tung Kieu, Thanh Trung Huynh | [Link](https://arxiv.org/abs/2609.03522) | N/A |
+| 2026-09-03 | **HypRQ-VAE: Hyperbolic Item Indexing for Long-Tail-Aware Generative Recommender Systems** | Longfeng Wu, Tong Zeng, Giovanni Seni, Zhimin Peng, Bhanu Pratap Singh Rawat, Si Zhang, Yao Zhou, Lecheng Zheng, Bo Ji, Yujun Yan, Dawei Zhou | [Link](https://arxiv.org/abs/2609.03369) | N/A |
+| 2026-09-03 | **SelfDR: Self-Distillation from Reasoning for LLM-Based Recommendation** | Chumeng Jiang, Jiayin Wang, Xinjie Lin, Zhiqiang Guo, Hengliang Luo, Min Zhang | [Link](https://arxiv.org/abs/2609.03313) | N/A |
+| 2026-09-02 | **CORAL: An LLM-Native Harness for Production Recommender Systems** | Muhammad Rafay Azhar, Yuhang Zhou, Gilbert Jiang, Yuchen Wang, Rahul Sharma, Matthew DeSousa, Jiayi Liu, Xin Guo, Lizhu Zhang, Xiangjun Fan | [Link](https://arxiv.org/abs/2609.02730) | N/A |
+| 2026-09-02 | **Recommender System as Slow and Fast Thinkers** | Zichen Yuan, Xiaoxuan Dong, Linkun Dai, Jinwei Yang, Jining Luan, Dexu Yu, Chunxiao Li, Joemon M. Jose, Youhua Li, Hanwen Du, Junchen Fu | [Link](https://arxiv.org/abs/2609.02671) | N/A |
 | 2026-09-02 | **Training seeds and model-selection stability in recommender-system evaluation** | Juan Manuel Rodriguez, Oleg Lesota, Antonela Tommasel | [Link](https://arxiv.org/abs/2609.02499) | N/A |
 | 2026-09-02 | **DMRL: Document-Mediated Reinforcement Learning for Skill Optimization in Advertising Recommendation** | Wei Zhang, Hongji Li, Song Sun, Peng Yu, Xue Yang, Lei Zhao, Peng Jiang | [Link](https://arxiv.org/abs/2609.02170) | N/A |
 | 2026-09-02 | **GenCAR: Generative Counterfactual Alignment with Risk-Controlled Selection for Out-of-Distribution Recommendation** | Qianqian Wang, Yunshan Li, Jiawen Zeng, Wenwu Gong, Lili Yang | [Link](https://arxiv.org/abs/2609.02162) | N/A |
