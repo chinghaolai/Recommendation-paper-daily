@@ -21218,6 +21218,105 @@
             "abstract": "Sequential recommendation models are foundational to modern personalized services, yet their effectiveness varies substantially across heterogeneous user environments. In particular, static one-pass recommenders often perform well on common behavior patterns but degrade on operationally challenging user groups, such as users with longer histories or less mainstream item profiles. To address this limitation, we propose \\textsc{DS-Frame}, an adaptive fast--slow inference framework for sequential recommendation. \\textsc{DS-Frame} combines a Fast System for efficient routine prediction, a Slow System for iterative latent refinement, and a learned selector that routes each sample under a controllable computation budget. Experiments on five real-world datasets show that \\textsc{DS-Frame} consistently improves representative sequential recommendation backbones, with larger gains on challenging groups and effective accuracy--efficiency trade-offs. This highlights the potential of adaptive inference for more efficient and robust recommendation. Code is available at \\href{https://github.com/ZichenYuan233/Recommender-System-as-Slow-and-Fast-Thinkers}{this link}.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2609.05063": {
+            "title": "Beyond Co-purchase Relation: Evolution of Complementary Recommendations at Allegro",
+            "authors": "Aleksandra Osowska-Kurczab, Klaudia Nazarko, Eliška Kosturová, Lidia Wojciechowska, Michał Bień",
+            "first_author": "Aleksandra Osowska-Kurczab",
+            "url": "https://arxiv.org/abs/2609.05063",
+            "pdf_url": "https://arxiv.org/abs/2609.05063",
+            "publish_date": "2026-09-04",
+            "abstract": "When a customer adds a professional camera to their cart, should the system suggest a matching lens, a generic tripod, or another camera body? Complementary Product Recommendation is vital for comprehensive basket building, yet standard models often fail to distinguish between items that are merely bought together and those that truly work together. In this paper, we present AlleCompanion: a production-scale retrieval framework deployed at Allegro.com that transforms noisy behavioural signals into precise semantic compatibility. We mitigate the intrinsic noise in large-scale co-purchase traffic by combining data-level filtering heuristics with a category-constrained Two Tower architecture. Within this framework, the Category Adapter guides the model in the embedding space, constraining candidates within logically complementary boundaries. Since modelling authentic user behaviour at scale is inherently difficult, we introduce ComCat, a multi-source Complementary Categories Mapping. ComCat acts as a translational layer that distils meaningful patterns from noisy traffic into a maintainable and controllable solution, integrating expert rules, human-in-the-loop feedback, LLM-based reasoning, and statistical mining. Our experimental results demonstrate that combining explicit category-level constraints with neural architectures effectively filters out co-purchase noise to surface recommendations that satisfy real-world user needs. Serving over 20 million active users monthly, the framework delivers significant uplifts in attributed GMV for organic discovery and drives substantial revenue growth in sponsored placements.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.05059": {
+            "title": "Repeated Queries Exhaust an LLM's Brand Recommendations but Not Its Sources",
+            "authors": "Dmitrij Żatuchin",
+            "first_author": "Dmitrij Żatuchin",
+            "url": "https://arxiv.org/abs/2609.05059",
+            "pdf_url": "https://arxiv.org/abs/2609.05059",
+            "publish_date": "2026-09-04",
+            "abstract": "Whether repeated identical buying questions exhaust a language model's brand recommendations depends on retrieval. Across 300 question-engine cells (50 questions, six engines, 15 runs each, open extraction over 1,470 adjudicated organizations), the five engines answering without web search were still adding never-seen brands at run 15 in 86-92% of cells, with median repertoires of 15-31 organizations; the one retrieval-enabled engine closed its list (median 8 organizations, 64% of cells still adding), matching four earlier deep cells where web-search runs saturated by run ten. Cited-domain accumulation keeps rising at every horizon tested: four deep cells were still adding domains at run 24 with 59-84% of the Chao2 lower-bound estimate observed, and 44% of the retrieval engine's breadth cells were still adding domains at run 15. A single run shows 62-77% of the five-run brand set, and across engines the median question draws 38 organizations, of which a median of 15 appear in exactly one engine. Estimators are exact rarefaction and Chao2 richness; a parallel fixed-roster extraction reproduces flat curves on identical responses, so roster-bounded tracking manufactures plateaus that open extraction removes.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.04882": {
+            "title": "AtomRec: Evolving Atomic Memory for Agentic Recommendation",
+            "authors": "Peiyu Hu, Weihai Lu, Siying Gu, Zhuodong Liu, Zhaokai Luo, Yuean Niu, Zhiyong Wang, Jia Wang",
+            "first_author": "Peiyu Hu",
+            "url": "https://arxiv.org/abs/2609.04882",
+            "pdf_url": "https://arxiv.org/abs/2609.04882",
+            "publish_date": "2026-09-04",
+            "abstract": "Agentic recommender systems use large language models to maintain semantic memory and support evidence-aware recommendation. However, existing memory mechanisms often compress user and item information into coarse summaries and connect them with scalar collaborative links, making it difficult to preserve fine-grained preference stages or retrieve interpretable evidence as user interests evolve. We propose \\textsc{AtomRec}, an agentic recommender with evolving atomic collaborative memory. \\textsc{AtomRec} represents user and item memories as structured atomic units, builds semantic links across related memories, and evolves related historical fields when new interactions arrive. During recommendation, it retrieves linked memories as multi-hop evidence paths rather than isolated neighbor summaries, allowing collaborative signals to support grounded ranking. Experiments on four public benchmarks show that \\textsc{AtomRec} consistently outperforms state-of-the-art agentic and memory-augmented baselines, with around 8.5\\% average relative improvement across metrics.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.04871": {
+            "title": "AutoLR: Automating the Path from Research to Launch Review in Industrial Recommender Systems",
+            "authors": "Qi Zhang, Yanlin Chen, Wenchao Xiao",
+            "first_author": "Qi Zhang",
+            "url": "https://arxiv.org/abs/2609.04871",
+            "pdf_url": "https://arxiv.org/abs/2609.04871",
+            "publish_date": "2026-09-04",
+            "abstract": "Improving an industrial recommender is an iterative research-and-engineering process rather than a direct path from idea to deployment. In \\textbf{DASHEN, NetEase's gaming-community app}, algorithm engineers typically identify promising directions from research papers, technical reports, and prior production experiments; reproduce or adapt the underlying methods; implement them in the production codebase; and evaluate the resulting models through training and offline experiments. Promising candidates are then advanced to online A/B tests, and those demonstrating robust gains are submitted to Launch Review---the internal gate for full-traffic rollout. Large language models (LLMs) can assist with individual stages of this workflow, but the overall process remains human-dependent without a harness that can reliably coordinate them across long-running, often multi-day experimental cycles. We present \\textbf{AutoLR}, initially built as \\textbf{Auto Launch Review} and later extended upstream into an autonomous research-to-launch harness. AutoLR combines three system mechanisms: a \\textbf{multi-expert council} that debates and adversarially reviews proposals; a \\textbf{deterministic evidence-weighted exploration--exploitation selector} that allocates a limited trial budget across candidate directions and uses Council reranking; and a layered knowledge system that combines external research, production-system knowledge, and DASHEN-specific domain knowledge---such as game communities, player characteristics, and content-interaction patterns---with posterior evidence from configurations, patches, logs, failures, and offline outcomes. LLM agents perform semantic reasoning and code generation, while deterministic controllers retain authority over execution, metric extraction, guardrails, and persistent state transitions.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.04862": {
+            "title": "Personalized Task Dependency Graphs for Mitigating Signal Erosion in Multi-Task Recommendation",
+            "authors": "Fuyuan Liu, Tiandeng Wu, Yaqun Fang, Wei Zhou, Zehao Zhou, Wenping Chen, Qishun Mei, Jiaxin Zhou, Heng Chang, Yi Cao, Jiandong Ding",
+            "first_author": "Fuyuan Liu",
+            "url": "https://arxiv.org/abs/2609.04862",
+            "pdf_url": "https://arxiv.org/abs/2609.04862",
+            "publish_date": "2026-09-04",
+            "abstract": "Optimizing multiple conversion objectives is a core challenge in industrial recommendation, often limited by signal erosion in rigid architectures. Existing Multi-Task Learning (MTL) methods typically enforce uniform dependency strengths across a static conversion funnel, overlooking how task correlations naturally vary based on item characteristics. Hierarchical message passing along these fixed chains leads to cumulative signal attenuation, which degrades performance on sparse, deep-funnel objectives. To address this, we propose the Personalized Task Dependency Graphs (PTDG). While respecting necessary physical causal constraints (e.g., Click -> Pay), PTDG dynamically \"rewires\" the intensity of dependency pathways for each item via low-rank approximation to ensure structural robustness. We implement a GCN-based propagation with hard causal masking to establish adaptive information shortcuts. Additionally, we introduce an Adaptive Progressive Masking (APM) strategy that decouples shared parameters according to task sparsity, helping to stabilize optimization. Experiments on KuaiRand1K and an industrial dataset show that PTDG significantly improves AUC on sparse conversion tasks by up to 1.45%, while maintaining comparable performance on dense objectives. Online A/B testing shows PTDG improves Conversion Rate (CVR) by 1.2% and effective Cost Per Mille (eCPM) by 1.9% relative to the baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.04651": {
+            "title": "Continual Graph Memory for Adaptive Recommendation under Intent Drift",
+            "authors": "Hao Nguyen Ngoc, Tung Nguyen, Nguyen Thi Hanh, Hoang Thai Dinh, Nguyen Xuan Tung",
+            "first_author": "Hao Nguyen Ngoc",
+            "url": "https://arxiv.org/abs/2609.04651",
+            "pdf_url": "https://arxiv.org/abs/2609.04651",
+            "publish_date": "2026-09-04",
+            "abstract": "This paper studies adaptive recommendation under intent drift, where feedback from each recommendation outcome can reveal whether the relational evidence used for ranking is useful, missing, or misleading. While Knowledge Graphs (KGs) provide essential semantic structure to handle these shifts, traditional KG-enhanced systems treat the graph as a static retrieval substrate, making it brittle to evolving intents, noisy metadata, and recurring failure patterns. This paper proposes CGM-Rec, a continual graph memory framework for adaptive recommendation. CGM-Rec treats the graph state as a writable memory and maintains two complementary components. Therein, a Semantic Graph Memory is updated conservatively through quality-gated typed operations for storing stable and high-confidence relational knowledge. Meanwhile, an Episodic Lesson Memory acts as a fast reactive memory that learns recent outcomes, failure cases, and corrective hints. During testing, model parameters remain frozen and adaptation occurs only through memory writes. We evaluate CGM-Rec under a frozen-parameter, one-pass reranking protocol, where encoders and prompts remain fixed during testing and adaptation occurs only through memory writes. Experiments across multiple recommendation settings show that CGM-Rec improves over evaluated neural and LLM-based baselines on most metrics. Particularly, under sampled-candidate reranking, CGM-Rec improves HR@1 by up to 29.58% over the strongest LLM baseline on Bundle, and outperforms K-RagRec on metadata-rich ML-100K with HR@5 of 0.5941 versus 0.4746.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.04645": {
+            "title": "Latent-Aligned Reasoning for Multimodal Recommendation",
+            "authors": "Jiarui Jin, Anyang Ji",
+            "first_author": "Jiarui Jin",
+            "url": "https://arxiv.org/abs/2609.04645",
+            "pdf_url": "https://arxiv.org/abs/2609.04645",
+            "publish_date": "2026-09-04",
+            "abstract": "Multimodal Vision-Language Models (VLMs) have demonstrated remarkable capabilities in cross-modal understanding, yet a fundamental challenge persists when applying them to recommendation: as representations propagate through multi-step reasoning, both visual and textual signals progressively attenuate - a phenomenon we term cross-modal dilution. To address this, we propose LARK (Latent-Aligned Reasoning frameworK), a two-stage latent reasoning framework with complementary alignment mechanisms within a single VLM. In the first stage, learnable latent tokens are interleaved with multi-step chain-of-thought (CoT) reasoning and explicitly aligned with a frozen vision encoder, serving as visual checkpoints that preserve perceptual details throughout the reasoning chain. In the second stage, the latent representations are projected via a bridge MLP and trained with item-to-item contrastive learning; to prevent the reasoning semantics from fading, intermediate features are aligned with the CoT hidden states from the first stage, anchoring the final embeddings to the model's own reasoning output. Experiments on three public benchmarks and one industrial dataset show that LARK achieves state-of-the-art performance across multiple recommendation architectures, with controlled ablations confirming the distinct contribution of each component.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.04574": {
+            "title": "MURAL: Multimodal Uncertainty-aware Recommendation via Adaptive edge Learning",
+            "authors": "Ahmad Mousavi, Majid Alikhani, Yeon-Chang Lee, Roberto Corizzo, Yeganeh Abdollahinejad",
+            "first_author": "Ahmad Mousavi",
+            "url": "https://arxiv.org/abs/2609.04574",
+            "pdf_url": "https://arxiv.org/abs/2609.04574",
+            "publish_date": "2026-09-04",
+            "abstract": "Multimodal Graph Neural Networks have become standard for recommendation by augmenting sparse interaction data with content features. Yet current architectures face two bottlenecks: structural rigidity, from a reliance on static precomputed similarity graphs that cannot adapt to evolving preferences; and semantic fragility, where noisy modality signals are indiscriminately fused, distorting the collaborative signal. We propose MURAL (Multimodal Uncertainty-aware Recommendation via Adaptive edge Learning), a unified framework that shifts multimodal recommendation from fixed structural augmentation to dynamic topology discovery. To address structural rigidity, an Adaptive Edge Learner combines a differentiable retrieval-augmented strategy with an approximate nearest neighbor search to discover latent item-item correlations that are both semantically adaptive and computationally scalable (O(NlogN)). To address semantic fragility, an Uncertainty-Aware Fusion module models the aleatoric uncertainty of heterogeneous modalities, dynamically down-weighting unreliable features while prioritizing high-confidence signals as a defense against cross-modal noise. We further employ a contrastive teacher-student alignment that anchors modality-specific representations to stable behavioral signals, ensuring optimization stability without gradient leakage. Experiments on large-scale benchmarks including TikTok and Amazon show that MURAL significantly surpasses both structural and generative state-of-the-art baselines, achieving superior accuracy while offering interpretability through domain-specific modality dominance and robustness under extreme data corruption.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.19704": {
+            "title": "Efficient Clustering with Quality Guardrails for LLM-based Recommender Systems at Industry Scale",
+            "authors": "Longshaokan Wang, Wai Tsang Keung, Punit Ghodasara, Roman Wang, Ali Dashti, Francesc Moreno-Noguer",
+            "first_author": "Longshaokan Wang",
+            "url": "https://arxiv.org/abs/2607.19704",
+            "pdf_url": "https://arxiv.org/abs/2607.19704",
+            "publish_date": "2026-07-22",
+            "abstract": "LLMs can be prohibitively expensive and slow to run at scale, especially for applications that invoke an LLM per sample over millions of inputs. A natural way to scale is to cluster the inputs, run the LLM only on cluster representatives, and propagate the outputs to other cluster members. However, the outputs a member receives are only as good as its match to the representative. Off-the-shelf clustering methods optimize an aggregate objective, targeting average-case quality without per-sample guardrails. As a result, members can be assigned to poorly-matched representatives, and the inherited outputs -- though appropriate for the representative -- may be irrelevant or even unsafe for the member. For example, a parent of a toddler grouped with parents of older children could receive age-inappropriate recommendations. Most clustering methods also scale poorly to millions of inputs in runtime and memory, limiting their use at industry scale. We propose a scalable two-stage clustering algorithm with provable per-sample guardrails: every sample is guaranteed to share a user-specified minimal embedding similarity and exact attribute match with its representative. The algorithm first generates initial clusters with Mini-batch K-Means, then greedily selects representatives within each to satisfy the guardrails. We provide theoretical guarantees, complexity analysis, and benchmarks against common methods on internal and public datasets. Our method delivers per-sample guardrails while running substantially faster and scaling to data sizes where most standard methods become intractable. We demonstrate its impact in a real-world deployment clustering 38 million customers, reducing downstream LLM cost and runtime by 50-fold while preserving personalization. This unblocked the launch of a persona-based recommender system that delivers significant gains in revenue and engagement in an A/B test.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }

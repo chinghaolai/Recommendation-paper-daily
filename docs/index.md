@@ -2,11 +2,19 @@
 layout: default
 ---
 
-## Updated on 2026-09-06
+## Updated on 2026-09-07
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-09-04 | **Beyond Co-purchase Relation: Evolution of Complementary Recommendations at Allegro** | Aleksandra Osowska-Kurczab, Klaudia Nazarko, Eliška Kosturová, Lidia Wojciechowska, Michał Bień | [Link](https://arxiv.org/abs/2609.05063) | N/A |
+| 2026-09-04 | **Repeated Queries Exhaust an LLM's Brand Recommendations but Not Its Sources** | Dmitrij Żatuchin | [Link](https://arxiv.org/abs/2609.05059) | N/A |
+| 2026-09-04 | **AtomRec: Evolving Atomic Memory for Agentic Recommendation** | Peiyu Hu, Weihai Lu, Siying Gu, Zhuodong Liu, Zhaokai Luo, Yuean Niu, Zhiyong Wang, Jia Wang | [Link](https://arxiv.org/abs/2609.04882) | N/A |
+| 2026-09-04 | **AutoLR: Automating the Path from Research to Launch Review in Industrial Recommender Systems** | Qi Zhang, Yanlin Chen, Wenchao Xiao | [Link](https://arxiv.org/abs/2609.04871) | N/A |
+| 2026-09-04 | **Personalized Task Dependency Graphs for Mitigating Signal Erosion in Multi-Task Recommendation** | Fuyuan Liu, Tiandeng Wu, Yaqun Fang, Wei Zhou, Zehao Zhou, Wenping Chen, Qishun Mei, Jiaxin Zhou, Heng Chang, Yi Cao, Jiandong Ding | [Link](https://arxiv.org/abs/2609.04862) | N/A |
+| 2026-09-04 | **Continual Graph Memory for Adaptive Recommendation under Intent Drift** | Hao Nguyen Ngoc, Tung Nguyen, Nguyen Thi Hanh, Hoang Thai Dinh, Nguyen Xuan Tung | [Link](https://arxiv.org/abs/2609.04651) | N/A |
+| 2026-09-04 | **Latent-Aligned Reasoning for Multimodal Recommendation** | Jiarui Jin, Anyang Ji | [Link](https://arxiv.org/abs/2609.04645) | N/A |
+| 2026-09-04 | **MURAL: Multimodal Uncertainty-aware Recommendation via Adaptive edge Learning** | Ahmad Mousavi, Majid Alikhani, Yeon-Chang Lee, Roberto Corizzo, Yeganeh Abdollahinejad | [Link](https://arxiv.org/abs/2609.04574) | N/A |
 | 2026-09-03 | **Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable** | Shai Vardi, João Sedoc | [Link](https://arxiv.org/abs/2609.04127) | N/A |
 | 2026-09-03 | **The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations** | Dmitrij Żatuchin | [Link](https://arxiv.org/abs/2609.04047) | N/A |
 | 2026-09-03 | **EPIC: Explicit Posterior Item Conditioning for Semantic ID Diffusion Recommendation** | Tuan-Binh Tran, Thanh Tam Nguyen, Quoc Viet Hung Nguyen, Dung D. Le, Tung Kieu, Thanh Trung Huynh | [Link](https://arxiv.org/abs/2609.03522) | N/A |
@@ -259,6 +267,7 @@ layout: default
 | 2026-07-23 | **Probabilistic Residual Learning for Online Recommendations** | Wenyuan Wang, Yusong Zhao, Zihao Xu, Hengyi Wang, Qi Xu, Zhigang Hua, Yan Xie, Yi Wang, Zihao Zhao, Bo Long, Chengzhi Mao, Shuang Yang, Hengguan Huang, Hao Wang | [Link](https://arxiv.org/abs/2607.20863) | N/A |
 | 2026-07-22 | **Cardinality-Decomposed Loss: Matching Training Objectives to Relation Structure in Heterogeneous Recommendation Graphs** | Parul Maheshwari, Amulya Paruchuri, Yiqing Zou, Alireza Sahami Shirazi, Farhad Farahani, Prakhar Mehrotra | [Link](https://arxiv.org/abs/2607.20737) | N/A |
 | 2026-07-22 | **Personalized Recommendation Tool Learning via Autonomous Language Agents** | Mingdai Yang, Zhiwei Liu, Weizhi Zhang, Yibo Wang, Hao Peng, Philip Yu | [Link](https://arxiv.org/abs/2607.19739) | N/A |
+| 2026-07-22 | **Efficient Clustering with Quality Guardrails for LLM-based Recommender Systems at Industry Scale** | Longshaokan Wang, Wai Tsang Keung, Punit Ghodasara, Roman Wang, Ali Dashti, Francesc Moreno-Noguer | [Link](https://arxiv.org/abs/2607.19704) | N/A |
 | 2026-07-21 | **Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese** | Rian Touchent | [Link](https://arxiv.org/abs/2608.12373) | N/A |
 | 2026-07-21 | **Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding** | Yuxuan Hu, Yuhao Wang, Tianbo Huang, Chao Zhang, Ziwei Liu, Lihua Zhang, Xiangyu Zhao | [Link](https://arxiv.org/abs/2607.28659) | N/A |
 | 2026-07-21 | **Spectral Biclustering-Driven Scalability for Post-Hoc Explainability in Recommender Systems** | Jose L. Salmeron, Irina Arévalo | [Link](https://arxiv.org/abs/2607.19189) | N/A |
