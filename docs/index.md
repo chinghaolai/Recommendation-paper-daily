@@ -2,11 +2,12 @@
 layout: default
 ---
 
-## Updated on 2026-09-07
+## Updated on 2026-09-08
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-09-04 | **Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation** | Siliang Liu, Mohammad Ghasemi, Sapan Patel, Amin Banitalebi-Dehkordi | [Link](https://arxiv.org/abs/2609.05363) | N/A |
 | 2026-09-04 | **Beyond Co-purchase Relation: Evolution of Complementary Recommendations at Allegro** | Aleksandra Osowska-Kurczab, Klaudia Nazarko, Eliška Kosturová, Lidia Wojciechowska, Michał Bień | [Link](https://arxiv.org/abs/2609.05063) | N/A |
 | 2026-09-04 | **Repeated Queries Exhaust an LLM's Brand Recommendations but Not Its Sources** | Dmitrij Żatuchin | [Link](https://arxiv.org/abs/2609.05059) | N/A |
 | 2026-09-04 | **AtomRec: Evolving Atomic Memory for Agentic Recommendation** | Peiyu Hu, Weihai Lu, Siying Gu, Zhuodong Liu, Zhaokai Luo, Yuean Niu, Zhiyong Wang, Jia Wang | [Link](https://arxiv.org/abs/2609.04882) | N/A |
