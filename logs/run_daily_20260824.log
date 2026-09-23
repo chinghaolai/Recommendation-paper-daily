@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260824100602
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 16164
+PSVersion: 5.1.26100.8875
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8875
+BuildVersion: 10.0.26100.8875
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 08/24/2026 10:06:02 ===
+--- Running daily_arxiv.py ---
+ive
+[08/24/2026 10:09:43 INFO]   + [2026-05-02] Right-Sizing Communication and Recommendation Set Size in AI-Assisted Search
+[08/24/2026 10:09:43 INFO]   + [2026-05-01] Recommendations for the Astronomy Graduate Admissions Process
+[08/24/2026 10:09:43 INFO]   + [2026-05-01] CustomDancer: Customized Dance Recommendation by Text-Dance Retrieval
+[08/24/2026 10:09:43 INFO]   + [2026-05-01] Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Compl
+etio
+[08/24/2026 10:09:43 INFO]   + [2026-05-01] DySRec: Dynamic Context-Aware Psychometric Scale Recommendation via Multi-Ag
+ent
+[08/24/2026 10:09:43 INFO]   + [2026-05-01] Time-Interval-Aware Disentangled Expert Modeling for Next-Basket Recommendat
+ion
+[08/24/2026 10:09:43 INFO]   + [2026-05-01] Q-ARE: An Evaluation Dataset for Query Based API Recommendation
+[08/24/2026 10:09:43 INFO]   + [2026-05-01] DynamicPO: Dynamic Preference Optimization for Recommendation
+[08/24/2026 10:09:43 INFO]   + [2026-04-30] Position-Aware Drafting for Inference Acceleration in LLM-Based Generative L
+ist-
+[08/24/2026 10:09:43 INFO]   + [2026-04-30] Tail-aware N-version Machine Learning Models for Reliable API Recommendation
+[08/24/2026 10:09:43 INFO]   + [2026-04-30] One Pass, Any Order: Position-Invariant Listwise Reranking for LLM-Based Rec
+omme
+[08/24/2026 10:09:43 INFO]   + [2026-04-29] A Gated Hybrid Contrastive Collaborative Filtering Recommendation
+[08/24/2026 10:09:43 INFO]   + [2026-04-29] Factorized Latent Reasoning for LLM-based Recommendation
+[08/24/2026 10:09:43 INFO]   + [2026-04-29] When Model Editing Meets Service Evolution: A Knowledge-Update Perspective f
+or S
+[08/24/2026 10:09:46 INFO] Topic 'Recommendation': 500 papers found.
+[08/24/2026 10:09:46 INFO] === Fetch complete ===
+[08/24/2026 10:09:46 INFO] Markdown written: README.md
+[08/24/2026 10:09:46 INFO] Target 'readme' done.
+[08/24/2026 10:09:46 INFO] Markdown written: docs\index.md
+[08/24/2026 10:09:46 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 08/24/2026 10:10:03 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260824101003
+**********************

@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260827100002
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 28820
+PSVersion: 5.1.26100.8875
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8875
+BuildVersion: 10.0.26100.8875
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 08/27/2026 10:00:02 ===
+--- Running daily_arxiv.py ---
+gent
+[08/27/2026 10:00:07 INFO]   + [2026-05-08] RcLLM: Accelerating Generative Recommendation via Beyond-Prefix KV Caching
+[08/27/2026 10:00:07 INFO]   + [2026-05-08] Prompt Optimization for User Simulation in Conversational Recommender System
+s: A
+[08/27/2026 10:00:07 INFO]   + [2026-05-08] DCGL: Dual-Channel Graph Learning with Large Language Models for Knowledge-A
+ware
+[08/27/2026 10:00:07 INFO]   + [2026-05-08] RRCM: Ranking-Driven Retrieval over Collaborative and Meta Memories for LLM
+Reco
+[08/27/2026 10:00:07 INFO]   + [2026-05-08] An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmark
+s fo
+[08/27/2026 10:00:07 INFO]   + [2026-05-08] A Production-Ready RL Framework for Personalized Utility Tuning with Pareto
+Swee
+[08/27/2026 10:00:07 INFO]   + [2026-05-07] Light-FMP: Lightweight Feature and Model Pruning for Enhanced Deep Recommend
+er S
+[08/27/2026 10:00:07 INFO]   + [2026-05-07] Expressiveness Limits of Autoregressive Semantic ID Generation in Generative
+ Rec
+[08/27/2026 10:00:07 INFO]   + [2026-05-07] Bridging Passive and Active: Enhancing Conversation Starter Recommendation v
+ia A
+[08/27/2026 10:00:07 INFO]   + [2026-05-07] UniVA: Unified Value Alignment for Generative Recommendation in Online Adver
+tisi
+[08/27/2026 10:00:07 INFO]   + [2026-05-07] Effective Knowledge Transfer for Multi-Task Recommendation Models
+[08/27/2026 10:00:10 INFO] Topic 'Recommendation': 500 papers found.
+[08/27/2026 10:00:10 INFO] === Fetch complete ===
+[08/27/2026 10:00:10 INFO] Markdown written: README.md
+[08/27/2026 10:00:10 INFO] Target 'readme' done.
+[08/27/2026 10:00:10 INFO] Markdown written: docs\index.md
+[08/27/2026 10:00:10 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 08/27/2026 10:00:14 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260827100014
+**********************

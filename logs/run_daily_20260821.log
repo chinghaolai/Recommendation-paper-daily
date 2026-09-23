@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260821114258
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 24924
+PSVersion: 5.1.26100.8875
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8875
+BuildVersion: 10.0.26100.8875
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 08/21/2026 11:42:58 ===
+--- Running daily_arxiv.py ---
+[08/21/2026 11:43:01 INFO]   + [2026-05-01] Q-ARE: An Evaluation Dataset for Query Based API Recommendation
+[08/21/2026 11:43:01 INFO]   + [2026-05-01] DynamicPO: Dynamic Preference Optimization for Recommendation
+[08/21/2026 11:43:01 INFO]   + [2026-04-30] Position-Aware Drafting for Inference Acceleration in LLM-Based Generative L
+ist-
+[08/21/2026 11:43:01 INFO]   + [2026-04-30] Tail-aware N-version Machine Learning Models for Reliable API Recommendation
+[08/21/2026 11:43:01 INFO]   + [2026-04-30] One Pass, Any Order: Position-Invariant Listwise Reranking for LLM-Based Rec
+omme
+[08/21/2026 11:43:01 INFO]   + [2026-04-29] A Gated Hybrid Contrastive Collaborative Filtering Recommendation
+[08/21/2026 11:43:01 INFO]   + [2026-04-29] Factorized Latent Reasoning for LLM-based Recommendation
+[08/21/2026 11:43:01 INFO]   + [2026-04-29] When Model Editing Meets Service Evolution: A Knowledge-Update Perspective f
+or S
+[08/21/2026 11:43:01 INFO]   + [2026-04-29] The Bandit's Blind Spot: The Critical Role of User State Representation in R
+ecom
+[08/21/2026 11:43:01 INFO]   + [2026-04-29] Recommendations for Efficient and Responsible LLM Adoption within Industrial
+ Sof
+[08/21/2026 11:43:01 INFO]   + [2026-04-29] CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recomm
+enda
+[08/21/2026 11:43:01 INFO]   + [2026-04-29] Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Priv
+acy
+[08/21/2026 11:43:01 INFO]   + [2026-04-29] A Reproducibility Analysis of PO4ISR: Diagnosing and Mitigating Semantic Dri
+ft i
+[08/21/2026 11:43:04 INFO] Topic 'Recommendation': 500 papers found.
+[08/21/2026 11:43:04 INFO] === Fetch complete ===
+[08/21/2026 11:43:04 INFO] Markdown written: README.md
+[08/21/2026 11:43:04 INFO] Target 'readme' done.
+[08/21/2026 11:43:04 INFO] Markdown written: docs\index.md
+[08/21/2026 11:43:04 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 08/21/2026 11:43:10 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260821114310
+**********************

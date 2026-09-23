@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260825102619
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 15680
+PSVersion: 5.1.26100.8875
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8875
+BuildVersion: 10.0.26100.8875
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 08/25/2026 10:26:19 ===
+--- Running daily_arxiv.py ---
+dati
+[08/25/2026 10:26:22 INFO]   + [2026-05-06] When KV Meets Embeddings: Dynamic GPU Memory Allocation for Accelerating Gen
+erat
+[08/25/2026 10:26:22 INFO]   + [2026-05-05] From Intent to Execution: Composing Agentic Workflows with Agent Recommendat
+ion
+[08/25/2026 10:26:22 INFO]   + [2026-05-05] Atomic Fact-Checking Increases Clinician Trust in Large Language Model Recom
+mend
+[08/25/2026 10:26:22 INFO]   + [2026-05-05] Aspect-Aware Content-Based Recommendations for Mathematical Research Papers
+[08/25/2026 10:26:22 INFO]   + [2026-05-05] Decision-aware User Simulation Agent for Evaluating Conversational Recommend
+er S
+[08/25/2026 10:26:22 INFO]   + [2026-05-05] TriAlignGR: Triangular Multitask Alignment with Multimodal Deep Interest Min
+ing
+[08/25/2026 10:26:22 INFO]   + [2026-05-04] Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recom
+mend
+[08/25/2026 10:26:22 INFO]   + [2026-05-04] Beyond Item IDs: Scaling Short-Form-Video Recommendation via Semantic-Native
+ Lon
+[08/25/2026 10:26:22 INFO]   + [2026-05-02] Dynamic Graph with Similarity-Aware Attention Graph Neural Network for Recom
+mend
+[08/25/2026 10:26:22 INFO]   + [2026-05-02] Recommender Systems as Control Systems
+[08/25/2026 10:26:22 INFO]   + [2026-05-02] Investigating the Effects of Different Levels of User Control in an Interact
+ive
+[08/25/2026 10:26:25 INFO] Topic 'Recommendation': 500 papers found.
+[08/25/2026 10:26:25 INFO] === Fetch complete ===
+[08/25/2026 10:26:25 INFO] Markdown written: README.md
+[08/25/2026 10:26:25 INFO] Target 'readme' done.
+[08/25/2026 10:26:25 INFO] Markdown written: docs\index.md
+[08/25/2026 10:26:25 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 08/25/2026 10:26:30 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260825102630
+**********************

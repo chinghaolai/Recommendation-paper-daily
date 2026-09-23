@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20260916100002
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 20936
+PSVersion: 5.1.26100.9168
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9168
+BuildVersion: 10.0.26100.9168
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 09/16/2026 10:00:02 ===
+--- Running daily_arxiv.py ---
+[09/16/2026 10:00:23 INFO]   + [2026-06-01] Decoupled Residual Quantization for Robust Semantic IDs in Recommendation
+[09/16/2026 10:00:23 INFO]   + [2026-06-01] Breaking the Information Silo: Semantic Personas for Cross-Domain Recommenda
+tion
+[09/16/2026 10:00:23 INFO]   + [2026-06-01] Time-Aware Diffusion based on Preference Disentanglement for Generative Reco
+mmen
+[09/16/2026 10:00:23 INFO]   + [2026-05-31] Rethinking Fairness in LLM-Based Recommender Systems: A Survey
+[09/16/2026 10:00:23 INFO]   + [2026-05-31] Implicit Geographic Inference in LLM Medical Triage: Language-Driven Dispari
+ties
+[09/16/2026 10:00:23 INFO]   + [2026-05-31] LeAP: Learnable Adaptive Permutation for Feature Selection in Heterogeneous
+and
+[09/16/2026 10:00:23 INFO]   + [2026-05-30] Trustworthy Recommendation in the Era of Large Language Models: Opportunitie
+s an
+[09/16/2026 10:00:23 INFO]   + [2026-05-29] Synthetic Data from Cross-Domain Events for Large-Scale Recommendation Syste
+ms
+[09/16/2026 10:00:23 INFO]   + [2026-05-29] FOSTER: First-order Dataset Distillation for Text-based Sequential Recommend
+atio
+[09/16/2026 10:00:23 INFO]   + [2026-05-28] Persona Conditioning of Brand Recommendations in Retrieval-Augmented Commerc
+ial
+[09/16/2026 10:00:23 INFO]   + [2026-05-28] Multimodal Music Recommendation System using LLMs
+[09/16/2026 10:00:23 INFO]   + [2026-05-28] Rec-Distill: An Industrial Distillation Pipeline for Large-Scale Recommendat
+ion
+[09/16/2026 10:00:26 INFO] Topic 'Recommendation': 500 papers found.
+[09/16/2026 10:00:26 INFO] === Fetch complete ===
+[09/16/2026 10:00:26 INFO] Markdown written: README.md
+[09/16/2026 10:00:26 INFO] Target 'readme' done.
+[09/16/2026 10:00:26 INFO] Markdown written: docs\index.md
+[09/16/2026 10:00:26 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 09/16/2026 10:00:31 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20260916100031
+**********************
