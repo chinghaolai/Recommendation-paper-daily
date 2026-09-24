@@ -2,11 +2,17 @@
 layout: default
 ---
 
-## Updated on 2026-09-23
+## Updated on 2026-09-24
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-09-23 | **A Flexible Recommendation System for Individuals and Groups** | Yacine Mokhtari, Grégory Smits | [Link](https://arxiv.org/abs/2609.27998) | N/A |
+| 2026-09-23 | **A Systematic Benchmark of Explainable Methods for Temporal Attribution in Sequential Recommendation Systems** | Akash Pandey, Kanisha Shah, Addrish Roy, Dwipam Katariya, Hongyangyang Shi, Amanda Ding, Kalanand Mishra, Pranab Mohanty | [Link](https://arxiv.org/abs/2609.27201) | N/A |
+| 2026-09-23 | **When LLM-Based User Profiling Adds Value in Production Streaming Recommendation** | Milad Sabouri, Neeraj Sharma, Sardar Hamidian, Shaghayegh Agah | [Link](https://arxiv.org/abs/2609.27183) | N/A |
+| 2026-09-22 | **The Like Trap: Multi-Stage Poisoning against Agents in Similarity-based Recommendation Systems** | Yue Xing, Pengfei He, Zitao Li | [Link](https://arxiv.org/abs/2609.27155) | N/A |
+| 2026-09-22 | **Tie Handling Is Part of the Evaluation Protocol: An Order-Invariance Audit for Tie-Heavy Recommender Scores** | Chengkun Guo, Han Chen, Yilin Zhu, Yingrui Li | [Link](https://arxiv.org/abs/2609.26977) | N/A |
+| 2026-09-22 | **Calibrating Reproduced Claims in Recommender Systems** | Alan Said | [Link](https://arxiv.org/abs/2609.26975) | N/A |
 | 2026-09-21 | **Lightweight Ranking Heads: Accelerating Multi-Task Experimentation in Production Recommender Systems** | Sanjay Surendranath Girija, Aniruddh Nath, Li Wei, Yanhao Jiang, Shawn Andrews, Lukasz Heldt, Yi Wu, Aditya Mahajan, Mohit Sharma | [Link](https://arxiv.org/abs/2609.25433) | N/A |
 | 2026-09-21 | **What Makes a Good Semantic ID for Generative Recommendation? A Reproducibility Study** | Yufei Chen, Junchen Fu, Jujia Zhao, Yukun Zhao, Zhaochun Ren | [Link](https://arxiv.org/abs/2609.24430) | N/A |
 | 2026-09-20 | **Explainable Recommendations at Scale: LLM Rationales for YouTube Music Artist Discovery** | Xiao Liu, Yanwei Song, Srivaths Ranganathan, Yuan Chen, Zheyun Feng, Parker Steenburgh, Jochen Klingenhoefer, Nathan Lasche, Gergo Varady, Tim Steele | [Link](https://arxiv.org/abs/2609.23877) | N/A |
@@ -118,6 +124,7 @@ layout: default
 | 2026-08-28 | **Information-Guided Selective Modality-Interest Alignment for Multimodal Recommendation** | Wenze Ma, Chenyu Sun, Yanmin Zhu, Qiwen Gu, Xuhao Zhao | [Link](https://arxiv.org/abs/2608.27950) | N/A |
 | 2026-08-28 | **An Empirical Evaluation of Cross-City POI Recommendation on a Large-Scale Benchmark** | Peibo Li, Yang Song, Hao Xue, Maarten de Rijke, Flora D. Salim | [Link](https://arxiv.org/abs/2608.27840) | N/A |
 | 2026-08-28 | **Personalized and Multi-View Representation for Federated Cold-Start Recommendation** | Jaehyung Lim, Wonbin Kweon, Woojoo Kim, Junyoung Kim, Dongha Kim, Hwanjo Yu | [Link](https://arxiv.org/abs/2608.27826) | N/A |
+| 2026-08-27 | **The Recall Ceiling of LLM Recommendation Reranking** | Zhaohui Wang | [Link](https://arxiv.org/abs/2609.27953) | N/A |
 | 2026-08-27 | **Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling** | Maksim Utushkin, Andrei Ovsiannikov, Alexander D'yakonov | [Link](https://arxiv.org/abs/2608.27413) | N/A |
 | 2026-08-27 | **Stageboost: Recommending Signals Based on Counterfactual Estimation** | Darpan Singhal, Matan Mandelbrod, Tal Franji, Manasa Kolla, Vipul Gaba, Yuri Brovman | [Link](https://arxiv.org/abs/2608.27366) | N/A |
 | 2026-08-27 | **Accurate prediction is not profitable advice: profit-based evaluation of machine learning nitrogen recommendations in winter wheat** | Xulong Wang, Po Yang | [Link](https://arxiv.org/abs/2608.27205) | N/A |

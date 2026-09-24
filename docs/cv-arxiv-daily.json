@@ -22120,6 +22120,83 @@
             "abstract": "The filter bubble is a notorious issue in Recommender Systems (RSs), which describes the phenomenon whereby users are exposed to a limited and narrow range of information or content that reinforces their existing dominant preferences and beliefs. This results in a lack of exposure to diverse and varied content. Many existing works have predominantly examined filter bubbles in static or relatively-static recommendation settings. However, filter bubbles will be continuously intensified over time due to the feedback loop between the user and the system in the real-world online recommendation. To address these issues, we propose a novel paradigm, Multi-Facet Preference Learning for Pricking Filter Bubbles in Conversational Recommender System (FacetCRS), which aims to burst filter bubbles in the conversational recommender system (CRS) through timely user-item interactions via natural language conversations. By considering diverse user preferences and intentions, FacetCRS automatically model user preference into multi-facets, including entity-, word-, context-, and review-facet, to capture diverse and dynamic user preferences to prick filter bubbles in the CRS. It is an end-to-end CRS framework to adaptively learn representations of various levels of preference facet and diverse types of external knowledge. Extensive experiments on two publicly available benchmark datasets demonstrate that our proposed method achieves state-of-the-art performance in mitigating filter bubbles and enhancing recommendation quality in CRS.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2609.27998": {
+            "title": "A Flexible Recommendation System for Individuals and Groups",
+            "authors": "Yacine Mokhtari, Grégory Smits",
+            "first_author": "Yacine Mokhtari",
+            "url": "https://arxiv.org/abs/2609.27998",
+            "pdf_url": "https://arxiv.org/abs/2609.27998",
+            "publish_date": "2026-09-23",
+            "abstract": "Group recommender systems typically rely on either aggregating individual preferences or treating groups as distinct meta-users. However, these methods often suffer from static aggregation strategies or data sparsity issues within group histories. This paper introduces a novel approach, that relies on a GNN-based architecture to learn a dual representation of each user's preferences, capturing their behavior as an independent individual from one side and as a member of a collective from the other side. By performing a differential analysis of these individual and group-oriented preferences, our system then determines the behavioral profile of each user when joining a group. Finally, specific preference aggregation strategies are defined to cope with the behavioral profiles of the users composing a group. Consequently, the system is equally capable of delivering precise recommendations to individuals and to arbitrary groups, effectively unifying the two traditional paradigms of recommendation. Experiments on synthetic data simulating diverse group settings and behaviors confirm the flexibility and relevance of the proposed approach compared to state-of-the-art methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.27201": {
+            "title": "A Systematic Benchmark of Explainable Methods for Temporal Attribution in Sequential Recommendation Systems",
+            "authors": "Akash Pandey, Kanisha Shah, Addrish Roy, Dwipam Katariya, Hongyangyang Shi, Amanda Ding, Kalanand Mishra, Pranab Mohanty",
+            "first_author": "Akash Pandey",
+            "url": "https://arxiv.org/abs/2609.27201",
+            "pdf_url": "https://arxiv.org/abs/2609.27201",
+            "publish_date": "2026-09-23",
+            "abstract": "Sequential RecSys are central to modern personalization, exploiting user's historical interaction sequences to drive next-step decisions. Deep learning models, particularly CNN and Transformer-based architectures, have proven highly effective at capturing temporal dependencies in these histories. For transparency and trust, understanding which past interactions drive a given recommendation is increasingly important --- both for developers auditing model behavior and for users seeking a rationale. However, the non-linearities that give these models their predictive power also render them black boxes, making it difficult to attribute decisions to specific interactions. While gradient-based, perturbation-based, and attention-based explainability methods exist, a systematic benchmark of their faithfulness for sequential recommendation is missing. We address this gap by introducing a dual-model masking metric in which one model supplies per-timestep attribution scores and a separately trained, masking-robust probe measures the resulting change in predicted probability. Using this metric, we benchmark ten XAI methods across CNN, Transformer, SASRec, and BERT4Rec backbones on KuaiRand and MovieLens, complemented by analyses of temporal attribution patterns, item popularity confounding, and robustness to input corruption. Our key findings are: (1) gradient-based methods, particularly GradientSHAP and Integrated Gradients, yield the most faithful and robust attributions; (2) raw attention weights are unreliable, but gradient-weighted attention restores faithfulness on shorter sequences, with degradation on longer horizons as softmax attention probabilities converge toward uniform importance scores, diminishing the method's ability to identify informative interactions; and (3) temporal attribution patterns in faithful methods reflect genuine task structure rather than recency or popularity bias.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2609.27183": {
+            "title": "When LLM-Based User Profiling Adds Value in Production Streaming Recommendation",
+            "authors": "Milad Sabouri, Neeraj Sharma, Sardar Hamidian, Shaghayegh Agah",
+            "first_author": "Milad Sabouri",
+            "url": "https://arxiv.org/abs/2609.27183",
+            "pdf_url": "https://arxiv.org/abs/2609.27183",
+            "publish_date": "2026-09-23",
+            "abstract": "Personalized recommendation depends critically on how user representations are constructed from historical behavior. Two paradigms have emerged for constructing semantic user profiles in content-based recommendation. First, aggregate methods derive user representations as numerical aggregates of semantic item embeddings. Second, LLM-based methods generate natural-language summaries of user preferences and encode them through a text encoder. Each paradigm can be combined with temporal disentanglement of recent versus historical behavior. LLM-based profile generation is significantly more expensive than aggregate approaches, raising the question of when this additional cost is justified. We present a systematic comparison of four semantic user-profiling strategies, factorially crossed across representation type and temporal handling, evaluated on a real-world production dataset. The comparison reveals how these strategies differ across user behavior types, across both accuracy and beyond-accuracy dimensions of recommendation quality, and across the temporal-window setting that governs the disentanglement.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.27155": {
+            "title": "The Like Trap: Multi-Stage Poisoning against Agents in Similarity-based Recommendation Systems",
+            "authors": "Yue Xing, Pengfei He, Zitao Li",
+            "first_author": "Yue Xing",
+            "url": "https://arxiv.org/abs/2609.27155",
+            "pdf_url": "https://arxiv.org/abs/2609.27155",
+            "publish_date": "2026-09-22",
+            "abstract": "With recent advancements in large language models (LLMs) and LLM-based agents, these agents are becoming increasingly autonomous and gaining broader access to act on users' behalf on the internet. However, the vulnerability of automated agents deployed on social media platforms (e.g., for managing a user's personal account) remains underexplored. Existing studies on agent poisoning typically assume that the adversary can expose poisoned content to the agent. Although such an attack is direct and effective, it is more easily detected and mitigated. In the context of social media platforms, this leaves open whether the recommendation system itself would surface such content to the agent in a more subtle manner. Through theoretical analysis, we show that the like-score mechanism used in OASIS can be exploited, and we characterize the conditions under which a multi-stage chain of poisoned posts can steer the agent's feed. Based on these insights, we further develop an algorithm that crafts realistic poisoned posts. Experiments support our theoretical findings and demonstrate the effectiveness of the proposed algorithm. Notably, by exploiting the like-score feedback loop, the attack causes the recommendation system to select poisoned posts even when their user-post similarity falls below the retrieval threshold.",
+            "primary_category": "cs.CR",
+            "code_url": "null"
+        },
+        "2609.26977": {
+            "title": "Tie Handling Is Part of the Evaluation Protocol: An Order-Invariance Audit for Tie-Heavy Recommender Scores",
+            "authors": "Chengkun Guo, Han Chen, Yilin Zhu, Yingrui Li",
+            "first_author": "Chengkun Guo",
+            "url": "https://arxiv.org/abs/2609.26977",
+            "pdf_url": "https://arxiv.org/abs/2609.26977",
+            "publish_date": "2026-09-22",
+            "abstract": "Offline top-k evaluation often ranks one held-out relevant item together with sampled negatives. When several candidates receive exactly the same score, the tie-breaking rule becomes part of the ranking. A common implementation stores the relevant item first and then applies a stable sort, which preserves input order among equal scores; the relevant item therefore wins every tie. We call an evaluator row-order invariant when permuting the input candidates without changing their identities, labels, or scores leaves the final ranking unchanged. We audit this property by holding candidates and scores fixed and changing only the tie-breaking rule. On 30,000 Amazon Beauty & Personal Care rows, NDCG@10 for a rating-weighted attribute-overlap score is 0.85 under input-order tie-breaking. A deterministic hash tie-break based on user and item IDs lowers it to 0.17. The exact expectation under uniform random tie-breaking closely matches the mean over 100 independent hash seeds, while a residualized attribute score with few exact ties is nearly unchanged. MovieLens Tag Genome shows the same pattern for an attribute-overlap score, whereas item popularity is nearly unchanged. We derive expected Hit Rate and NDCG at cutoff k when the relevant item is randomly ordered among candidates with the same score, and we provide a practical reporting checklist. The same issue can occur in sampled or full-catalog evaluation whenever exact ties affect top-k membership or rank.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.26975": {
+            "title": "Calibrating Reproduced Claims in Recommender Systems",
+            "authors": "Alan Said",
+            "first_author": "Alan Said",
+            "url": "https://arxiv.org/abs/2609.26975",
+            "pdf_url": "https://arxiv.org/abs/2609.26975",
+            "publish_date": "2026-09-22",
+            "abstract": "Reproduction studies can produce mixed outcomes. Reported values may differ while the ordering of the compared methods remains the same, a result may hold only under some experimental conditions, or a released implementation may fail to reproduce a result that the model can still reach. The terms repeatability, reproducibility, and replicability describe how a follow-up study relates to the original experiment, but not which parts of the original claim are supported by the new results. We introduce \\emph{claim calibration} as a way of stating the strongest claim supported by a follow-up study, together with the conditions under which it holds and the parts that remain untested. We apply this perspective to five original--follow-up paper pairs from recommender-systems research. The cases show that agreement in numerical values, method rankings, statistical results, and overall conclusions does not always coincide, and that follow-up studies often support only part of the original claim. Based on these observations, we propose a Claim Evidence Profile for reporting the original claim, its scope, the reproduction target, the reported results, the calibrated claim, and the parts of the original claim that remain unresolved.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.27953": {
+            "title": "The Recall Ceiling of LLM Recommendation Reranking",
+            "authors": "Zhaohui Wang",
+            "first_author": "Zhaohui Wang",
+            "url": "https://arxiv.org/abs/2609.27953",
+            "pdf_url": "https://arxiv.org/abs/2609.27953",
+            "publish_date": "2026-08-27",
+            "abstract": "Some LLM-based recommendation rerankers are evaluated under an oracle protocol that guarantees the ground-truth item is present in the scored set, either by injecting it into the candidate list or by scoring it against sampled negatives. Across three primary Amazon datasets, we show that this protocol overestimates realistic NDCG@10 by 92--95%. The cause is a recall ceiling: realistic retrieval covers only 2--19% of relevant items at $K=100$ across eight datasets in three domains, imposing a deterministic upper bound on any closed-candidate reranker's top-$k$ NDCG. Under leave-one-out evaluation, $\\mathbb{E}[\\mathrm{NDCG}@k] \\leq \\mathrm{Recall}@|W_π|$, where $W_π$ is the reranker's candidate window. Under realistic retrieval, none of the tested optimisation strategies significantly improves over the collaborative-filtering baseline on our primary Amazon datasets. These strategies include prompt engineering, model scaling over a 168$\\times$ parameter range, sequential models, supervised neural rerankers, LoRA fine-tuning, hybrid retrieval, score-aware prompting, and LLM+CF fusion. Text-aware retrieval increases recall on one dataset but does not improve end-to-end NDCG, while providing upstream CF scores mainly makes the LLM reproduce the CF order. We therefore propose the Recall-Aware Evaluation Protocol (RAEP): first classify the retrieval-recall regime, then evaluate reranking where the ceiling permits meaningful differentiation. In the low-recall regimes measured here, improving retrieval is more consequential than increasing reranker sophistication; this ordering need not hold in production systems with higher recall, richer features, or online feedback.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
