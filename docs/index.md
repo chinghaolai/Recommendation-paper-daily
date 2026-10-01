@@ -2,11 +2,20 @@
 layout: default
 ---
 
-## Updated on 2026-09-30
+## Updated on 2026-10-01
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-09-30 | **RouteRec: Behavior-Guided Sparse Routing for Sequential Recommendation** | Junyeong Song, Jaemin Yoo | [Link](https://arxiv.org/abs/2609.39007) | N/A |
+| 2026-09-30 | **When LLM-Inferred User Context Adds Value in Production Streaming Recommendation** | Milad Sabouri, Neeraj Sharma, Sardar Hamidian, Shaghayegh Agah | [Link](https://arxiv.org/abs/2609.38999) | N/A |
+| 2026-09-29 | **Sense and Sensitivity: Benchmarking LLM Clinical Triage Recommendations with Physician Experts** | Abinitha Gourabathina, Haoran Zhang, Yuexing Hao, Walter Gerych, Marzyeh Ghassemi | [Link](https://arxiv.org/abs/2609.38600) | N/A |
+| 2026-09-29 | **AdaM-Rec: Adaptive Modality Routing for Multimodal Recommendation** | Honghao Fu, Jiacheng Chen, Manxi Lin, Junjun Zheng, Xiangheng Kong, Yiwei Wang, Xin Yu, Miao Xu, Yuning Jiang, Yujun Cai | [Link](https://arxiv.org/abs/2609.38455) | N/A |
+| 2026-09-29 | **VirusCascade: Hijacking Collaborative Reflection in LLM-Powered Recommender Agents** | Yurong Hao, Wen Zhou, Guowei Guan, Tiantong Wu, Fuyao Zhang, Wei Yang Bryan Lim | [Link](https://arxiv.org/abs/2609.38270) | N/A |
+| 2026-09-29 | **Challenges and Solutions for Bandits in the Wild: Warm-Started Mixture Bandits for Cross-Cohort Slate Recommendation** | Serafima Lebedeva, Sumantrak Mukherjee, Ali Arshad Sadal, Ilias Ekşi, Rahul Sharma, Julia Mueller, Theresa Dombrowski, Jakob Karolus, Viktor Bengs, Eyke Hüllermeier, Sebastian Vollmer | [Link](https://arxiv.org/abs/2609.37800) | N/A |
+| 2026-09-29 | **How Can Recommendation Feedback Evolve Agent Memory?** | Shanwen Mao, Mingming Li, Hao Zhang, Zhiheng Li, Yige Wang, Penghua Yu, Junxiong Zhu | [Link](https://arxiv.org/abs/2609.37544) | N/A |
+| 2026-09-29 | **ReMem: Rethinking Perception and Memory in Long-Context Recommendation Agents** | Haohao Qu, Yongcheng Jing, Chun Hin Chan, Shanru Lin, Wenqi Fan, Dacheng Tao | [Link](https://arxiv.org/abs/2609.37311) | N/A |
+| 2026-09-29 | **HELIX: Purified and Unified - Rethinking Feature Interaction and Sequence Modeling for Large-Scale Recommendation** | Yuntao Zheng, Miao Zhang, Yadong Ding, Yanchuan Tang, Lixiyu Chen, Hao Wang, Quan Li, Shiying Cai, Yue Lin, Jiayu Li, Yu Feng, Wentao Yang, Rongkun Xing, Jiekai Wang, Mingge Zhang, Feiling Gong, Xiang Gao, Jinyu Dong, Yajing Zhang, Pengfei Ren, Yinzhou Wang | [Link](https://arxiv.org/abs/2609.37183) | N/A |
 | 2026-09-29 | **FairDiff: Mitigating the Self-Reinforcing Matthew Effect in Diffusion Recommender Models** | Song-Li Wu, Xianquan Wang, Zhaocheng Du, Weinan Gan, Jingyi Wang | [Link](https://arxiv.org/abs/2609.36671) | N/A |
 | 2026-09-29 | **FineSID: Scalable and Efficient Semantic Identifier Learning for Generative Recommendation** | Song-Li Wu, Weinan Gan, Zhaocheng Du, Xianquan Wang, Jingyi Wang | [Link](https://arxiv.org/abs/2609.36670) | N/A |
 | 2026-09-28 | **Textual User Taste: Natural-Language User Context for Foundation-Model Recommender System at Scale** | Ghazal Fazelnia, Paul Gigioli, Eliza Klyce, Sharon Zheng, Katie Zelvin, Ye Myat Thein, Anurag Deshpande, Seda Davtyan, Kate Remeika, Maya Hristakeva, Erik Franco, Karen Banzon, Peng Ge, Jacqueline Wood, Nandini Singh, David Murgatroyd, Mounia Lalmas, Yves Raimond, Andreas Damianou | [Link](https://arxiv.org/abs/2609.35285) | N/A |
@@ -24,6 +33,7 @@ layout: default
 | 2026-09-27 | **Overview and Analysis of the RecSys Challenge 2026: Conversational Music Recommendation** | Seungheon Doh, Sergio Oramas, Bruno Sguerra, Abhinav Bohra, Claudio Pomo, Francesco Barile | [Link](https://arxiv.org/abs/2609.33045) | N/A |
 | 2026-09-26 | **Mend the Measurement Gap: Latent User Preference Modeling for Short-Form Video Recommendation** | Shuo Chang, Yueqi Wang, Zihuan Diao, Ali Montazer, Jiangguo Zhang, Joyneel Misra, Dapeng Hong, Tomer Margolin, Sourabh Bansod, Ningren Han | [Link](https://arxiv.org/abs/2609.32839) | N/A |
 | 2026-09-26 | **DP-Rec: Towards Dynamic Patching for Efficient Long-Sequence Recommendation** | Dwipam Katariya, Thomas Caputo, Akshat Shreemali, Juan Manuel Origgi, Nikita Seleznev, Pranab Mohanty, Kalanand Mishra, Nam Nguyen, James Montgomery | [Link](https://arxiv.org/abs/2609.32215) | N/A |
+| 2026-09-25 | **Do Evidence-Reading Diagnostics Improve Interface Selection in Small LLM Recommenders?** | Han Chen, Yingrui Li | [Link](https://arxiv.org/abs/2609.37472) | N/A |
 | 2026-09-25 | **Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings** | Ekaterina Trushkova, Artur Gimranov, Anton Lysenko | [Link](https://arxiv.org/abs/2609.31253) | N/A |
 | 2026-09-25 | **AgentRecommender: LLM Agents Enable Customizable Recommender Systems on the User Side** | Ryoma Sato | [Link](https://arxiv.org/abs/2609.31166) | N/A |
 | 2026-09-25 | **SPADE: Escaping the Popularity-Similarity Frontier to Measure Serendipitous Recommendations** | Tobias Vente, Maarten Peirsman, Noah Daniëls, Hannu Toivonen, Bart Goethals | [Link](https://arxiv.org/abs/2609.31164) | N/A |
@@ -328,7 +338,7 @@ layout: default
 | 2026-07-29 | **IMFuse: Instance-Aware Multi-Layer Fusion for LLM-Enhanced Sequential Recommendation** | Yuheng Zheng, Yu Cui, Bin Wu, Jian Zhang, Ye Feng, Can Wang, Jiawei Chen | [Link](https://arxiv.org/abs/2607.27002) | N/A |
 | 2026-07-29 | **Kairos: Numerically Robust News Recommendation under Item Cold-Start via Cholesky-based LinUCB** | Finn Hertsch | [Link](https://arxiv.org/abs/2607.26832) | N/A |
 | 2026-07-29 | **CaIRec: Calibrated Modality Imputation for Incomplete Multimodal Recommendation** | Ruiyu Liu, Xiaohao Liu, Miaomiao Cai, Yunshan Ma, See-Kiong Ng | [Link](https://arxiv.org/abs/2607.26720) | N/A |
-| 2026-07-29 | **WhisperRec: Latent Reasoning for Efficient Foundation Recommendation Models** | Hao Jiang, Peiru Du, Pengfei Yao, Mengting Li, Siyuan Lou, Kuo Cai, Sheng Yu, Qiang Luo, Jian Liang, Ruiming Tang, Fei Pan, Peng Jiang, Wenwu Ou | [Link](https://arxiv.org/abs/2607.26621) | N/A |
+| 2026-07-29 | **OneLatent: Latent Reasoning for Efficient Foundation Recommendation Models** | Hao Jiang, Peiru Du, Pengfei Yao, Mengting Li, Siyuan Lou, Kuo Cai, Sheng Yu, Qiang Luo, Jian Liang, Ruiming Tang, Fei Pan, Peng Jiang, Wenwu Ou | [Link](https://arxiv.org/abs/2607.26621) | N/A |
 | 2026-07-29 | **Multi-Decoder OneRec: Controllable Generative Retrieval for Multi-Objective Industrial Recommendation** | You Wang, Zhao Liu, Guoping Tang, Yiqing Yang, Shuo Su, Jing Liu, Naifu Zhou, Xiaoyou Zhou, Wei Jiang, Jian Liang, Xiao Lv, Ruiming Tang, Liyin Hong, Wenwu Ou | [Link](https://arxiv.org/abs/2607.26500) | N/A |
 | 2026-07-29 | **NMKFR: A Robust Framework for Time-Aware Cold-Start Recommendation** | Chengzhi Liu, Ning Zeng, Zehui Qu | [Link](https://arxiv.org/abs/2607.26429) | N/A |
 | 2026-07-29 | **DIRECTOR: Dynamic Index-based Recommendation with Transport-Optimized Retrieval** | Yuanhao Pu, Chenghao Zhang, Chao Feng, Xiang Li, Defu Lian | [Link](https://arxiv.org/abs/2607.26418) | N/A |
