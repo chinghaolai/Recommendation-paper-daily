@@ -2,11 +2,13 @@
 layout: default
 ---
 
-## Updated on 2026-10-05
+## Updated on 2026-10-06
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-10-03 | **From Valid to Useful: Post-Verification Acquisition for Recursive Self-Improving Recommendation** | Tonmoy Hasan, Taylor Foust, Shao Tang, Leonardo Neves, Aman Gupta, Hiroto Udagawa, Helder Dias, Daniel Silva, Rohan Ramanath | [Link](https://arxiv.org/abs/2610.04302) | N/A |
+| 2026-10-02 | **Learning Robust Personalized Prompts for LLM-Driven Sequential Recommendation** | Xiaolin Zheng, Qiyong Zhong, Jiajie Su, Xiang Chen | [Link](https://arxiv.org/abs/2610.03923) | N/A |
 | 2026-10-02 | **EVOL: Simulator-Guided Evolutionary Expert Synthesis for Deployment-Free Learning Path Recommendation** | Geonwoo Bang, Dongho Kim, Moohong Min | [Link](https://arxiv.org/abs/2610.03273) | N/A |
 | 2026-10-02 | **Generating eukaryotic reference genome assemblies: Earth BioGenome Project quality standards and recommendations** | Kerstin Howe, Dolores R. Agius, Tyler Alioto, Jean-Marc Aury, Roberto Biello, Mark Blaxter, Matthew W. Brown, Tom Brown, Bernat Burriel-Carranza, Haoyu Cheng, Dario Copetti, Solenne Correard, Fernando Cruz, Paul Davis, Aleksandra Denisova, Giulio Formenti, Pedro A. F. Galante, Caroline Howard, Kamil S. Jaron, Erich D. Jarvis, Sergei Kliver, Sergey Koren, Ilia J. Leitch, Harris Lewin, Heng Li, Kerstin Lindblad-Toh, Jack A. Medico, Matthieu Muffato, Zemin Ning, Javan Okendo, Shujun Ou, Marc Palmada-Flores, Brendan J. Pinto, Aurora Ruiz-Herrera, Abdoallah Sharaf, Ying Sims, Jeramiah J. Smith, Marco Sollitto, Cibele G. Sotero-Caio, Marcela Uliano-Silva, Sibelle T. Vilaça, Robert M. Waterhouse, Melissa A. Wilson, Chentao Yang, Guojie Zhang, Chenxi Zhou, Yang Zhou, Richard Durbin | [Link](https://arxiv.org/abs/2610.03075) | N/A |
 | 2026-10-02 | **Reasoning with Evidence, Not Merely Rationales: Verifiable Preference Proofs for LLM-Based Recommendation** | Yu Hou, Nathaniel Kang, Pengkai Wang, Hua Li | [Link](https://arxiv.org/abs/2610.02968) | N/A |

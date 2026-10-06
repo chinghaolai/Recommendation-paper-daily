@@ -22901,6 +22901,28 @@
             "abstract": "Public-service recommendations require evidence that matches the requested service, scope, and date. Yet treating every missing detail as decisive can withhold useful recommendations. We introduce EviGraph, which distinguishes critical decision requirements from information that can remain unresolved. A language agent links these requirements to evidence in a temporal knowledge graph, while a deterministic checker establishes whether a recommendation is supported. Evaluation on a bilingual Hong Kong public-service benchmark with executable policy references shows that this distinction reduces unnecessary abstention. Additional verification, however, can withdraw supported recommendations without improving decision quality. These findings suggest that reliable evidence-based navigation depends on specifying what must be established for a decision, rather than simply adding more verification.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2610.04302": {
+            "title": "From Valid to Useful: Post-Verification Acquisition for Recursive Self-Improving Recommendation",
+            "authors": "Tonmoy Hasan, Taylor Foust, Shao Tang, Leonardo Neves, Aman Gupta, Hiroto Udagawa, Helder Dias, Daniel Silva, Rohan Ramanath",
+            "first_author": "Tonmoy Hasan",
+            "url": "https://arxiv.org/abs/2610.04302",
+            "pdf_url": "https://arxiv.org/abs/2610.04302",
+            "publish_date": "2026-10-03",
+            "abstract": "Sequential recommenders can generate synthetic interaction sequences and retrain on the augmented corpus in a recursive self-improvement loop. To limit error accumulation, current methods verify each generated sequence remains predictive of the user's real interactions and discard those that drift away from it. Verification does not, however, determine which verified sequences should train the next model. With every verified sequence used for training, source sequences yielding more verified sequences or longer continuations have more influence, although neither quantity indicates how much those sequences will help the next model. We formulate the decision of which verified sequences are used to train the next model as \\emph{post-verification acquisition} and introduce {\\bf Disagreement-Aware Recursive Self-Improving Recommendation (DA-RSIR)}. DA-RSIR caps each source sequence's contribution and ranks its verified sequences by how much the model's predictions disagree over their augmented interactions. It uses a score derived from Bayesian Active Learning by Disagreement (BALD) and estimated with Monte Carlo (MC) dropout. DA-RSIR requires no extra labels, teacher model, or quality scorer. Across four datasets, three recommender models, and two metrics, it improves on the retain-all approach in all $24$ comparisons and attains the highest mean in $23$ of $24$ overall; the aggregate improvement is statistically significant on both metrics. A single DA-RSIR round exceeds the retain-all approach's best gain over five recursive rounds. These findings establish post-verification acquisition as a separate control point in recursive self-improvement, separating which sequences pass verification from which verified sequences are used to train the next model.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.03923": {
+            "title": "Learning Robust Personalized Prompts for LLM-Driven Sequential Recommendation",
+            "authors": "Xiaolin Zheng, Qiyong Zhong, Jiajie Su, Xiang Chen",
+            "first_author": "Xiaolin Zheng",
+            "url": "https://arxiv.org/abs/2610.03923",
+            "pdf_url": "https://arxiv.org/abs/2610.03923",
+            "publish_date": "2026-10-02",
+            "abstract": "LLM-driven sequential recommendation formulates next-item prediction as autoregressive generation conditioned on natural-language prompts. However, minor wording changes in semantically equivalent prompts can cause substantial performance fluctuations, undermining robustness and requiring costly manual prompt engineering. Continuous prompt learning reduces template dependence but faces two interacting challenges: shared task-level instructions lack user-specific reasoning guidance, while gradient updates can push continuous prompts outside the LLM's effective semantic space. Injecting personalized signals can further amplify this semantic drift. To address these challenges, we propose LRPRec, a learnable prompting framework that initializes continuous instruction prompts from discrete templates and introduces two complementary mechanisms. Personalized prompt injection encodes user behavior into a preference embedding and additively injects it into shared prompts, enabling parameter-efficient user-level adaptation. A semantic drift constraint regularizes the shared prompts within a trust region around their initialization anchors to preserve semantic validity during optimization. By constraining the shared component while allowing additive personalization, LRPRec decouples stability from expressiveness. Extensive experiments on three benchmark datasets demonstrate consistent improvements over strong baselines while eliminating the need for manual tuning of background and task inference templates.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
