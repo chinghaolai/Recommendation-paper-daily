@@ -1,4 +1,4 @@
-## Updated on 2026-10-06
+## Updated on 2026-10-07
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,21 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-10-06 | **Adapting Generative Recommenders for Multi-Turn Interaction** | Yu-Chen Den, Zhi Rui Tam, Yung-Yu Shih, Shih-Hsin Wang, Yun-Nung Chen, Pu-Jen Cheng, Eugene Yang | [Link](https://arxiv.org/abs/2610.08136) | N/A |
+| 2026-10-06 | **Contrastive Learning for Aspect Representation towards Explainable Recommendation** | Emrul Hasan, Chen Ding | [Link](https://arxiv.org/abs/2610.07761) | N/A |
+| 2026-10-06 | **A Pedagogically Demonstrative Model Visualizing the Pathway from Online Interactions to Personalized Recommendation** | Sushmita Khan, Connor Pennington, Bart P Knijnenburg | [Link](https://arxiv.org/abs/2610.07744) | N/A |
+| 2026-10-06 | **Evidence Before Sampling: Interpretable Implicit Negative Candidate Discovery for Recommendation** | Shreya Rajpal, Sonia Sharma, Swapnil Parekh, Lisa Li, Jeyendran Balakrishnan, Nagaraj Janardhana, Andrew Mattarella-Micke | [Link](https://arxiv.org/abs/2610.07708) | N/A |
+| 2026-10-06 | **Personal-Agent Mediated Recommendation with Cross-Platform User History** | Yu Xia, Jiangfan Zhang, Jun Xiao, Julian McAuley, Xiangjun Fan | [Link](https://arxiv.org/abs/2610.07588) | N/A |
+| 2026-10-05 | **MARS: Multi-resolution Adaptive Routing for Sequential Recommendation** | Ming Yin, Sixun Dong, Yudong Liu, Wen-Yun Yang, Yunjiang Jiang, Yiran Chen | [Link](https://arxiv.org/abs/2610.07505) | N/A |
+| 2026-10-05 | **Rethinking Semantic ID Construction for Generative Recommendation: SimHash with Parallel Decoding and Semantic Alignment** | Yuqing Liu, Huiyuan Chen, Yibo Wang, Wooseong Yang, Philip S. Yu | [Link](https://arxiv.org/abs/2610.07402) | N/A |
+| 2026-10-05 | **Beyond Successor Accuracy: State Retention for Recursive Self-Improvement in Recommendation** | Jinfeng Xu, Zheyu Chen, Ziyue Peng, Zheng Lin, Wenhao Yuan, Jian Chen, Shujie Li, Edith Ngai | [Link](https://arxiv.org/abs/2610.07105) | N/A |
+| 2026-10-05 | **Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs** | Manousos Linardakis, Georgios Alexandridis | [Link](https://arxiv.org/abs/2610.06703) | N/A |
+| 2026-10-05 | **SPRIG: Semantic-ID-enhanced Paths for Knowledge Graph-based Generative Recommendation** | Justin Hangoebl, Marta Moscati, Alessandro B. Melchiorre, Shah Nawaz, Markus Schedl | [Link](https://arxiv.org/abs/2610.06590) | N/A |
+| 2026-10-05 | **MATE: Adaptive Long- and Short-Term User Memory for LLM-Based Recommendation** | Yu Hou | [Link](https://arxiv.org/abs/2610.06050) | N/A |
+| 2026-10-05 | **Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings** | Md Arman Hossain, Mubashir Jawad, Fariha Khandaker Moon, Sonia Binte Siraj, Masfiqur Rahaman, Raihan ul Islam, Ahmed Wasif Reza, Nafis Sadeq | [Link](https://arxiv.org/abs/2610.05787) | N/A |
+| 2026-10-05 | **Generate What You Can Trust: Content Credibility in Generative Recommenders** | Zhuo Cai, Guanghao Wu, Shoujin Wang, Peilin Zhou, Victor W. Chu | [Link](https://arxiv.org/abs/2610.05670) | N/A |
+| 2026-10-04 | **Cut Binary Cross Entropy: Efficient Large-Vocabulary Loss and Gradient Kernels for Sequential Recommendation** | Yaoyiran Li, Haowen Ning, Mohamed Hammad | [Link](https://arxiv.org/abs/2610.05559) | N/A |
+| 2026-10-04 | **OpticalRec: Unified Optical Vision-Language Representation for Multimodal Recommendation** | Yueqi Wang, Zitian Guo, Yupeng Hou, Yifei Wang, Kibum Kim, Zhenrui Yue, Shuo Xing, Haodong Li, Heming Xia, Renrui Zhang, Zhengzhong Tu, Julian McAuley | [Link](https://arxiv.org/abs/2610.05432) | N/A |
 | 2026-10-03 | **From Valid to Useful: Post-Verification Acquisition for Recursive Self-Improving Recommendation** | Tonmoy Hasan, Taylor Foust, Shao Tang, Leonardo Neves, Aman Gupta, Hiroto Udagawa, Helder Dias, Daniel Silva, Rohan Ramanath | [Link](https://arxiv.org/abs/2610.04302) | N/A |
 | 2026-10-02 | **Learning Robust Personalized Prompts for LLM-Driven Sequential Recommendation** | Xiaolin Zheng, Qiyong Zhong, Jiajie Su, Xiang Chen | [Link](https://arxiv.org/abs/2610.03923) | N/A |
 | 2026-10-02 | **EVOL: Simulator-Guided Evolutionary Expert Synthesis for Deployment-Free Learning Path Recommendation** | Geonwoo Bang, Dongho Kim, Moohong Min | [Link](https://arxiv.org/abs/2610.03273) | N/A |
