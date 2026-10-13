@@ -1,4 +1,4 @@
-## Updated on 2026-10-07
+## Updated on 2026-10-13
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,18 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-10-09 | **FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems** | Vishnu Arun, Adam Obeng, Tianyou Wang, Zilin Ren, Mukuntha Narayanan Sundararaman, Han Wang, Shivin Thukral, Zhixiang Wang, Saurabh Vishwas Joshi, Darren Reger | [Link](https://arxiv.org/abs/2610.13806) | N/A |
+| 2026-10-09 | **Polarization Dynamics under Algorithmic Recommendations in LLM-based Online Social Networks** | Ali Safarpoor Dehkordi, Mohammad Shirzadi, Mehwish Nasim, Ahad N. Zehmakan | [Link](https://arxiv.org/abs/2610.13351) | N/A |
+| 2026-10-09 | **Beyond Semantic IDs: Finite-Beam Reachability and Continuous-Query Generation in Generative Recommendation** | Yu Sun, Renkai Xiang, Zuodong Xiang, Junwei Zhou, Yike Zhang, Jianxin Zhang, Zhihao Zhu, Xiaoyu Cao, Hailu Xu | [Link](https://arxiv.org/abs/2610.12977) | N/A |
+| 2026-10-08 | **Beyond Sequences: Distilling Structured Decision Memory for LLM Recommendation** | Leikun Liang, Guoshuai Wang, Xingsheng He, Yushan Han, Yunyi Xuan, Xiaoxiao Xu, Lin Qu | [Link](https://arxiv.org/abs/2610.11501) | N/A |
+| 2026-10-08 | **Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths** | Jason Marcell Setiadi, Xin Cao, Lina Yao | [Link](https://arxiv.org/abs/2610.11228) | N/A |
+| 2026-10-07 | **When Exposure Is Not Attention: Auditing the Preference-Exposure-Consumption Gap in Personalized News Recommenders** | Woojin Park | [Link](https://arxiv.org/abs/2610.10173) | N/A |
+| 2026-10-07 | **Training with Missed Targets in Generative Recommendation: Separating Supervision from Probability Competition** | Xuesi Wang, Yangbin Shi, Xiaolin Zheng | [Link](https://arxiv.org/abs/2610.10124) | N/A |
+| 2026-10-06 | **Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation** | Wenwen Si, Honghao Wei | [Link](https://arxiv.org/abs/2610.08743) | N/A |
+| 2026-10-06 | **Seeing the Context: Enhancing Recommender Systems with Image-Derived Contextual Signals** | Tal Cordova, Tomer Geva, Moshe Unger | [Link](https://arxiv.org/abs/2610.08407) | N/A |
+| 2026-10-06 | **Personalized Recommendations Without Inducing Congestion: Mitigating Disparities in the NYC High School Match** | Erica Chiang, Kenny Peng, Rebecca Lichtenstein, Brielle McDaniel, Kristen O'Neil, Deja Thomas, Lianna Wright, Jon Kleinberg, Eva Tardos, Nikhil Garg | [Link](https://arxiv.org/abs/2610.08275) | N/A |
+| 2026-10-06 | **Aligning Performance with Contribution: Towards Contribution-Aware Fair Recommendation** | Shuai Zhang, Hui Fang, Zun Sun | [Link](https://arxiv.org/abs/2610.08245) | N/A |
+| 2026-10-06 | **Behavior-Mining, Generative Conversations, and Collaborative Advisory: the Future of Travel and Tourism Recommender Systems** | Alejandro Bellogín, Linus W. Dietz, Francesco Ricci, Pablo Sánchez | [Link](https://arxiv.org/abs/2610.08232) | N/A |
 | 2026-10-06 | **Adapting Generative Recommenders for Multi-Turn Interaction** | Yu-Chen Den, Zhi Rui Tam, Yung-Yu Shih, Shih-Hsin Wang, Yun-Nung Chen, Pu-Jen Cheng, Eugene Yang | [Link](https://arxiv.org/abs/2610.08136) | N/A |
 | 2026-10-06 | **Contrastive Learning for Aspect Representation towards Explainable Recommendation** | Emrul Hasan, Chen Ding | [Link](https://arxiv.org/abs/2610.07761) | N/A |
 | 2026-10-06 | **A Pedagogically Demonstrative Model Visualizing the Pathway from Online Interactions to Personalized Recommendation** | Sushmita Khan, Connor Pennington, Bart P Knijnenburg | [Link](https://arxiv.org/abs/2610.07744) | N/A |
@@ -448,7 +460,7 @@
 | 2026-07-17 | **RECAP: Feedback-Driven Streaming Semantic User Profiles for Short-Video Recommendation** | Ziyi Zhao, Xiaoyou Zhou, Xiao Lv, Yangyang Li, Chubo He, Zhao Liu, Jiayao Shen, Yuqi Liu, He Li, Chengyi Zhang, Jian Liang, Ming Li, Chongming Gao, Fuli Feng, Ruiming Tang, Han Li | [Link](https://arxiv.org/abs/2607.15730) | N/A |
 | 2026-07-17 | **From Skill Extraction to Multistakeholder Recommendation: A Two-Stage Framework for Bias Governance in Skills-Based Job Matching** | Andrea Forster, Gregor Autischer, Dominik Kowald, Simone Kopeinik | [Link](https://arxiv.org/abs/2607.15707) | N/A |
 | 2026-07-17 | **Visualization Autocomplete: Visualization Authoring via Stepwise Design Recommendations** | Hyeon Jeon, Sungbok Shin, Niklas Elmqvist | [Link](https://arxiv.org/abs/2607.15608) | N/A |
-| 2026-07-16 | **PersonaMem-v3: Toward Omni-Platform Personal Intelligence for Holistic User Understanding, Recommendation, and Agentic Tasks** | Bowen Jiang, Yuan Yuan, Zhuoqun Hao, Yuchen Liu, Maohao Shen, Sihao Chen, Gregory Wornell, Chris Callison-Burch, Lyle Ungar, Dan Roth, Qi Guo, Xiangjun Fan, Camillo J. Taylor, Hanchao Yu | [Link](https://arxiv.org/abs/2608.21381) | N/A |
+| 2026-07-16 | **PersonaMem-v3: Toward Omni-Platform Personal Intelligence for Holistic User Understanding, Recommendation, and Agentic Tasks** | Bowen Jiang, Yuan Yuan, Zhuoqun Hao, Yuchen Liu, Maohao Shen, Sihao Chen, Gregory Wornell, Chris Callison-Burch, Lyle Ungar, Dan Roth, Iordanis Fostiropoulos, Qi Guo, Xiangjun Fan, Camillo J. Taylor, Hanchao Yu | [Link](https://arxiv.org/abs/2608.21381) | N/A |
 | 2026-07-16 | **Mutable Low-Rank Sketches for Retrain-Free Recommendation** | Hector J. Garcia, Nick Clayton | [Link](https://arxiv.org/abs/2607.15242) | N/A |
 | 2026-07-16 | **CoSimRec: Measuring Coordinated-Content Penetration in Recommender Feedback Loops** | Nan Li, Jiahong Shao, Jiuyang Lyu | [Link](https://arxiv.org/abs/2607.15114) | N/A |
 | 2026-07-16 | **Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation** | Paul Darm, Cem Alpturk, Kenneth Ulrich, William Duncan, Ali Anwar, Annalisa Riccardi | [Link](https://arxiv.org/abs/2607.14970) | N/A |
