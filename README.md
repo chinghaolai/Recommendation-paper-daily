@@ -1,4 +1,4 @@
-## Updated on 2026-10-13
+## Updated on 2026-10-14
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,10 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-10-10 | **Fine-Tuning Strategy, Not Just Data: A Statistically Rigorous Audit of Gender and Stereotypical Bias in Embedding Models for HR Recommendation Systems** | Ekta Yadav | [Link](https://arxiv.org/abs/2610.14579) | N/A |
+| 2026-10-10 | **AlignPoison: Conditional Targeted Poisoning of Generative Recommenders via Decoding-Aligned Prefixes** | Zhuoxuan Zhang, Jinhao Duan, Xinyu Zhao, Jinduo Guo, Shuai Shao, Rui Li, Luke Simon, Zhun Deng, Tianlong Chen, Bo Sun | [Link](https://arxiv.org/abs/2610.14487) | N/A |
+| 2026-10-10 | **RES-MR: Risk-Aware Reasoning for Explainable and Safe Medication Recommendation** | Cong Wang, Jin Li, Shoujin Wang, Yishuo Li, Huilin Gu, Wenpeng Lu | [Link](https://arxiv.org/abs/2610.14474) | N/A |
+| 2026-10-09 | **Understanding and Mitigating Training Instability in Large-Scale Recommender Systems: A Cascade Perspective** | Yuening Li, Zeyu Wang, Zhen Zhang, Jiayi Liu, Zhimeng Jiang, Yuji Roh, Weikai Xu, Mingyan Gao, Onkar Dalal, Chuan He, Liang Liu | [Link](https://arxiv.org/abs/2610.14394) | N/A |
 | 2026-10-09 | **FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems** | Vishnu Arun, Adam Obeng, Tianyou Wang, Zilin Ren, Mukuntha Narayanan Sundararaman, Han Wang, Shivin Thukral, Zhixiang Wang, Saurabh Vishwas Joshi, Darren Reger | [Link](https://arxiv.org/abs/2610.13806) | N/A |
 | 2026-10-09 | **Polarization Dynamics under Algorithmic Recommendations in LLM-based Online Social Networks** | Ali Safarpoor Dehkordi, Mohammad Shirzadi, Mehwish Nasim, Ahad N. Zehmakan | [Link](https://arxiv.org/abs/2610.13351) | N/A |
 | 2026-10-09 | **Beyond Semantic IDs: Finite-Beam Reachability and Continuous-Query Generation in Generative Recommendation** | Yu Sun, Renkai Xiang, Zuodong Xiang, Junwei Zhou, Yike Zhang, Jianxin Zhang, Zhihao Zhu, Xiaoyu Cao, Hailu Xu | [Link](https://arxiv.org/abs/2610.12977) | N/A |
@@ -74,6 +78,7 @@
 | 2026-09-27 | **What Gets Measured Gets Managed: Sign-aware Recommendation Needs Sign-aware Evaluation** | Minchan Kim, Jungmin Hwang, Hyunwoo Park | [Link](https://arxiv.org/abs/2609.33346) | N/A |
 | 2026-09-27 | **Algorithmic Harms Associated with Generative Model-Augmented Recommendation Systems** | Christine Herlihy, Xumei Xi, Shloka Desai, Kevin Bannerman Hutchful, Pedro Silva | [Link](https://arxiv.org/abs/2609.33073) | N/A |
 | 2026-09-27 | **Overview and Analysis of the RecSys Challenge 2026: Conversational Music Recommendation** | Seungheon Doh, Sergio Oramas, Bruno Sguerra, Abhinav Bohra, Claudio Pomo, Francesco Barile | [Link](https://arxiv.org/abs/2609.33045) | N/A |
+| 2026-09-26 | **PsyBer-Agent: A Psychology-Driven User Agent for Recommender Systems** | Chong Zhang, Qijie Shen, Haichao Zhang, Can Wang, Xiaobo Jin, Jia Wang | [Link](https://arxiv.org/abs/2610.13989) | N/A |
 | 2026-09-26 | **Mend the Measurement Gap: Latent User Preference Modeling for Short-Form Video Recommendation** | Shuo Chang, Yueqi Wang, Zihuan Diao, Ali Montazer, Jiangguo Zhang, Joyneel Misra, Dapeng Hong, Tomer Margolin, Sourabh Bansod, Ningren Han | [Link](https://arxiv.org/abs/2609.32839) | N/A |
 | 2026-09-26 | **DP-Rec: Towards Dynamic Patching for Efficient Long-Sequence Recommendation** | Dwipam Katariya, Thomas Caputo, Akshat Shreemali, Juan Manuel Origgi, Nikita Seleznev, Pranab Mohanty, Kalanand Mishra, Nam Nguyen, James Montgomery | [Link](https://arxiv.org/abs/2609.32215) | N/A |
 | 2026-09-25 | **Do Evidence-Reading Diagnostics Improve Interface Selection in Small LLM Recommenders?** | Han Chen, Yingrui Li | [Link](https://arxiv.org/abs/2609.37472) | N/A |
