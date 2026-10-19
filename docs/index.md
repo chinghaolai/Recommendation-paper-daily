@@ -2,11 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026-10-16
+## Updated on 2026-10-19
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-10-16 | **Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs** | Sam Partee, River Stevens, Thierry Damiba, Valerie Fanelle | [Link](https://arxiv.org/abs/2610.23707) | N/A |
+| 2026-10-16 | **LSNR: Learned Sparse News Recommendations with Attentive User Modeling** | David Vos, Andrew Yates, Maarten de Rijke | [Link](https://arxiv.org/abs/2610.23510) | N/A |
+| 2026-10-16 | **QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity** | Takashi Ishida, Taro Makino, Issa Sugiura | [Link](https://arxiv.org/abs/2610.23470) | N/A |
+| 2026-10-15 | **Encoded but Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems** | Linda Beková, Rodrigo Alves | [Link](https://arxiv.org/abs/2610.21713) | N/A |
 | 2026-10-15 | **A Quantum Machine Learning Approach to Content-Based Media Recommendation** | Mina Abbaszadeh, Ouissal Moumou, Anna Pearson, Bob Coecke, Rob Cooper, Alessandro Piscopo, Mehrnoosh Sadrzadeh | [Link](https://arxiv.org/abs/2610.21562) | N/A |
 | 2026-10-15 | **RecSoup: Efficient Model Merging Approach for Controllable Multi-Objective Recommendation** | Zidong Jia, Guofu Xie, Xiao Zhang | [Link](https://arxiv.org/abs/2610.21220) | N/A |
 | 2026-10-14 | **TransX Technical Report: Scaling Sequence Transduction for Recommendation** | Da Xu, Liyan Fang, Divya Venugopalan, Sunny Hsu, Xukai Wang, Rishav Roy Chowdhury, Cindy Liang, Nishant Satya Lakshmikanth | [Link](https://arxiv.org/abs/2610.20913) | N/A |
@@ -176,7 +180,7 @@ layout: default
 | 2026-09-10 | **Recommendation Retrievers Need Verifiers: Universal Generative Reranking for Sequential Recommendations** | Benyu Zhang, Qiang Zhang, Rui Li, Qunshu Zhang, Devansh Tandon, Neeraj Bhatia | [Link](https://arxiv.org/abs/2609.12270) | N/A |
 | 2026-09-10 | **On the Regularization Landscape for the Linear Recommendation Models** | Dong Li, Zhenming Liu, Ruoming Jin, Hao Zhou, Zhi Liu, Jing Gao, Bin Ren | [Link](https://arxiv.org/abs/2609.11876) | N/A |
 | 2026-09-10 | **FedHUR: Learning Hierarchical Utility-Guided Client Relations for Personalized Federated Recommendation** | Mingzhe Han, Jiahao Liu, Dongsheng Li, Jiankui Zhou, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu | [Link](https://arxiv.org/abs/2609.11632) | N/A |
-| 2026-09-10 | **UniRec: Cross-stage Multi-Task Fusion with Preference Alignment for Cascaded Recommender Systems** | Lingyuan Kong, Jiaqi Cui, Fanjiao Zeng, Congqi Wang, Yu Li, Yuan Cheng, Jingxin Liu, Xiaoshuang Chen, Kaiqiao Zhan | [Link](https://arxiv.org/abs/2609.11052) | N/A |
+| 2026-09-10 | **UniRec: Cross-stage Multi-Task Fusion with Preference Optimization for Cascaded Recommender Systems** | Lingyuan Kong, Jiaqi Cui, Fanjiao Zeng, Congqi Wang, Yu Li, Yuan Cheng, Jingxin Liu, Xiaoshuang Chen, Kaiqiao Zhan | [Link](https://arxiv.org/abs/2609.11052) | N/A |
 | 2026-09-10 | **Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System** | Ming Li, Dai Li, Xuying Ning, Bo Sun, Rui Li, Yi Zhang, Silvia Gong, Xuan Cao, Rui Li, Cornelia Carapcea, Qunshu Zhang, Zhigang Wang, Yinglong Xia, Andy Wang | [Link](https://arxiv.org/abs/2609.10922) | N/A |
 | 2026-09-09 | **Following the Preference, Missing the Optimum: Compliance Without Optimization in AI Housing Recommendation** | Hsuan Lo | [Link](https://arxiv.org/abs/2609.10856) | N/A |
 | 2026-09-09 | **An Efficient and Effective Agentic Group Shilling Attack on Recommender Systems** | Quoc Viet Nguyen, Trinh Pham, Viet Huynh, Hongzhi Yin, Quoc Viet Hung Nguyen, Bay Vo, Thanh Tam Nguyen | [Link](https://arxiv.org/abs/2609.09551) | N/A |

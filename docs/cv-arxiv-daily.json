@@ -21605,13 +21605,13 @@
             "code_url": "null"
         },
         "2609.11052": {
-            "title": "UniRec: Cross-stage Multi-Task Fusion with Preference Alignment for Cascaded Recommender Systems",
+            "title": "UniRec: Cross-stage Multi-Task Fusion with Preference Optimization for Cascaded Recommender Systems",
             "authors": "Lingyuan Kong, Jiaqi Cui, Fanjiao Zeng, Congqi Wang, Yu Li, Yuan Cheng, Jingxin Liu, Xiaoshuang Chen, Kaiqiao Zhan",
             "first_author": "Lingyuan Kong",
             "url": "https://arxiv.org/abs/2609.11052",
             "pdf_url": "https://arxiv.org/abs/2609.11052",
             "publish_date": "2026-09-10",
-            "abstract": "Industrial recommender systems cascade stages with different objectives, feature spaces, and latency constraints. Optimizing pre-ranking and ranking separately induces cross-stage inconsistency: upstream models may filter out items preferred by downstream rankers, while independently tuned downstream fusion can offset upstream improvements. Most existing multi-task fusion methods target the ranking stage alone, and cross-stage methods often align with a downstream-derived score, leaving joint optimization of fusion modules across cascaded stages largely unexplored. We propose UniRec, a Unified Cross-stage Recommendation Fusion model. First, the two fusion agents partially share input embeddings in a single computation graph, allowing gradients from either stage to propagate through the shared representations. Second, a dual-axis preference alignment objective coordinates the two stages: horizontally, a compact aggregation term reorganizes dozens of pairwise objectives over heterogeneous prior signals into bidirectional preference evidence; vertically, a cross-stage consistency term transfers downstream pairwise preferences to the upstream fusion score. Third, we introduce attribute group-relative regularization, which computes relative advantages and normalizes policy updates within each attribute group, ensuring that uniformly promoting all items in a high-reward group provides no additional optimization gain. Offline experiments demonstrate UniRec consistently outperforms single-stage fusion and cross-stage coordination baselines; online A/B experiments show a 0.616% gain in app usage duration. UniRec has been fully deployed on the Kuaishou platform.",
+            "abstract": "Industrial recommender systems use cascaded stages with different candidate spaces, data distributions, and latency constraints. Independently optimizing their multi-task fusion (MTF) modules can cause cross-stage preference inconsistency, while existing cross-stage methods mainly transfer supervision to upstream scoring models and leave fusion modules jointly unoptimized. We propose UniRec, a Unified Cross-stage Recommendation Fusion framework that jointly optimizes pre-ranking and ranking fusion agents. UniRec employs a coupled dual-agent architecture with partially shared embeddings and stage-specific fusion functions. It further introduces Dual-Axis Preference Optimization to combine stage-local preferences with downstream-to-upstream preference transfer. Attribute Group-Relative Regularization (AGRR) mitigates reward-induced distribution drift by normalizing preference advantages within attribute groups. To improve efficiency, Compact Pairwise Preference Aggregation (CPPA) reduces the objective-dependent pairwise complexity, while Confidence-Aware Pair Pruning (CAPP) further reduces the evaluated pair space. Extensive offline and online experiments on a production short-video system demonstrate consistent gains over single-stage fusion and cross-stage coordination baselines. In a nine-week online A/B test, UniRec improves total watch time by $0.675\\%$ and app usage time by $0.616\\%$, and has been fully deployed in production.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -23483,6 +23483,50 @@
             "publish_date": "2026-10-11",
             "abstract": "Multimodal recommender systems effectively alleviate data sparsity and cold-start problems by integrating heterogeneous information, yet complex cross-modal representations and model decision-making processes also introduce new interpretability challenges. Despite the rapid growth of research on the interpretability of multimodal recommendation in recent years, relevant methods and evaluation criteria remain relatively fragmented, lacking a unified conceptual framework. To address this gap, this paper categorizes existing methods into modality explanation and post-hoc explanation based on the timing and manner of explanation generation, and further constructs a progressive system for each category. Building on this foundation, this paper synthesizes four categories of evaluation metrics from both objective quantitative and subjective perceptual perspectives, and reviews relevant datasets along the dimensions of application domain and data source. Through a comprehensive analysis of existing research, we further propose future research directions. This paper aims to establish a unified analytical perspective across multimodal representation, recommendation decision-making, and user preferences, providing a research foundation for building transparent and trustworthy multimodal recommender systems.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.23707": {
+            "title": "Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs",
+            "authors": "Sam Partee, River Stevens, Thierry Damiba, Valerie Fanelle",
+            "first_author": "Sam Partee",
+            "url": "https://arxiv.org/abs/2610.23707",
+            "pdf_url": "https://arxiv.org/abs/2610.23707",
+            "publish_date": "2026-10-16",
+            "abstract": "A multi-step agent task fails when a single tool it needs is missing, yet the tools an agent may need are too many to list: the roughly 8,200 tools on the platform we study have definitions that together exceed the context window of any model we evaluate. We present Tool Recommendation, a deployed system that gives an agent all of them, hundreds of times more than a typical MCP server exposes, through a fixed interface of three tools. It runs at the gateway between agent and tools, executing every call under the end user's own credentials and checking it against the user's consent for each service and the tools the agent may use. We evaluate it on both a public retrieval benchmark and billed end-to-end session cost. On ToolRet, Tool Recommendation places every tool a query needs in the top ten 57% more often than BM25, a lexical ranking that commercial tool search offers, and compares favorably with published systems up to nine times its size. In paired multi-step workflows, its first recommendation covered every required tool in 93% of Codex sessions, and against a fixed list of 100 tools it cut input tokens by 17% with Codex and 40% with Claude Code and the total bill in all 14 runs, by up to 40%, with no change in task completion.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2610.23510": {
+            "title": "LSNR: Learned Sparse News Recommendations with Attentive User Modeling",
+            "authors": "David Vos, Andrew Yates, Maarten de Rijke",
+            "first_author": "David Vos",
+            "url": "https://arxiv.org/abs/2610.23510",
+            "pdf_url": "https://arxiv.org/abs/2610.23510",
+            "publish_date": "2026-10-16",
+            "abstract": "Current learned sparse approaches for recommender systems, such as STAR, represent a user by concatenating their interaction history into a single query string. For news, this creates two bottlenecks: concatenation collapses a user's distinct reading interests into one flat query, and, because news articles are long-form text, concatenating several news articles quickly overruns the context window of the language model used as backbone and forces quality-degrading truncation. To address both bottlenecks, we introduce learned sparse news recommendations (LSNR). LSNR encodes each article independently and constructs a sparse user vector by combining learned, attention-based weighting of the per-article sparse representations with a dense-projected expansion at the user level. Experiments on the MIND and EBNeRD datasets show that LSNR significantly outperforms STAR, with these gains holding even in short-history settings where truncation is not a factor. Compared to state-of-the-art dense recommenders, LSNR is competitive in standard settings and it outperforms them when the user history is short. An ablation of the user encoder confirms that learned attention-based aggregation outperforms simpler pooling alternatives. Beyond effectiveness, an additional advantage of LSNR is that it serves from an index an order of magnitude smaller than an uncompressed dense baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.23470": {
+            "title": "QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity",
+            "authors": "Takashi Ishida, Taro Makino, Issa Sugiura",
+            "first_author": "Takashi Ishida",
+            "url": "https://arxiv.org/abs/2610.23470",
+            "pdf_url": "https://arxiv.org/abs/2610.23470",
+            "publish_date": "2026-10-16",
+            "abstract": "Open-ended search combined with foundation models has produced advances such as faster algorithms, new results on open mathematical problems, and self-improving agents. We extend this paradigm to recommendation for decision-making, focusing on decisions where the set of possible choices is fixed but the reasons for choosing them are not. In high-stakes decisions, e.g., which company to acquire or which customer to target, comparing diverse, well-reasoned options can be more useful than a single ranked list. We formalize open-ended recommendation as building a diverse, high-quality set of recommendations, each an item together with a hypothesis, a natural-language reason why the item fits the needs of a decision maker. We propose QD-Rec, a quality--diversity method that selects items with a contextual bandit and generates hypotheses with a foundation model from earlier ones kept in an archive as stepping stones. A new recommendation enters the archive if it is novel or better than its nearest neighbor. Across M&A, customer targeting, and paper and book recommendation, QD-Rec gives the highest mean quality and builds the largest archive in most settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.21713": {
+            "title": "Encoded but Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems",
+            "authors": "Linda Beková, Rodrigo Alves",
+            "first_author": "Linda Beková",
+            "url": "https://arxiv.org/abs/2610.21713",
+            "pdf_url": "https://arxiv.org/abs/2610.21713",
+            "publish_date": "2026-10-15",
+            "abstract": "Language embeddings are increasingly used in recommenders to represent item content, but their privacy risks remain poorly understood. We study whether item embeddings can reveal item identities when an adversary has access to auxiliary item text from external sources. We show that a simple cosine-similarity attack can recover item identities with high mean reciprocal rank across language models and candidate-set settings on two real-world datasets. Leakage is strongest when the adversary's partial information overlaps with the victim representation, but it also persists through semantic alignment between independently sourced descriptions. We further show that item leakage can propagate to user re-identification from sparse ratings. Finally, we evaluate obfuscated descriptions as a mitigation and find a clear leakage-utility tradeoff.",
+            "primary_category": "cs.CR",
             "code_url": "null"
         }
     }
