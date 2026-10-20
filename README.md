@@ -1,4 +1,4 @@
-## Updated on 2026-10-19
+## Updated on 2026-10-20
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,8 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-10-17 | **DuoLM: Fast and Effective Personalized Recommendation with Language Models** | Jiang Wu, Yutong Song, Hongbo Wang, Guanghe Cao, Jeff Liang | [Link](https://arxiv.org/abs/2610.24481) | N/A |
+| 2026-10-16 | **Candidate-dependent residual routing trades top-of-list accuracy for recall in sequential recommendation** | Han Chen, Yingrui Li | [Link](https://arxiv.org/abs/2610.24200) | N/A |
 | 2026-10-16 | **Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs** | Sam Partee, River Stevens, Thierry Damiba, Valerie Fanelle | [Link](https://arxiv.org/abs/2610.23707) | N/A |
 | 2026-10-16 | **LSNR: Learned Sparse News Recommendations with Attentive User Modeling** | David Vos, Andrew Yates, Maarten de Rijke | [Link](https://arxiv.org/abs/2610.23510) | N/A |
 | 2026-10-16 | **QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity** | Takashi Ishida, Taro Makino, Issa Sugiura | [Link](https://arxiv.org/abs/2610.23470) | N/A |
@@ -381,7 +383,7 @@
 | 2026-08-03 | **MODE: Mutual Optimality in Direct Effects of Reciprocal Recommendations in Matching Markets** | Yoji Tomita | [Link](https://arxiv.org/abs/2608.01731) | N/A |
 | 2026-08-02 | **CARA: Cognitive Adaptive Recommendation Agent** | Weijun Gao, Jinyang Dong, Chuanru Ren, Hengxiao Li | [Link](https://arxiv.org/abs/2608.16919) | N/A |
 | 2026-08-02 | **Collaborative Memory Augmentation for Generative Recommendation** | Enze Liu, Zhen Tian, Wayne Xin Zhao | [Link](https://arxiv.org/abs/2608.01315) | N/A |
-| 2026-08-02 | **Auditing Semantic Gains in Sequential Recommendation: A Lightweight Recovery Test** | Kong Wang, Zhongke He, Xiang Chen, Hongwei Zeng, Kai Deng, Long Wang, Kehua Yang | [Link](https://arxiv.org/abs/2608.01260) | N/A |
+| 2026-08-02 | **Is Serving-Time Language-Model Inference Necessary for Recommendation? Evidence from Generative and Agentic Settings** | Xiang Chen, Zhongke He, Hongwei Zeng, Kai Deng, Long Wang, Kehua Yang, Kong Wang | [Link](https://arxiv.org/abs/2608.01260) | N/A |
 | 2026-08-02 | **GRACE: Generative Recommender Acceleration Engine for Real-Time Ads Retrieval** | Zhou Fang, Yuhang Huang, Ang Zhang, Yihan He, Ruichao Xiao, Chao Li, Yavuz Yetim, Sibyl Yang, Xiaohan Wei, Fei Tian, Liang Wang, Chonglin Sun, Liyuan Li, Nathan Yan, Gaoxiang Liu | [Link](https://arxiv.org/abs/2608.00938) | N/A |
 | 2026-08-01 | **Exponential Reward Weighting for Fine-Tuning Generative Recommenders under Sparse and Noisy Feedback** | Keertana Chidambaram, Sanath Kumar Krishnamurthy, Qiuling Xu, Ko-Jen Hsiao, Moumita Bhattacharya | [Link](https://arxiv.org/abs/2608.00816) | N/A |
 | 2026-08-01 | **Hierarchical Residual Policy Optimization for Generative Recommendations** | Kaifeng Guo, Yiming Yang, Jingtong Gao, Guolei Zeng, Fukang Yang, Yukang Liang, Peng Jiang, Qingpeng Cai, Xiangyu Zhao | [Link](https://arxiv.org/abs/2608.00750) | N/A |

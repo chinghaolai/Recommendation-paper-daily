@@ -19416,13 +19416,13 @@
             "code_url": "null"
         },
         "2608.01260": {
-            "title": "Auditing Semantic Gains in Sequential Recommendation: A Lightweight Recovery Test",
-            "authors": "Kong Wang, Zhongke He, Xiang Chen, Hongwei Zeng, Kai Deng, Long Wang, Kehua Yang",
-            "first_author": "Kong Wang",
+            "title": "Is Serving-Time Language-Model Inference Necessary for Recommendation? Evidence from Generative and Agentic Settings",
+            "authors": "Xiang Chen, Zhongke He, Hongwei Zeng, Kai Deng, Long Wang, Kehua Yang, Kong Wang",
+            "first_author": "Xiang Chen",
             "url": "https://arxiv.org/abs/2608.01260",
             "pdf_url": "https://arxiv.org/abs/2608.01260",
             "publish_date": "2026-08-02",
-            "abstract": "Recent semantic and generative-retrieval recommenders report substantial improvements over ID-only sequential baselines, but it remains unclear whether these gains arise from language-model reasoning, semantic-ID generation, end-to-end semantic architectures, stronger offline item representations, or complementary semantic and collaborative signals. We investigate this attribution ambiguity through LIME-Rec, a lightweight and auditable recovery test. LIME-Rec combines three independent experts: a SASRec sequential expert, an ItemCF co-occurrence expert, and a semantic expert based on frozen BAAI/bge-base-en-v1.5 item embeddings. Their full-catalog scores are normalized per user and combined through auditable score-level fusion followed by bounded history calibration. The fusion gate and calibration head are fitted on validation data only, require no serving-time language-model inference, and keep each expert contribution separately inspectable. On Amazon Beauty, Toys, and Sports, LIME-Rec achieves R@10 scores of 0.0996, 0.1105, and 0.0593, outperforming the strongest comparison baseline by 7.0%-12.0%. Three-expert fusion without history calibration consistently outperforms calibrated SASRec, showing that calibration alone does not explain the recovery. Randomly permuting item-text embeddings across item IDs reduces R@10 by 13.6%-17.5%, indicating that the gains depend on genuine item-text correspondence rather than additional representation capacity. These results suggest that lightweight recovery from offline item representations and transparent fusion should be ruled out before improvements are attributed to serving-time language modeling, semantic-ID generation, or heavier semantic machinery.",
+            "abstract": "Language models (LMs) are increasingly used in recommender systems to generate recommendations or coordinate recommendation tools. However, does their strong performance imply that serving-time LM inference is necessary? We challenge this seemingly reasonable but unverified assumption. To investigate this question, we introduce recovery-based mechanism auditing, which tests whether independent alternatives can achieve the accuracy of LM-based recommender systems without the audited inference mechanisms under controlled information and evaluation conditions. For generative recommendation, we propose LIME-Rec, which combines sequential, collaborative, and offline semantic information without autoregressive LM decoding. On three Amazon Reviews datasets (Beauty, Toys, and Sports), LIME-Rec achieves the highest reported mean in all 12 dataset-metric combinations, with up to a 15.2% relative improvement in Recall@10 over GRAM, an LM-based generative recommender. For agentic recommendation, we propose DART-Rec, which replaces LM-based tool control with deterministic fusion and fixed expert selection. On 1,000 Beauty users, given the same candidate items and expert scores, deterministic fusion achieves a 16.7% relative improvement in Recall@10 over a fine-tuned LM controller. With at most two tool calls, fixed expert selection matches the LM controllers' Hit@10 outcomes for every user in 17 of 18 comparisons. These findings demonstrate that strong recommendation performance does not necessarily require serving-time LM inference: under the evaluated task and information conditions, alternatives without the specified inference mechanisms can match or exceed the accuracy of their LM-based counterparts. To support reproducibility, code is available at https://github.com/Double-wk/LIME-Rec.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -23527,6 +23527,28 @@
             "publish_date": "2026-10-15",
             "abstract": "Language embeddings are increasingly used in recommenders to represent item content, but their privacy risks remain poorly understood. We study whether item embeddings can reveal item identities when an adversary has access to auxiliary item text from external sources. We show that a simple cosine-similarity attack can recover item identities with high mean reciprocal rank across language models and candidate-set settings on two real-world datasets. Leakage is strongest when the adversary's partial information overlaps with the victim representation, but it also persists through semantic alignment between independently sourced descriptions. We further show that item leakage can propagate to user re-identification from sparse ratings. Finally, we evaluate obfuscated descriptions as a mitigation and find a clear leakage-utility tradeoff.",
             "primary_category": "cs.CR",
+            "code_url": "null"
+        },
+        "2610.24481": {
+            "title": "DuoLM: Fast and Effective Personalized Recommendation with Language Models",
+            "authors": "Jiang Wu, Yutong Song, Hongbo Wang, Guanghe Cao, Jeff Liang",
+            "first_author": "Jiang Wu",
+            "url": "https://arxiv.org/abs/2610.24481",
+            "pdf_url": "https://arxiv.org/abs/2610.24481",
+            "publish_date": "2026-10-17",
+            "abstract": "Language models can make personalized recommendations from rich item content, user history, and feedback. However, evaluating many candidates with full-text inputs incurs substantial online computation and limits serving throughput. We introduce DuoLM, a framework for fast and effective personalized recommendation that integrates a compact recommendation model with an efficient serving runtime. An encoder LLM learns compact item representations for offline reuse, while a personalized ranker LLM combines them with user history and feedback for recommendation. We train both models end to end with recommendation supervision and teacher distillation. The runtime further accelerates inference through virtual token IDs for embedding access, shared history computation, and CUDA Graph replay. Benchmark results show that our framework achieves recommendation quality comparable to that of the expert teacher model. On a single H100, it delivers approximately 26,400 candidate scores per second, about $60\\times$ the throughput of the teacher served with vLLM and automatic prefix caching.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.24200": {
+            "title": "Candidate-dependent residual routing trades top-of-list accuracy for recall in sequential recommendation",
+            "authors": "Han Chen, Yingrui Li",
+            "first_author": "Han Chen",
+            "url": "https://arxiv.org/abs/2610.24200",
+            "pdf_url": "https://arxiv.org/abs/2610.24200",
+            "publish_date": "2026-10-16",
+            "abstract": "Candidate-dependent routing lets a sequential recommender weight a user's past behaviors differently for each item it scores. We test whether this flexibility helps by adding a small residual routing module to a self-attentive baseline, in two versions that differ only in what sets the routing weights: the user's history representation or the candidate item's embedding. Across five paired seeds on the REES46 cosmetics-shop dataset, with matched training for all three models, candidate-dependent routing leaves the primary metric, normalized discounted cumulative gain at cutoff ten (NDCG@10), essentially unchanged (mean relative change +0.003%). Secondary and exploratory analyses show that this flat average hides two effects that cancel. The candidate-dependent model places more relevant items in its top ten (recall +1.81%) but ranks the first one lower (mean reciprocal rank -1.09%), and most of its new hits land at positions six to ten. Its gains come from queries with at least one target among the user's last 50 events, while queries whose targets all lie outside that window get worse. In this form, candidate-dependent routing trades accuracy at the top of the list for recall further down.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
