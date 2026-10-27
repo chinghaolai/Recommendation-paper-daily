@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20261022100001
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 18156
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 10/22/2026 10:00:01 ===
+--- Running daily_arxiv.py ---
+[10/22/2026 10:00:25 INFO]   + [2026-07-20] RecEvolve: A Knowledge-Driven Autonomous Agent System for Recommender System
+s
+[10/22/2026 10:00:25 INFO]   + [2026-07-20] SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategy R
+efin
+[10/22/2026 10:00:25 INFO]   + [2026-07-20] RAMP: Robust Ad Recommendation Under Limited Personalized-Feature Availabili
+ty v
+[10/22/2026 10:00:25 INFO]   + [2026-07-20] HyCoRec: Hypergraph-Enhanced Multi-Preference Learning for Alleviating Matth
+ew E
+[10/22/2026 10:00:25 INFO]   + [2026-07-19] Learning Sparse Representations of Multimodal Content for Enhanced Cold Item
+ Rec
+[10/22/2026 10:00:25 INFO]   + [2026-07-19] WHALE: A Scalable Unified Model for Recommendation with Wukong-HSTU Architec
+ture
+[10/22/2026 10:00:25 INFO]   + [2026-07-18] Beyond Fixed Depths and Widths: Optimizing Textual Decoding Tries in LLM-bas
+ed G
+[10/22/2026 10:00:25 INFO]   + [2026-07-18] A Position Paper on Recommender Systems in the Era of Autonomous Agents
+[10/22/2026 10:00:25 INFO]   + [2026-07-17] RECAP: Feedback-Driven Streaming Semantic User Profiles for Short-Video Reco
+mmen
+[10/22/2026 10:00:25 INFO]   + [2026-07-17] From Skill Extraction to Multistakeholder Recommendation: A Two-Stage Framew
+ork
+[10/22/2026 10:00:25 INFO]   + [2026-07-17] Visualization Autocomplete: Visualization Authoring via Stepwise Design Reco
+mmen
+[10/22/2026 10:00:28 INFO] Topic 'Recommendation': 500 papers found.
+[10/22/2026 10:00:28 INFO] === Fetch complete ===
+[10/22/2026 10:00:28 INFO] Markdown written: README.md
+[10/22/2026 10:00:28 INFO] Target 'readme' done.
+[10/22/2026 10:00:29 INFO] Markdown written: docs\index.md
+[10/22/2026 10:00:29 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 10/22/2026 10:00:33 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20261022100033
+**********************

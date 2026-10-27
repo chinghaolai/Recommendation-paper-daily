@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20261001100003
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 36348
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 10/01/2026 10:00:03 ===
+--- Running daily_arxiv.py ---
+[10/01/2026 10:00:12 INFO]   + [2026-06-22] LLM-as-a-Judge for Reliable and Explainable Offline Evaluation in Top-K Reco
+mmen
+[10/01/2026 10:00:12 INFO]   + [2026-06-22] Trajectory-Based Recommender Systems as Control Systems
+[10/01/2026 10:00:12 INFO]   + [2026-06-22] Towards Fast Domain Adaptation and Fine-Grained User Simulation for Evaluati
+ng C
+[10/01/2026 10:00:12 INFO]   + [2026-06-20] Resume Screening, Fast and Slow: (Biased) AI Recommendations' Influence on H
+uman
+[10/01/2026 10:00:12 INFO]   + [2026-06-20] The Pitfall of Scaling Up: Uncovering and Mitigating Popularity Bias Amplifi
+cati
+[10/01/2026 10:00:12 INFO]   + [2026-06-20] AgroSense 2.0: Cross-Modal Transformer Fusion with Geospatial Raster Integra
+tion
+[10/01/2026 10:00:12 INFO]   + [2026-06-19] A Rank-One Popularity Component in Dot-Product Recommender Scores:Population
+ The
+[10/01/2026 10:00:12 INFO]   + [2026-06-19] Change Impact Recommendation for JavaScript: Lessons from History and Runtim
+e An
+[10/01/2026 10:00:12 INFO]   + [2026-06-19] Coordinating Treatment Allocation and Recommendation
+[10/01/2026 10:00:12 INFO]   + [2026-06-18] Structuring and Tokenizing Distributed User Interest Context for Generative
+Reco
+[10/01/2026 10:00:12 INFO]   + [2026-06-17] Denoising Implicit Feedback for Cold-start Recommendation
+[10/01/2026 10:00:12 INFO]   + [2026-06-17] Token Factory: Efficiently Integrating Diverse Signals into Large Recommenda
+tion
+[10/01/2026 10:00:15 INFO] Topic 'Recommendation': 500 papers found.
+[10/01/2026 10:00:15 INFO] === Fetch complete ===
+[10/01/2026 10:00:15 INFO] Markdown written: README.md
+[10/01/2026 10:00:15 INFO] Target 'readme' done.
+[10/01/2026 10:00:15 INFO] Markdown written: docs\index.md
+[10/01/2026 10:00:15 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 10/01/2026 10:00:19 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20261001100019
+**********************

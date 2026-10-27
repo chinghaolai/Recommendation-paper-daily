@@ -1,0 +1,53 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20261007100002
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 33820
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 10/07/2026 10:00:02 ===
+--- Running daily_arxiv.py ---
+[10/07/2026 10:00:09 INFO]   + [2026-07-02] Recommended Selves: Authenticity and Algorithmic Filtering
+[10/07/2026 10:00:09 INFO]   + [2026-07-02] Challenges and Recommendations for LLM-as-a-Judge in Multilingual Settings a
+nd f
+[10/07/2026 10:00:09 INFO]   + [2026-07-01] Bi-NAS: Towards Effective and Personalized Explanation for Recommender Syste
+ms v
+[10/07/2026 10:00:09 INFO]   + [2026-06-30] Joint Effects of Recommender Systems and Network Structure on the Visibility
+ of
+[10/07/2026 10:00:09 INFO]   + [2026-06-30] MGDiff: Multi-Interest Sequence Recommendation with Masking GNN-Guided Diffu
+sion
+[10/07/2026 10:00:09 INFO]   + [2026-06-30] Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequenti
+al S
+[10/07/2026 10:00:09 INFO]   + [2026-06-30] Obliviate: Efficient Unlearning in Recommender Systems
+[10/07/2026 10:00:09 INFO]   + [2026-06-30] Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care
+[10/07/2026 10:00:09 INFO]   + [2026-06-29] Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Reco
+mmen
+[10/07/2026 10:00:09 INFO]   + [2026-06-29] POEM: Partial-Order Enhanced Real-Time Sequential Modeling for Recommendatio
+n
+[10/07/2026 10:00:09 INFO]   + [2026-06-29] Do Recommendation Algorithms Work When Users Are LLM Agents? A Case Study on
+ Mol
+[10/07/2026 10:00:09 INFO]   + [2026-06-28] Monosemanticity in Recommender Systems
+[10/07/2026 10:00:09 INFO]   + [2026-06-27] Fairness Attacks on Recommender Systems
+[10/07/2026 10:00:12 INFO] Topic 'Recommendation': 500 papers found.
+[10/07/2026 10:00:12 INFO] === Fetch complete ===
+[10/07/2026 10:00:12 INFO] Markdown written: README.md
+[10/07/2026 10:00:12 INFO] Target 'readme' done.
+[10/07/2026 10:00:12 INFO] Markdown written: docs\index.md
+[10/07/2026 10:00:12 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---

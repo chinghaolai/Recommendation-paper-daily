@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20261006100002
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 29220
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 10/06/2026 10:00:02 ===
+--- Running daily_arxiv.py ---
+Driv
+[10/06/2026 10:00:09 INFO]   + [2026-06-26] An LLM-Powered Semantic Alignment Framework for Journal Recommendation
+[10/06/2026 10:00:09 INFO]   + [2026-06-26] Intuition-Guided Latent Reasoning for LLM-Based Recommendation
+[10/06/2026 10:00:09 INFO]   + [2026-06-25] Auditing AI Investment Recommendations as Executable Actions
+[10/06/2026 10:00:09 INFO]   + [2026-06-25] NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Indus
+tria
+[10/06/2026 10:00:09 INFO]   + [2026-06-25] TRUST: Item-Calibrated Interval Evidence for Temporal Session-Based Recommen
+dati
+[10/06/2026 10:00:09 INFO]   + [2026-06-25] UniFormer: Efficient and Unified Model-Centric Scaling for Industrial Recomm
+enda
+[10/06/2026 10:00:09 INFO]   + [2026-06-25] AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender System
+s
+[10/06/2026 10:00:09 INFO]   + [2026-06-24] From Clicks to Intent: Cross-Platform Session Embeddings with LLM-Distilled
+Taxo
+[10/06/2026 10:00:09 INFO]   + [2026-06-24] Designing Trustworthy LLM-based Wellbeing Recommendation through Controllabl
+e In
+[10/06/2026 10:00:09 INFO]   + [2026-06-24] Recommendation as Generation: Unifying Personalized Video Generation and Rec
+omme
+[10/06/2026 10:00:09 INFO]   + [2026-06-24] S2-CAR: Segmentation-Supervised Complexity-Adaptive Recommendation
+[10/06/2026 10:00:09 INFO]   + [2026-06-23] TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in
+Larg
+[10/06/2026 10:00:12 INFO] Topic 'Recommendation': 500 papers found.
+[10/06/2026 10:00:12 INFO] === Fetch complete ===
+[10/06/2026 10:00:12 INFO] Markdown written: README.md
+[10/06/2026 10:00:12 INFO] Target 'readme' done.
+[10/06/2026 10:00:12 INFO] Markdown written: docs\index.md
+[10/06/2026 10:00:12 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 10/06/2026 10:00:16 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20261006100016
+**********************

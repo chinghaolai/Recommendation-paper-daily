@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20261020100003
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 30184
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 10/20/2026 10:00:03 ===
+--- Running daily_arxiv.py ---
+y
+[10/20/2026 10:00:05 INFO]   + [2026-07-14] ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Co
+ld-S
+[10/20/2026 10:00:05 INFO]   + [2026-07-14] RecRec: Latent Interests Recursive Reasoning for Sequential Recommendation
+[10/20/2026 10:00:05 INFO]   + [2026-07-14] Cheaper is Better: A Discount-Aware Network for Conversion Rate Prediction i
+n E-
+[10/20/2026 10:00:05 INFO]   + [2026-07-14] Where Reasoning Matters: Rethinking Latent Reasoning in Semantic ID-based Ge
+nera
+[10/20/2026 10:00:05 INFO]   + [2026-07-14] Skills That Don't Exist: A Large-Scale Study of Hallucinated Skill Recommend
+atio
+[10/20/2026 10:00:05 INFO]   + [2026-07-14] Not Only NTP: Extending Training Signal Coverage for Generative Recommendati
+on
+[10/20/2026 10:00:05 INFO]   + [2026-07-13] Agentic systems for breast cancer treatment recommendations
+[10/20/2026 10:00:05 INFO]   + [2026-07-13] Reproducibility in Recommender Systems: A Survey
+[10/20/2026 10:00:05 INFO]   + [2026-07-13] STEP: Career-Path Recommendation via Temporal and Educational Trajectory Mod
+elin
+[10/20/2026 10:00:05 INFO]   + [2026-07-13] Guess Where You Go: Generative Next Point-of-Interest Recommendation in Amap
+[10/20/2026 10:00:05 INFO]   + [2026-07-13] User Preference Induction with LLMs for Offline Top-N Recommendation Evaluat
+ion
+[10/20/2026 10:00:05 INFO]   + [2026-07-13] SISA-Rec: A Semantically Integrated Sequential Recommender with Contrastive
+Alig
+[10/20/2026 10:00:08 INFO] Topic 'Recommendation': 500 papers found.
+[10/20/2026 10:00:08 INFO] === Fetch complete ===
+[10/20/2026 10:00:09 INFO] Markdown written: README.md
+[10/20/2026 10:00:09 INFO] Target 'readme' done.
+[10/20/2026 10:00:09 INFO] Markdown written: docs\index.md
+[10/20/2026 10:00:09 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 10/20/2026 10:00:13 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20261020100013
+**********************

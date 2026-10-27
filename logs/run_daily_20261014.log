@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell 轉譯開始
+開始時間: 20261014100002
+使用者名稱: E104TW\howard.lai
+RunAs 使用者: E104TW\howard.lai
+設定名稱: 
+電腦: 3824_1040 (Microsoft Windows NT 10.0.26200.0)
+主應用程式: powershell.exe -NonInteractive -ExecutionPolicy Bypass -File D:\researchs\recsys-paper\run_daily.ps1
+處理序識別碼: 19876
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Daily arXiv update started: 10/14/2026 10:00:02 ===
+--- Running daily_arxiv.py ---
+[10/14/2026 10:00:06 INFO]   + [2026-07-09] PIT-SUN: A Deployable Empirical Marginal Transform Framework with Expectatio
+n-Co
+[10/14/2026 10:00:06 INFO]   + [2026-07-08] Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Re
+comm
+[10/14/2026 10:00:06 INFO]   + [2026-07-07] When and How to Ask: Dynamic Preference Elicitation Strategies for Conversat
+iona
+[10/14/2026 10:00:06 INFO]   + [2026-07-07] Multimodal Video-to-Music Recommendation via Semantic Retrieval and Temporal
+ Rer
+[10/14/2026 10:00:06 INFO]   + [2026-07-07] Signed-Graph Recommendation as Structural Consistency Maximization
+[10/14/2026 10:00:06 INFO]   + [2026-07-07] SCOReD: Student-Aware CoT Optimization for Recommendation Distillation
+[10/14/2026 10:00:06 INFO]   + [2026-07-06] Bumblebee: Interleaved Mixed-Layer Building Blocks for Large-Scale Recommend
+atio
+[10/14/2026 10:00:06 INFO]   + [2026-07-06] Toward Personalized Social Robots for Child Well-being: Data Requirement Pri
+ncip
+[10/14/2026 10:00:06 INFO]   + [2026-07-06] Pathological Regimes of Closed-Loop Recommendation Systems over Social Netwo
+rks
+[10/14/2026 10:00:06 INFO]   + [2026-07-05] Evaluation and Explainability of Unsupervised Scholarly Collaboration Recomm
+enda
+[10/14/2026 10:00:06 INFO]   + [2026-07-05] Autonomous Information Seeking: A Roadmap for Agentic Recommender Systems
+[10/14/2026 10:00:06 INFO]   + [2026-07-05] LBR: Towards Mitigating Length Bias in Large Language Models for Recommendat
+ion
+[10/14/2026 10:00:09 INFO] Topic 'Recommendation': 500 papers found.
+[10/14/2026 10:00:09 INFO] === Fetch complete ===
+[10/14/2026 10:00:09 INFO] Markdown written: README.md
+[10/14/2026 10:00:09 INFO] Target 'readme' done.
+[10/14/2026 10:00:09 INFO] Markdown written: docs\index.md
+[10/14/2026 10:00:09 INFO] Target 'gitpage' done.
+--- Git: staging changes ---
+
+
+--- Git: committing ---
+
+--- Git: pushing ---
+
+Push successful.
+=== Done: 10/14/2026 10:00:14 ===
+**********************
+Windows PowerShell 轉譯結束
+結束時間: 20261014100014
+**********************
