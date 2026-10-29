@@ -2,11 +2,33 @@
 layout: default
 ---
 
-## Updated on 2026-10-28
+## Updated on 2026-10-29
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-10-27 | **REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation** | Yuxi Huang, Silin Zhou, Chenhao Wang, Zihan Li, Gangming Guo, Pei Ke, Shen Gao, Shuo Shang | [Link](https://arxiv.org/abs/2610.37584) | N/A |
+| 2026-10-27 | **Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation** | Zhenye Yang, Jinpeng Chen, Wenbo Fu, Jun Ma, Huan Li, Qimin Zhou, Tao Wang, Li Sun, Senzhang Wang | [Link](https://arxiv.org/abs/2610.37409) | N/A |
+| 2026-10-27 | **LESSRec: Level-Specific History Modeling for Semantic ID-Based Recommendation** | Shangxin Yang, Zongwei Wang, Jing Long, Junliang Yu, Min Gao | [Link](https://arxiv.org/abs/2610.37286) | N/A |
+| 2026-10-27 | **Modeling Preference Dependencies with Directed Acyclic Graphs for Narrative-Driven Recommendation** | Mingzhe Lu, Jian Qin, Ruize Qin, Jinhao Liu, Yunpeng Li, Hang Su | [Link](https://arxiv.org/abs/2610.37280) | N/A |
+| 2026-10-27 | **AutoRSE: Evaluating LLM Agents as Recommendation Engineers for Self-Evolving Recommender Systems** | Rui Tian, Yi Fang, Yejin Hua, Du Wang, Yuzhe Wang, Minxuan Shan, Zirui Ren, Xinyu Lin, Chongming Gao, Wenjie Wang, Fuli Feng | [Link](https://arxiv.org/abs/2610.37228) | N/A |
+| 2026-10-27 | **Compote: Collapse-Resistant Multiple Hypothesis Learning For Sequential Recommendation** | Louis Castres Saint Martin, Clement Calauzenes, Alain Rakotomamonjy, Patrick Gallinari | [Link](https://arxiv.org/abs/2610.37005) | N/A |
+| 2026-10-27 | **KL-MOPD: Discrepancy-Aware Multi-Objective On-Policy Distillation for Generative Recommendation** | Weiqin Yang, Yandong Wang, Yuan Gao, Hao Deng, Jinxin Hu, Jing Cao, Jiawei Chen | [Link](https://arxiv.org/abs/2610.36973) | N/A |
+| 2026-10-27 | **When Diffusion Recommenders Stop Sampling: Preserving Generative Diversity** | Louis Castres Saint Martin, Alain Rakotomamonjy, Patrick Gallinari | [Link](https://arxiv.org/abs/2610.36954) | N/A |
+| 2026-10-27 | **Algorithmic Monoculture in Machine Learning-based Site-Specific Fertilizer Recommendation** | Abdelghani Belgaid | [Link](https://arxiv.org/abs/2610.36941) | N/A |
+| 2026-10-27 | **JevRec: Linguistic Encoding with Jev-like Decision Modeling for LLM-based Generative Recommendation** | Qiyong Zhong, Jiajie Su, Ming Yang, Li Zhang | [Link](https://arxiv.org/abs/2610.36937) | N/A |
+| 2026-10-27 | **Latent Residual Reasoning for Ranking in Generative Recommendation** | Haihan Shi, Ruidong Han, Wenjie Wang, Shangyu Chen, Sunhao Dai, Yongqi Li, Yangyang Li, Fei Jiang, Wei Lin, Fuli Feng, Xiangnan He | [Link](https://arxiv.org/abs/2610.36890) | N/A |
+| 2026-10-27 | **DuTri: Dual-Branch Modeling with Triadic Factorization for Multimodal Multi-Scenario Recommendation** | Jintao Huang, Chaohua Yang, Kailiang Hao, Dugang Liu, Xing Tang, Zhong Ming | [Link](https://arxiv.org/abs/2610.36836) | N/A |
+| 2026-10-27 | **The Vocabulary Is Already Here: Adapting Pretrained Interpretable Features for Generative Recommendation** | Ziluowen Luo, Ruochen Liu, Jun Yin, Hao Yan, Zhengxuan Hu, Xinze Shi, Chaozhuo Li, Chengqi Zhang, Senzhang Wang | [Link](https://arxiv.org/abs/2610.36763) | N/A |
+| 2026-10-26 | **MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations** | Reza Yousefi Maragheh, Jayesh Uddhav Kudase, Aysenur Inan, Ramin Giahi, Kai Zhao, Parth Parikh, Jianpeng Xu, Jason Cho, Evren Korpeoglu, Sushant Kumar | [Link](https://arxiv.org/abs/2610.36389) | N/A |
+| 2026-10-26 | **IOSage: Detecting HPC I/O Bottleneck Patterns to Guide LLM Recommendations** | Mahdi Banisharif, Tabassum Mahmud, Ahmad Tarraf, Suren Byna, Ali Jannesari | [Link](https://arxiv.org/abs/2610.36370) | N/A |
+| 2026-10-26 | **BehaveRec: When Does Long-Term Behavioral History Help Sequential Recommendation? A Study with Session, History, and Community Signals** | Aysenur Inan, Reza Yousefi Maragheh, Jayesh Uddhav Kudase, Selene Xu, Kaushiki Nag, Jianpeng Xu, Sushant Kumar | [Link](https://arxiv.org/abs/2610.36239) | N/A |
+| 2026-10-26 | **Counterfactual Profile Perturbations for Recommendation Explanations: A Reproducibility Study** | Meysam Varasteh, Elizabeth McKinnie, Robin Burke | [Link](https://arxiv.org/abs/2610.36208) | N/A |
+| 2026-10-26 | **RELAY: One Query, Two Roles for Sequential Recommendation** | Zesheng Li, Chengchang Pan, Honggang Qi | [Link](https://arxiv.org/abs/2610.36000) | N/A |
+| 2026-10-26 | **Do Similarity Measures Measure Similarity? How User Activity Creates Phantom Correlation in Recommender Systems** | Marco Favier, Noah Daniëls, Jens Leysen, Sander Marinus, Bart Goethals | [Link](https://arxiv.org/abs/2610.35765) | N/A |
+| 2026-10-26 | **Cross-Domain Sequential Recommendation with Representation-Level User Transfer** | Abdulaziz Samra, Nikita Sukhorukov, Alexey Grishanov, Alexey Vasilev, Evgeny Frolov | [Link](https://arxiv.org/abs/2610.35550) | N/A |
+| 2026-10-26 | **Unified Heterogeneous Feature Interaction via Effective-Rank Scaling for Recommender Systems** | Ao Zhang, Haochuan Li, Boya Du, Jian Yang, Qihang Fang, Yulin Xu | [Link](https://arxiv.org/abs/2610.35318) | N/A |
+| 2026-10-26 | **MuSID-KD: Multigranularity Knowledge Distillation for Generative Recommendation with Semantic IDs** | Fengshi Zhang, Xiyan Ding, Shuxiao Xie, Wei Zhang | [Link](https://arxiv.org/abs/2610.35218) | N/A |
 | 2026-10-26 | **DPE-Rec: Diversity-Preserving and Efficient Diffusion Language Model Recommendation for Bundle Construction** | Pingchuan Ma, Bohan Jiang, Chengshuai Zhao, Dawei Li, Zhen Tan, Huan Liu | [Link](https://arxiv.org/abs/2610.34700) | N/A |
 | 2026-10-26 | **Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents** | Xinyu Zhang, Weiwei Sun | [Link](https://arxiv.org/abs/2610.34673) | N/A |
 | 2026-10-25 | **Theoretically Sound Item Similarity Measures for Recommender Systems** | Noah Daniëls, Joey De Pauw, Bart Goethals | [Link](https://arxiv.org/abs/2610.34402) | N/A |
@@ -392,7 +414,7 @@ layout: default
 | 2026-08-07 | **Invisible to the Machine: Auditing AI Restaurant, Cafe, and Bar Recommendation Against a Complete Market Census** | Vladimir Pitenin | [Link](https://arxiv.org/abs/2608.07069) | N/A |
 | 2026-08-07 | **Teacher Retains Full Tokens, Student Merges Efficiently: TM20K for E-Commerce Sequence Modeling in Ad Recommendation** | Xinchun Li, Duoru Zheng, Wenlin Zhao, Haoran Ding, Ziyi Zhou, Jingxuan Tan, Huizhi Yang, Yuchen Jiang, Zhe Chen, Yuchao Zheng, Linlan Chen, Dongjian Wang, Dongyue Wang, Xiaosong Li, Hongyue Mao, Yaocheng Tan | [Link](https://arxiv.org/abs/2608.07055) | N/A |
 | 2026-08-07 | **Hierarchical Quantization with Domain-Adaptive Sparse Routing for Generative Cross-Domain Recommendation** | Haiying He, Xiaopeng Li, Yuchen Gu, Kuo Cai, Bo Chen, Jingtong Gao, Yejing Wang, Derong Xu, Ruiming Tang, Guorui Zhou, Han Li, Xiangyu Zhao | [Link](https://arxiv.org/abs/2608.06997) | N/A |
-| 2026-08-07 | **From Classification to Recommendation: Empirical Analysis of Audio Embedding Models Application for Content-Based Music Recommendation** | Qingrui Li, Haowei Lou, Chengkai Huang, Quan Z. Sheng, Lina Yao | [Link](https://arxiv.org/abs/2608.06928) | N/A |
+| 2026-08-07 | **When Do Pretrained Audio Representations Help Music Recommendation? A Study Across Ranking and Generative Interfaces** | Qingrui Li, Haowei Lou, Chengkai Huang, Quan Z. Sheng, Lina Yao | [Link](https://arxiv.org/abs/2608.06928) | N/A |
 | 2026-08-07 | **Progressive Alignment of Recommender Foundation Model through Multi-Phase Post-Training** | Oseong Choi, Hoeinn Kim, Jihoon Lee, Byungsoo Kang, Taeyeong Jang | [Link](https://arxiv.org/abs/2608.06792) | N/A |
 | 2026-08-07 | **Bridging Balancing Weights and Augmentation in Covariate-adjusted Analyses with Time-to-Event Endpoints: Theory and Practical Recommendations** | Baoshan Zhang, Yi Chen, Yu Du, Tuo Wang | [Link](https://arxiv.org/abs/2608.06774) | N/A |
 | 2026-08-06 | **Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation** | Ziyun Xu, Bosen Ding, Yue Zhang, Ji Qi, Qingyuan Song, Jizhou Huang, Liwei Wang, Jefferey Santelli, Yue Weng, Qichao Que, Zhenheng Yang, Junfeng Pan, Linhong Zhu | [Link](https://arxiv.org/abs/2608.06632) | N/A |
