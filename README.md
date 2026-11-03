@@ -1,4 +1,4 @@
-## Updated on 2026-11-02
+## Updated on 2026-11-03
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,12 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-10-30 | **Recommendation Feedback Loops Shape Urban Income Segregation and Venue Visitation** | Guangyuan Weng, Lin Chen, Ciro Beneduce, Giovanni Mauro, Massimiliano Luca, Takahiro Yabe, Bruno Lepri, Luca Pappalardo, Esteban Moro | [Link](https://arxiv.org/abs/2610.41911) | N/A |
+| 2026-10-30 | **LLM Recommenders Produce Demographic Inequality Through Content Preferences** | Nicolò Pagan, Petter Törnberg, Christopher A. Bail, Christopher Barrie | [Link](https://arxiv.org/abs/2610.41854) | N/A |
+| 2026-10-30 | **Towards Trustworthy Multi-stakeholder Recommender Systems** | Katarina Marcincinova, Adrian Gavornik, Matus Mesarcik, Michal Kompan | [Link](https://arxiv.org/abs/2610.41674) | N/A |
+| 2026-10-30 | **RecIS: Unifying Sparse and Dense Computation for Efficient Recommendation Training** | Hua Zong, Shuai Yang, Zhengxiong Zhou, Qingtao Zeng, Jiawei Liu, Hao Wan, Hongbin Zhou, Jiahao Wang, Hao Zhang, Bencheng Yan, Yuheng Huang, Huimin Yi, Jiamang Wang, Han Zhu, Jian Xu, Bo Zheng, Lin Qu | [Link](https://arxiv.org/abs/2610.41457) | N/A |
+| 2026-10-30 | **MILES-Rec: Uncovering Implicit Intents from Mobility Behaviors for Cross-Domain POI Recommendation** | Yi Zou, Wei Luo, Xuewen Zhang, Zhuang Yan, Pengjie Wang | [Link](https://arxiv.org/abs/2610.41319) | N/A |
+| 2026-10-29 | **Fair Recommender Systems for Intersecting Groups** | Christine Ling, Juba Ziani | [Link](https://arxiv.org/abs/2610.40936) | N/A |
 | 2026-10-29 | **Reversing Polarization through Tolerance-Aware Recommendation and Adaptive Diversification** | Zhanzhan Zhao, Shuqi Zhao, Zichen Fan, Dana Randall | [Link](https://arxiv.org/abs/2610.40289) | N/A |
 | 2026-10-29 | **R2QRec: Learning Recommendation Queries from Retrieval Feedback** | Weixin Chen, Shuchang Liu, Hailan Yang, Yuhan Zhao, Li Kang, Xuefeng Zhang, Chenghao Zhang, Xinyuan Wang, Hanchen Yang, Yinghao Wu, Hua Huang, Yandong Bai, Fan Yang, Xiang Li, Chunjie Chen, Li Chen | [Link](https://arxiv.org/abs/2610.39984) | N/A |
 | 2026-10-29 | **Category-Anchored Large Language Models for Next POI Recommendation** | Lexi Bai, Xiaopeng Zeng, Xun Zhou, Yuanshao Zhu, James Jianqiao Yu | [Link](https://arxiv.org/abs/2610.39518) | N/A |
@@ -151,7 +157,7 @@
 | 2026-09-30 | **Decision-Oriented Recommendation Reranking: An Empirical Study of Its Promise and Limitations** | Hanjia Lyu, Yinglong Xia | [Link](https://arxiv.org/abs/2609.40241) | N/A |
 | 2026-09-30 | **KUAISHOU Explorer LLM-Rec Challenge 2026: Reasoning Generative Recommendation** | Jiangxia Cao, Hao Peng, Wenlong Xu, Jiaxin Deng, Zhixin Ling, Xingmei Wang, Kun Shang, Can Tang, Zhihuai Cai, Jun Du, Fang Su, Xiaojuan Liu, Yiling Li, Chenglong Yu, Chongling Rao, Haixuan Gao, Haitao Xu, Jian Liang, Ruiming Tang, Chenglong Chu, Guohong Mu, Honghui Bao, Hui Wang, Jialong Chen, Jiao Ou, Muhao Wei, Peng Zhang, Renpu Liu, Ruochen Yang, Shugui Liu, Xinqi Jin, Yan Sun, Yifan Wang, Yingzhi He, Yufei Ye, Yusen Huo, Tingkuo Wang, Jihong Zhang, Lanxi Zhu, Pengyuan Liu, Zhipeng Yi, Luankang Zhang, Hang Lv, Xuyang Zhi, Tianyu Li, Bintao Wu, Chuang Ou, Siyue Su, Ziyuan Wang, Yuliang Sun, Baiyan Che, Feiyang Xu, Shiwen Zhang, Shiteng Cao, Chongcong Jiang, Yuan Fang, Xiangwu Yang, Hao Deng, Zijian Du, Pengxun Wang, Xiaoming Wang, Shun Qin, Yingqi Song, Tianyi Li, Naixiao Peng, Chenyu Zhou, Qiliang Jiang, Quan Zheng, Cheng Jin, Siying Zeng, Hongjia Xu, Junwu Hu, Teng Fu, Zhengkang Mei, Haijun Yu, Kai Li, Shengyang Zhou, Zhijia Wei, Siyi Xiong, Bo Liu, Zichun Guo, Zhubin Han, Jinpeng Fu, Bingqian Liu, Yuyi Wang, Yu Liu, Qinghai Tan, Ruijie Zhou, Zhuohang Li, Zhijia Zhong, Xiangnan He, Jirong Wen, Min Zhang, Wenwu Ou, Peng Jiang, Han Li, Kaiqiao Zhan, Yanan Niu, Lantao Hu, Kun Gai | [Link](https://arxiv.org/abs/2609.39828) | N/A |
 | 2026-09-30 | **When the Label Ignores the Request: Auditing Policy-Selected Targets in Synthetic Conversational Music Recommendation** | Sanjeev Suresh | [Link](https://arxiv.org/abs/2609.39696) | N/A |
-| 2026-09-30 | **Recommendation Systems for Exploratory Data Tasks** | Anna Fariha | [Link](https://arxiv.org/abs/2609.39412) | N/A |
+| 2026-09-30 | **Recommendation Systems for Exploratory Data Tasks** | Anna Fariha, Whanhee Cho | [Link](https://arxiv.org/abs/2609.39412) | N/A |
 | 2026-09-30 | **RouteRec: Behavior-Guided Sparse Routing for Sequential Recommendation** | Junyeong Song, Jaemin Yoo | [Link](https://arxiv.org/abs/2609.39007) | N/A |
 | 2026-09-30 | **When LLM-Inferred User Context Adds Value in Production Streaming Recommendation** | Milad Sabouri, Neeraj Sharma, Sardar Hamidian, Shaghayegh Agah | [Link](https://arxiv.org/abs/2609.38999) | N/A |
 | 2026-09-29 | **Sense and Sensitivity: Benchmarking LLM Clinical Triage Recommendations with Physician Experts** | Abinitha Gourabathina, Haoran Zhang, Yuexing Hao, Walter Gerych, Marzyeh Ghassemi | [Link](https://arxiv.org/abs/2609.38600) | N/A |
@@ -321,6 +327,7 @@
 | 2026-08-28 | **Information-Guided Selective Modality-Interest Alignment for Multimodal Recommendation** | Wenze Ma, Chenyu Sun, Yanmin Zhu, Qiwen Gu, Xuhao Zhao | [Link](https://arxiv.org/abs/2608.27950) | N/A |
 | 2026-08-28 | **An Empirical Evaluation of Cross-City POI Recommendation on a Large-Scale Benchmark** | Peibo Li, Yang Song, Hao Xue, Maarten de Rijke, Flora D. Salim | [Link](https://arxiv.org/abs/2608.27840) | N/A |
 | 2026-08-28 | **Personalized and Multi-View Representation for Federated Cold-Start Recommendation** | Jaehyung Lim, Wonbin Kweon, Woojoo Kim, Junyoung Kim, Dongha Kim, Hwanjo Yu | [Link](https://arxiv.org/abs/2608.27826) | N/A |
+| 2026-08-27 | **Explain, Then Forget: Recommendation Unlearning under Asymmetric Access Constraint** | Haichao Zhang, Chong Zhang, Wen Wang, Shi Qiu, Peiyu Hu, Jia Wang | [Link](https://arxiv.org/abs/2610.40658) | N/A |
 | 2026-08-27 | **Controllable Generative Recommendation via Guided Token Refinement** | Haichao Zhang, Zhixuan Liang, Chong Zhang, Zixi Chen, Wen Wang, Jia Wang | [Link](https://arxiv.org/abs/2610.28642) | N/A |
 | 2026-08-27 | **The Recall Ceiling of LLM Recommendation Reranking** | Zhaohui Wang | [Link](https://arxiv.org/abs/2609.27953) | N/A |
 | 2026-08-27 | **Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling** | Maksim Utushkin, Andrei Ovsiannikov, Alexander D'yakonov | [Link](https://arxiv.org/abs/2608.27413) | N/A |
