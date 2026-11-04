@@ -2,11 +2,35 @@
 layout: default
 ---
 
-## Updated on 2026-11-03
+## Updated on 2026-11-04
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-02 | **Diverse-Teacher On-Policy Distillation for Generative Recommendation** | Zhipeng Yi, Xinyu Lin, Minxuan Shan, Zipeng Chen, Yujiao Zhao, Chuanyu Xu, Wenjie Wang | [Link](https://arxiv.org/abs/2611.03272) | N/A |
+| 2026-11-02 | **Preprocessing Choices in Fine-Tuning Data Matter: Utility and Demographic Sensitivity in LLM-Based Recommendation** | Furkan Yasir Goksu, Yaren Yilmaz, Sule Gunduz Oguducu | [Link](https://arxiv.org/abs/2611.03113) | N/A |
+| 2026-11-02 | **PACERec: Progressive Adaptation of LLM Item Embeddings with Collaborative Evidence for Recommendation** | Junzhao Huang, Xi Wu, Zihan Wang, Zijing Wang, Ming Wang, Kang Liu, Xiaocui Yang, Shi Feng, Daling Wang, Yifei Zhang, Ting Yang, Xurui Li | [Link](https://arxiv.org/abs/2611.03068) | N/A |
+| 2026-11-02 | **Utility-Aware Generative Recommendation: Utility-Enriched Semantic Codes and Utility-Guided Decoding** | Yang Hu, Duo Wang, Ning Li, Kang Li, Junda She, Chengcheng Guo, Kuo Cai, Bin Liu, Youhua Liu, Xiaoshuang Chen | [Link](https://arxiv.org/abs/2611.02981) | N/A |
+| 2026-11-02 | **USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance** | Xiaoran Zhu, Jieming Cai, Weiping Yu, Xi Chen, Shu Cai, Jiahao Li, Yifan Xiao, Yan Deng, Yisha Zhou, Yu Lin, Shiru Ren, Siqiang Luo, Peng Xu, Junjun Chai | [Link](https://arxiv.org/abs/2611.02618) | N/A |
+| 2026-11-02 | **RecRSI: Mechanism-Guided Discovery of Recommendation Algorithms** | Tingran Gan, Zhouziyue Lu, Dian Jin, Tao Li, Yang Gao, Ming Liu, Weiwen Liu, Jianghao Lin, Weinan Zhang, Yong Yu | [Link](https://arxiv.org/abs/2611.02487) | N/A |
+| 2026-11-02 | **Think Globally, Generate Personally: Multi-View Thinking with Adaptive Generation for Generative Recommendation** | Yuxuan Hu, Yingyi Zhang, Wenlin Zhang, Chao Zhang, Haotian Nan, Ziwei Liu, Jiancheng Dong, Tongzhou Wu, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Wanyu Wang, Xiangyu Zhao | [Link](https://arxiv.org/abs/2611.02463) | N/A |
+| 2026-11-02 | **Multi-Teacher Reasoning Distillation for LLM Recommendation with Self-Exploration** | Liangbo Ning, Siyuan Liang, Yi Zhou, Yifeng Zhang, Qing Li, Wenqi Fan, Dacheng Tao | [Link](https://arxiv.org/abs/2611.02457) | N/A |
+| 2026-11-02 | **RecGroupMemory: Feedback-Aware Cohort Memory for E-Commerce Recommendation** | Wendong Zhang, Weipeng Huang, Zhixin Ma, Bin Zhang, Dimin Wang | [Link](https://arxiv.org/abs/2611.02453) | N/A |
+| 2026-11-01 | **Multicriteria Recommendation System by Leveraging Predefined, Implicit, and Undefined Criteria** | Emrul Hasan, Chen Ding | [Link](https://arxiv.org/abs/2611.02040) | N/A |
+| 2026-11-01 | **Multi-criteria Rating and Review based Recommendation Model** | Emrul Hasan, Chen Ding, Alfredo Cuzzocrea | [Link](https://arxiv.org/abs/2611.02019) | N/A |
+| 2026-11-01 | **EvoRec: A Unified Self-Evolving Agentic Recommender with Dynamic Reflection Trees** | Mengting Li, Long Zhang, Hao Jiang, Sheng Yu, Fei Pan, Peng Jiang | [Link](https://arxiv.org/abs/2611.01977) | N/A |
+| 2026-11-01 | **IncVNM: An Interactive Recommender System with Incremental von Neumann-Morgenstern Utility Learning** | Jiaxin Wei, Jia Liu | [Link](https://arxiv.org/abs/2611.01786) | N/A |
+| 2026-11-01 | **SparseLift: Automatically Optimizing Opaque Sparse Paths in Industrial-Scale Recommendation Model Training** | Changqing Shi, Anan Liu, Genbao Chen, Junchao Yang | [Link](https://arxiv.org/abs/2611.01702) | N/A |
+| 2026-11-01 | **Search-Aware On-Policy Self-Distillation with Sibling Alignment for Generative Recommendation** | Rongfeng Guo, Zhuang Zhuang, Ji Dai, Peng Zhao, Shijie Li, Jie Chen, Teng Long, Vincent Tao Hu, Fei Pan | [Link](https://arxiv.org/abs/2611.01568) | N/A |
+| 2026-10-31 | **Projecting the Public: Reflections and Recommendations for Empirical Visualization Studies of General Audiences** | Mandi Cai, Jack McNiel, Erik C. Nisbet, Matthew Kay | [Link](https://arxiv.org/abs/2611.01198) | N/A |
+| 2026-10-31 | **Recommendations with Costly Verification** | Ying Gao, Yingju Ma | [Link](https://arxiv.org/abs/2611.01195) | N/A |
+| 2026-10-31 | **SIDRec: End-to-End Semantic ID Representation and Modeling for Recommendation** | Zhuohang Jiang, Yongsen Pan, Pangjing Wu, Zihuai Zhao, Zheng Hu, Yuxin Chen | [Link](https://arxiv.org/abs/2611.01136) | N/A |
+| 2026-10-31 | **HiGenTrans: Hierarchical LLM Knowledge Transfer for Generative Recommendation** | Zhuohang Jiang, Yuxin Chen, Haohao Qu, ZeFei luo, Yunlong Wang, Xu Yuan, Haojie Ding, Boheng Zhang, Fan Yang, Hongyang Wang, Jun Wang, Zhongbo Sun, Wenqi Fan, Li Qing, Wenwu Ou, Peng Jiang | [Link](https://arxiv.org/abs/2611.01129) | N/A |
+| 2026-10-31 | **Where Beam Search Loses Top-Ranked Items:First-Step Coverage in Generative Recommendation** | Heng Yao, Hanwei Zhu | [Link](https://arxiv.org/abs/2611.01072) | N/A |
+| 2026-10-31 | **Efficient Conformal Calibration for Paired Recommendation Decisions** | Xinyu Qiao, Yichen Lin, Zhewen Chen, Xue Wang, Tao Yao | [Link](https://arxiv.org/abs/2611.01053) | N/A |
+| 2026-10-31 | **PACT: Defending Recommendation against Promotional News Rewriting via Attack-Diverse Score Consistency** | Chongxian Chen, Fan Mo, Xin Fan, Hayato Yamana | [Link](https://arxiv.org/abs/2611.00972) | N/A |
+| 2026-10-31 | **WAR-CRAFT: Refining Web API Recommendations through Requirement Auditing** | Zishuo Xu, Dezhong Yao, Zhiqiang Xu | [Link](https://arxiv.org/abs/2611.00564) | N/A |
+| 2026-10-30 | **Beyond Semantic IDs: Atomic Creator Tokens for Large-Scale Generative Recommendation** | Zhuosheng Liu, Yihan Wu, Ziyun Xu, Xiaoxuan Liu, Longfei Yun, Kevin Han, Mingze Gao, Pengfei Wang, Junfeng Pan, Wenjie Fu, Haoran Liu | [Link](https://arxiv.org/abs/2611.00323) | N/A |
 | 2026-10-30 | **Recommendation Feedback Loops Shape Urban Income Segregation and Venue Visitation** | Guangyuan Weng, Lin Chen, Ciro Beneduce, Giovanni Mauro, Massimiliano Luca, Takahiro Yabe, Bruno Lepri, Luca Pappalardo, Esteban Moro | [Link](https://arxiv.org/abs/2610.41911) | N/A |
 | 2026-10-30 | **LLM Recommenders Produce Demographic Inequality Through Content Preferences** | Nicolò Pagan, Petter Törnberg, Christopher A. Bail, Christopher Barrie | [Link](https://arxiv.org/abs/2610.41854) | N/A |
 | 2026-10-30 | **Towards Trustworthy Multi-stakeholder Recommender Systems** | Katarina Marcincinova, Adrian Gavornik, Matus Mesarcik, Michal Kompan | [Link](https://arxiv.org/abs/2610.41674) | N/A |
