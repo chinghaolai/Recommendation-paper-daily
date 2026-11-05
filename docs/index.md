@@ -2,11 +2,23 @@
 layout: default
 ---
 
-## Updated on 2026-11-04
+## Updated on 2026-11-05
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-03 | **HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation** | Zhen Tao, Xun Zhou, Xuhui Chen, Ziyue Qiao, Qingqiang Sun | [Link](https://arxiv.org/abs/2611.05319) | N/A |
+| 2026-11-03 | **Dataset Recommendation for Heterogeneous and Dynamic Scholarly Graphs via Multimodal Representation Learning** | Ornella Irrera, Matteo Lissandrini, Daniele Dell'Aglio, Gianmaria Silvello | [Link](https://arxiv.org/abs/2611.05071) | N/A |
+| 2026-11-03 | **When Category Means Move: A Paired-Support Audit of Recommendation Logs with Random Insertions** | Yu Zhang, Zhihan Wang, Yuhang Lu, Shuai Li | [Link](https://arxiv.org/abs/2611.05006) | N/A |
+| 2026-11-03 | **Learning to Rank Explanations for Recommendation with Language Models** | Ben Kabongo, Vincent Guigue | [Link](https://arxiv.org/abs/2611.04775) | N/A |
+| 2026-11-03 | **ZeroGR: Filtering-First Constrained Decoding for Generative Recommendation** | Xiangrui Yang, Jiawei Yang, Liang Zeng, Daqian Ding, Ziqian Liu, Bing Tian, Cheng Peng, Yunfeng Zhao, Fangyu Zhang, Jiaqiang Liu, Xiao Liang, Yiming Qiu | [Link](https://arxiv.org/abs/2611.04715) | N/A |
+| 2026-11-03 | **Setting the Stage: Enhancing Music Recommendations with Spoken Introductions to Stimulate Serendipity** | Brett Binst | [Link](https://arxiv.org/abs/2611.04570) | N/A |
+| 2026-11-03 | **$τ$-Rec-Books: A Disclosure-Controlled Benchmark for Requirement Elicitation in Agentic Recommender Systems** | Bharath Sivaram Narasimhan, Karthik R. Narasimhan | [Link](https://arxiv.org/abs/2611.04459) | N/A |
+| 2026-11-03 | **SourceFlow: Collaborative Source Coupling for Flow-Based Recommendation** | Chenghao Wu, Yongqi Zhou, Jin Chen, Yifeng Zhou, Jinchang Zhu, Junwei Pan, Chao Zhou, Zhixiang Feng, Chengguo Yin, Menglin Yang | [Link](https://arxiv.org/abs/2611.04455) | N/A |
+| 2026-11-03 | **DualEvolve: Dual-Level Self-Evolution of Mechanism and Orchestration for Recommendation** | Tianqi Gao, Chenxu Wang, Wenxuan Yang, Yueqi Mou, Biao Tang, Ming Liu, Peng Yan | [Link](https://arxiv.org/abs/2611.04439) | N/A |
+| 2026-11-03 | **IntentGEO: Intent-aware Generative Engine Optimization for Recommendation** | Runlin Lei, Shiqi Zhang, Xiaokui Xiao, Zhewei Wei | [Link](https://arxiv.org/abs/2611.04225) | N/A |
+| 2026-11-03 | **Toward User-Centered Agentic Recommendation: When Does Platform Competition Benefit Users?** | Kehan Zheng, Deyao Hong, Qian Li, Jun Zhang, Jie Jiang, Hongning Wang | [Link](https://arxiv.org/abs/2611.04203) | N/A |
+| 2026-11-03 | **IDs That Mean Something: A Hands-On Tutorial on Semantic IDs for Recommender Systems** | Roger Zhe Li, Aghiles Salah, Mete Sertkan, Changhong Jin, Yingjie Niu, Ruihai Dong, Barry Smyth | [Link](https://arxiv.org/abs/2611.04140) | N/A |
 | 2026-11-02 | **Diverse-Teacher On-Policy Distillation for Generative Recommendation** | Zhipeng Yi, Xinyu Lin, Minxuan Shan, Zipeng Chen, Yujiao Zhao, Chuanyu Xu, Wenjie Wang | [Link](https://arxiv.org/abs/2611.03272) | N/A |
 | 2026-11-02 | **Preprocessing Choices in Fine-Tuning Data Matter: Utility and Demographic Sensitivity in LLM-Based Recommendation** | Furkan Yasir Goksu, Yaren Yilmaz, Sule Gunduz Oguducu | [Link](https://arxiv.org/abs/2611.03113) | N/A |
 | 2026-11-02 | **PACERec: Progressive Adaptation of LLM Item Embeddings with Collaborative Evidence for Recommendation** | Junzhao Huang, Xi Wu, Zihan Wang, Zijing Wang, Ming Wang, Kang Liu, Xiaocui Yang, Shi Feng, Daling Wang, Yifei Zhang, Ting Yang, Xurui Li | [Link](https://arxiv.org/abs/2611.03068) | N/A |
@@ -16,6 +28,7 @@ layout: default
 | 2026-11-02 | **Think Globally, Generate Personally: Multi-View Thinking with Adaptive Generation for Generative Recommendation** | Yuxuan Hu, Yingyi Zhang, Wenlin Zhang, Chao Zhang, Haotian Nan, Ziwei Liu, Jiancheng Dong, Tongzhou Wu, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Wanyu Wang, Xiangyu Zhao | [Link](https://arxiv.org/abs/2611.02463) | N/A |
 | 2026-11-02 | **Multi-Teacher Reasoning Distillation for LLM Recommendation with Self-Exploration** | Liangbo Ning, Siyuan Liang, Yi Zhou, Yifeng Zhang, Qing Li, Wenqi Fan, Dacheng Tao | [Link](https://arxiv.org/abs/2611.02457) | N/A |
 | 2026-11-02 | **RecGroupMemory: Feedback-Aware Cohort Memory for E-Commerce Recommendation** | Wendong Zhang, Weipeng Huang, Zhixin Ma, Bin Zhang, Dimin Wang | [Link](https://arxiv.org/abs/2611.02453) | N/A |
+| 2026-11-01 | **DualClusterNet: Personalized Pattern-Space Composition for Next-POI Recommendation** | Ziyang Su, Guanjie Zheng, Jilin Hu, Linghe Kong | [Link](https://arxiv.org/abs/2611.03726) | N/A |
 | 2026-11-01 | **Multicriteria Recommendation System by Leveraging Predefined, Implicit, and Undefined Criteria** | Emrul Hasan, Chen Ding | [Link](https://arxiv.org/abs/2611.02040) | N/A |
 | 2026-11-01 | **Multi-criteria Rating and Review based Recommendation Model** | Emrul Hasan, Chen Ding, Alfredo Cuzzocrea | [Link](https://arxiv.org/abs/2611.02019) | N/A |
 | 2026-11-01 | **EvoRec: A Unified Self-Evolving Agentic Recommender with Dynamic Reflection Trees** | Mengting Li, Long Zhang, Hao Jiang, Sheng Yu, Fei Pan, Peng Jiang | [Link](https://arxiv.org/abs/2611.01977) | N/A |
