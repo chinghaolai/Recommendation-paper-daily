@@ -2,11 +2,23 @@
 layout: default
 ---
 
-## Updated on 2026-11-05
+## Updated on 2026-11-06
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-05 | **Do Recommenders Need to Think in Words? Latent Reasoning for Efficient LLM-Based Recommendation** | Hongyang Su, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li | [Link](https://arxiv.org/abs/2611.07866) | N/A |
+| 2026-11-05 | **What Gets Hacked in a Collaborative Reward for LLM Recommenders: The Part That Does Not Depend on the User** | Zhuangsheng Li, Liang Dong, Yu Wu, Dailin Li, Yu Xia, Yunhan C. Zhang, Rui Cai, Yi Wu, Julian McAuley | [Link](https://arxiv.org/abs/2611.07588) | N/A |
+| 2026-11-05 | **OptST: Optimizing Semantic Tokenization for LLM-Enhanced Recommendation** | Hanchong Chen, Jie Liu, Fuyuan Lyu, Dugang Liu, Lingjie Li, Xiuqiang He, Xing Tang | [Link](https://arxiv.org/abs/2611.07523) | N/A |
+| 2026-11-05 | **BRIDGE: Bridging the Semantic Quantization Gap for Generative Recommendation** | Yatong Xiao, Mingjie Sun, Peng Wang, Wenjin Wu, Peng Jiang | [Link](https://arxiv.org/abs/2611.07425) | N/A |
+| 2026-11-05 | **Robust Ranking of Port Impacts from Impending Tropical Cyclones: A Two-Stage Recommendation System** | Chenchen Kuai, Shixuan Tang, Chaolun Ma, Xiaoqiang Kong, Xiubin Bruce Wang, Yunlong Zhang, Zihao Li | [Link](https://arxiv.org/abs/2611.07296) | N/A |
+| 2026-11-04 | **You Know What You Will Like: People Predict Their Own Ratings Better Than Recommender Systems** | Zihan Chen, Lei Nico Zheng, Di Zhu | [Link](https://arxiv.org/abs/2611.06696) | N/A |
+| 2026-11-04 | **Deliberate Latent Reasoning for Sequential Recommendation** | Haobo Zhang, Qiannan Zhu, Yutao Zhu, Zhicheng Dou | [Link](https://arxiv.org/abs/2611.06521) | N/A |
+| 2026-11-04 | **PMRecBench: A Benchmark for Personalization in Recommendation Agents under Multimodal Queries** | Xiaoyu Zhang, Yougang Lyu, Bin Wu, Sahan Bulathwela, Emine Yilmaz | [Link](https://arxiv.org/abs/2611.06349) | N/A |
+| 2026-11-04 | **Do Search-Augmented Recommenders Use the Latest Search Episode?** | Jiandong Ding | [Link](https://arxiv.org/abs/2611.06044) | N/A |
+| 2026-11-04 | **From Waste to Discovery: Recycling High-Scored Unexposed Candidates in Taobao Feed Recommendation** | Ge Fan, Kai Meng, Huiping Chu, Yuning Jiang, Han Zhu, Bo Zheng | [Link](https://arxiv.org/abs/2611.05997) | N/A |
+| 2026-11-04 | **One Basket, Many Experts: Decorrelated Re-ranking for Financial Asset Recommendation** | Ryuki Unno, Keigo Sakurai, Koshi Watanabe, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama | [Link](https://arxiv.org/abs/2611.05952) | N/A |
+| 2026-11-03 | **Data-Efficient Scaling-Law Discovery for Recommendation Systems via Coupled Hyperparameter Scaling** | John Martabano Landy, Louis C. Tiao, Yao Xuan, Luc Kien Hang, Rupinder P. Khandpur, Arvind M. Vepa, Srinidhi Raghavendran, Anirudh Agrawal, Xiaoyi Leo Liu, Jiang Liu, Peggy Yao, Alireza Vahdatpour, Djordje Gligorijevic | [Link](https://arxiv.org/abs/2611.05643) | N/A |
 | 2026-11-03 | **HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation** | Zhen Tao, Xun Zhou, Xuhui Chen, Ziyue Qiao, Qingqiang Sun | [Link](https://arxiv.org/abs/2611.05319) | N/A |
 | 2026-11-03 | **Dataset Recommendation for Heterogeneous and Dynamic Scholarly Graphs via Multimodal Representation Learning** | Ornella Irrera, Matteo Lissandrini, Daniele Dell'Aglio, Gianmaria Silvello | [Link](https://arxiv.org/abs/2611.05071) | N/A |
 | 2026-11-03 | **When Category Means Move: A Paired-Support Audit of Recommendation Logs with Random Insertions** | Yu Zhang, Zhihan Wang, Yuhang Lu, Shuai Li | [Link](https://arxiv.org/abs/2611.05006) | N/A |
