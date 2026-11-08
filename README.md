@@ -1,4 +1,4 @@
-## Updated on 2026-11-06
+## Updated on 2026-11-08
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -77,7 +77,7 @@
 | 2026-10-28 | **Personalising Parametric Audio Effect Recommendation for Vocals from Parameter-only Style Priors** | Soumya Sai Vanka, Hayato Yamakawa, Kazunobu Kondo, Yu Takahashi, György Fazekas | [Link](https://arxiv.org/abs/2610.38696) | N/A |
 | 2026-10-28 | **Towards Reliable, Scalable, and Value-Aligned Generative Recommendation for Large-Scale Advertising** | Yatong Xiao, Yibo Sheng, Lixiang Wang, Mingjie Sun, Yunhao Sha, Pengfei Zhang, Shengyu Wang, Peng Wang, Wenjin Wu, Peng Jiang | [Link](https://arxiv.org/abs/2610.38378) | N/A |
 | 2026-10-28 | **Floor It, Then Fill It: Simulating Creator Ecosystems for Fair Video-Content Recommendation Systems at Billion User Scale** | Sohini Roychowdhury, Long Sha, Sunand Agarwal, Payal Kamboj, Shuyang Chen, Junlin Zhang, Scott Chen, Hui Zhang | [Link](https://arxiv.org/abs/2610.38155) | N/A |
-| 2026-10-27 | **Merge and Branch: Efficient Tree-Structured Supervised Fine-Tuning of LLMs for Recommendation** | Yunqin Zhu, Yao Xie | [Link](https://arxiv.org/abs/2610.37973) | N/A |
+| 2026-10-27 | **Merge and Branch: Efficient Tree-Structured Supervised Fine-Tuning of LLMs for Recommendation** | Yunqin Zhu, Liyang Shu, Yusi Zhang, Yao Xie, Tianhao Li, Xinhang Song, Tianyu Wen | [Link](https://arxiv.org/abs/2610.37973) | N/A |
 | 2026-10-27 | **Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence** | Carlos Peláez-González, Francisco Herrera, Andrés Herrera-Poyatos | [Link](https://arxiv.org/abs/2610.37962) | N/A |
 | 2026-10-27 | **REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation** | Yuxi Huang, Silin Zhou, Chenhao Wang, Zihan Li, Gangming Guo, Pei Ke, Shen Gao, Shuo Shang | [Link](https://arxiv.org/abs/2610.37584) | N/A |
 | 2026-10-27 | **Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation** | Zhenye Yang, Jinpeng Chen, Wenbo Fu, Jun Ma, Huan Li, Qimin Zhou, Tao Wang, Li Sun, Senzhang Wang | [Link](https://arxiv.org/abs/2610.37409) | N/A |
