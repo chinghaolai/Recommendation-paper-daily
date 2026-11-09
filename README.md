@@ -1,4 +1,4 @@
-## Updated on 2026-11-08
+## Updated on 2026-11-09
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,11 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-05 | **Generative Search and Recommendation at Shopify** | Juhana Kangaspunta, Khalil Hajji, Darshan Fofadiya, Kyumin Park, Michael Garner, Anthony Maltsev, Ryan Synk, Jose Sepulveda, Joshua Crisologo, Shuying Sun, Akshay Soni | [Link](https://arxiv.org/abs/2611.08804) | N/A |
+| 2026-11-05 | **SteerGR: Steering Generative Recommendation via Sparse Autoencoders for Controllable Game Discovery** | Sunkyung Lee, Xiaokai Wei, Da Long, Hyunsik Jeon, Jiajun Wu, Rithwik Seth, Jongwuk Lee, Michelle Gong, Gungor Polatkan | [Link](https://arxiv.org/abs/2611.08790) | N/A |
+| 2026-11-05 | **Learning from How Users Interpret: Personalizing Recommendation Explanation Order** | Deo Munduku, Elsa Negre | [Link](https://arxiv.org/abs/2611.08785) | N/A |
+| 2026-11-05 | **Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation** | Emilly Pitman de Castro, Vanessa Silva, Gustavo Kanno, Marcus Santos, Bruno Ferraz do Amaral, Marcelo Nogueira, Lucas Francisco Pellicer, Lucas Lanaro, Pedro Augusto Luiz, João Renato Ribeiro Manesco, Giovanni Carbinatti, Isabela de Lima Santos, Lucas Oliveira Jeronymo, Jeison Fappi, Raul Rotilli Aguirre, Fabio André Frantz, Renata De Paris, Fabiana Marucci, Lohan Silva, Vinicius Diniz Reolon, Wandemberg Gibaut | [Link](https://arxiv.org/abs/2611.08718) | N/A |
+| 2026-11-05 | **CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation** | Kai Zhao, Guilin Zhang, Xiang Cheng, Xiquan Cui, Henry Heng, Xu Chu, Alet Blanken | [Link](https://arxiv.org/abs/2611.08566) | N/A |
 | 2026-11-05 | **Do Recommenders Need to Think in Words? Latent Reasoning for Efficient LLM-Based Recommendation** | Hongyang Su, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li | [Link](https://arxiv.org/abs/2611.07866) | N/A |
 | 2026-11-05 | **What Gets Hacked in a Collaborative Reward for LLM Recommenders: The Part That Does Not Depend on the User** | Zhuangsheng Li, Liang Dong, Yu Wu, Dailin Li, Yu Xia, Yunhan C. Zhang, Rui Cai, Yi Wu, Julian McAuley | [Link](https://arxiv.org/abs/2611.07588) | N/A |
 | 2026-11-05 | **OptST: Optimizing Semantic Tokenization for LLM-Enhanced Recommendation** | Hanchong Chen, Jie Liu, Fuyuan Lyu, Dugang Liu, Lingjie Li, Xiuqiang He, Xing Tang | [Link](https://arxiv.org/abs/2611.07523) | N/A |
@@ -92,6 +97,7 @@
 | 2026-10-27 | **Latent Residual Reasoning for Ranking in Generative Recommendation** | Haihan Shi, Ruidong Han, Wenjie Wang, Shangyu Chen, Sunhao Dai, Yongqi Li, Yangyang Li, Fei Jiang, Wei Lin, Fuli Feng, Xiangnan He | [Link](https://arxiv.org/abs/2610.36890) | N/A |
 | 2026-10-27 | **DuTri: Dual-Branch Modeling with Triadic Factorization for Multimodal Multi-Scenario Recommendation** | Jintao Huang, Chaohua Yang, Kailiang Hao, Dugang Liu, Xing Tang, Zhong Ming | [Link](https://arxiv.org/abs/2610.36836) | N/A |
 | 2026-10-27 | **The Vocabulary Is Already Here: Adapting Pretrained Interpretable Features for Generative Recommendation** | Ziluowen Luo, Ruochen Liu, Jun Yin, Hao Yan, Zhengxuan Hu, Xinze Shi, Chaozhuo Li, Chengqi Zhang, Senzhang Wang | [Link](https://arxiv.org/abs/2610.36763) | N/A |
+| 2026-10-26 | **RedMall: Generative Recommendation for Large-Scale E-commerce** | Kunyang Zhou, Xin Jia, Yi Yang, Yongjun Yang, Manjie Xu, Honglei Zhang, Yan Zhu, Kai Zuo, Xu Tang, Zheng Wang | [Link](https://arxiv.org/abs/2611.08519) | N/A |
 | 2026-10-26 | **MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations** | Reza Yousefi Maragheh, Jayesh Uddhav Kudase, Aysenur Inan, Ramin Giahi, Kai Zhao, Parth Parikh, Jianpeng Xu, Jason Cho, Evren Korpeoglu, Sushant Kumar | [Link](https://arxiv.org/abs/2610.36389) | N/A |
 | 2026-10-26 | **IOSage: Detecting HPC I/O Bottleneck Patterns to Guide LLM Recommendations** | Mahdi Banisharif, Tabassum Mahmud, Ahmad Tarraf, Suren Byna, Ali Jannesari | [Link](https://arxiv.org/abs/2610.36370) | N/A |
 | 2026-10-26 | **BehaveRec: When Does Long-Term Behavioral History Help Sequential Recommendation? A Study with Session, History, and Community Signals** | Aysenur Inan, Reza Yousefi Maragheh, Jayesh Uddhav Kudase, Selene Xu, Kaushiki Nag, Jianpeng Xu, Sushant Kumar | [Link](https://arxiv.org/abs/2610.36239) | N/A |
