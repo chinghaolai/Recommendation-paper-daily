@@ -25046,6 +25046,138 @@
             "abstract": "Generative recommendation has shown considerable potential in industrial recommendation systems. However, the performance of existing generative methods is limited by several challenges. 1) Semantic IDs (SIDs) are treated as one-dimensional sequences, overlooking the hierarchical dependencies among different layers. 2) Next-token prediction used is unable to explicitly optimize session-wise recommendation. 3) Although reinforcement learning has been applied to align generated recommendations with user preferences, few existing methods explicitly optimize the ranking of positive items in session-wise recommendation. To address the above issues, we propose RedMall, a generative recommender designed for large-scale e-commerce. Firstly, RedMall constructs hierarchical SIDs through residual quantization over multimodal representations. Secondly, RedMall introduces a lightweight SID encoder to explicitly model layer-wise dependencies in SIDs. Moreover, RedMall incorporates sparse mixture-of-experts, dual gated attention, and multi-target prediction to scale model size, enhance user interest representation, and optimize session-wise recommendation. We further design an exposure-aware loss that treats exposed but unclicked items as negative feedback. To better align user preferences and list-wise ranking objectives, we combine Group Relative Policy Optimization with an auxiliary LambdaRank loss, using both real user feedback and item ranking to guide optimization. Experiments on four public datasets-Amazon Beauty, Amazon Toys, Amazon Food, and MovieLens-1M---show that RedMall outperforms the evaluated baselines across all reported Recall and NDCG metrics. Online A/B tests show improvements of 2.24% in advertiser value (ADVV) and 0.59% in click-through rate (CTR) for e-commerce advertising, as well as gains of 1.08% in GMV and 0.95% in daily active buyers (DAB) for e-commerce recommendations.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2611.11462": {
+            "title": "Local Certificate Repair for Asynchronous Controller Updates in Recommender Systems",
+            "authors": "Simone Mariano, Paolo Frasca",
+            "first_author": "Simone Mariano",
+            "url": "https://arxiv.org/abs/2611.11462",
+            "pdf_url": "https://arxiv.org/abs/2611.11462",
+            "publish_date": "2026-11-08",
+            "abstract": "We study how to adapt an existing distributed recommendation controller when local dynamics or objective weights change. Starting from a quadratic stability and cost certificate, we construct positive semidefinite corrections with finite spatial support and an explicit residual. A joint admission test allocates the available dissipation margin to these residuals and to interactions among changes and corrections, including pending updates. The test covers complete declared parameter ranges, allowing different operators to progress independently. For a fixed compatible batch, the corrections define a common storage that guarantees exponential stability and bounds the cost accumulated throughout deployment. When the admitted collection evolves, a reservation protocol preserves the certificate and a rate bound on storage increases ensures exponential convergence. Regional linear-quadratic regulator (LQR) design proposes new gain rows for the operators' own users, and a separate residual-based calculation can certify that the final gain lowers the expected cost. A recommendation-network example illustrates the tradeoff between repair depth, data access, and the benefits of deploying an update.",
+            "primary_category": "eess.SY",
+            "code_url": "null"
+        },
+        "2611.11346": {
+            "title": "IntentLens: Grounding Underspecified Multimodal Queries for Recommendation via Tool-Augmented Reasoning",
+            "authors": "Xiao Chen, Dong Fang, Haitao Li, Qing Li",
+            "first_author": "Xiao Chen",
+            "url": "https://arxiv.org/abs/2611.11346",
+            "pdf_url": "https://arxiv.org/abs/2611.11346",
+            "publish_date": "2026-11-08",
+            "abstract": "As intelligent personal assistants are increasingly deployed in real-world scenarios, recommendation paradigms are shifting from passive preference matching to inferring user intent from underspecified multimodal inputs. In practical interactions, users typically issue a reference image paired with a vague natural language query, keeping key visual attributes, personalized preferences, and item-side constraints implicit. Existing recommendation methods either leverage historical user interactions augmented with multimodal item features or assume fully articulated textual queries; both paradigms struggle to resolve underspecified multimodal queries for accurate item matching. To address this limitation, we propose IntentLens, a tool-augmented recommendation framework that grounds ambiguous multimodal queries into query-relevant evidence prior to user-item matching. IntentLens follows a ground-then-rank pipeline: a shared multimodal LLM leverages visual tools, user memory modules, and item attribute retrieval tools to (i) infer latent user intent from image-text inputs and (ii) augment each candidate item with fine-grained, query-conditioned evidence. Subsequently, a lightweight ranker scores candidates based on the grounded representations. To facilitate research in this novel setting, we construct two benchmarks with underspecified multimodal queries, namely \\textsc{GoogleReview-MMTool} and \\textsc{Yelp-MMTool}. Extensive experiments on these benchmarks demonstrate that IntentLens outperforms competitive MLLM and retrieval baselines, and exhibits strong generalization to unseen categories and datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.11278": {
+            "title": "An Adaptive, Context-Aware, and Stacked Attention Network-Based Recommendation System to Capture Users' Temporal Preference",
+            "authors": "Jung-Hsien Chiang, Chung-Yao Ma, Chi-Shiang Wang, Pei-Yi Hao",
+            "first_author": "Jung-Hsien Chiang",
+            "url": "https://arxiv.org/abs/2611.11278",
+            "pdf_url": "https://arxiv.org/abs/2611.11278",
+            "publish_date": "2026-11-08",
+            "abstract": "Recommendation systems have become more important since the widespread use of the Internet. The large amount of information means that it is difficult for users to discover they really need. However, users' preferences can change over time because of the age and the impact of social networks. Recommendation systems must capture users' preferences and recommend suitable items, which is a difficult challenge. This study proposes a novel recommendation system that adapts to the changing preferences of users. By learning and adapting to users' changing preferences better recommendations are provided. This study uses context factors as additional information to model users' preferences more precisely. For the proposed recommendation system, the context is based on users' interaction items within each defined time interval. This study proposes two novel attention mechanisms for the recommendation system. The contextual item attention module captures contextual information, changing pattern in users' preference and the importance of items. The multi-head attention module extends the diversity of users' preferences and adapts to changing preferences. The recommendation performance is improved using additional item's temporal information to model the contextual item's representation. Experiments compare the proposed algorithm with several state-of-the-art recommendation methods using three real-world datasets. The experimental results demonstrate that the proposed context-aware recommendation model outperforms traditional methods and demonstrate the effectiveness with which contextual information is captured by the attention mechanism.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.11013": {
+            "title": "Slim Foundation Models for Latency-Critical Recommendation Serving",
+            "authors": "Danyal Aftab, Anas Zafar, Assadig Abakr, Steven Davy",
+            "first_author": "Danyal Aftab",
+            "url": "https://arxiv.org/abs/2611.11013",
+            "pdf_url": "https://arxiv.org/abs/2611.11013",
+            "publish_date": "2026-11-07",
+            "abstract": "Click-through rate (CTR) prediction is a core component of recommendation and advertising systems. Large language models (LLMs) offer rich semantic priors that improve prediction quality, particularly in cold-start and long-tail settings. Injecting a full-scale LLM into a CTR pipeline is, however, prohibitively expensive at inference time: existing LLM-enhanced CTR methods avoid this cost by caching LLM outputs offline rather than serving the LLM online. We propose a resource-efficient pipeline, SlimFM, that makes online LLM-based semantic modeling practical: (1) dependency-aware structured pruning compresses LLaMA3-8B by 44% to a 4.5B-parameter backbone; (2) LoRA-based field-aware fine-tuning trains the pruned model to produce discriminative field-level semantic embeddings from lightweight textual prompts; (3) a semantic-guided fusion module injects these embeddings into the feature interactions of a conventional CTR model. Across four datasets and six CTR backbones, SlimFM retains over 99% of uncompressed-model accuracy while reducing inference latency by up to 3.4x relative to existing LLM-enhanced baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.10613": {
+            "title": "Clinical Evidence-Guided Residual Learning for Medication Recommendation with Dynamic DDI Regularization",
+            "authors": "Zesheng Li, Chengchang Pan, Honggang Qi",
+            "first_author": "Zesheng Li",
+            "url": "https://arxiv.org/abs/2611.10613",
+            "pdf_url": "https://arxiv.org/abs/2611.10613",
+            "publish_date": "2026-11-07",
+            "abstract": "Medication recommendation must combine patient-specific treatment evidence with the interaction structure of a prescription. The central challenge is to determine which evidence supports each medication and how strongly to regularize interactions while preserving predictive quality. We propose EviDrug, a clinical evidence-guided residual learning framework. Its clinical-memory backbone integrates a self-trained visit-aware encoder, training-case memory and one medication-set interaction block to establish a patient-specific prescription. A gated refinement head combines the backbone states with clinical associations and history-conditioned medication identities through bounded logit corrections. Drug-drug interaction (DDI) feedback adapts regularization strength using training-query predictions. Across MIMIC-IV, NWICU and SICdb, EviDrug leads twelve published-method baselines in AP, F1 and Jaccard, improving AP by 2.26, 2.06 and 1.71 percentage points over the strongest comparator. These gains come at lower parameter and runtime costs than MetaDrug. Matched controls demonstrate DDI reductions with stable predictive quality. Code is available at https://github.com/LIZESHENG13/EviDrug.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.10356": {
+            "title": "SepLRM: A Foundation Model Paradigm for Recommendation",
+            "authors": "Di Chen, Xijun Xiao, Qin Ren, Weijiang Lai, Zhijian Pan, Zhentao Pan, Pengfei Nie, Cheng Yuan, Zixuan Tan, Xuyang Liu, Tao Wang, Yunwen Huang, Hao Fang, Yichao Wang, Hao Zhang, Siyuan Wu, Hao Chen, Han Diao, Mingyu Yang, Yongkang Feng, Beihong Jin, Jinfeng Yang, Deping Xie, Peng Xu, Zheng Chai, Yuchao Zheng",
+            "first_author": "Di Chen",
+            "url": "https://arxiv.org/abs/2611.10356",
+            "pdf_url": "https://arxiv.org/abs/2611.10356",
+            "publish_date": "2026-11-07",
+            "abstract": "Large recommendation models (LRMs) improve recommendation performance by scaling behavior sequence length, model capacity, and training compute. However, the return on investment (ROI) of continued scaling deteriorates as marginal gains diminish and long-sequence encoding costs rise, especially when this computation is repeatedly executed by distinct models for diverse recommendation stages and business scenarios. To address this issue, we propose SepLRM, a recommendation foundation model (RFM) paradigm that identifies reusable sequence encoding and reorganizes multiple end-to-end (E2E) LRMs into one RFM and multiple independently optimized vertical models (VMs). The RFM adopts an encoder-decoder architecture and exports its final-layer encoder state as the shared key-value (KV) cache that is independent of downstream task-offered candidates. Unlike candidate-specific logits or aggregated user embeddings, the KV cache preserves fine-grained behavioral information. Separation at this native KV interface also allows each VM to construct candidate-conditioned queries while retaining the same query-KV interaction as its E2E counterpart, enabling high-fidelity capability transfer. To ensure both transfer effectiveness and system efficiency, we co-design cache compression, the training and serving workflows, and LG-Store, a distributed storage system for KV caches. Experiments on three large-scale datasets show that SepLRM achieves state-of-the-art offline performance with a transfer rate of approximately 100%. It also demonstrates strong transferability across model iterations, recommendation stages, and business scenarios. Deployment in two large-scale industrial scenarios substantially improves the ROI of sequence scaling and delivers consistent gains in online A/B tests at ByteDance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.10349": {
+            "title": "SituRecBench: Evaluating Frontier Models as Situated Recommendation Assistants in 3D Environments",
+            "authors": "Jingtong Yang, Dongding Lin, Jian Wang, Wenjie Li",
+            "first_author": "Jingtong Yang",
+            "url": "https://arxiv.org/abs/2611.10349",
+            "pdf_url": "https://arxiv.org/abs/2611.10349",
+            "publish_date": "2026-11-07",
+            "abstract": "Recommender systems are transitioning from static retrieval engines into interactive assistants grounded in physical environments. However, current studies largely neglect the combined complexities of spatial navigation, visual grounding, and multi-turn social interaction. To bridge this gap, we introduce SituRecBench, an interactive benchmark for evaluating frontier vision-language models (VLMs) as situated recommendation assistants within high-fidelity 3D environments. We reformulate recommendation as a situated assistance process in which an assistant interacts with a user while sharing the user's egocentric view. Our benchmark simulates real-world shopping environments (e.g., supermarkets and home furnishings stores), requiring assistants to elicit preferences, ground recommendations in the environment, and guide the user to relevant locations through dialogue. The benchmark evaluates dialogue quality, recommendation utility, and navigation effectiveness through a unified interactive protocol. Extensive experiments reveal persistent challenges in spatial grounding and preference elicitation, highlighting limitations in their ability to integrate global contextual information with local observations. SituRecBench provides a rigorous foundation for advancing the development of situated assistants in the real world.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.10285": {
+            "title": "Conformal Fair Decoding for Large Language Model Recommenders",
+            "authors": "Ziwei Wu, Jingrui He",
+            "first_author": "Ziwei Wu",
+            "url": "https://arxiv.org/abs/2611.10285",
+            "pdf_url": "https://arxiv.org/abs/2611.10285",
+            "publish_date": "2026-11-06",
+            "abstract": "Large language models (LLMs) can generate personalized recommendations without task-specific training, but changing a protected attribute while holding interaction history fixed can alter the semantic content of recommended items. We study fairness control when model weights and full-vocabulary logits are unavailable. We propose Fair- Rec, an item-level decoding framework that uses an offline-calibrated semantic-disparity threshold and controls candidate selection as recommendation lists are generated. A hard variant filters candidates against the threshold; a soft variant trades off candidate likelihood and disparity while adapting a penalty using observed violations. Under an explicit uniform enforceability assumption, we establish a pathwise O(1/T) upper bound on the excess empirical violation rate of the soft decoder. Experiments on MovieLens-1M and Amazon Movies & TV using Qwen3-8B and Llama3.1-8B-Instruct show that the soft variant lowers measured counterfactual disparity relative to zero- =shot recommendation, UP5, and FACTER, while retaining competitive HR@10 and NDCG@10.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.09728": {
+            "title": "SAGE-PAIR: Source-Pretrained Routed Residual Adaptation for Sparse-Feedback Recommendation",
+            "authors": "Weiqing Zeng, Zida Yang, Guquan You, Jiexin Zheng, Cong Wang",
+            "first_author": "Weiqing Zeng",
+            "url": "https://arxiv.org/abs/2611.09728",
+            "pdf_url": "https://arxiv.org/abs/2611.09728",
+            "publish_date": "2026-11-06",
+            "abstract": "Recommendation systems often enter a new serving window before enough outcomes are available to retrain the deployed model. We study this regime with 0.05-1.0% target feedback, a range that spans our stress tests while keeping supervision far below the degrees of freedom of the source recommender. At this scale, existing fine-tuning and meta-learning methods still estimate target-specific updates from extremely sparse feedback, leaving the update direction weakly identified. SAGE-PAIR instead transfers a source-supported residual correction space and only calibrates this space using target outcomes. We introduce SAGE-PAIR, a staged adapter that pretrains a low-dimensional global residual on an adjacent source period and adds a soft router over residual experts conditioned on source user profiles. Target feedback then calibrates this residual state rather than relearning the recommender. On a locked test split of KuaiSAR-v2, SAGE-PAIR (Full) achieves a 1.77% relative improvement in NDCG@10, while a core-protocol comparison shows a further 0.25% gain from routed experts beyond source-pretrained PAIR. Matched source-pretrained LoRA and Adapter-Tuning baselines remain near the source model, supporting the need for a different adaptation space. Thus, SAGE-PAIR improves ranking quality with millisecond-scale adaptation and inference costs. Sparse-feedback adaptation is fundamentally governed by the identifiability of the update space rather than by label count alone. Source pretraining supplies estimable correction directions for scarce labels, while user-conditioned routing contributes a consistent, differentiated cross-user correction on top of the global correction. Our code is available at https://anonymous.4open.science/r/SAGE-PAIR-610E/.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.09345": {
+            "title": "Reliable Prerequisite-Aware Learning Path Recommendation under Uncertain Knowledge Structures: Long-Horizon Evaluation and Cross-Dataset Validation",
+            "authors": "M. M. Golam Hafiz, A. K. M. Shahriar Emtiaz, Safia Akter Simi, Md. Rakibul Islam, M. F. Mridha",
+            "first_author": "M. M. Golam Hafiz",
+            "url": "https://arxiv.org/abs/2611.09345",
+            "pdf_url": "https://arxiv.org/abs/2611.09345",
+            "publish_date": "2026-11-06",
+            "abstract": "Learning-path recommendation often depends on knowledge and prerequisite structures whose reliability is uncertain, while high accuracy in predicting the next resource does not necessarily establish reliable long-horizon path behaviour. This study develops a reliability-oriented prerequisite-aware framework that jointly examines immediate next-resource ranking, uncertain prerequisite structures, hard, soft and hybrid constraint semantics, graph robustness, and autoregressive path generation under course-level confirmatory evaluation and independent cross-dataset validation. Development used 3,187 MOOCCubeX courses, followed by a frozen confirmatory evaluation on 541 held-out courses and 37,747 transitions. The primary MOOCCubeX task is structural and course-prefix-conditioned rather than learner-personalised. Junyi provides independent structure-/hierarchy-aware external validation, uses hierarchy metadata rather than an explicit prerequisite graph and is not a zero-shot transfer setting. On the frozen MOOCCubeX evaluation, XGBoost pairwise was the strongest observed immediate ranker, with mean reciprocal rank (MRR) of 0.9048, whereas the proposed prerequisite-aware graph model achieved 0.7707. In the controlled graph-variant development ablation, the no-graph condition produced the strongest immediate ranking result, and immediate prediction showed strong dependence on permitted title/path-similarity information. Autoregressive evaluation exposed path properties not captured by one-step ranking. On Junyi, Markov achieved the strongest observed MRR of 0.4453, compared with 0.3954 for the proposed graph model, with metric-specific differences across ranking measures. Overall, immediate predictive accuracy, prerequisite-structure reliability, and long-horizon path quality should be treated as complementary rather than interchangeable evaluation dimensions in educational recommendation.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.09126": {
+            "title": "PAGSL: Path-Augmenting Graph Structure Learning for explainable scholar recommendation",
+            "authors": "Jiale Xu, Mingshu Ai, Junjie Huang, Tao Jia",
+            "first_author": "Jiale Xu",
+            "url": "https://arxiv.org/abs/2611.09126",
+            "pdf_url": "https://arxiv.org/abs/2611.09126",
+            "publish_date": "2026-11-06",
+            "abstract": "Explainable scholar recommendation aims to identify potential scholars of interest and provide reasonable explanations for the recommendations. However, existing frameworks struggle with optimization-induced noise and \"hub node bias\", yielding trivial explanations that lack hierarchical depth and personalization. To this end, we propose a novel explainable scholar recommendation model, Path-Augmenting Graph Structure Learning (named PAGSL). PAGSL combines representation learning and semantic path knowledge to ensure recommendation performance while providing interpretable results from two perspectives. Specifically, it activates latent academic paths among entities through graph augmentation and employs a path-based neural network to encode these paths for recommendation. A masking mechanism with path score optimization is designed to generate concise and informative explanations. We evaluate PAGSL on three academic datasets (Scholat, AMiner, and ResearchGate), comprising approximately 49,000 authors and over 330,000 interaction records. Experimental evaluations validate that PAGSL outperforms state-of-the-art baselines, achieving significant improvements of 6.31\\% in F1-score, 6.29\\% in Accuracy and 5.95\\% in AUC for recommendation. Crucially, in terms of explainability, we provide quantitative results and visualization effects. Furthermore, ablation studies validate the effectiveness of our heterogeneous convolution and path representation learning. PAGSL achieves strong performance in both recommendation accuracy and explainability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.09006": {
+            "title": "Rethinking Latent Reasoning for Generative Recommendation: Beyond Teacher-Generated CoT and Recurrent Hidden-State Feedback",
+            "authors": "Yiwen Chen, Fuwei Zhang, Zehao Chen, Deqing Wang, Hehan Li, Peizhi Xu, Hanmeng Liu, Shuanglong Li, Xin Pei, Fuzhen Zhuang, Zhao Zhang",
+            "first_author": "Yiwen Chen",
+            "url": "https://arxiv.org/abs/2611.09006",
+            "pdf_url": "https://arxiv.org/abs/2611.09006",
+            "publish_date": "2026-11-06",
+            "abstract": "Latent reasoning in generative recommendation faces two practical barriers: constructing teacher-generated chain-of-thought (CoT) supervision is costly, and recurrent hidden-state feedback requires a specialized execution loop. We revisit both the supervision source and the computation interface. A step-level diagnosis measures how recommendation CoT supports next-item prediction and trace coherence. In the analyzed traces, history analysis is the only step with positive mean contributions on both dimensions, while later preference and intent steps have negative mean answer contributions. Guided by this finding, we propose PHiT (Prefilled, History-Informed Thought Tokens), which learns intermediate states from semantic targets extracted directly from observed item histories. PHiT aggregates cached sparse item encodings to construct these targets and supervises the contextual states of distinct vocabulary thought tokens. All thought tokens are supplied together as ordinary input IDs during a single causal prefill, removing the need for recurrent final-state feedback. With supervised fine-tuning alone, PHiT outperforms the compared baselines across four recommendation benchmarks. Controlled ablations support the value of input-matched semantic supervision, while cost measurements show fast target construction with training time comparable to the recommendation-only thought-token baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

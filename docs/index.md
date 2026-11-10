@@ -2,11 +2,23 @@
 layout: default
 ---
 
-## Updated on 2026-11-09
+## Updated on 2026-11-10
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-08 | **Local Certificate Repair for Asynchronous Controller Updates in Recommender Systems** | Simone Mariano, Paolo Frasca | [Link](https://arxiv.org/abs/2611.11462) | N/A |
+| 2026-11-08 | **IntentLens: Grounding Underspecified Multimodal Queries for Recommendation via Tool-Augmented Reasoning** | Xiao Chen, Dong Fang, Haitao Li, Qing Li | [Link](https://arxiv.org/abs/2611.11346) | N/A |
+| 2026-11-08 | **An Adaptive, Context-Aware, and Stacked Attention Network-Based Recommendation System to Capture Users' Temporal Preference** | Jung-Hsien Chiang, Chung-Yao Ma, Chi-Shiang Wang, Pei-Yi Hao | [Link](https://arxiv.org/abs/2611.11278) | N/A |
+| 2026-11-07 | **Slim Foundation Models for Latency-Critical Recommendation Serving** | Danyal Aftab, Anas Zafar, Assadig Abakr, Steven Davy | [Link](https://arxiv.org/abs/2611.11013) | N/A |
+| 2026-11-07 | **Clinical Evidence-Guided Residual Learning for Medication Recommendation with Dynamic DDI Regularization** | Zesheng Li, Chengchang Pan, Honggang Qi | [Link](https://arxiv.org/abs/2611.10613) | N/A |
+| 2026-11-07 | **SepLRM: A Foundation Model Paradigm for Recommendation** | Di Chen, Xijun Xiao, Qin Ren, Weijiang Lai, Zhijian Pan, Zhentao Pan, Pengfei Nie, Cheng Yuan, Zixuan Tan, Xuyang Liu, Tao Wang, Yunwen Huang, Hao Fang, Yichao Wang, Hao Zhang, Siyuan Wu, Hao Chen, Han Diao, Mingyu Yang, Yongkang Feng, Beihong Jin, Jinfeng Yang, Deping Xie, Peng Xu, Zheng Chai, Yuchao Zheng | [Link](https://arxiv.org/abs/2611.10356) | N/A |
+| 2026-11-07 | **SituRecBench: Evaluating Frontier Models as Situated Recommendation Assistants in 3D Environments** | Jingtong Yang, Dongding Lin, Jian Wang, Wenjie Li | [Link](https://arxiv.org/abs/2611.10349) | N/A |
+| 2026-11-06 | **Conformal Fair Decoding for Large Language Model Recommenders** | Ziwei Wu, Jingrui He | [Link](https://arxiv.org/abs/2611.10285) | N/A |
+| 2026-11-06 | **SAGE-PAIR: Source-Pretrained Routed Residual Adaptation for Sparse-Feedback Recommendation** | Weiqing Zeng, Zida Yang, Guquan You, Jiexin Zheng, Cong Wang | [Link](https://arxiv.org/abs/2611.09728) | N/A |
+| 2026-11-06 | **Reliable Prerequisite-Aware Learning Path Recommendation under Uncertain Knowledge Structures: Long-Horizon Evaluation and Cross-Dataset Validation** | M. M. Golam Hafiz, A. K. M. Shahriar Emtiaz, Safia Akter Simi, Md. Rakibul Islam, M. F. Mridha | [Link](https://arxiv.org/abs/2611.09345) | N/A |
+| 2026-11-06 | **PAGSL: Path-Augmenting Graph Structure Learning for explainable scholar recommendation** | Jiale Xu, Mingshu Ai, Junjie Huang, Tao Jia | [Link](https://arxiv.org/abs/2611.09126) | N/A |
+| 2026-11-06 | **Rethinking Latent Reasoning for Generative Recommendation: Beyond Teacher-Generated CoT and Recurrent Hidden-State Feedback** | Yiwen Chen, Fuwei Zhang, Zehao Chen, Deqing Wang, Hehan Li, Peizhi Xu, Hanmeng Liu, Shuanglong Li, Xin Pei, Fuzhen Zhuang, Zhao Zhang | [Link](https://arxiv.org/abs/2611.09006) | N/A |
 | 2026-11-05 | **Generative Search and Recommendation at Shopify** | Juhana Kangaspunta, Khalil Hajji, Darshan Fofadiya, Kyumin Park, Michael Garner, Anthony Maltsev, Ryan Synk, Jose Sepulveda, Joshua Crisologo, Shuying Sun, Akshay Soni | [Link](https://arxiv.org/abs/2611.08804) | N/A |
 | 2026-11-05 | **SteerGR: Steering Generative Recommendation via Sparse Autoencoders for Controllable Game Discovery** | Sunkyung Lee, Xiaokai Wei, Da Long, Hyunsik Jeon, Jiajun Wu, Rithwik Seth, Jongwuk Lee, Michelle Gong, Gungor Polatkan | [Link](https://arxiv.org/abs/2611.08790) | N/A |
 | 2026-11-05 | **Learning from How Users Interpret: Personalizing Recommendation Explanation Order** | Deo Munduku, Elsa Negre | [Link](https://arxiv.org/abs/2611.08785) | N/A |
