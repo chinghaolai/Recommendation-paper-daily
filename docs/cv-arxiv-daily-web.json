@@ -22733,7 +22733,7 @@
             "url": "https://arxiv.org/abs/2609.37311",
             "pdf_url": "https://arxiv.org/abs/2609.37311",
             "publish_date": "2026-09-29",
-            "abstract": "Recent Recommendation Agents (RecAgents) offer a promising alternative by shifting recommendation to an active, user-side paradigm, where generative agents autonomously perceive external platforms, reason over user preferences, and execute decisions. However, existing RecAgents still suffer from two critical limitations: brittle item perception based on noisy and heterogeneous item pages, and inefficient long-context reasoning over extended user histories and multi-step interaction traces. To address these challenges, we propose a novel recommendation agent framework, termed as ReMem, that combines OCR-based multimodal perception with time-evolving dynamic memory. Instead of parsing raw HTML, ReMem observes item pages through screenshots and extracts structured multimodal information via an OCR tool, enabling a more humanoid and platform-agnostic perception mechanism. To support long-horizon preference modeling, ReMem further introduces a chunk-wise sequential memory update strategy, where the agent selectively maintains a fixed-size memory of informative historical interactions while processing arbitrarily long contexts with linear inference complexity and bounded context length. This design allows the agent to preserve evolving user preferences without relying on external memory modules or disrupting the standard autoregressive generation process. To enhance the dynamic memory instruction, we further develop a multi-memory GRPO variant, which propagates the final-answer advantage to all intermediate conversations that contribute to the final response. Extensive experiments on three datasets demonstrate that ReMem consistently outperforms state-of-the-art baselines, achieving an average improvement of 5.16\\% across three recommendation agent tasks, namely searching, ranking, and judging.",
+            "abstract": "Recent Recommendation Agents (RecAgents) offer a promising alternative by shifting recommendation to an active, user-side paradigm, where generative agents autonomously perceive web platforms, reason over user preferences, and execute decisions. However, existing RecAgents still suffer from two critical limitations: brittle item perception based on noisy item pages, and inefficient long-context reasoning over extended user histories and multi-step interaction traces. To address these challenges, we propose a recommendation-agent framework, termed ReMem, that combines OCR-based multimodal perception with time-evolving dynamic memory. Instead of parsing raw HTML, ReMem observes item-page screenshots and uses an OCR tool to produce structured textual evidence for the reasoning backbone. To support long-horizon preference modeling, ReMem further introduces a chunk-wise sequential update strategy that maintains a bounded textual memory while processing histories longer than the backbone context window; with fixed chunk and memory budgets, the number of update calls grows linearly with history length. This design allows the agent to preserve evolving user preferences without relying on external memory modules or disrupting the standard autoregressive generation process. To train the dynamic memory updater, we further develop a multi-memory GRPO variant whose reward combines recommendation-specific information with final-task metrics. Experiments on three Amazon-derived datasets and a controlled post-retrieval protocol show an average relative improvement of 7.58% over the strongest reported baseline across searching, ranking, and judging tasks.",
             "primary_category": "cs.AI",
             "code_url": "null"
         },
@@ -25125,13 +25125,13 @@
             "code_url": "null"
         },
         "2611.10285": {
-            "title": "Conformal Fair Decoding for Large Language Model Recommenders",
+            "title": "FAIDER: Fairness-Aware Item-Level Decoding for Large Language Model Recommenders",
             "authors": "Ziwei Wu, Jingrui He",
             "first_author": "Ziwei Wu",
             "url": "https://arxiv.org/abs/2611.10285",
             "pdf_url": "https://arxiv.org/abs/2611.10285",
             "publish_date": "2026-11-06",
-            "abstract": "Large language models (LLMs) can generate personalized recommendations without task-specific training, but changing a protected attribute while holding interaction history fixed can alter the semantic content of recommended items. We study fairness control when model weights and full-vocabulary logits are unavailable. We propose Fair- Rec, an item-level decoding framework that uses an offline-calibrated semantic-disparity threshold and controls candidate selection as recommendation lists are generated. A hard variant filters candidates against the threshold; a soft variant trades off candidate likelihood and disparity while adapting a penalty using observed violations. Under an explicit uniform enforceability assumption, we establish a pathwise O(1/T) upper bound on the excess empirical violation rate of the soft decoder. Experiments on MovieLens-1M and Amazon Movies & TV using Qwen3-8B and Llama3.1-8B-Instruct show that the soft variant lowers measured counterfactual disparity relative to zero- =shot recommendation, UP5, and FACTER, while retaining competitive HR@10 and NDCG@10.",
+            "abstract": "Large language model (LLM) recommenders can produce semantically different recommendations when a user's protected attribute changes, even if the interaction history remains fixed. Controlling this disparity is challenging when model weights and full-vocabulary logits are inaccessible. We propose FAIDER (Fairness-Aware Item-level DEcoding for Recommendation), which incorporates fairness into list construction by selecting complete item candidates rather than manipulating token-level logits or repeatedly repairing finished outputs. The central idea is to separate the operational criterion for a violation from how strongly generation is constrained. Conformal-inspired empirical calibration fixes a cross-group semantic-disparity threshold, while online decoding applies either hard filtering or a soft penalty adjusted through dual-inspired feedback to target a prescribed violation rate. Separately, we establish a pathwise guarantee: under a uniform enforceability assumption, the soft decoder's empirical violation rate exceeds its target by at most $O(1/T)$. Experiments across recommendation benchmarks and LLM backbones show that Soft FAIDER improves both measured semantic fairness and ranking quality over the evaluated prompt-repair baselines. It also generally achieves a more favorable fairness-utility balance than the hard variant, indicating that stricter per-recommendation constraints do not necessarily yield lower measured disparity.",
             "primary_category": "cs.AI",
             "code_url": "null"
         },
@@ -25176,6 +25176,105 @@
             "pdf_url": "https://arxiv.org/abs/2611.09006",
             "publish_date": "2026-11-06",
             "abstract": "Latent reasoning in generative recommendation faces two practical barriers: constructing teacher-generated chain-of-thought (CoT) supervision is costly, and recurrent hidden-state feedback requires a specialized execution loop. We revisit both the supervision source and the computation interface. A step-level diagnosis measures how recommendation CoT supports next-item prediction and trace coherence. In the analyzed traces, history analysis is the only step with positive mean contributions on both dimensions, while later preference and intent steps have negative mean answer contributions. Guided by this finding, we propose PHiT (Prefilled, History-Informed Thought Tokens), which learns intermediate states from semantic targets extracted directly from observed item histories. PHiT aggregates cached sparse item encodings to construct these targets and supervises the contextual states of distinct vocabulary thought tokens. All thought tokens are supplied together as ordinary input IDs during a single causal prefill, removing the need for recurrent final-state feedback. With supervised fine-tuning alone, PHiT outperforms the compared baselines across four recommendation benchmarks. Controlled ablations support the value of input-matched semantic supervision, while cost measurements show fast target construction with training time comparable to the recommendation-only thought-token baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.14004": {
+            "title": "LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation",
+            "authors": "Zehui Wang, Wolfram Höpken, Dietmar Jannach",
+            "first_author": "Zehui Wang",
+            "url": "https://arxiv.org/abs/2611.14004",
+            "pdf_url": "https://arxiv.org/abs/2611.14004",
+            "publish_date": "2026-11-10",
+            "abstract": "As multimodal tourism-related information collected from heterogeneous data sources has become increasingly available, learning effective representations has attracted attention for improving recommendation performance. Existing approaches often tightly couple multimodal fusion with the architecture and optimization objective of a specific downstream model, which limits the generality and reusability of the learned representations. To address these limitations, we propose LUMIR, a decoupled multimodal representation learning framework based on contrastive learning. Multimodal information collected from heterogeneous data sources is first semantically unified into a shared textual representation space using large language models (LLMs). An interaction-aware fusion mechanism is then designed to model cross-modal interactions, while sequential signals are incorporated as a structural constraint to guide representation learning. To evaluate the learned representations, experiments are conducted on a multimodal point-of-interest (POI) dataset under the next-POI recommendation setting across multiple sequential recommendation backbones. The results show that LUMIR consistently outperforms existing multimodal fusion baselines in both accuracy-oriented and beyond-accuracy metrics, demonstrating that decoupling representation learning from downstream optimization provides an effective paradigm for learning reusable multimodal representations. The code is publicly available at https://github.com/wzehui/LUMIR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.13972": {
+            "title": "Data Quality Challenges in Multimodal Tourism Recommender Systems",
+            "authors": "Zehui Wang, Wolfram Höpken, Dietmar Jannach",
+            "first_author": "Zehui Wang",
+            "url": "https://arxiv.org/abs/2611.13972",
+            "pdf_url": "https://arxiv.org/abs/2611.13972",
+            "publish_date": "2026-11-10",
+            "abstract": "Modern recommender systems increasingly consider diverse data modalities to enhance model performance. However, the quality of the underlying multimodal data (e.g. data from social media platforms) has received limited attention so far. Focusing on tourism recommendation, we examine real-world challenges encountered when using datasets from Yelp and Instagram. Issues include noise from fake reviews, hallucinated content from LLMs, modality contradictions, and demographic bias. We outline future directions such as quality-aware fusion, structured and controlled LLM-based content generation to reduce hallucinations, and user group differentiation to improve the robustness and reliability of multimodal recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.13914": {
+            "title": "From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations",
+            "authors": "Vojtech Cahlik, Amir Reza Mohammadi, Rodrigo Alves, Pavel Kordik, Eva Zangerle",
+            "first_author": "Vojtech Cahlik",
+            "url": "https://arxiv.org/abs/2611.13914",
+            "pdf_url": "https://arxiv.org/abs/2611.13914",
+            "publish_date": "2026-11-10",
+            "abstract": "Recommender systems increasingly influence what users discover and consume online, yet the decision logic behind their outputs often remains opaque. Counterfactual explanation (CFX) methods provide an effective way to show which changes to a user's interaction history would alter a recommendation. In recommendation settings, however, CFXs often require many edits, producing long, low-level lists that are hard for users to interpret. Moreover, most evaluations emphasize edit counts while largely overlooking whether the resulting CFXs are coherent and actionable for users. We argue that this gap between generating valid CFXs and communicating model behavior stems from the lack of user-centered abstraction and limited qualitative evaluation. To bridge this gap, we investigate large language models as mediators that summarize raw CFX interaction edit lists into concise natural language explanations describing higher-level preference patterns. We optimize these mediators for correctness, informativeness, and linguistic quality through preference optimization, and evaluate the resulting explanations with human-calibrated metrics derived from separate human-labeled datasets. On the MovieLens-1M dataset, across multiple counterfactual generators and language models, the resulting summaries achieve high overall linguistic quality, while the strongest semantic results are obtained with high-success CFX methods such as ACCENT and SPINRec. Direct Preference Optimization improves the semantic metrics in almost all evaluated settings.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.13667": {
+            "title": "Benchmarking LLM Next-Step Recommendations with Knowledge Space Theory",
+            "authors": "Peter Steiner, Jan Hochweber",
+            "first_author": "Peter Steiner",
+            "url": "https://arxiv.org/abs/2611.13667",
+            "pdf_url": "https://arxiv.org/abs/2611.13667",
+            "publish_date": "2026-11-10",
+            "abstract": "Selecting an LLM for next-step recommendation requires benchmarks that reflect the intended educational task and domain. We present a benchmarking method that uses Knowledge Space Theory (KST) as a formal evaluation reference. Given a task catalogue and an existing prerequisite relation, the method derives admissible knowledge states and the complete set of immediate next steps for each state. Recommendations generated by a model under a specified prompt are compared with these reference sets. A sample evaluation study uses 2,400 responses from six models across four mathematics domains, four prompt conditions, and two catalogue orders. Exact-set accuracy was 61.3% with descriptions only, 62.8% when models were asked to reconstruct prerequisites, 96.3% with supplied prerequisite relations, and 98.2% with the complete knowledge space. Performance varied across models and domains, and recommendation sets agreed across the two presentations in 85.25% of pairs. The benchmark supports comparisons of model-prompt combinations against a context-specific reference. Its scores describe structural recommendation accuracy under the evaluated conditions; they do not establish learning benefit or the necessity of using an LLM for selection.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.13539": {
+            "title": "Exploiting Feature-invariant Scaling Laws for Efficient A/B Experimentation in Recommendation Systems",
+            "authors": "Zhiliang Chen, Sammy Nammari, Jiahao Su, Xiaoqiang Luo",
+            "first_author": "Zhiliang Chen",
+            "url": "https://arxiv.org/abs/2611.13539",
+            "pdf_url": "https://arxiv.org/abs/2611.13539",
+            "publish_date": "2026-11-10",
+            "abstract": "Researchers and engineers improve recommendation systems by performing A/B experiments with new model architectures, optimization methods, and data features. However, running full-scale experiments (e.g., full-model training with online data) for every feature change is prohibitively computationally intensive, while the result from a single small-scale experiment is often misleading. To address this challenge, we show that modern recommendation models exhibit feature-invariant scaling: the change of a model's performance follows a predictable scaling-law even when different feature changes are applied to the baseline model. We introduce an efficient method that exploits scaling-laws and uses statistical inference to predict (with confidence intervals) the full-scale effect of an A/B experiment in recommendation systems. This enables practitioners to efficiently filter out neutral or regressive feature changes with only small-scale experimentation. We validate our method on three distinct recommendation model families---Wukong, HSTU, and LLM-based recommendation models---across more than 40 architectural, optimization, and data changes. Our method accurately distinguishes beneficial feature changes from neutral and regressive ones while using only a fraction of the compute required for full-scale evaluation. It also identifies several changes that improve HSTU's state-of-the-art performance on MovieLens-20M. Our results demonstrate that scaling laws can be practically exploited to make compute-efficient decisions for improving industrial-scale recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.12814": {
+            "title": "Curbside Chatbots: Auditing the Mental Health Interventions Large Language Models Recommend to Clinicians, Caregivers, and Patients",
+            "authors": "Matthew Flathers, Jill Noorily, Phuong Anh Nguyen, Mark Kalinich, Mina Fallah, Victoria Lisowski, Christine Shi, Rebekah M. Bodner, Anna Simms, Mihika Hete, Meiting Chen, Samuel K. Powell, Tatum Williamson, Laura Ospina-Pinillos, Haruka Notsu, Julian Herpertz, John Torous",
+            "first_author": "Matthew Flathers",
+            "url": "https://arxiv.org/abs/2611.12814",
+            "pdf_url": "https://arxiv.org/abs/2611.12814",
+            "publish_date": "2026-11-09",
+            "abstract": "Users are asking language models mental health questions and are receiving answers. We audited what 41 language models recommend to users when the same clinical information reaches them from three footings: a clinician describing a patient, a caregiver describing a loved one, or a person describing themselves. Across 19 case vignettes and five questions, we collected 35,055 free-text responses, extracted every intervention named with a validated judge, and had 29 models rate the full option lists on a seven-point Likert scale for the same cases. Models largely recommend what they rate well, with recommendation behavior differing by footing, and many models offering clinicians a consultation-style response and lay users hedged, simplified advice. When asked about recommendations for a specific intervention type, models more often named options they themselves rated below zero as initial choices, usually with conditions attached. We will release the instrument, code, and full corpus on publication as a living audit.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2611.12296": {
+            "title": "RecoGEM: A Serving System for Production-Scale Generative Recommendation",
+            "authors": "Xiangrui Yang, Yunfeng Zhao, Jiawei Yang, Fangyu Zhang, Enrui Zhao, Liang Zeng, Cheng Peng, Minhui Xie, Jiaqiang Liu, Xiao Liang, Yiming Qiu",
+            "first_author": "Xiangrui Yang",
+            "url": "https://arxiv.org/abs/2611.12296",
+            "pdf_url": "https://arxiv.org/abs/2611.12296",
+            "publish_date": "2026-11-09",
+            "abstract": "Generative recommendation (GR) is moving industrial recommender systems (RecSys) from scoring candidate items to autoregressively generating item identifiers. This shift promises higher recommendation quality, but makes serving substantially harder: each request executes a short sequence of dependent decoding steps that explore a large item space and select promising candidates on the latency-critical path. GR not only creates structural mismatches with conventional RecSys pipelines, but also challenges the architectural and optimization assumptions of LLM serving stacks, making direct adoption of existing systems difficult. We present RecoGEM, our production GR serving system. RecoGEM uses a runtime--engine decoupling architecture to move GR-specific serving responsibilities, such as candidate-state transitions and live artifact updates, to a dedicated runtime. Its execution engine exploits GR's short token sequences, large candidate populations, and predictable step shapes to optimize self-attention, candidate selection, and execution planning. RecoGEM has been deployed for over nine months across our production lines, serving applications with hundreds of millions of users and supporting more than ten GR model families. On our OneModel production workloads, RecoGEM reaches over 1,000 QPS per serving instance with P99 latency below 35 ms and a 2.88$\\times$ throughput improvement over representative baselines.",
+            "primary_category": "cs.DC",
+            "code_url": "null"
+        },
+        "2611.11847": {
+            "title": "Severity-Controlled Prediction Sets for Medication Recommendation",
+            "authors": "Yu Gu, Zijun Yu, Chi-Kuang Yeh, Xinyu Wang, Ziyang Song",
+            "first_author": "Yu Gu",
+            "url": "https://arxiv.org/abs/2611.11847",
+            "pdf_url": "https://arxiv.org/abs/2611.11847",
+            "publish_date": "2026-11-09",
+            "abstract": "Medication recommendation is a multi-label prediction task. However, existing prediction-set evaluation and calibration methods rely mainly on exact-overlap metrics and therefore treat all missed medications as equally severe, overlooking how closely the prediction set matches them within the medication hierarchy. To address this, we introduce Conformal Severity Control (CSC), a post-hoc framework for calibrating medication prediction sets under hierarchy-aware mismatch severity. CSC uses the Anatomical Therapeutic Chemical (ATC) hierarchy to quantify mismatch severity and controls patient-level severity without retraining the predictor, supporting both average severity and upper-quantile severity for the highest-severity mismatches. Experiments on MIMIC-IV show that CSC tracks user-specified severity tolerances and shifts prediction sets away from distant mismatches toward exact or close matches.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.11549": {
+            "title": "Not All Branches Are Equal: Adaptive Semantic ID Construction for Generative Recommendation",
+            "authors": "Guy Hadad, Haggai Roitman, Bracha Shapira",
+            "first_author": "Guy Hadad",
+            "url": "https://arxiv.org/abs/2611.11549",
+            "pdf_url": "https://arxiv.org/abs/2611.11549",
+            "publish_date": "2026-11-08",
+            "abstract": "Generative recommendation models represent items as sequences of discrete tokens known as semantic IDs. Existing approaches derive these identifiers using residual or hierarchical vector quantization, assuming that tokens carry independent semantic meaning across quantization levels. Revisiting this assumption, we argue that semantic IDs should behave as hierarchical paths where each token's meaning is conditioned on its prefix. This highlights a mismatch between conventional fixed-codebook quantization and the hierarchical structure implicitly learned by generative recommenders. Motivated by this insight, we propose Adaptive Silhouette Tree (AST), a top-down divisive clustering method that constructs semantic IDs as paths within a tree structure. Unlike prior methods with fixed branching factors, AST dynamically determines the number of branches at each node by maximizing the silhouette coefficient, enabling finer partitions in dense regions and compact groupings in homogeneous ones. We further introduce constrained variants that enforce minimum probability mass during splitting to improve supervision for long-tail items. Extensive experiments on five Amazon Review datasets of varying sizes and domains show that AST significantly outperforms strong baselines. These results demonstrate that aligning semantic ID construction with the inherent hierarchical structure of generative recommenders leads to more effective recommendations.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }

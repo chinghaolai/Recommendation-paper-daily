@@ -1,4 +1,4 @@
-## Updated on 2026-11-11
+## Updated on 2026-11-12
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,15 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-10 | **LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation** | Zehui Wang, Wolfram Höpken, Dietmar Jannach | [Link](https://arxiv.org/abs/2611.14004) | N/A |
+| 2026-11-10 | **Data Quality Challenges in Multimodal Tourism Recommender Systems** | Zehui Wang, Wolfram Höpken, Dietmar Jannach | [Link](https://arxiv.org/abs/2611.13972) | N/A |
+| 2026-11-10 | **From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations** | Vojtech Cahlik, Amir Reza Mohammadi, Rodrigo Alves, Pavel Kordik, Eva Zangerle | [Link](https://arxiv.org/abs/2611.13914) | N/A |
+| 2026-11-10 | **Benchmarking LLM Next-Step Recommendations with Knowledge Space Theory** | Peter Steiner, Jan Hochweber | [Link](https://arxiv.org/abs/2611.13667) | N/A |
+| 2026-11-10 | **Exploiting Feature-invariant Scaling Laws for Efficient A/B Experimentation in Recommendation Systems** | Zhiliang Chen, Sammy Nammari, Jiahao Su, Xiaoqiang Luo | [Link](https://arxiv.org/abs/2611.13539) | N/A |
+| 2026-11-09 | **Curbside Chatbots: Auditing the Mental Health Interventions Large Language Models Recommend to Clinicians, Caregivers, and Patients** | Matthew Flathers, Jill Noorily, Phuong Anh Nguyen, Mark Kalinich, Mina Fallah, Victoria Lisowski, Christine Shi, Rebekah M. Bodner, Anna Simms, Mihika Hete, Meiting Chen, Samuel K. Powell, Tatum Williamson, Laura Ospina-Pinillos, Haruka Notsu, Julian Herpertz, John Torous | [Link](https://arxiv.org/abs/2611.12814) | N/A |
+| 2026-11-09 | **RecoGEM: A Serving System for Production-Scale Generative Recommendation** | Xiangrui Yang, Yunfeng Zhao, Jiawei Yang, Fangyu Zhang, Enrui Zhao, Liang Zeng, Cheng Peng, Minhui Xie, Jiaqiang Liu, Xiao Liang, Yiming Qiu | [Link](https://arxiv.org/abs/2611.12296) | N/A |
+| 2026-11-09 | **Severity-Controlled Prediction Sets for Medication Recommendation** | Yu Gu, Zijun Yu, Chi-Kuang Yeh, Xinyu Wang, Ziyang Song | [Link](https://arxiv.org/abs/2611.11847) | N/A |
+| 2026-11-08 | **Not All Branches Are Equal: Adaptive Semantic ID Construction for Generative Recommendation** | Guy Hadad, Haggai Roitman, Bracha Shapira | [Link](https://arxiv.org/abs/2611.11549) | N/A |
 | 2026-11-08 | **Local Certificate Repair for Asynchronous Controller Updates in Recommender Systems** | Simone Mariano, Paolo Frasca | [Link](https://arxiv.org/abs/2611.11462) | N/A |
 | 2026-11-08 | **IntentLens: Grounding Underspecified Multimodal Queries for Recommendation via Tool-Augmented Reasoning** | Xiao Chen, Dong Fang, Haitao Li, Qing Li | [Link](https://arxiv.org/abs/2611.11346) | N/A |
 | 2026-11-08 | **An Adaptive, Context-Aware, and Stacked Attention Network-Based Recommendation System to Capture Users' Temporal Preference** | Jung-Hsien Chiang, Chung-Yao Ma, Chi-Shiang Wang, Pei-Yi Hao | [Link](https://arxiv.org/abs/2611.11278) | N/A |
@@ -17,7 +26,7 @@
 | 2026-11-07 | **Clinical Evidence-Guided Residual Learning for Medication Recommendation with Dynamic DDI Regularization** | Zesheng Li, Chengchang Pan, Honggang Qi | [Link](https://arxiv.org/abs/2611.10613) | N/A |
 | 2026-11-07 | **SepLRM: A Foundation Model Paradigm for Recommendation** | Di Chen, Xijun Xiao, Qin Ren, Weijiang Lai, Zhijian Pan, Zhentao Pan, Pengfei Nie, Cheng Yuan, Zixuan Tan, Xuyang Liu, Tao Wang, Yunwen Huang, Hao Fang, Yichao Wang, Hao Zhang, Siyuan Wu, Hao Chen, Han Diao, Mingyu Yang, Yongkang Feng, Beihong Jin, Jinfeng Yang, Deping Xie, Peng Xu, Zheng Chai, Yuchao Zheng | [Link](https://arxiv.org/abs/2611.10356) | N/A |
 | 2026-11-07 | **SituRecBench: Evaluating Frontier Models as Situated Recommendation Assistants in 3D Environments** | Jingtong Yang, Dongding Lin, Jian Wang, Wenjie Li | [Link](https://arxiv.org/abs/2611.10349) | N/A |
-| 2026-11-06 | **Conformal Fair Decoding for Large Language Model Recommenders** | Ziwei Wu, Jingrui He | [Link](https://arxiv.org/abs/2611.10285) | N/A |
+| 2026-11-06 | **FAIDER: Fairness-Aware Item-Level Decoding for Large Language Model Recommenders** | Ziwei Wu, Jingrui He | [Link](https://arxiv.org/abs/2611.10285) | N/A |
 | 2026-11-06 | **SAGE-PAIR: Source-Pretrained Routed Residual Adaptation for Sparse-Feedback Recommendation** | Weiqing Zeng, Zida Yang, Guquan You, Jiexin Zheng, Cong Wang | [Link](https://arxiv.org/abs/2611.09728) | N/A |
 | 2026-11-06 | **Reliable Prerequisite-Aware Learning Path Recommendation under Uncertain Knowledge Structures: Long-Horizon Evaluation and Cross-Dataset Validation** | M. M. Golam Hafiz, A. K. M. Shahriar Emtiaz, Safia Akter Simi, Md. Rakibul Islam, M. F. Mridha | [Link](https://arxiv.org/abs/2611.09345) | N/A |
 | 2026-11-06 | **PAGSL: Path-Augmenting Graph Structure Learning for explainable scholar recommendation** | Jiale Xu, Mingshu Ai, Junjie Huang, Tao Jia | [Link](https://arxiv.org/abs/2611.09126) | N/A |
