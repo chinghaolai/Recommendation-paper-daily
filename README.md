@@ -1,4 +1,4 @@
-## Updated on 2026-11-12
+## Updated on 2026-11-13
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,10 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-11 | **SimRec: Learning to Search, Ask, and Recommend from Simulated Interaction** | Yaxin Zhang, Xingyu Wu, Yuchen Yan, Yuqin Dai, Hong Zhao, Lixing Shen, Zhan Chen, Jian Shao, Yongliang Shen | [Link](https://arxiv.org/abs/2611.15426) | N/A |
+| 2026-11-11 | **Measuring, Revealing and Mitigating Harmful Content Propagation in Recommender Systems** | Xiaokun Zhang, Youlin Wu, Junyu Lu, Jiamin Chen, Zhaochun Ren, Hongfei Lin, Fenglong Ma, Xue Liu, Chen Ma | [Link](https://arxiv.org/abs/2611.15160) | N/A |
+| 2026-11-11 | **When Does a Recommendation Spark Curiosity? Theory, Measurement, and Field Evidence** | Pan Li, Alexander Tuzhilin | [Link](https://arxiv.org/abs/2611.14938) | N/A |
+| 2026-11-11 | **Caprese: Change Impact Recommendation Using History and Runtime Analysis** | Sadjad Tavakoli, Saba Alimadadi | [Link](https://arxiv.org/abs/2611.14937) | N/A |
 | 2026-11-10 | **LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation** | Zehui Wang, Wolfram Höpken, Dietmar Jannach | [Link](https://arxiv.org/abs/2611.14004) | N/A |
 | 2026-11-10 | **Data Quality Challenges in Multimodal Tourism Recommender Systems** | Zehui Wang, Wolfram Höpken, Dietmar Jannach | [Link](https://arxiv.org/abs/2611.13972) | N/A |
 | 2026-11-10 | **From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations** | Vojtech Cahlik, Amir Reza Mohammadi, Rodrigo Alves, Pavel Kordik, Eva Zangerle | [Link](https://arxiv.org/abs/2611.13914) | N/A |
