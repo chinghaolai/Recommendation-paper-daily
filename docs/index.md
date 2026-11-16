@@ -2,11 +2,17 @@
 layout: default
 ---
 
-## Updated on 2026-11-13
+## Updated on 2026-11-16
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-12 | **Learning Recommendations under Imperfect Human Compliance with Record-Level Differential Privacy** | Yuwen Ma, Nicola Bastianello, Sarah Spurgeon, Boli Chen | [Link](https://arxiv.org/abs/2611.17490) | N/A |
+| 2026-11-12 | **KuaiRecV2: Benchmarking Large-Scale Continual Learning for Diversified and Multi-task Recommendation** | Chenxu Li, Shuchang Liu, Hantao Shu, Wei Yuan, Zhe Xu, Guoqing Hu, Yan Wang, Biao Yang, Xiang Li, Cheng Ling, Fan Yang, Yongqi Liu, Lantao Hu, Han Li, Kaiqiao Zhan, Kun Gai, An Zhang, Xiang Wang | [Link](https://arxiv.org/abs/2611.16795) | N/A |
+| 2026-11-12 | **Towards Automated Recommendation of Steady-State Detection Algorithms for Software Performance Benchmarks** | Martin Beseda, Vittorio Cortellessa, Federico Di Menna, Daniele Di Pompeo, Luca Traini | [Link](https://arxiv.org/abs/2611.16566) | N/A |
+| 2026-11-12 | **ReSID: Rethinking Long-Tail Retrieval in Generative Recommendation through Item Reachability** | Muyu Zou, Shunye Tang, Yi Xu, Haibo Xing, Yandong Wang, Lingyu Mu, Jinxin Hu | [Link](https://arxiv.org/abs/2611.16404) | N/A |
+| 2026-11-12 | **TriGen: A Generative Paradigm for Trigger-Induced Recommendation** | Muyu Zou, Haibo Xing, Shunye Tang, Liyan Tie, Lingyu Mu, Yandong Wang, Jinxin Hu | [Link](https://arxiv.org/abs/2611.16395) | N/A |
+| 2026-11-12 | **From Tokens to Behaviors: Rethinking Generative Recommendation for User Trajectory Prediction** | Jiaqi Wang, Hanchen Yang, Hengyu Zhang, Hongxu Ma, Wenqi Rao, Hongyang Wang, Zhongbo Sun, Renliang Qian, Weixin Chen, Wengen Li, Jihong Guan, Shuigeng Zhou, Qingpeng Cai, Peng Jiang, Hong Cheng | [Link](https://arxiv.org/abs/2611.16159) | N/A |
 | 2026-11-11 | **SimRec: Learning to Search, Ask, and Recommend from Simulated Interaction** | Yaxin Zhang, Xingyu Wu, Yuchen Yan, Yuqin Dai, Hong Zhao, Lixing Shen, Zhan Chen, Jian Shao, Yongliang Shen | [Link](https://arxiv.org/abs/2611.15426) | N/A |
 | 2026-11-11 | **Measuring, Revealing and Mitigating Harmful Content Propagation in Recommender Systems** | Xiaokun Zhang, Youlin Wu, Junyu Lu, Jiamin Chen, Zhaochun Ren, Hongfei Lin, Fenglong Ma, Xue Liu, Chen Ma | [Link](https://arxiv.org/abs/2611.15160) | N/A |
 | 2026-11-11 | **When Does a Recommendation Spark Curiosity? Theory, Measurement, and Field Evidence** | Pan Li, Alexander Tuzhilin | [Link](https://arxiv.org/abs/2611.14938) | N/A |
