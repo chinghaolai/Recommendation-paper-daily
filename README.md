@@ -1,4 +1,4 @@
-## Updated on 2026-11-16
+## Updated on 2026-11-17
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,9 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-13 | **RACE: Ranking-Uncertainty Aware Capacity-Adaptive Customization for Efficient Sequential Recommendation** | Tianqi Liu, Kaipu Sun, Kairui Fu, Wenkai Wang, Sihao Liu, Hui Zang, Ran Chen, Tao Wang, Shengyu Zhang | [Link](https://arxiv.org/abs/2611.18244) | N/A |
+| 2026-11-13 | **From institutional journalism to political extremes: Structural asymmetries in YouTube's news recommender during the 2022 French presidential campaign** | Julien Figeac, Erwan Le Merrer, Marie Neihouser, Gilles Tr{é}dan | [Link](https://arxiv.org/abs/2611.18034) | N/A |
+| 2026-11-13 | **RecMem: Recurrent Memory Compression for Long-Sequence Generative Recommendation** | Haoyi Hu, Gaoyang Guo, Yunjia Xi, Wen Chen, Weiwen Liu, Jian Wu, Yuning Jiang, Weinan Zhang | [Link](https://arxiv.org/abs/2611.17921) | N/A |
 | 2026-11-12 | **Learning Recommendations under Imperfect Human Compliance with Record-Level Differential Privacy** | Yuwen Ma, Nicola Bastianello, Sarah Spurgeon, Boli Chen | [Link](https://arxiv.org/abs/2611.17490) | N/A |
 | 2026-11-12 | **KuaiRecV2: Benchmarking Large-Scale Continual Learning for Diversified and Multi-task Recommendation** | Chenxu Li, Shuchang Liu, Hantao Shu, Wei Yuan, Zhe Xu, Guoqing Hu, Yan Wang, Biao Yang, Xiang Li, Cheng Ling, Fan Yang, Yongqi Liu, Lantao Hu, Han Li, Kaiqiao Zhan, Kun Gai, An Zhang, Xiang Wang | [Link](https://arxiv.org/abs/2611.16795) | N/A |
 | 2026-11-12 | **Towards Automated Recommendation of Steady-State Detection Algorithms for Software Performance Benchmarks** | Martin Beseda, Vittorio Cortellessa, Federico Di Menna, Daniele Di Pompeo, Luca Traini | [Link](https://arxiv.org/abs/2611.16566) | N/A |
