@@ -2,11 +2,21 @@
 layout: default
 ---
 
-## Updated on 2026-11-17
+## Updated on 2026-11-18
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-16 | **Learning to Reason with Predictive Gains for Generative Recommendation** | Zhuoyang Li, Teng Shi, Jiakai Tang, Weijie Yu, Guofu Xie, Xiao Zhang, Lei Kou, Yang Yu, Lei Shen, Xin Chen, Bing Wang, Xiaoyi Zeng, Jun Xu | [Link](https://arxiv.org/abs/2611.21441) | N/A |
+| 2026-11-16 | **Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?** | Daisuke Kikuta | [Link](https://arxiv.org/abs/2611.21155) | N/A |
+| 2026-11-16 | **EE-Motion: An EEG-based Web Architecture for Live Affective Music Recommendation** | Sabino Roccotelli, Potito Aghilar, Vito Walter Anelli, Alejandro Bellogín, Tommaso Colafiglio, Michelantonio Trizio, Tommaso Di Noia | [Link](https://arxiv.org/abs/2611.21032) | N/A |
+| 2026-11-15 | **Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Wenhao Yuan, Ziyue Peng, Puzhen Wu, Shujie Li, Jian Chen, Zheng Lin, Edith C. H. Ngai | [Link](https://arxiv.org/abs/2611.19974) | N/A |
+| 2026-11-15 | **Reflection Is Not Always Worth It: Budgeted Reflection Allocation for Recommendation Agents** | Jinfeng Xu, Zheyu Chen, Ziyue Peng, Jianheng Tang, Zheng Lin, Wenhao Yuan, Jian Chen, Shujie Li, Victor Leung | [Link](https://arxiv.org/abs/2611.19847) | N/A |
+| 2026-11-15 | **Exploration of Reinforcement Learning in Generative Recommendation Models** | Pengfei Zheng, Wuchao Li, Shiyao Wang, Honghui Bao, Hongyi Xie, Jiaxin Deng, Xingmei Wang, Jinghao Zhang, Yufei Ye, Ruiming Tang, Guorui Zhou, Han Li, Kun Gai, Defu Lian | [Link](https://arxiv.org/abs/2611.19742) | N/A |
+| 2026-11-14 | **Keep it Simple! A Multiple-Choice Task can Benefit Generative Recommendation** | Wei-Hsiang Huang, Jyun-Yu Jiang, Pu-Jen Cheng | [Link](https://arxiv.org/abs/2611.19320) | N/A |
+| 2026-11-14 | **CLEAR: Legible and Steerable Recommendation via Grounded Natural-Language Interests** | Qi Guo, Reza Mirghaderi, Iordanis Fostiropoulos, David Fan, Yuchen Liu, Shiliang Tang, Lukasz Korycki, Golnaz Ghasemiesfeh, Xinzhu Bei, Sasha Vorontsov, Hanchao Yu, Brendan Quinlivan, Khoi Pham, Jigar Gada, Hao Yu, Felix Li, Hang Gao, Boyu Fang, Yang Gao, Yale Thomas, Xiaomeng Jin, Avishek Dutta, Hong Hong, Janet Xia, Ethan Zhu, Ellie Pan, Xiang Shen, Jawwad Zakaria, Jinfeng Lin, Jonathan Rush, Ruixue Lian, Noah Kennedy, Brian Vanover, Jas Pyneni, Daniel Thiyagu, Apoorv Saxena, Sanyogeeta Lawande, Huayu Ding, Hima Cherukuru, Yang Liu, Chen Kovacs, Qunshu Zhang, Lizhu Zhang, Benyu Zhang, Kate Chen, Ashish Singal, Danny Kanoff, Zhiyu Liu, Jiayi Liu, Jianyu Wang, Fei Liu, Xiangjun Fan, Abhishek Kumar, Hong Yan | [Link](https://arxiv.org/abs/2611.19110) | N/A |
+| 2026-11-14 | **TokenFormer V2: Breaking the Resolution-Complexity Dilemma in Unified Recommendation** | Kaihui Wu, Guoming Li, Liang Guo, Yifeng Zhou, Yuehong Hu, Junwei Pan, Zhixiang Feng, Chengguo Yin, Wenqi Fan, Haijie Gu, Jie Jiang | [Link](https://arxiv.org/abs/2611.19074) | N/A |
+| 2026-11-13 | **Label-Free Detection of Structural Bias in LLM-Based Recommender Systems via Randomized Paraphrasing: The Case of Verbosity** | Carlos Peláez-González, David Herrera-Poyatos, Francisco Herrera, Andrés Herrera-Poyatos | [Link](https://arxiv.org/abs/2611.18878) | N/A |
 | 2026-11-13 | **RACE: Ranking-Uncertainty Aware Capacity-Adaptive Customization for Efficient Sequential Recommendation** | Tianqi Liu, Kaipu Sun, Kairui Fu, Wenkai Wang, Sihao Liu, Hui Zang, Ran Chen, Tao Wang, Shengyu Zhang | [Link](https://arxiv.org/abs/2611.18244) | N/A |
 | 2026-11-13 | **From institutional journalism to political extremes: Structural asymmetries in YouTube's news recommender during the 2022 French presidential campaign** | Julien Figeac, Erwan Le Merrer, Marie Neihouser, Gilles Tr{é}dan | [Link](https://arxiv.org/abs/2611.18034) | N/A |
 | 2026-11-13 | **RecMem: Recurrent Memory Compression for Long-Sequence Generative Recommendation** | Haoyi Hu, Gaoyang Guo, Yunjia Xi, Wen Chen, Weiwen Liu, Jian Wu, Yuning Jiang, Weinan Zhang | [Link](https://arxiv.org/abs/2611.17921) | N/A |
@@ -352,6 +362,7 @@ layout: default
 | 2026-09-10 | **FedHUR: Learning Hierarchical Utility-Guided Client Relations for Personalized Federated Recommendation** | Mingzhe Han, Jiahao Liu, Dongsheng Li, Jiankui Zhou, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu | [Link](https://arxiv.org/abs/2609.11632) | N/A |
 | 2026-09-10 | **UniRec: Cross-stage Multi-Task Fusion with Preference Optimization for Cascaded Recommender Systems** | Lingyuan Kong, Jiaqi Cui, Fanjiao Zeng, Congqi Wang, Yu Li, Yuan Cheng, Jingxin Liu, Xiaoshuang Chen, Kaiqiao Zhan | [Link](https://arxiv.org/abs/2609.11052) | N/A |
 | 2026-09-10 | **Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System** | Ming Li, Dai Li, Xuying Ning, Bo Sun, Rui Li, Yi Zhang, Silvia Gong, Xuan Cao, Rui Li, Cornelia Carapcea, Qunshu Zhang, Zhigang Wang, Yinglong Xia, Andy Wang | [Link](https://arxiv.org/abs/2609.10922) | N/A |
+| 2026-09-09 | **Self-Evolving Dual-Role Deliberation for Medication Recommendation from Clinical Records** | Jiyue Jiang, Yu Lei, Yitao Xu, Zikang Wang, Zhenyu Wang, Licheng Zong, Han Huang, Ziyi Li, Zhiyu Huo, Yuhan Chen, Jiayang Chen, Xiaodan Fan, Yu Li | [Link](https://arxiv.org/abs/2611.18615) | N/A |
 | 2026-09-09 | **Following the Preference, Missing the Optimum: Compliance Without Optimization in AI Housing Recommendation** | Hsuan Lo | [Link](https://arxiv.org/abs/2609.10856) | N/A |
 | 2026-09-09 | **An Efficient and Effective Agentic Group Shilling Attack on Recommender Systems** | Quoc Viet Nguyen, Trinh Pham, Viet Huynh, Hongzhi Yin, Quoc Viet Hung Nguyen, Bay Vo, Thanh Tam Nguyen | [Link](https://arxiv.org/abs/2609.09551) | N/A |
 | 2026-09-08 | **Democracy Needs Reach: Political Equality, Online Speech, and Algorithmic Recommendation** | Etienne Brown | [Link](https://arxiv.org/abs/2609.09465) | N/A |
