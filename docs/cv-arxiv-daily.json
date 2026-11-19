@@ -22299,12 +22299,12 @@
         },
         "2609.30812": {
             "title": "Dynamic Service Recommendation with Congestion-Dependent Joining: Near-Optimal and Constant-Factor Approximation Algorithms",
-            "authors": "Yi-Chun Akchen, Sena Asli Bozkurt, Chen-An Lin",
+            "authors": "Yi-Chun Akchen, Sena Aslı Bozkurt, Chen-An Lin",
             "first_author": "Yi-Chun Akchen",
             "url": "https://arxiv.org/abs/2609.30812",
             "pdf_url": "https://arxiv.org/abs/2609.30812",
             "publish_date": "2026-09-25",
-            "abstract": "Modern service platforms often provide customers with real-time congestion information, such as anticipated waiting times, before they decide whether to use a service. This creates an intertemporal tradeoff in service recommendation: directing a customer to a service may generate immediate value, but the resulting congestion can make that service less attractive to future customers. We study this tradeoff through a finite-horizon stochastic optimization problem in which a platform dynamically recommends among multiple services, each represented by a queue, with customers' joining probabilities decreasing with congestion. We first formulate the problem as a Markov decision process and show that optimal decisions generally depend on the joint congestion state, giving rise to a prohibitively large state space. We develop two complementary approximation algorithms that overcome this curse of dimensionality. First, we provide a quasi-polynomial-time approximation scheme that uses truncation and rounding of the model primitives to compress the joint congestion state, while carefully accounting for how these approximations affect the stochastic evolution of the system to establish near-optimality. Second, we develop a polynomial-time LP-guided algorithm that replaces the joint-state representation with service-level marginal information and achieves a (1-1/e) approximation guarantee under substantially more general service and joining dynamics. Finally, we show that monotone joining behavior, whereby customers become less likely to join as a service becomes more congested, marks a fundamental tractability boundary: without monotonicity, the problem is NP-hard to approximate within any constant factor. This establishes monotonicity as a key behavioral property that enables tractable dynamic service recommendation despite the complexity introduced by congestion-dependent joining.",
+            "abstract": "Modern service platforms often show customers real-time congestion information, such as anticipated waiting times, before they decide whether to use a service. This creates an intertemporal tradeoff: directing a customer to a service may generate immediate value, but the resulting congestion can make that service less attractive to future customers. We study this tradeoff in a finite-horizon problem in which a platform recommends one of multiple services, each represented by a queue, and customers' joining probabilities decrease with congestion. We show that optimal recommendations generally depend on the joint congestion state and cannot be reduced to indices that depend only on each service's own state. Hence, exact dynamic programming suffers from a curse of dimensionality. We develop approximation algorithms that retain progressively less of this joint state. First, we construct a quasi-polynomial-time approximation scheme that achieves a $(1-ε)$-approximation for any $ε>0$. It rounds the model primitives and truncates the relevant queue lengths to compress the joint state into a histogram over service types, and our coupling arguments bound the resulting revenue loss. Second, under general monotone joining and service capacities, we study policies that retain only per-service information. A greedy policy, which uses only each service's current queue length, is a tight $1/2$-approximation, as it ignores the congestion externality that a customer imposes on later customers. An LP-guided algorithm that plans each service's queue-length distribution over the horizon accounts for this externality and achieves a $(1-1/e)$-approximation. Finally, monotone joining is what makes the problem tractable: with nonempty initial queues, both constant-factor guarantees hold under monotonicity, whereas without it the problem is NP-hard to approximate within any constant factor.",
             "primary_category": "math.OC",
             "code_url": "null"
         },
@@ -23960,7 +23960,7 @@
         },
         "2610.37584": {
             "title": "REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation",
-            "authors": "Yuxi Huang, Silin Zhou, Chenhao Wang, Zihan Li, Gangming Guo, Pei Ke, Shen Gao, Shuo Shang",
+            "authors": "Yuxi Huang, Silin Zhou, Chenhao Wang, Zihan Li, Gangming Guo, Pei Ke, Lisi Chen, Shen Gao, Shuo Shang",
             "first_author": "Yuxi Huang",
             "url": "https://arxiv.org/abs/2610.37584",
             "pdf_url": "https://arxiv.org/abs/2610.37584",
@@ -25540,6 +25540,72 @@
             "publish_date": "2026-09-09",
             "abstract": "Recommending medications from electronic health records (EHRs) is a safety-critical task that demands therapeutic coverage, explicit safety constraints, traceable justification, and continual adaptivity. Supervised neural models freeze at deployment and cannot reason about new phenotypes, while existing LLM pipelines are single-pass and lack a cross-case improvement loop. We propose SEMPA, a training-free agentic framework that couples a Proposer with a Critic in multi-round adversarial deliberation, grounds candidates with molecular-aware retrieval, contrastively evolves both agents' natural-language policies under a semantic-anchor constraint, and enforces rule-based DDI and contraindication checks. On 100 MIMIC-IV encounters, SEMPA reaches 0.3116 Jaccard, 0.7295 F1, and a 0.0172 DDI rate, improving F1 by 57.7% and cutting DDI by 77.5% over the strongest supervised baseline. Two LLM judges rank SEMPA highest, and six-backbone studies confirm that gains derive from the framework rather than a specific model.",
             "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2611.22838": {
+            "title": "Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation",
+            "authors": "Yuheng Chen, Fan Zhang, Yixuan Xu, Chao Yang, Yang Xiang, Can Yang",
+            "first_author": "Yuheng Chen",
+            "url": "https://arxiv.org/abs/2611.22838",
+            "pdf_url": "https://arxiv.org/abs/2611.22838",
+            "publish_date": "2026-11-17",
+            "abstract": "Generative recommenders decode the semantic ID of a user's next item with a language model, and post-training them with reinforcement learning (RL) after supervised fine-tuning (SFT) has become standard practice. The gains are mostly reported on the first ten results, yet in deployment such models hand hundreds of candidates to a downstream ranker or reward model. We show that RL post-training has a hidden cost: it improves accuracy at the top of the list (hit@K for small K) but, on all five datasets we study, lowers the recall of the candidate list (hit@K for K in the hundreds). The model becomes a better ranker and a worse retriever. Controlled experiments trace the loss to the negative advantages that RL assigns to the candidates it samples, the rollout. The root cause is that only one next item is logged per user, so RL treats every other candidate as wrong. Yet these candidates are the model's most plausible alternatives, and often the next items of other users with similar histories. Penalising them pushes down exactly what similar users choose next, and these items drop out of those users' candidate lists. This diagnosis points directly to a remedy: out-of-rollout anchoring, a single additional loss term that preserves the SFT model's ordering of the items outside the rollout. It keeps the gain at the top and restores recall to the SFT level on all five datasets, and it is effective under other RL configurations as well. To our knowledge, this is the first systematic study of this recall loss: we measure it, identify its cause, and show that, once the cause is known, a simple remedy suffices.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.22597": {
+            "title": "COTTI: Contrastive Training and Time-Aware Inference for Robust Industrial Recommendation under Promotional Drift",
+            "authors": "Maolei Huang, Jing Tian, Dexuan Duan, Fangfang Lin, Huawei Cao, Shuhan Song",
+            "first_author": "Maolei Huang",
+            "url": "https://arxiv.org/abs/2611.22597",
+            "pdf_url": "https://arxiv.org/abs/2611.22597",
+            "publish_date": "2026-11-17",
+            "abstract": "Promotional events shift traffic composition, purchase behavior, and the scale of conversion probabilities on different time horizons. We present \\textbf{COTTI} (\\textbf{CO}ntrastive \\textbf{T}raining and \\textbf{T}ime-aware \\textbf{I}nference), an industrial recommendation framework that separates historical representation learning from event-time score adjustment. Cross-Period Contrastive Alignment (CPC) regularizes paired histories of the same user with adaptive consistency weights. Active Re-weighting (RW) controls the influence of promotional examples through historical-interest distance. Adaptive Boundary Alignment (ABA) combines stochastic prediction variability with a temporal event kernel to adjust logits while keeping predictor parameters fixed. We analyze the weighted objective and bound ABA-induced probability and ranking changes. On Fliggy data, COTTI attains an offline AUC of 0.8127, compared with 0.8101 for TEN and 0.8123 for TEN with ABA. Cross-category analysis reveals improved discrimination alongside declines in paid-item recall for novel categories. End-to-end measurements give a p99 latency of 38.9\\,ms and throughput of 14,700 requests/s; enabling ABA adds 2.2\\,ms to p99. A ten-day online experiment against the serving HDR model yields relative gains of 3.14\\% in conversion rate and 2.68\\% in revenue per mille. Together, these results characterize the trade-off between aggregate prediction, novel-category discovery, and serving cost in promotional recommendation.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.22410": {
+            "title": "More Than a Score: Reinforcement Learning with Verbalized Feedback for Generative Recommendation",
+            "authors": "Zipeng Chen, Xinyu Lin, Yuliang Sun, Sheng Zhang, Zeyu Wang, Xiaowen Shi, Junwei Pan, Chengguo Yin",
+            "first_author": "Zipeng Chen",
+            "url": "https://arxiv.org/abs/2611.22410",
+            "pdf_url": "https://arxiv.org/abs/2611.22410",
+            "publish_date": "2026-11-17",
+            "abstract": "Large language models (LLMs) are increasingly used for generative recommendation, where recommended items are generated directly from users' interaction histories. To further improve recommendation quality, reinforcement learning (RL) has been applied to align these models with recommendation objectives. However, existing RL methods rely on scalar rewards to implicitly guide exploration. These rewards do not specify which aspects of a candidate conflict with the user's preferences or how the next candidate should differ. To address this gap, we propose VerRec, a verbalized feedback-guided RL framework for generative recommendation. Specifically, a user simulator generates personalized verbalized feedback based on the user's historical preferences and the candidate item profile. The policy uses this feedback to produce refined recommendations. Original and refined candidates form an expanded group and are jointly optimized with group relative policy optimization. The user simulator is only required during training and is removed at inference time. Experiments on three Amazon review datasets with two generative recommendation backbones demonstrate that VerRec improves recommendation accuracy and ranking quality. Further analyses show that verbalized guidance encourages exploration of more diverse candidates and helps the policy discover more rewarding recommendations during training.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.22274": {
+            "title": "GuardAgent: A Memory-Augmented Agentic Framework for Adaptive Detection of Adversarial Promotions in LLM-Based Recommendation",
+            "authors": "Shiyi Yang, Xinshu Li, Chen Wang, Xiwei Xu, Liming Zhu, Lina Yao",
+            "first_author": "Shiyi Yang",
+            "url": "https://arxiv.org/abs/2611.22274",
+            "pdf_url": "https://arxiv.org/abs/2611.22274",
+            "publish_date": "2026-11-17",
+            "abstract": "In traditional recommender systems (RSs), textual information typically serves as auxiliary signals for representation learning. In contrast, in LLM-based RSs, textual information becomes the primary medium for recommendation generation through semantic understanding and reasoning. This shift fundamentally changes the attack surface, making promotion-driven manipulations more feasible, effective, and harder to detect. However, effectively detecting such attacks remains largely unexplored. To fill this gap, we present the first systematic study on detecting promotion-driven attacks against LLM-based RSs, aiming to safeguard next-generation recommendation platforms. Specifically, we propose GuardAgent, a novel LLM-powered agentic detection framework that operates through a loop of Perception, Action, Reflection and Memory. In contrast to conventional LLM-based detectors that function in a static, one-off, and opaque fashion, GuardAgent continually learns and self-evolves to adapt to unseen threat patterns while generating explainable reasoning traces and outcomes. Extensive experiments on real-world datasets demonstrate that GuardAgent achieves state-of-the-art generalization performance, laying the foundation for robust and trustworthy recommendation in practical settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.22163": {
+            "title": "Cluster-Guided Decoding with Trust-Region Constraints for Personalized Recommendation",
+            "authors": "Gezheng Wen, Chao Shen, Raviteja Anantha, Tan Shen Cliff Chung, Layne C. Price",
+            "first_author": "Gezheng Wen",
+            "url": "https://arxiv.org/abs/2611.22163",
+            "pdf_url": "https://arxiv.org/abs/2611.22163",
+            "publish_date": "2026-11-17",
+            "abstract": "Most recommenders score each item in the catalog separately, and do not explicitly model which semantic region of the catalog a recommendation belongs to. Models expressive enough to offer that control are often too slow to run over a full catalog for online inference. In this paper, we present Cluster-Guided Generative Reconstruction (CG2R), which learns a hierarchy of semantic clusters and uses a cluster-level prior to steer item ranking for personalized recommendations. Unlike existing systems that only use clusters to pre-select candidates, CG2R adds the cluster prior directly to the item scoring rule, so that the learned cluster structure shapes the ranking itself. Because the prior is assembled from cluster centroids rather than per-item statistics, it remains defined even for cold-start users when no history is available. Across the three benchmark datasets evaluated, CG2R outperforms classical, neural, and LLM-based baselines in terms of Recall and nDCG, with its performance gains widening as the catalog grows sparser. In addition, CG2R serves recommendations in milliseconds, suggesting potential as low-latency first-stage retrieval.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.21920": {
+            "title": "KVUse: Reusable-KV User Memory for Efficient LLM Recommenders",
+            "authors": "Xin Guo, Qiang Zhang, Xiang Zhou, Arushi Rai, Siyu Lin, Yifan Wu, Xiang Shen, Lei Huang, Qunshu Zhang, Xiangjun Fan, Lizhu Zhang",
+            "first_author": "Xin Guo",
+            "url": "https://arxiv.org/abs/2611.21920",
+            "pdf_url": "https://arxiv.org/abs/2611.21920",
+            "publish_date": "2026-11-16",
+            "abstract": "Memory-augmented recommenders built on large language models (LLMs) maintain a natural-language profile of each user. These profiles are updated by a user profile update path that revises the profile as new interactions arrive and are consumed by downstream task paths like ranking. Because these user profiles are stored as text in the user memory, every ranking LLM call that consumes them must splice them in the prompt and calculate the KV cache of them during the prefill phase. Given these ranking LLM calls are prefill heavy (long prompt but short decoded output) and repeatedly called, these repeated prefill of user profile text dominates the serving. Prefix caching cannot remove it, because these user profiles are preceded by different text in different calls. We present KVUse, which stores the user profiles as reusable key-value (KV) caches instead of text. KVUse trains lightweight LoRA writers by self-distillation, so that the user profile update call produces the reusable KV of the user profile while decoding it, and the LLM can read these reusable KV at new positions and behind new context without recomputation. KVUse also has a customized KV scheduler that uploads the stored reusable KV of the next batch while the current batch is computed, hiding the KV transfer from host memory behind GPU computation. On four InstructRec datasets with Llama-3.1-8B-Instruct, KVUse shows no statistically significant difference in ranking quality from full prefill over continuous memory update rounds. Under saturated load, KVUse raises the throughput of the downstream scoring path by 4.0x-4.5x and of the profile update path by 1.4x-1.9x.",
+            "primary_category": "cs.LG",
             "code_url": "null"
         }
     }

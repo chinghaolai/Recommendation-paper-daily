@@ -1,4 +1,4 @@
-## Updated on 2026-11-18
+## Updated on 2026-11-19
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,12 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-17 | **Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation** | Yuheng Chen, Fan Zhang, Yixuan Xu, Chao Yang, Yang Xiang, Can Yang | [Link](https://arxiv.org/abs/2611.22838) | N/A |
+| 2026-11-17 | **COTTI: Contrastive Training and Time-Aware Inference for Robust Industrial Recommendation under Promotional Drift** | Maolei Huang, Jing Tian, Dexuan Duan, Fangfang Lin, Huawei Cao, Shuhan Song | [Link](https://arxiv.org/abs/2611.22597) | N/A |
+| 2026-11-17 | **More Than a Score: Reinforcement Learning with Verbalized Feedback for Generative Recommendation** | Zipeng Chen, Xinyu Lin, Yuliang Sun, Sheng Zhang, Zeyu Wang, Xiaowen Shi, Junwei Pan, Chengguo Yin | [Link](https://arxiv.org/abs/2611.22410) | N/A |
+| 2026-11-17 | **GuardAgent: A Memory-Augmented Agentic Framework for Adaptive Detection of Adversarial Promotions in LLM-Based Recommendation** | Shiyi Yang, Xinshu Li, Chen Wang, Xiwei Xu, Liming Zhu, Lina Yao | [Link](https://arxiv.org/abs/2611.22274) | N/A |
+| 2026-11-17 | **Cluster-Guided Decoding with Trust-Region Constraints for Personalized Recommendation** | Gezheng Wen, Chao Shen, Raviteja Anantha, Tan Shen Cliff Chung, Layne C. Price | [Link](https://arxiv.org/abs/2611.22163) | N/A |
+| 2026-11-16 | **KVUse: Reusable-KV User Memory for Efficient LLM Recommenders** | Xin Guo, Qiang Zhang, Xiang Zhou, Arushi Rai, Siyu Lin, Yifan Wu, Xiang Shen, Lei Huang, Qunshu Zhang, Xiangjun Fan, Lizhu Zhang | [Link](https://arxiv.org/abs/2611.21920) | N/A |
 | 2026-11-16 | **Learning to Reason with Predictive Gains for Generative Recommendation** | Zhuoyang Li, Teng Shi, Jiakai Tang, Weijie Yu, Guofu Xie, Xiao Zhang, Lei Kou, Yang Yu, Lei Shen, Xin Chen, Bing Wang, Xiaoyi Zeng, Jun Xu | [Link](https://arxiv.org/abs/2611.21441) | N/A |
 | 2026-11-16 | **Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?** | Daisuke Kikuta | [Link](https://arxiv.org/abs/2611.21155) | N/A |
 | 2026-11-16 | **EE-Motion: An EEG-based Web Architecture for Live Affective Music Recommendation** | Sabino Roccotelli, Potito Aghilar, Vito Walter Anelli, Alejandro Bellogín, Tommaso Colafiglio, Michelantonio Trizio, Tommaso Di Noia | [Link](https://arxiv.org/abs/2611.21032) | N/A |
@@ -128,7 +134,7 @@
 | 2026-10-28 | **Floor It, Then Fill It: Simulating Creator Ecosystems for Fair Video-Content Recommendation Systems at Billion User Scale** | Sohini Roychowdhury, Long Sha, Sunand Agarwal, Payal Kamboj, Shuyang Chen, Junlin Zhang, Scott Chen, Hui Zhang | [Link](https://arxiv.org/abs/2610.38155) | N/A |
 | 2026-10-27 | **Merge and Branch: Efficient Tree-Structured Supervised Fine-Tuning of LLMs for Recommendation** | Yunqin Zhu, Liyang Shu, Yusi Zhang, Yao Xie, Tianhao Li, Xinhang Song, Tianyu Wen | [Link](https://arxiv.org/abs/2610.37973) | N/A |
 | 2026-10-27 | **Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence** | Carlos Peláez-González, Francisco Herrera, Andrés Herrera-Poyatos | [Link](https://arxiv.org/abs/2610.37962) | N/A |
-| 2026-10-27 | **REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation** | Yuxi Huang, Silin Zhou, Chenhao Wang, Zihan Li, Gangming Guo, Pei Ke, Shen Gao, Shuo Shang | [Link](https://arxiv.org/abs/2610.37584) | N/A |
+| 2026-10-27 | **REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation** | Yuxi Huang, Silin Zhou, Chenhao Wang, Zihan Li, Gangming Guo, Pei Ke, Lisi Chen, Shen Gao, Shuo Shang | [Link](https://arxiv.org/abs/2610.37584) | N/A |
 | 2026-10-27 | **Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation** | Zhenye Yang, Jinpeng Chen, Wenbo Fu, Jun Ma, Huan Li, Qimin Zhou, Tao Wang, Li Sun, Senzhang Wang | [Link](https://arxiv.org/abs/2610.37409) | N/A |
 | 2026-10-27 | **LESSRec: Level-Specific History Modeling for Semantic ID-Based Recommendation** | Shangxin Yang, Zongwei Wang, Jing Long, Junliang Yu, Min Gao | [Link](https://arxiv.org/abs/2610.37286) | N/A |
 | 2026-10-27 | **Modeling Preference Dependencies with Directed Acyclic Graphs for Narrative-Driven Recommendation** | Mingzhe Lu, Jian Qin, Ruize Qin, Jinhao Liu, Yunpeng Li, Hang Su | [Link](https://arxiv.org/abs/2610.37280) | N/A |
@@ -288,7 +294,7 @@
 | 2026-09-25 | **Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings** | Ekaterina Trushkova, Artur Gimranov, Anton Lysenko | [Link](https://arxiv.org/abs/2609.31253) | N/A |
 | 2026-09-25 | **AgentRecommender: LLM Agents Enable Customizable Recommender Systems on the User Side** | Ryoma Sato | [Link](https://arxiv.org/abs/2609.31166) | N/A |
 | 2026-09-25 | **SPADE: Escaping the Popularity-Similarity Frontier to Measure Serendipitous Recommendations** | Tobias Vente, Maarten Peirsman, Noah Daniëls, Hannu Toivonen, Bart Goethals | [Link](https://arxiv.org/abs/2609.31164) | N/A |
-| 2026-09-25 | **Dynamic Service Recommendation with Congestion-Dependent Joining: Near-Optimal and Constant-Factor Approximation Algorithms** | Yi-Chun Akchen, Sena Asli Bozkurt, Chen-An Lin | [Link](https://arxiv.org/abs/2609.30812) | N/A |
+| 2026-09-25 | **Dynamic Service Recommendation with Congestion-Dependent Joining: Near-Optimal and Constant-Factor Approximation Algorithms** | Yi-Chun Akchen, Sena Aslı Bozkurt, Chen-An Lin | [Link](https://arxiv.org/abs/2609.30812) | N/A |
 | 2026-09-25 | **RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent** | Xiao Chen, Yicheng Zhao, Yingying Wu, Zhendong Chu, Changyi Ma, Qingsong Wen, Xuan Song | [Link](https://arxiv.org/abs/2609.30717) | N/A |
 | 2026-09-25 | **Recommendation World Models for Future-State Control** | Jinfeng Xu, Zheyu Chen, Ziyue Peng, Jianheng Tang, Zheng Lin, Jing Yang, Puzhen Wu, Zheng Xing, Victor C. M. Leung | [Link](https://arxiv.org/abs/2609.30711) | N/A |
 | 2026-09-25 | **Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems** | Dharak Kharod, Yuzhen Huang, Zhou Wang, Jackie Xu, Fuzail Khan, Jacky Zhou, Hao Yan, Lidong Zhao, Xizhou Feng, Yvonne Liu, Karthik Jayaraman, Praveen Ramachandran, Vishwa Karia, Yashasvi Makin | [Link](https://arxiv.org/abs/2609.30656) | N/A |
