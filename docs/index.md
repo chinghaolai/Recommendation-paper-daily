@@ -2,11 +2,22 @@
 layout: default
 ---
 
-## Updated on 2026-11-20
+## Updated on 2026-11-23
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-19 | **Beyond Covers and Titles: Evidence-First Ranking for Robust Cold-Start Recommendation** | Fuyi Wang, Yuxin Cao, Yifan Liao, Renyang Liu, Lin Li, Wei Song | [Link](https://arxiv.org/abs/2611.26249) | N/A |
+| 2026-11-19 | **From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation** | Zhixiong Hu, Meng Li, Maggie Zhang, Deborshi Goswami, David Bailey, James Bradley | [Link](https://arxiv.org/abs/2611.26096) | N/A |
+| 2026-11-19 | **Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis** | Shotaro Ishihara | [Link](https://arxiv.org/abs/2611.25606) | N/A |
+| 2026-11-18 | **Intelligent Embedding Pruning for Large-Scale Recommendation Models** | Anish Khazane, Alex Saad-Falcon, Guanchu Wu, Marcio Porto, Jasper Shan, Fei Yu, Eugene Shulga, Intaik Park, Yongzhe Zhang, Xiaoyu Deng, Sheng Luo, Xiaoya Wang | [Link](https://arxiv.org/abs/2611.25288) | N/A |
+| 2026-11-18 | **LQ-Rec: Late Quantization for Sequential Recommendation** | Satoshi Koide, Yueqi Wang, Julian McAuley | [Link](https://arxiv.org/abs/2611.25256) | N/A |
+| 2026-11-18 | **Platform Recommendation and Competition in Search Markets** | Sanxi Li, Jun Yu, Mingsheng Zhang | [Link](https://arxiv.org/abs/2611.24464) | N/A |
+| 2026-11-18 | **Sensitivity analysis in real options studies: systematic review and recommendations** | Mariia Kozlova, Julian Scott Yeomans | [Link](https://arxiv.org/abs/2611.24266) | N/A |
+| 2026-11-18 | **ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation** | Dae Kyoo Kim, Heejung Cho, Sungmoo Hong, Eunil Park | [Link](https://arxiv.org/abs/2611.23969) | N/A |
+| 2026-11-18 | **MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems** | Matthew Li, Albert Liang, Dilip Raj | [Link](https://arxiv.org/abs/2611.23910) | N/A |
+| 2026-11-18 | **CONCORD-Rec: Catalog-Conditioned Modality Utility for Semantic-ID Diffusion Recommendation** | Haopeng Jin, Bingkang Shi, Tao Yu, Yifei Ma, Hao Liu, Hongzhu Yi, Jinwen Luo | [Link](https://arxiv.org/abs/2611.23710) | N/A |
+| 2026-11-17 | **Optimize the Cob, Then the Kernel: Optimizing Beam Search for Generative Recommendation Inference** | Shing Wai Pun, Kai Wu, Pengfei Xia, Hui Zang, Wei Guo, Yong Liu | [Link](https://arxiv.org/abs/2611.23339) | N/A |
 | 2026-11-17 | **Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation** | Yuheng Chen, Fan Zhang, Yixuan Xu, Chao Yang, Yang Xiang, Can Yang | [Link](https://arxiv.org/abs/2611.22838) | N/A |
 | 2026-11-17 | **COTTI: Contrastive Training and Time-Aware Inference for Robust Industrial Recommendation under Promotional Drift** | Maolei Huang, Jing Tian, Dexuan Duan, Fangfang Lin, Huawei Cao, Shuhan Song | [Link](https://arxiv.org/abs/2611.22597) | N/A |
 | 2026-11-17 | **More Than a Score: Reinforcement Learning with Verbalized Feedback for Generative Recommendation** | Zipeng Chen, Xinyu Lin, Yuliang Sun, Sheng Zhang, Zeyu Wang, Xiaowen Shi, Junwei Pan, Chengguo Yin | [Link](https://arxiv.org/abs/2611.22410) | N/A |
@@ -441,6 +452,7 @@ layout: default
 | 2026-08-27 | **Incremental Recommendation via Causal Models** | Athanasios Vlontzos, David Gustafsson, Michael O'Riordan, Ciarán M. Gilligan-Lee | [Link](https://arxiv.org/abs/2608.26804) | N/A |
 | 2026-08-27 | **Beyond a Single Story: Meta-Reviewing Sparse and Incomplete User-generated Contents for Recommendation** | Hongren Wang, Tianjun Wei, Yingpeng Du, Jie Zhang, Yin-Leng Theng | [Link](https://arxiv.org/abs/2608.26728) | N/A |
 | 2026-08-27 | **Preference Flow Matching with Spectral Factorization for Micro-video Recommendation** | Xinxin Dong, Haokai Ma, Fei Hu, YuZe Zheng, Bin Wu, Yonghui Yang, Xiaodong Wang | [Link](https://arxiv.org/abs/2608.26579) | N/A |
+| 2026-08-26 | **PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation** | Shengxiang Lin, Jiajie Su, Pengyang Zhou, Xiang Chen, Xiaolin Zheng, Feng Tian, Chaochao Chen | [Link](https://arxiv.org/abs/2611.23236) | N/A |
 | 2026-08-26 | **Hamiltonian Spectral-Temporal Dissipative Dynamics for Sequential Recommendation** | Shuiying Liao, P. Y. Mok | [Link](https://arxiv.org/abs/2608.25755) | N/A |
 | 2026-08-26 | **D3ER: Supporting Multi-Modal Recommendation via Disentangle and Distillation-based Dynamic Ensemble** | Bingnan Wang, Yi Li, Xiongxin Tang, Fanjiang Xu, Jiangmeng Li | [Link](https://arxiv.org/abs/2608.25737) | N/A |
 | 2026-08-26 | **A Dual-Transformer for Multi-Camera View Recommendation** | Josep Cabacas-Maso, Carles Ventura, Ismael Benito-Altamirano | [Link](https://arxiv.org/abs/2608.25601) | N/A |

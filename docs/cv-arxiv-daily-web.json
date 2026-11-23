@@ -20313,7 +20313,7 @@
             "url": "https://arxiv.org/abs/2608.21274",
             "pdf_url": "https://arxiv.org/abs/2608.21274",
             "publish_date": "2026-08-21",
-            "abstract": "We study an experiment with 8.5 million users on Netflix's recommender system to measure how improvements in recommendation technology affect the set of products that get consumed. Improvements increase total consumption and users' reliance on recommendations while diffusing recommendations and consumption away from the most popular titles (``superstars\") toward a larger number of moderately popular titles (``middle-tail\"), with minimal effects on the most niche titles (``long-tail\"). Our results challenge the notion that recommender systems polarize consumption -- raising the consumption shares of the head and tail at the expense of the middle -- and suggest that the returns to investing in middle-tail products grow as algorithms improve and platforms scale.",
+            "abstract": "We study an experiment with 8.5 million users on Netflix's recommender system to measure how improvements in recommendation technology affect the set of products that get consumed. Improvements increase total consumption and users' reliance on recommendations while diffusing recommendations and consumption away from the most popular titles (\"superstars\") toward a larger number of moderately popular titles (\"middle-tail\"), with minimal effects on the most niche titles (\"long-tail\"). Our results challenge the notion that recommender systems polarize consumption -- raising the consumption shares of the head and tail at the expense of the middle -- and suggest that the returns to investing in middle-tail products grow as algorithms improve and platforms scale.",
             "primary_category": "econ.GN",
             "code_url": "null"
         },
@@ -25606,6 +25606,138 @@
             "publish_date": "2026-11-16",
             "abstract": "Memory-augmented recommenders built on large language models (LLMs) maintain a natural-language profile of each user. These profiles are updated by a user profile update path that revises the profile as new interactions arrive and are consumed by downstream task paths like ranking. Because these user profiles are stored as text in the user memory, every ranking LLM call that consumes them must splice them in the prompt and calculate the KV cache of them during the prefill phase. Given these ranking LLM calls are prefill heavy (long prompt but short decoded output) and repeatedly called, these repeated prefill of user profile text dominates the serving. Prefix caching cannot remove it, because these user profiles are preceded by different text in different calls. We present KVUse, which stores the user profiles as reusable key-value (KV) caches instead of text. KVUse trains lightweight LoRA writers by self-distillation, so that the user profile update call produces the reusable KV of the user profile while decoding it, and the LLM can read these reusable KV at new positions and behind new context without recomputation. KVUse also has a customized KV scheduler that uploads the stored reusable KV of the next batch while the current batch is computed, hiding the KV transfer from host memory behind GPU computation. On four InstructRec datasets with Llama-3.1-8B-Instruct, KVUse shows no statistically significant difference in ranking quality from full prefill over continuous memory update rounds. Under saturated load, KVUse raises the throughput of the downstream scoring path by 4.0x-4.5x and of the profile update path by 1.4x-1.9x.",
             "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.26249": {
+            "title": "Beyond Covers and Titles: Evidence-First Ranking for Robust Cold-Start Recommendation",
+            "authors": "Fuyi Wang, Yuxin Cao, Yifan Liao, Renyang Liu, Lin Li, Wei Song",
+            "first_author": "Fuyi Wang",
+            "url": "https://arxiv.org/abs/2611.26249",
+            "pdf_url": "https://arxiv.org/abs/2611.26249",
+            "publish_date": "2026-11-19",
+            "abstract": "Short-video platforms rank new uploads before anyone has watched them, using content towers that read a video's cover, title and frames. Existing attacks on content-aware recommenders perturb pixels or features and ignore platform re-encoding, and existing defenses train against norm-bounded perturbations that neither match real edits nor preserve recommendation quality. We show with REAP, a realizable attack through {a simulated platform channel (H.264 transcoding, rescaling, cropping and JPEG)}, that packaging edits raise a cold video by 32.0 rank-percentile points in unrelated audiences. We then observe that cold-start ranking does not need the packaging at all: a tower that sees only the video body ranks cold items best. Building on this, we propose Evidence-First Ranking (EFR), which scores cold videos from their body, admits packaging only through a support-gated residual bounded by $γ$, and merges cold and warm rankings by rank percentile, yielding an exact certificate against any packaging edit. On MicroLens-100K, EFR cuts the attack gain by 81% and raises cold-start Recall@100 from 0.1133 to 0.170, while keeping the merged NDCG@10 within 4% of the undefended system.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
+        },
+        "2611.26096": {
+            "title": "From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation",
+            "authors": "Zhixiong Hu, Meng Li, Maggie Zhang, Deborshi Goswami, David Bailey, James Bradley",
+            "first_author": "Zhixiong Hu",
+            "url": "https://arxiv.org/abs/2611.26096",
+            "pdf_url": "https://arxiv.org/abs/2611.26096",
+            "publish_date": "2026-11-19",
+            "abstract": "Personalized content recommendation on large marketplace websites must reconcile heterogeneous candidate content (e.g., customer stories, product pages, industry pages, and learning content) with sparse, fast-changing user behavior, placing increasing demands on the retrieval stage to represent user interest well, not just the downstream ranking stage. We present LSER (LLM Session Embedding Retrieval), a production content recommendation system for autodesk.com that derives session- and history-level embeddings from a pretrained large language model (LLM) and adds them as auxiliary user-side features in the retrieval-stage user tower alongside existing learned sequence encoders. To keep user-side embeddings fresh under real-time behavior, we build a nearline serving path that asynchronously refreshes sequential and LLM-derived user vectors for our main content recommendation server. We validate the incremental value of the LLM features through an ablation study across our full multi-content-type catalog. Our results indicate that integrating LLM-derived embeddings as additional retrieval signals, together with production-grade nearline serving, is technically feasible and can improve model performances.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.25606": {
+            "title": "Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis",
+            "authors": "Shotaro Ishihara",
+            "first_author": "Shotaro Ishihara",
+            "url": "https://arxiv.org/abs/2611.25606",
+            "pdf_url": "https://arxiv.org/abs/2611.25606",
+            "publish_date": "2026-11-19",
+            "abstract": "Text-based generative recommenders can go beyond ranking existing items by directly generating item titles or other textual representations. In the news domain, this raises a societal concern that models may repeatedly surface already popular articles and thereby narrow the diversity of information to which users are exposed. We investigate training-data memorization as one mechanism behind this concentration. Using approximately 20 million browsing sessions from a Japanese news service, we continually trained an instruction-tuned Llama 3 8B model to generate the next article title in a session. The generated-title distribution was more concentrated and less diverse than the distribution of titles observed in the browsing logs. Frequently repeated target titles exhibited greater verbatim and approximate memorization, and more strongly memorized titles were generated in response to a wider range of prompts. These findings support a pathway in which popularity in behavioral logs becomes repeated training text, is preferentially memorized, and is subsequently reproduced by a generative recommender. An exploratory target-level deduplication condition reduced both memorization and output concentration, while substantially reducing the training-set size and recommendation accuracy. Our results suggest that popularity bias in generative recommendation may arise not only from user preferences or ranking objectives, but also from the model's tendency to reproduce frequently encountered strings, with important implications for information diversity on news platforms.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.25288": {
+            "title": "Intelligent Embedding Pruning for Large-Scale Recommendation Models",
+            "authors": "Anish Khazane, Alex Saad-Falcon, Guanchu Wu, Marcio Porto, Jasper Shan, Fei Yu, Eugene Shulga, Intaik Park, Yongzhe Zhang, Xiaoyu Deng, Sheng Luo, Xiaoya Wang",
+            "first_author": "Anish Khazane",
+            "url": "https://arxiv.org/abs/2611.25288",
+            "pdf_url": "https://arxiv.org/abs/2611.25288",
+            "publish_date": "2026-11-18",
+            "abstract": "Modern recommendation systems face substantial memory pressure, largely from the sparse embedding layer that maps high-cardinality categorical features into dense vectors. In-training embedding pruning (ITEP) removes less important embedding rows during training, yielding end-to-end memory savings but sometimes degrading accuracy because per-table pruning ratios are set by size-based heuristics. We use feature importance (FI) to guide these ratios (FI-ITEP), assigning higher pruning to tables tied to less important features. Across three large-scale recommendation models, FI-ITEP achieves 20--40% total memory reduction while matching or improving accuracy relative to percentile-based ITEP. Because the feature-importance signal requires minimal resources to compute, these memory savings translate into concrete systems benefits: the same models train on fewer GPU trainers (e.g., 112 to 80) with higher per-GPU throughput, saving 1,000+ GPU-hours per model launch. We reproduce these trends on the open-source DLRM (Criteo 1TB) and quantify the end-to-end training-time and GPU-cost tradeoff---including the burden of computing FI---offering practical guidance for embedding pruning in real-world systems.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.25256": {
+            "title": "LQ-Rec: Late Quantization for Sequential Recommendation",
+            "authors": "Satoshi Koide, Yueqi Wang, Julian McAuley",
+            "first_author": "Satoshi Koide",
+            "url": "https://arxiv.org/abs/2611.25256",
+            "pdf_url": "https://arxiv.org/abs/2611.25256",
+            "publish_date": "2026-11-18",
+            "abstract": "Generative retrieval (GR) for sequential recommendation compresses each item into a short semantic ID and trains an autoregressive decoder to generate next-item codes from a user history. While appealing for cold-start handling and storage, au- toregressive GR suffers a structural scaling limit: typically, longer semantic IDs reduce quantization error in principle but degrade ranking quality and quadratic memory usage against semantic ID length. We propose Late Quantization (LQ), a non-autoregressive paradigm that confines discretization to the output (item) side of the pipeline. The encoder and scoring rule operate in continuous space, while items are stored and matched as semantic IDs produced by an end-to-end-trained residual quantizer. This architectural shift permits an additive error decomposition and a pairwise ordering theorem that jointly bound the quantization- induced ranking drop, a structural guarantee absent in prior semantic-ID recommenders. Across four public benchmarks, the resulting recommender, LQ-Rec, delivers three capabilities simultaneously: ranking quality improves monotonically with the semantic-ID length and outperforms existing baselines; a single trained model supports anytime compression, tuning ranking quality against inference cost without retraining; and LQ-Rec shows superior generalization on a memorization/generalization partition.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.24464": {
+            "title": "Platform Recommendation and Competition in Search Markets",
+            "authors": "Sanxi Li, Jun Yu, Mingsheng Zhang",
+            "first_author": "Sanxi Li",
+            "url": "https://arxiv.org/abs/2611.24464",
+            "pdf_url": "https://arxiv.org/abs/2611.24464",
+            "publish_date": "2026-11-18",
+            "abstract": "Recommendation rules affect both sellers' incentives and the alternatives consumers expect to find. We develop a framework for evaluating these rules with heterogeneous sellers, endogenous pricing and advertising, and costly consumer search. For a broad class of separable recommendation scores, we establish conditions under which a unique market equilibrium exists. Three applications illustrate the use of the framework. A stronger reward for low prices does not necessarily lower equilibrium prices and benefit consumers when products are sufficiently differentiated in qualities. Quality guidance can lower the price of each product and benefit consumers while raising the average transaction price. With heterogeneous match distributions, a reward for the best initial inspection can help consumers with advertising fixed and harm them when advertising adjusts. A two-type design extension shows that no finite optimum over implementable outcomes uses positive weights on both quality and low prices, even when the platform values consumer surplus.",
+            "primary_category": "econ.TH",
+            "code_url": "null"
+        },
+        "2611.24266": {
+            "title": "Sensitivity analysis in real options studies: systematic review and recommendations",
+            "authors": "Mariia Kozlova, Julian Scott Yeomans",
+            "first_author": "Mariia Kozlova",
+            "url": "https://arxiv.org/abs/2611.24266",
+            "pdf_url": "https://arxiv.org/abs/2611.24266",
+            "publish_date": "2026-11-18",
+            "abstract": "Real options (RO) modeling provides a powerful framework for valuing managerial flexibility under uncertainty in capital-intensive investments across various industries, including climate, energy, and transportation. However, the transparency and usefulness of such models depends heavily on sensitivity analysis (SA). This study reviews over 100 peer-reviewed RO journal articles to examine the extent and quality of SA practices. The review focuses particularly on the extent of model scrutiny: how many input variables are subjected to sensitivity analysis; whether local or global approaches are applied; and whether the shape of the input-output relationships is examined. Our findings reveal a strong overreliance on one-at-a-time (OAT) techniques and a corresponding minimal adoption of global sensitivity analysis (GSA). This methodological gap limits the ability of the RO field to critically examine its own models and to support its decision-making. The paper concludes by outlining concrete recommendations for how to effectively incorporate GSA into future RO studies in order to enhance model transparency, relevance, and credibility.",
+            "primary_category": "q-fin.CP",
+            "code_url": "null"
+        },
+        "2611.23969": {
+            "title": "ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation",
+            "authors": "Dae Kyoo Kim, Heejung Cho, Sungmoo Hong, Eunil Park",
+            "first_author": "Dae Kyoo Kim",
+            "url": "https://arxiv.org/abs/2611.23969",
+            "pdf_url": "https://arxiv.org/abs/2611.23969",
+            "publish_date": "2026-11-18",
+            "abstract": "CoT-style LLM recommenders generate a natural-language preference note as a chain-of-thought prefix to ranking, but the note is trusted without verification, and the ranker never consults behaviorally similar users. We propose ReflectRec, organized around a preference-to-history round-trip verifier whose recall score serves as an operational signal of preference-to-history recoverability, enabling conditional regeneration for low-recoverability preferences and selection among regeneration attempts. Around this verifier, we wire a semantic Stage-1 prompt, conditional regeneration, and Forward-Look retrieval that injects future watches of behaviorally similar users as a collaborative hint. On MovieLens-100K and MovieLens-1M, the full pipeline outperforms CoT4Rec-ICL by +16.25 / +4.46 pp Hit@10, with positive gains across all ValScore buckets and three LLM backbones (Qwen3-30B, Qwen2.5-72B, and Llama-3.3-70B). We also observe a similar verifier-guided regeneration pattern on Amazon Electronics.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2611.23910": {
+            "title": "MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems",
+            "authors": "Matthew Li, Albert Liang, Dilip Raj",
+            "first_author": "Matthew Li",
+            "url": "https://arxiv.org/abs/2611.23910",
+            "pdf_url": "https://arxiv.org/abs/2611.23910",
+            "publish_date": "2026-11-18",
+            "abstract": "The typical workflow for improving large-scale ranking and recommendation models is slow and tedious: an engineer forms a hypothesis, implements it as a code change, trains a model, and evaluates it both offline and online, often relying on their own intuition and experience along the way. Autonomous LLM agents promise to speed this up by running the loop on their own, but it is still unclear whether they can do this in industry-scale systems rather than on benchmarks or small proxy tasks. We build human-on-the-loop machine learning engineer (MLE) agents that propose, implement, train, and evaluate model changes on large-scale search rankers. Engineers retain control over objective design, search direction, and final-model review. We identify three obstacles that make this industry setting challenging: feedback takes hours per experiment, offline metrics do not always predict online impact, and improvements saturate after the early wins. We address these with parallel training runs, an objective calibrated to match online impact, and careful context engineering. In one campaign, the system ran 1,097 completed candidate experiments and accepted 325, a 29.6\\% acceptance rate compared with 15.6\\% in the earlier campaign under a different objective and search constraint. Its best model increases search volume by 0.23\\% in an A/B test of large scale. Several improvements were architectural changes the team had never tried, drawn from the broader industry and literature, suggesting that MLE agents can explore regions of the design space that human intuition overlooks. We find that the design of the harness around the model matters: intuition suggests that a stronger underlying model is enough, but in our experience, the design of the loop around it is just as critical. More broadly, our work shows that autonomous agents can do real machine-learning engineering in industry-scale systems.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.23710": {
+            "title": "CONCORD-Rec: Catalog-Conditioned Modality Utility for Semantic-ID Diffusion Recommendation",
+            "authors": "Haopeng Jin, Bingkang Shi, Tao Yu, Yifei Ma, Hao Liu, Hongzhu Yi, Jinwen Luo",
+            "first_author": "Haopeng Jin",
+            "url": "https://arxiv.org/abs/2611.23710",
+            "pdf_url": "https://arxiv.org/abs/2611.23710",
+            "publish_date": "2026-11-18",
+            "abstract": "Multimodal generative recommendation with discrete semantic identifiers (SIDs) requires distinguishing historical modalities that merely alter token predictions from those that genuinely reduce catalog-level ambiguity. When audiovisual, visual, or textual streams are missing, degraded, or semantically conflicting, uniform fusion and unconstrained token gates can propagate misleading content across iterative denoising steps. We propose CONCORD-Rec, a reliability-conditioned discrete diffusion recommender supervised by counterfactual catalog-partition utility. Given a fixed tokenizer and a partially masked SID state, CONCORD-Rec evaluates out-of-fold teacher coalitions over the exact feasible catalog support and aggregates item posteriors across the target code partition at each unresolved position. Rather than distilling raw token probabilities directly, the resulting counterfactual loss differences supervise an availability-masked tokenwise gate that allocates bounded modality residuals around a behavioral denoiser while retaining an exact behavioral fallback slot. We establish theoretical fixed-support ranking stability bounds under gate perturbations and evaluate position-level and code-conditional allocation across audiovisual and image-text recommendation benchmarks under controlled missingness, signal degradation, and semantic conflict. Across 20 source-compatible protocol-dataset rows, CONCORD-Rec improves NDCG by 4%; under matched 30% conflict it improves NDCG by 14.63%. The full-vs-uniform-T=16 sweep improves quality by 2.00-3.58% while reducing p95 latency by up to 86.89%.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.23339": {
+            "title": "Optimize the Cob, Then the Kernel: Optimizing Beam Search for Generative Recommendation Inference",
+            "authors": "Shing Wai Pun, Kai Wu, Pengfei Xia, Hui Zang, Wei Guo, Yong Liu",
+            "first_author": "Shing Wai Pun",
+            "url": "https://arxiv.org/abs/2611.23339",
+            "pdf_url": "https://arxiv.org/abs/2611.23339",
+            "publish_date": "2026-11-17",
+            "abstract": "Generative recommendation (GR) inference differs substantially from conventional LLM serving, featuring long input sequences, wide beam search, and only a few fixed output tokens. Existing LLM serving engines such as vLLM process beams as batched independent sequences, causing redundant KV cache accesses over the shared prompt prefix. Furthermore, vLLM executes each beam search generation step as a separate engine invocation, incurring host-side beam processing overhead between decoding steps and substantial runtime KV block management in PagedAttention. Using Tree Attention, we concatenate beams along the sequence dimension to eliminate redundant KV accesses, and further optimize execution through pre-generated partial-attention masks, static KV cache allocation, loop-unrolled generation dispatch, TorchAir graph compilation, automatic operator fusion, and vocabulary-constrained decoding. Without the use of custom kernels, our approach reduces end-to-end latency by up to 25x over vLLM on Ascend NPUs, and achieves generation latency comparable to a SOTA solution using custom kernels, showing that the generation pipeline should be optimized holistically before resorting to custom kernel development.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.23236": {
+            "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+            "authors": "Shengxiang Lin, Jiajie Su, Pengyang Zhou, Xiang Chen, Xiaolin Zheng, Feng Tian, Chaochao Chen",
+            "first_author": "Shengxiang Lin",
+            "url": "https://arxiv.org/abs/2611.23236",
+            "pdf_url": "https://arxiv.org/abs/2611.23236",
+            "publish_date": "2026-08-26",
+            "abstract": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted collection or local token perturbation, often disrupting the inter-item semantic topology needed for recommendation. To address it, we introduce relational fidelity as the key objective, requiring semantic shift for privacy while preserving relative item relations for utility. Based on this principle, we propose prototype-guided progressive obfuscation (PGPO), which learns topology-aware obfuscation anchors for high-influence prototype words and propagates them through a static semantic graph. PGPO is optimized with GRPO using individual dissimilarity, structural consistency, and semantic constraint rewards. Experiments on two benchmarks show strong inversion defense with near-upper-bound recommendation performance. The code is available at https://github.com/Shengxiang-Lin/PGPO.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
