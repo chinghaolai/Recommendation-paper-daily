@@ -25698,7 +25698,7 @@
         },
         "2611.23910": {
             "title": "MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems",
-            "authors": "Matthew Li, Albert Liang, Dilip Raj",
+            "authors": "Matthew Li, Albert Jiongqian Liang, Dilip Raj",
             "first_author": "Matthew Li",
             "url": "https://arxiv.org/abs/2611.23910",
             "pdf_url": "https://arxiv.org/abs/2611.23910",
@@ -25738,6 +25738,50 @@
             "publish_date": "2026-08-26",
             "abstract": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted collection or local token perturbation, often disrupting the inter-item semantic topology needed for recommendation. To address it, we introduce relational fidelity as the key objective, requiring semantic shift for privacy while preserving relative item relations for utility. Based on this principle, we propose prototype-guided progressive obfuscation (PGPO), which learns topology-aware obfuscation anchors for high-influence prototype words and propagates them through a static semantic graph. PGPO is optimized with GRPO using individual dissimilarity, structural consistency, and semantic constraint rewards. Experiments on two benchmarks show strong inversion defense with near-upper-bound recommendation performance. The code is available at https://github.com/Shengxiang-Lin/PGPO.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.28604": {
+            "title": "MADRec: Reliable Multi-Agent Reasoning with Evidence-Grounded Debate for Recommendation",
+            "authors": "Zunlong Liu, Weijie Feng, Jingzhi Li, Lei Zhu, Zhiyong Cheng, Meng Wang",
+            "first_author": "Zunlong Liu",
+            "url": "https://arxiv.org/abs/2611.28604",
+            "pdf_url": "https://arxiv.org/abs/2611.28604",
+            "publish_date": "2026-11-21",
+            "abstract": "Large Language Models (LLMs) are transforming recommender systems from conventional preference matching toward reasoning-driven and explainable decision-making. Multi-agent collaboration further advances this paradigm by distributing recommendation reasoning across specialized agents. However, existing frameworks rarely assess the reliability of intermediate reasoning during collaboration, allowing erroneous judgments to propagate across agents and ultimately degrade recommendation quality. To address this issue, we propose Multi-Agent Debate-based Recommendation (MADRec), an evidence-grounded multi-agent framework that enhances the reliability of multi-agent recommendation reasoning. MADRec consists of three coordinated modules. First, the Multi-Agent Debate (MAD) module enables an Interaction Agent and a Semantic Agent to analyze interaction signals and content-level semantic signals from complementary perspectives, generating diverse recommendation judgments through structured debate. Second, the Evidence-Grounded Retrieval-Augmented Reasoning (EG-RAR) module grounds the Semantic Agent's reasoning in item-level evidence and refines candidate scores by assessing how well the evidence supports the corresponding semantic claims. Third, the Judge-based Ranking Calibration (JRC) module leverages debate-derived reliability cues to adaptively calibrate interaction-based and semantic ranking results for the final recommendation. Extensive experiments on three real-world datasets demonstrate that MADRec consistently outperforms competitive baselines and enhances the reliability of multi-agent recommendation reasoning.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.28379": {
+            "title": "Beyond Relevance: An Empirical Study of Multimodal LLMs for Diversity-Aware Recommendation Reranking",
+            "authors": "Chengkai Liu, Yan Fu, Huiyuan Chen, Sheikh Sarwar, Qilin Qi",
+            "first_author": "Chengkai Liu",
+            "url": "https://arxiv.org/abs/2611.28379",
+            "pdf_url": "https://arxiv.org/abs/2611.28379",
+            "publish_date": "2026-11-20",
+            "abstract": "Large language models (LLMs) have emerged as promising rerankers for recommendation, yet most existing approaches rely on textual item descriptions and primarily focus on relevance. In visually oriented domains such as video streaming, item images provide complementary signals that may also inform recommendation diversity. This raises two questions: when does visual information improve recommendation quality, and can multimodal LLMs (MLLMs) enhance relevance and diversity simultaneously? We investigate these questions through a training-free, diversity-aware multimodal reranking framework that jointly incorporates item images, textual metadata, and user interaction histories. We conduct an empirical study across three public Amazon Review datasets and an industrial Amazon Prime Video dataset, using both open-source and proprietary MLLMs. Our results reveal substantial domain-dependent effects: adding visual information yields up to 121.9% relative improvement in NDCG@5 on Prime Video, while producing limited or inconsistent gains on product recommendation datasets. Furthermore, MLLM-based reranking improves both relevance and category-diversity-sensitive ranking quality over a sequential recommendation baseline, achieving up to 71.0% improvement in NDCG@5 and 14.1% in $α$-NDCG@5 on Prime Video. These findings highlight the conditional value of visual information and the potential of training-free MLLMs for relevance- and diversity-aware recommendation reranking.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.27091": {
+            "title": "Mode Recommendation and Dynamic Routing Guidance for Improved Trip Quality in Mixed Traffic Networks",
+            "authors": "Jin Zhang, Andreas A. Malikopoulos, Ting Bai",
+            "first_author": "Jin Zhang",
+            "url": "https://arxiv.org/abs/2611.27091",
+            "pdf_url": "https://arxiv.org/abs/2611.27091",
+            "publish_date": "2026-11-20",
+            "abstract": "Urban mixed traffic networks provide diverse mobility options, yet conventional routing guidance with fixed travel modes leaves the benefits of coordinating travel modes and route planning largely unexploited. This paper proposes an integrated mode recommendation and dynamic routing guidance framework for urban mixed traffic networks comprising private vehicles, autonomous vehicles, and buses. We formulate a dynamic trip index (DTX) that incorporates mode-specific travel time, monetary cost, and convenience, enabling consistent evaluation of trip quality across travel modes. Using this measure, we develop a mode recommendation method that selects feasible autonomous vehicle or bus services based on predicted DTX for travelers without private vehicles, while preserving service capacity for travelers with known demand. We integrate this method with dynamic routing guidance for private and autonomous vehicles to improve the average trip quality of all travelers. Simulation studies involving $1{,}500$ travelers on a real-world road network in Shanghai, China, show that the proposed framework increases the mean realized DTX by $13.01\\%$ compared with dynamic routing guidance alone and by $19.68\\%$ compared with fixed travel modes with preplanned routes, highlighting the value of mode flexibility in improving trip quality beyond route adaptation.",
+            "primary_category": "eess.SY",
+            "code_url": "null"
+        },
+        "2611.27007": {
+            "title": "Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations",
+            "authors": "Teya Bergamaschi, Bijal Rajput, Akshay Goel, Matthew Thompson, Jacqueline Shreibati, Dave Steiner, Ashley Carrick, Mahvish Nagda, Dale R. Webster, Avinatan Hassidim, Katherine Chou, Yossi Matias, Po-Hsuan Cameron Chen, Christina Chen, Mike Schaekermann, Yun Liu, Anil Palepu",
+            "first_author": "Teya Bergamaschi",
+            "url": "https://arxiv.org/abs/2611.27007",
+            "pdf_url": "https://arxiv.org/abs/2611.27007",
+            "publish_date": "2026-11-20",
+            "abstract": "Rigorously evaluating medical artificial intelligence (AI) requires testing open-ended clinical management across diverse presentations and stages of care. However, existing benchmarks rely on manual expert authoring, limiting coverage across conditions, conditional care pathways, and evolving guidelines. We develop an automated pipeline that extracts and verifies structured clinical criteria and branching decision trees from practice recommendations to generate scenarios spanning the care continuum, including nuanced presentations and practice variations across regions and guideline editions. Applied to 436 BMJ Best Practice clinical monographs (354 US, 82 International), this yields 3,200 scenarios spanning differential diagnosis, investigations, treatment, and complications, plus targeted suites for regional specificity (731 US/International pairs) and temporal freshness (630 scenarios). To grade responses, we develop a clinician-calibrated autorater that scores management plans on a 4-point rubric stratifying deviations by clinical severity. Across Gemini models, scaling improves adherence, while web search (+0.8 percentage points [pp] on average) and multi-sample synthesis (+2.2 pp) combine additively (+2.8 pp). In context, full monographs consistently trail condensed excerpts. On targeted suites, web search narrows international performance gaps (+4.2 pp) and improves adherence to newly updated guidance (+4.6 pp). In a study with Primary Care Physicians (n = 9) across 200 scenarios, AI assistance raises adherence from 50.5% to 70.0%, driven largely by fewer clinical omissions. Overall, our results demonstrate a scalable evaluation setup using an evidence-based corpus originally written to guide human clinical decision-making, and demonstrate its viability to assess medical AI and its assistance on clinician decision-making.",
+            "primary_category": "cs.AI",
             "code_url": "null"
         }
     }

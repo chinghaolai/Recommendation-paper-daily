@@ -2,11 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026-11-23
+## Updated on 2026-11-24
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-21 | **MADRec: Reliable Multi-Agent Reasoning with Evidence-Grounded Debate for Recommendation** | Zunlong Liu, Weijie Feng, Jingzhi Li, Lei Zhu, Zhiyong Cheng, Meng Wang | [Link](https://arxiv.org/abs/2611.28604) | N/A |
+| 2026-11-20 | **Beyond Relevance: An Empirical Study of Multimodal LLMs for Diversity-Aware Recommendation Reranking** | Chengkai Liu, Yan Fu, Huiyuan Chen, Sheikh Sarwar, Qilin Qi | [Link](https://arxiv.org/abs/2611.28379) | N/A |
+| 2026-11-20 | **Mode Recommendation and Dynamic Routing Guidance for Improved Trip Quality in Mixed Traffic Networks** | Jin Zhang, Andreas A. Malikopoulos, Ting Bai | [Link](https://arxiv.org/abs/2611.27091) | N/A |
+| 2026-11-20 | **Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations** | Teya Bergamaschi, Bijal Rajput, Akshay Goel, Matthew Thompson, Jacqueline Shreibati, Dave Steiner, Ashley Carrick, Mahvish Nagda, Dale R. Webster, Avinatan Hassidim, Katherine Chou, Yossi Matias, Po-Hsuan Cameron Chen, Christina Chen, Mike Schaekermann, Yun Liu, Anil Palepu | [Link](https://arxiv.org/abs/2611.27007) | N/A |
 | 2026-11-19 | **Beyond Covers and Titles: Evidence-First Ranking for Robust Cold-Start Recommendation** | Fuyi Wang, Yuxin Cao, Yifan Liao, Renyang Liu, Lin Li, Wei Song | [Link](https://arxiv.org/abs/2611.26249) | N/A |
 | 2026-11-19 | **From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation** | Zhixiong Hu, Meng Li, Maggie Zhang, Deborshi Goswami, David Bailey, James Bradley | [Link](https://arxiv.org/abs/2611.26096) | N/A |
 | 2026-11-19 | **Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis** | Shotaro Ishihara | [Link](https://arxiv.org/abs/2611.25606) | N/A |
@@ -15,7 +19,7 @@ layout: default
 | 2026-11-18 | **Platform Recommendation and Competition in Search Markets** | Sanxi Li, Jun Yu, Mingsheng Zhang | [Link](https://arxiv.org/abs/2611.24464) | N/A |
 | 2026-11-18 | **Sensitivity analysis in real options studies: systematic review and recommendations** | Mariia Kozlova, Julian Scott Yeomans | [Link](https://arxiv.org/abs/2611.24266) | N/A |
 | 2026-11-18 | **ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation** | Dae Kyoo Kim, Heejung Cho, Sungmoo Hong, Eunil Park | [Link](https://arxiv.org/abs/2611.23969) | N/A |
-| 2026-11-18 | **MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems** | Matthew Li, Albert Liang, Dilip Raj | [Link](https://arxiv.org/abs/2611.23910) | N/A |
+| 2026-11-18 | **MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems** | Matthew Li, Albert Jiongqian Liang, Dilip Raj | [Link](https://arxiv.org/abs/2611.23910) | N/A |
 | 2026-11-18 | **CONCORD-Rec: Catalog-Conditioned Modality Utility for Semantic-ID Diffusion Recommendation** | Haopeng Jin, Bingkang Shi, Tao Yu, Yifei Ma, Hao Liu, Hongzhu Yi, Jinwen Luo | [Link](https://arxiv.org/abs/2611.23710) | N/A |
 | 2026-11-17 | **Optimize the Cob, Then the Kernel: Optimizing Beam Search for Generative Recommendation Inference** | Shing Wai Pun, Kai Wu, Pengfei Xia, Hui Zang, Wei Guo, Yong Liu | [Link](https://arxiv.org/abs/2611.23339) | N/A |
 | 2026-11-17 | **Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation** | Yuheng Chen, Fan Zhang, Yixuan Xu, Chao Yang, Yang Xiang, Can Yang | [Link](https://arxiv.org/abs/2611.22838) | N/A |
