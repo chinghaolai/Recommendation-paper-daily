@@ -1,4 +1,4 @@
-## Updated on 2026-11-24
+## Updated on 2026-11-25
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,13 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-23 | **Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions** | Sungchul Kim, Weixiao Huang, Mekala Raja Sekhar Reddy, Amrutha Srinivasan | [Link](https://arxiv.org/abs/2611.31175) | N/A |
+| 2026-11-23 | **From Head to Tail: LLM-Augmented Sequential Recommendation and Trade-off Optimization** | Adeep Hande, Shaghayegh Agah, Neeraj Sharma, Karina Halevy, Sardar Hamidian | [Link](https://arxiv.org/abs/2611.31052) | N/A |
+| 2026-11-23 | **SARA: An Auditor-in-the-Loop LLM Recommender for Sustainability Reports** | Lars Hillebrand, Thiago B. F. de Oliveira, Tim Dilmaghani, Mohamed Khaled, Writwick Das, Rafet Sifa | [Link](https://arxiv.org/abs/2611.30839) | N/A |
+| 2026-11-23 | **Learning and Dynamic Route Recommendation Under Unknown Traveler Compliance and Road Conditions** | Yanru Guo, Siqian Shen, Ruiwei Jiang, Xi Jessie Yang | [Link](https://arxiv.org/abs/2611.30719) | N/A |
+| 2026-11-23 | **Beyond Knowledge Transfer: How User Overlap Shapes Diversity in Cross-Domain Recommendation** | Yuhan Zhao, Weixin Chen, Shu Chen, Li Chen | [Link](https://arxiv.org/abs/2611.30156) | N/A |
+| 2026-11-22 | **Weight Coding: Evolving Web-Scale Recommenders through Direct Weight Edits with LLM Agents** | Junpeng Hou, Jiaxing Qu, Derek Cheng, Jaewon Yang, Abhinav Naikawadi, Karthik Subbian | [Link](https://arxiv.org/abs/2611.29613) | N/A |
+| 2026-11-22 | **MoR4Rec: Mixture-of-Recursion for Sequential Recommendation** | Tiwari Ankit Satyaprakash, Adamya Shyam, Vikas Kumar, Bharti Rana, Venkateswara Rao Kagita | [Link](https://arxiv.org/abs/2611.29462) | N/A |
 | 2026-11-21 | **MADRec: Reliable Multi-Agent Reasoning with Evidence-Grounded Debate for Recommendation** | Zunlong Liu, Weijie Feng, Jingzhi Li, Lei Zhu, Zhiyong Cheng, Meng Wang | [Link](https://arxiv.org/abs/2611.28604) | N/A |
 | 2026-11-20 | **Beyond Relevance: An Empirical Study of Multimodal LLMs for Diversity-Aware Recommendation Reranking** | Chengkai Liu, Yan Fu, Huiyuan Chen, Sheikh Sarwar, Qilin Qi | [Link](https://arxiv.org/abs/2611.28379) | N/A |
 | 2026-11-20 | **Mode Recommendation and Dynamic Routing Guidance for Improved Trip Quality in Mixed Traffic Networks** | Jin Zhang, Andreas A. Malikopoulos, Ting Bai | [Link](https://arxiv.org/abs/2611.27091) | N/A |
@@ -198,7 +205,7 @@
 | 2026-10-20 | **SPAR: Stepwise Personalized Autoregressive Recommendation with Prefix-Balanced Semantic IDs** | Chunrui Zhang, Gaoyun Lin, Chang Zhou, Zheng Hu, Qiran Song, Shimin Cai, Tao Zhou | [Link](https://arxiv.org/abs/2610.27898) | N/A |
 | 2026-10-20 | **Robustness Analysis of Pareto-based Joint Evaluation of Fairness and Relevance in Recommender Systems** | Theresia Veronika Rampisela, Maria Maistro, Tuukka Ruotsalo, Christina Lioma | [Link](https://arxiv.org/abs/2610.27850) | N/A |
 | 2026-10-19 | **Neighborhood-Aware Unlearning for Generative Recommendation** | Pierre Lubitzsch, Yubao Tang, Maarten de Rijke, Sebastian Schelter | [Link](https://arxiv.org/abs/2610.27232) | N/A |
-| 2026-10-19 | **Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows** | Qian Xie, Wenyue Hua, Yueli He, Sripad Karne, Armaan Agrawal, Nikos Pagonas, Eugene Wu, Kostis Kaffes, Tianyi Peng, Nairen Cao | [Link](https://arxiv.org/abs/2610.26676) | N/A |
+| 2026-10-19 | **Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows** | Qian Xie, Yueli He, Wenyue Hua, Sripad Karne, Armaan Agrawal, Nikos Pagonas, Eugene Wu, Kostis Kaffes, Tianyi Peng, Nairen Cao | [Link](https://arxiv.org/abs/2610.26676) | N/A |
 | 2026-10-19 | **SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling** | Kanglin Xu, Michael Papka, Zhiling Lan | [Link](https://arxiv.org/abs/2610.26577) | N/A |
 | 2026-10-19 | **Decision4Rec: A Jev-Inspired Framework of Decision Models on Knowledge and Active Graphs for Multi-Agent Recommender Systems** | Marco Polignano, Het Darshan Mehta, Pasquale Lops, Ernesto William De Luca, Giovanni Semeraro | [Link](https://arxiv.org/abs/2610.26035) | N/A |
 | 2026-10-19 | **Multimodal Decoupling for Diversified Recommendation through Semantic and Structural Shaping** | Changran He, Jiaming Wei, Jianghong Ma, Tianjun Wei, Haijun Zhang, Xiaofeng Zhang | [Link](https://arxiv.org/abs/2610.26024) | N/A |

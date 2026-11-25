@@ -23597,7 +23597,7 @@
         },
         "2610.26676": {
             "title": "Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows",
-            "authors": "Qian Xie, Wenyue Hua, Yueli He, Sripad Karne, Armaan Agrawal, Nikos Pagonas, Eugene Wu, Kostis Kaffes, Tianyi Peng, Nairen Cao",
+            "authors": "Qian Xie, Yueli He, Wenyue Hua, Sripad Karne, Armaan Agrawal, Nikos Pagonas, Eugene Wu, Kostis Kaffes, Tianyi Peng, Nairen Cao",
             "first_author": "Qian Xie",
             "url": "https://arxiv.org/abs/2610.26676",
             "pdf_url": "https://arxiv.org/abs/2610.26676",
@@ -25782,6 +25782,83 @@
             "publish_date": "2026-11-20",
             "abstract": "Rigorously evaluating medical artificial intelligence (AI) requires testing open-ended clinical management across diverse presentations and stages of care. However, existing benchmarks rely on manual expert authoring, limiting coverage across conditions, conditional care pathways, and evolving guidelines. We develop an automated pipeline that extracts and verifies structured clinical criteria and branching decision trees from practice recommendations to generate scenarios spanning the care continuum, including nuanced presentations and practice variations across regions and guideline editions. Applied to 436 BMJ Best Practice clinical monographs (354 US, 82 International), this yields 3,200 scenarios spanning differential diagnosis, investigations, treatment, and complications, plus targeted suites for regional specificity (731 US/International pairs) and temporal freshness (630 scenarios). To grade responses, we develop a clinician-calibrated autorater that scores management plans on a 4-point rubric stratifying deviations by clinical severity. Across Gemini models, scaling improves adherence, while web search (+0.8 percentage points [pp] on average) and multi-sample synthesis (+2.2 pp) combine additively (+2.8 pp). In context, full monographs consistently trail condensed excerpts. On targeted suites, web search narrows international performance gaps (+4.2 pp) and improves adherence to newly updated guidance (+4.6 pp). In a study with Primary Care Physicians (n = 9) across 200 scenarios, AI assistance raises adherence from 50.5% to 70.0%, driven largely by fewer clinical omissions. Overall, our results demonstrate a scalable evaluation setup using an evidence-based corpus originally written to guide human clinical decision-making, and demonstrate its viability to assess medical AI and its assistance on clinician decision-making.",
             "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.31175": {
+            "title": "Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions",
+            "authors": "Sungchul Kim, Weixiao Huang, Mekala Raja Sekhar Reddy, Amrutha Srinivasan",
+            "first_author": "Sungchul Kim",
+            "url": "https://arxiv.org/abs/2611.31175",
+            "pdf_url": "https://arxiv.org/abs/2611.31175",
+            "publish_date": "2026-11-23",
+            "abstract": "Conversational recommenders must rank items against needs that catalogs record only in part, while users add, withdraw and reverse needs and switch between requests. LLM rankers re-read the dialogue at every turn: they are slow, and their ordering does not show which needs an item meets. We show that a conversational recommender can be built from typed decisions instead: named questions over fixed options, answered with option probabilities rather than generated text. On each turn, one typed request maps the message onto the catalog's fields, keeps what no field expresses in the user's words, and decides how the turn changes each earlier need. Needwise then ranks candidates must-first: the needs on the kind of item, its place and its price form a tier, and within it one holistic decision and need-level verdicts (supported, contradicted or unknown) are combined with equal weight (Needwise-HF). With the graded attributes withheld from the records, so that needs must be inferred from names, descriptions and reviews, Needwise-HF ranks Google Local requests significantly better than GPT-6 Sol (0.383 against 0.343 nDCG@10) and is not significantly different from the strongest LLM ranker on Google Local and Yelp; these comparisons keep their sign under every treatment of unrecorded attributes we test. It costs a fraction of GPT-6 Sol's API price and answers in 2.5 s at the median on Google Local, against 5.6 s for GPT-6 Sol. In conversations, the typed state keeps the ranking across switches and returns, but it recognizes only 19-27% of withdrawn needs.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.31052": {
+            "title": "From Head to Tail: LLM-Augmented Sequential Recommendation and Trade-off Optimization",
+            "authors": "Adeep Hande, Shaghayegh Agah, Neeraj Sharma, Karina Halevy, Sardar Hamidian",
+            "first_author": "Adeep Hande",
+            "url": "https://arxiv.org/abs/2611.31052",
+            "pdf_url": "https://arxiv.org/abs/2611.31052",
+            "publish_date": "2026-11-23",
+            "abstract": "Recommender systems exhibit popularity bias, often under-serving long-tail and cold-start items with sparse interaction data. We propose a group-specific data augmentation approach that leverages LLMs to generate synthetic interactions, formulated as a constrained optimization problem, maximizing group-specific NDCG@20 and coverage while bounding overall NDCG@20 degradation within an acceptable threshold. Items are partitioned by interaction frequency to find the optimal augmentation strategy for each group. We further study combining the augmentation across groups simultaneously and find that while individual optimal strategies navigate the multi-group augmentation design, they are not simply additive. We further ablate on the LLM-based augmentation itself, comparing LLM scales, augmentation configuration under token constraints, finding that augmentation quality scales with contextual richness, albeit at a proportionally higher cost. Experiments with SASRec demonstrate the effectiveness of the proposed approach, achieving over 100% and 60% improvement in group-specific NDCG@20 for extreme and regular long-tail items, respectively, on our industrial dataset, and 40%, 25% for MovieLens-32M, while increasing their coverage without significant overall degradation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.30839": {
+            "title": "SARA: An Auditor-in-the-Loop LLM Recommender for Sustainability Reports",
+            "authors": "Lars Hillebrand, Thiago B. F. de Oliveira, Tim Dilmaghani, Mohamed Khaled, Writwick Das, Rafet Sifa",
+            "first_author": "Lars Hillebrand",
+            "url": "https://arxiv.org/abs/2611.30839",
+            "pdf_url": "https://arxiv.org/abs/2611.30839",
+            "publish_date": "2026-11-23",
+            "abstract": "Auditing corporate sustainability reports requires assurance professionals to map a company-specific checklist drawn from roughly 1,700 regulatory requirements onto the relevant passages of lengthy, repeatedly revised draft reports and to judge compliance. We present SARA (Sustainability Reporting Assistant), a human-in-the-loop recommender system delivered as a Microsoft Word add-in that recommends, for each requirement, the passages addressing it and predicts a compliance verdict while keeping the auditor in full control. SARA casts auditing as content-based recommendation over a fixed regulatory taxonomy and makes per-requirement large language model (LLM) matching cheaper, faster, and more accurate through topic-prediction filtering: on expert-annotated reports, it reduces matching cost about sixfold and runtime by 42% versus feeding the full report to the LLM. It is in production use across PwC Germany's sustainability-assurance practice.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2611.30719": {
+            "title": "Learning and Dynamic Route Recommendation Under Unknown Traveler Compliance and Road Conditions",
+            "authors": "Yanru Guo, Siqian Shen, Ruiwei Jiang, Xi Jessie Yang",
+            "first_author": "Yanru Guo",
+            "url": "https://arxiv.org/abs/2611.30719",
+            "pdf_url": "https://arxiv.org/abs/2611.30719",
+            "publish_date": "2026-11-23",
+            "abstract": "Route planning during evacuations and other large-scale egress operations is inherently dynamic: the planner's recommendations affect future congestion on the roads, influence whether travelers accept their guidance, and determine what the planner can learn from the travelers' actual route choices. In this paper, we consider stochastic dynamic route recommendation to many travelers over a finite horizon under uncertain compliance and road conditions. In each period, a planner assigns routes that lead different origins' traveler groups to safe destinations, and travelers either follow the recommendation or revert to a preferred route. We model compliance using a logistic model and learn its unknown coefficients from observed route travel. We also filter the state of road conditions from noisy telemetry, and use a performance state to capture how the quality of past route recommendation affects travelers' future compliance. To determine the route assignment policy, we formulate a finite-horizon, belief-state dynamic program, show that the information state is sufficient for optimal Markov control, and develop an approximation that combines compliance beliefs with proximal policy optimization (PPO) using a Dirichlet actor over feasible route shares. We conduct numerical studies on instances of Eastern Massachusetts highway network data under different uncertain road conditions and compliance behavior. We demonstrate the efficiency and effectiveness of the PPO method and the value of dynamic adaptive solutions, against static routes. Our solutions reduce the mean and upper-tail costs of all travelers relative to myopic policy benchmarks, even when these benchmarks know the true compliance coefficients. Moreover, updating beliefs and the performance state dynamically also reduces the total cost under accurate, biased, and diffuse priors.",
+            "primary_category": "math.OC",
+            "code_url": "null"
+        },
+        "2611.30156": {
+            "title": "Beyond Knowledge Transfer: How User Overlap Shapes Diversity in Cross-Domain Recommendation",
+            "authors": "Yuhan Zhao, Weixin Chen, Shu Chen, Li Chen",
+            "first_author": "Yuhan Zhao",
+            "url": "https://arxiv.org/abs/2611.30156",
+            "pdf_url": "https://arxiv.org/abs/2611.30156",
+            "publish_date": "2026-11-23",
+            "abstract": "A common paradigm in cross-domain recommendation (CDR) transfers knowledge through users shared by source and target domains. Although this overlap bridge is effective in improving accuracy, its effect on diversity remains unclear. We identify two bottlenecks: the bridge can be too narrow when overlapping users cover limited target-domain tastes, and too loud when shared signals dominate the sparse personal evidence of non-overlapping users. To address both, we propose DivCDR, a model-agnostic Push--Pull framework. Pull constructs confidence-gated virtual positives for overlapping users and optimizes their exposure-entropy gain, broadening the preferences carried by the bridge. Push uses overlap-density-guided negative sampling to move non-overlapping users away from overlap-dense regions. Experiments on three datasets and five representative CDR backbones show that DivCDR improves recommendation diversity while preserving or improving accuracy in most settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.29613": {
+            "title": "Weight Coding: Evolving Web-Scale Recommenders through Direct Weight Edits with LLM Agents",
+            "authors": "Junpeng Hou, Jiaxing Qu, Derek Cheng, Jaewon Yang, Abhinav Naikawadi, Karthik Subbian",
+            "first_author": "Junpeng Hou",
+            "url": "https://arxiv.org/abs/2611.29613",
+            "pdf_url": "https://arxiv.org/abs/2611.29613",
+            "publish_date": "2026-11-22",
+            "abstract": "Web-scale recommender models evolve primarily through retraining or fine-tuning. We propose \\emph{weight coding}, a methodology for model evolution through direct, executable weight edits. A large language model (LLM) agent inspects model structure and parameters, formulates hypotheses, and implements edits using evaluation feedback. The loop progresses from localized changes to targeted searches and composition, allowing edited components to adapt to one another. A cached engine enables rapid forward evaluation without backpropagation. On Pinterest's 147M-parameter Image Search two-tower retriever, weight coding improves held-out recall@10 of production model by up to 15.0 percentage points (+24\\% relative) with few edits in about 1/4 GPU hours of a full post-training finetune, while a common launch only improves around 1\\%. After reinitializing the entire 13.6M-parameter interaction module randomly while retaining the surrounding trained model, searching 2,448 mixing and normalization parameters yields 9.8 points above production. Offline gains span the full funnel including dense retrieval, generative retrieval and ranking, with up to 1.37B learnable parameters and different edits for each architecture. Steering edits provide explicit control of model performance over segments like freshness and product. Weight coding requires no serving change and online A/B tests increase saves per user from the edited retrieval source by 8.4\\% to 10.7\\%, aligned with the target business objectives. Our results establish weight coding as a practical and useful tool for model development and and behavioral control in a real web-scale production system, with potential to extend to both pre-training and post-training stages across the funnel.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.29462": {
+            "title": "MoR4Rec: Mixture-of-Recursion for Sequential Recommendation",
+            "authors": "Tiwari Ankit Satyaprakash, Adamya Shyam, Vikas Kumar, Bharti Rana, Venkateswara Rao Kagita",
+            "first_author": "Tiwari Ankit Satyaprakash",
+            "url": "https://arxiv.org/abs/2611.29462",
+            "pdf_url": "https://arxiv.org/abs/2611.29462",
+            "publish_date": "2026-11-22",
+            "abstract": "Sequential recommender systems aim to predict a user's next interaction by modeling temporal dependencies in historical behavior sequences. To capture such dependencies, recent approaches increasingly rely on attention-based architectures, particularly transformers. While effective at modeling long-range sequential patterns, these models apply a fixed computation depth to all interaction items, treating them as equally complex. However, user behavior is inherently heterogeneous, with many interactions following simple repetitive patterns, whereas others require modeling higher-order dependencies. This mismatch leads to inefficient utilization of model capacity and unnecessary computational overhead, particularly in deep transformer-based architectures. To address this issue, we propose MoR4Rec, a sequential recommendation framework based on a Mixture-of-Recursion paradigm, which enables item-wise adaptive computation through a shared transformer backbone. A learned routing mechanism dynamically assigns each item to an appropriate recursion depth, allocating deeper computation to complex interactions while processing simpler patterns more efficiently. To improve computational efficiency, we develop a cascade-based strategy with key-value sharing across recursion steps. We further introduce a gated attention mechanism that adaptively regulates contextual information during recursive sequence modeling. Extensive experiments on three benchmark datasets show that MoR4Rec consistently outperforms strong transformer-based baselines, achieving average gains of 2.28% in Recall@5, 2.50% in NDCG@5, and 2.0% in MRR@5 over the strongest baseline. The improvements remain consistent across top-10 and top-20 recommendation cutoffs, while comparisons with vanilla transformers demonstrate the computational efficiency of adaptive recursive processing.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
