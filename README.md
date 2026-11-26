@@ -1,4 +1,4 @@
-## Updated on 2026-11-25
+## Updated on 2026-11-26
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,11 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-24 | **Towards Realistic Evaluation of Uncertainty Quantification for LLM-Based Recommender Systems** | Hao Wu, Sipeng Chen, Weikai Li, Tianyi Chen, Qiancheng Yang, Hang Zhou, Yizhou Sun, Wei Wang, Xiao Luo | [Link](https://arxiv.org/abs/2611.33036) | N/A |
+| 2026-11-24 | **Speculative Decoding for Semantic-ID-Based Generative Recommendations** | Harshal A. Chaudhari | [Link](https://arxiv.org/abs/2611.32855) | N/A |
+| 2026-11-24 | **C3H: Compression-to-Consensus Criteria Hijacking in Multimodal LLM Recommender Systems** | Guowei Guan, Yurong Hao, Jiaming Zhang, Fuyao Zhang, Wei Yang Bryan Lim | [Link](https://arxiv.org/abs/2611.32780) | N/A |
+| 2026-11-24 | **LazUnirec: Unifying Retrieval and Ranking in Multi-scenario Industrial Recommendation** | Xiaodong Li, Junfeng Zhang, Shichao Nie, Ziyue Guo, Yiming Liu, Xinxin Xu, Xurong Li, Jinyuan Dang, Zhanming Ou, Jianan Yan, Tao Luo, Xiaoyi Zeng | [Link](https://arxiv.org/abs/2611.32590) | N/A |
+| 2026-11-24 | **User-Adaptive Fusion of Multiple Foundation Models for Recommender Systems** | Sunwoo Kim, Hyunjin Hwang, Geon Lee, Kyungho Kim, Kijung Shin | [Link](https://arxiv.org/abs/2611.31951) | N/A |
 | 2026-11-23 | **Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions** | Sungchul Kim, Weixiao Huang, Mekala Raja Sekhar Reddy, Amrutha Srinivasan | [Link](https://arxiv.org/abs/2611.31175) | N/A |
 | 2026-11-23 | **From Head to Tail: LLM-Augmented Sequential Recommendation and Trade-off Optimization** | Adeep Hande, Shaghayegh Agah, Neeraj Sharma, Karina Halevy, Sardar Hamidian | [Link](https://arxiv.org/abs/2611.31052) | N/A |
 | 2026-11-23 | **SARA: An Auditor-in-the-Loop LLM Recommender for Sustainability Reports** | Lars Hillebrand, Thiago B. F. de Oliveira, Tim Dilmaghani, Mohamed Khaled, Writwick Das, Rafet Sifa | [Link](https://arxiv.org/abs/2611.30839) | N/A |
@@ -204,6 +209,7 @@
 | 2026-10-20 | **Recommending Bacterial Cultivation Conditions from 16S rRNA** | Juntang Wang, Hao Wu, Yihan Wang, Runkun Guo, Shixin Xu, Dongmian Zou | [Link](https://arxiv.org/abs/2610.28310) | N/A |
 | 2026-10-20 | **SPAR: Stepwise Personalized Autoregressive Recommendation with Prefix-Balanced Semantic IDs** | Chunrui Zhang, Gaoyun Lin, Chang Zhou, Zheng Hu, Qiran Song, Shimin Cai, Tao Zhou | [Link](https://arxiv.org/abs/2610.27898) | N/A |
 | 2026-10-20 | **Robustness Analysis of Pareto-based Joint Evaluation of Fairness and Relevance in Recommender Systems** | Theresia Veronika Rampisela, Maria Maistro, Tuukka Ruotsalo, Christina Lioma | [Link](https://arxiv.org/abs/2610.27850) | N/A |
+| 2026-10-19 | **RecipeADQA: A User-aware Question-Answering Dataset for Multi-Constraint Recipe Recommendation** | Haotian Li, Shuai Jiang, Sayaka Kamei, Yasuhiko Morimoto | [Link](https://arxiv.org/abs/2611.31259) | N/A |
 | 2026-10-19 | **Neighborhood-Aware Unlearning for Generative Recommendation** | Pierre Lubitzsch, Yubao Tang, Maarten de Rijke, Sebastian Schelter | [Link](https://arxiv.org/abs/2610.27232) | N/A |
 | 2026-10-19 | **Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows** | Qian Xie, Yueli He, Wenyue Hua, Sripad Karne, Armaan Agrawal, Nikos Pagonas, Eugene Wu, Kostis Kaffes, Tianyi Peng, Nairen Cao | [Link](https://arxiv.org/abs/2610.26676) | N/A |
 | 2026-10-19 | **SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling** | Kanglin Xu, Michael Papka, Zhiling Lan | [Link](https://arxiv.org/abs/2610.26577) | N/A |
