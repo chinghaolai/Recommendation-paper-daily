@@ -2,11 +2,16 @@
 layout: default
 ---
 
-## Updated on 2026-11-26
+## Updated on 2026-11-28
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-11-25 | **Grounding User Preferences in Shared Multimodal Concepts for Recommendation** | Ao Xu, Jinhui Huang, Wenqiang Tang, Tiehua Mei, Hongru Hou, Hengrui Chen, Jiaqing Liang, Deqing Yang | [Link](https://arxiv.org/abs/2611.34436) | N/A |
+| 2026-11-25 | **Calibration of Neuromusculoskeletal Models Using Differentiable Physics: Recommendations for Improving Model Accuracy** | Philip Sanderink, Yingfan Zhou, Shuzhen Luo, Cheng Fang | [Link](https://arxiv.org/abs/2611.34428) | N/A |
+| 2026-11-25 | **RecField: Embedding Recommendations into Spatial Movie Organization as Affordances for Serendipitous Encounters** | Kenta Oku | [Link](https://arxiv.org/abs/2611.34330) | N/A |
+| 2026-11-25 | **Multi-Modal Causal Disentanglement for Multi-Domain Sequential Audio Recommendation** | Yu Ren, Pengcheng Li, Weijun Xu, Hengzhong Zhou, Shufeng Ye, Qiang Xiao, Dongjing Wang, Chuanjiang Luo, Yong Li | [Link](https://arxiv.org/abs/2611.33628) | N/A |
+| 2026-11-24 | **Learning the Platform, Not the Learner: Sequencing Shortcuts in the Offline Evaluation of Educational Recommender Systems and LLM Rankers** | Youssef Jdidou | [Link](https://arxiv.org/abs/2611.33240) | N/A |
 | 2026-11-24 | **Towards Realistic Evaluation of Uncertainty Quantification for LLM-Based Recommender Systems** | Hao Wu, Sipeng Chen, Weikai Li, Tianyi Chen, Qiancheng Yang, Hang Zhou, Yizhou Sun, Wei Wang, Xiao Luo | [Link](https://arxiv.org/abs/2611.33036) | N/A |
 | 2026-11-24 | **Speculative Decoding for Semantic-ID-Based Generative Recommendations** | Harshal A. Chaudhari | [Link](https://arxiv.org/abs/2611.32855) | N/A |
 | 2026-11-24 | **C3H: Compression-to-Consensus Criteria Hijacking in Multimodal LLM Recommender Systems** | Guowei Guan, Yurong Hao, Jiaming Zhang, Fuyao Zhang, Wei Yang Bryan Lim | [Link](https://arxiv.org/abs/2611.32780) | N/A |
